@@ -1,23 +1,14 @@
 import { render, screen } from '@testing-library/react'
-import App from './App'
+import App from './app/App'
 
-describe('App', () => {
-  it('renders the finance dashboard shell and navigation', () => {
+describe('App Component', () => {
+  it('renders initial setup wizard when no vault exists', () => {
+    localStorage.clear()
     render(<App />)
 
-    expect(screen.getByText('Minhas Finanças')).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Resumo' })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Comparativo' })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Parcelas' })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Metas' })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Dados' })).toBeInTheDocument()
-  })
-
-  it('renders the summary page content with demonstration data', () => {
-    render(<App />)
-
-    expect(screen.getAllByText('Resumo').length).toBeGreaterThan(0)
-    expect(screen.getByText('Saldo consolidado')).toBeInTheDocument()
-    expect(screen.getByText('Patrimônio por conta')).toBeInTheDocument()
+    expect(screen.getByText('Configuração Inicial')).toBeInTheDocument()
+    expect(screen.getByText('Bem-vindo ao Minhas Finanças')).toBeInTheDocument()
+    expect(screen.getByText(/Importar histórico 2024–2026/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Inicializar Minhas Finanças/i })).toBeInTheDocument()
   })
 })

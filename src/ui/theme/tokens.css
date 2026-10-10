@@ -1,0 +1,91 @@
+:root {
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Warm light palette */
+  --bg-app: #FAF8F5;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-subtle: #F4EFEB;
+  --bg-muted: #ECE5DE;
+  
+  --border-color: #E5DED5;
+  --border-subtle: #EEE8E0;
+  --border-strong: #D5C9BD;
+
+  --text-main: #2E2925;
+  --text-muted: #7D736A;
+  --text-faint: #A69B90;
+
+  --accent: #B08968;
+  --accent-hover: #9E7756;
+  --accent-subtle: #F3ECE6;
+  --accent-text: #634327;
+
+  /* Financial indicators (subtle & elegant) */
+  --positive: #3F7D4E;
+  --positive-bg: #EAF3EC;
+  --positive-border: #C8E2CD;
+
+  --negative: #B34038;
+  --negative-bg: #F9EBEA;
+  --negative-border: #F1CAC7;
+
+  --neutral: #5A6A85;
+  --neutral-bg: #EDF2F7;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 3px rgba(46, 41, 37, 0.04);
+  --shadow-md: 0 4px 12px rgba(46, 41, 37, 0.06);
+  --shadow-lg: 0 12px 32px rgba(46, 41, 37, 0.08);
+
+  --sidebar-width: 250px;
+  --bottom-bar-height: 64px;
+}
+
+[data-theme="dark"] {
+  --bg-app: #181513;
+  --bg-surface: #221E1B;
+  --bg-surface-elevated: #2B2623;
+  --bg-subtle: #2D2723;
+  --bg-muted: #38312C;
+
+  --border-color: #3D352F;
+  --border-subtle: #312A25;
+  --border-strong: #4F453E;
+
+  --text-main: #F0EAE1;
+  --text-muted: #A89E94;
+  --text-faint: #756B62;
+
+  --accent: #C79F7C;
+  --accent-hover: #D9B390;
+  --accent-subtle: #33271E;
+  --accent-text: #EAD0B8;
+
+  --positive: #86C495;
+  --positive-bg: #1A2B1E;
+  --positive-border: #2B4532;
+
+  --negative: #E58C85;
+  --negative-bg: #351C1A;
+  --negative-border: #572A27;
+
+  --neutral: #90A0B7;
+  --neutral-bg: #212933;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Privacy blur mode */
+body.privacy-active .money,
+body.privacy-active .val-privacy {
+  filter: blur(7px);
+  user-select: none;
+  transition: filter 0.2s ease;
+}
