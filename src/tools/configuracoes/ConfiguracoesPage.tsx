@@ -3,10 +3,12 @@ import {
   Download,
   Lock,
   Plus,
+  RefreshCw,
   Trash2,
   Wallet,
 } from 'lucide-react'
 import { useFinanceBase } from '../../core/data/FinanceBaseProvider'
+import { applyRulesToTransactions } from '../../core/domain/rules'
 import type { Account, CategoryRule } from '../../core/types/base'
 import { getGitHubToken, saveGitHubToken } from '../../core/vault/storage'
 import { PageShell } from '../../ui/PageShell'
@@ -34,6 +36,9 @@ export default function ConfiguracoesPage() {
 
   // Fiscal start day
   const [fiscalStartDay, setFiscalStartDay] = useState(() => base?.settings.fiscalStartDay || 16)
+
+  // Rules re-apply feedback
+  const [reclassifiedNotice, setReclassifiedNotice] = useState<string | null>(null)
 
   if (!base) {
     return (
@@ -84,19 +89,41 @@ export default function ConfiguracoesPage() {
       priority: 60,
     }
 
-    await saveBase((prev) => ({
-      ...prev,
-      rules: [newRule, ...prev.rules],
-    }))
+    await saveBase((prev) => {
+      const updatedRules = [newRule, ...prev.rules]
+      return {
+        ...prev,
+        rules: updatedRules,
+        transactions: applyRulesToTransactions(prev.transactions, updatedRules),
+      }
+    })
 
     setRulePattern('')
+    setReclassifiedNotice('Regra adicionada e transações reclassificadas!')
+    setTimeout(() => setReclassifiedNotice(null), 3000)
   }
 
   const handleDeleteRule = async (id: string) => {
+    await saveBase((prev) => {
+      const updatedRules = prev.rules.filter((r) => r.id !== id)
+      return {
+        ...prev,
+        rules: updatedRules,
+        transactions: applyRulesToTransactions(prev.transactions, updatedRules),
+      }
+    })
+    setReclassifiedNotice('Regra removida e transações atualizadas!')
+    setTimeout(() => setReclassifiedNotice(null), 3000)
+  }
+
+  const handleReapplyRules = async () => {
+    if (!base) return
     await saveBase((prev) => ({
       ...prev,
-      rules: prev.rules.filter((r) => r.id !== id),
+      transactions: applyRulesToTransactions(prev.transactions, prev.rules),
     }))
+    setReclassifiedNotice(`${base.transactions.length} lançamentos reclassificados com sucesso!`)
+    setTimeout(() => setReclassifiedNotice(null), 3500)
   }
 
   const handleSaveSettings = async () => {
@@ -197,7 +224,32 @@ export default function ConfiguracoesPage() {
       <Panel
         title="Regras de Classificação e Transferência"
         subtitle="Mapeie palavras-chave na descrição para categorias ou transferências internas"
+        action={
+          <button
+            type="button"
+            className="btn btn-secondary btn-sm"
+            onClick={handleReapplyRules}
+            title="Reclassifica todos os lançamentos com base nas regras atuais"
+          >
+            <RefreshCw size={14} /> Reaplicar Regras
+          </button>
+        }
       >
+        {reclassifiedNotice && (
+          <div
+            style={{
+              padding: '8px 12px',
+              marginBottom: 16,
+              borderRadius: 'var(--radius-sm)',
+              backgroundColor: 'rgba(78, 110, 74, 0.15)',
+              color: 'var(--positive)',
+              fontSize: '0.85rem',
+              fontWeight: 600,
+            }}
+          >
+            {reclassifiedNotice}
+          </div>
+        )}
         <div className="rules-list">
           {base.rules.map((rule) => {
             const catName = base.categories.find((c) => c.id === rule.categoryId)?.name

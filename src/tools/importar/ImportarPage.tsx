@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CheckCircle2, FileText, Loader2, UploadCloud, XCircle } from 'lucide-react'
 import { useFinanceBase } from '../../core/data/FinanceBaseProvider'
 import { formatCents } from '../../core/domain/money'
+import { applyRulesToTransactions, sortTransactionsDesc } from '../../core/domain/rules'
 import type { StatementRecord, Transaction } from '../../core/types/base'
 import { autoParsePdf, type ParsePdfResult } from '../../importers'
 import { PageShell } from '../../ui/PageShell'
@@ -96,13 +97,14 @@ export default function ImportarPage() {
     const existingTxIds = new Set(base.transactions.map((t) => t.id))
     const uniqueNewTxs = newTransactions.filter((t) => !existingTxIds.has(t.id))
 
-    await saveBase((prev) => ({
-      ...prev,
-      transactions: [...uniqueNewTxs, ...prev.transactions].sort((a, b) =>
-        b.date.localeCompare(a.date)
-      ),
-      statements: [...newStatements, ...prev.statements],
-    }))
+    await saveBase((prev) => {
+      const classifiedNew = applyRulesToTransactions(uniqueNewTxs, prev.rules)
+      return {
+        ...prev,
+        transactions: sortTransactionsDesc([...classifiedNew, ...prev.transactions]),
+        statements: [...newStatements, ...prev.statements],
+      }
+    })
 
     setIsSaving(false)
     setStagedFiles([])

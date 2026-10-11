@@ -1,4 +1,5 @@
 import type { Account, FinanceBase } from '../types/base'
+import { deriveActiveInstallments } from './installments'
 import { getFiscalPeriod } from './period'
 
 export interface AccountBalanceInfo {
@@ -182,5 +183,127 @@ export function calculateDashboardMetrics(
     periodExpenseCents,
     periodResultCents,
     savingsRatePercent,
+  }
+}
+
+export interface CardMonthSummary {
+  monthKey: string
+  amountCents: number
+}
+
+export interface AvailableBalanceProjection {
+  totalBankBalanceCents: number
+  card3MonthAvgCents: number
+  cardMonthsEvaluated: CardMonthSummary[]
+  totalUnpaidInstallmentsCents: number
+  totalCommittedCents: number
+  freeBalanceCents: number
+  committedRatioPercent: number
+  freeRatioPercent: number
+  activeInstallmentsCount: number
+  cardsEvaluatedCount: number
+}
+
+/**
+ * Calculates total available bank balance vs future committed expenses
+ * (3-month credit card average + remaining unpaid installments).
+ */
+export function calculateAvailableBalanceProjection(
+  base: FinanceBase,
+  fiscalPeriodKey?: string
+): AvailableBalanceProjection {
+  const accountBalances = calculateAccountBalances(base, fiscalPeriodKey)
+  const bankAccounts = accountBalances.filter((a) => !a.isCard)
+  const totalBankBalanceCents = bankAccounts.reduce(
+    (sum, a) => sum + Math.max(0, a.balanceCents),
+    0
+  )
+
+  // Identify credit card accounts
+  const cardAccounts = base.accounts.filter((a) => a.type === 'credit_card')
+  const cardAccountIds = new Set(cardAccounts.map((a) => a.id))
+
+  // Group card statement invoices by month (up to fiscalPeriodKey if provided)
+  let cardStmts = base.statements.filter((s) => cardAccountIds.has(s.accountId))
+  if (fiscalPeriodKey) {
+    cardStmts = cardStmts.filter((s) => {
+      const monthKey = s.dueDate ? s.dueDate.slice(0, 7) : s.periodEnd.slice(0, 7)
+      return monthKey <= fiscalPeriodKey
+    })
+  }
+
+  const monthlyCardTotals = new Map<string, number>()
+  for (const stmt of cardStmts) {
+    const monthKey = stmt.dueDate ? stmt.dueDate.slice(0, 7) : stmt.periodEnd.slice(0, 7)
+    const val = stmt.invoiceTotalCents ?? Math.abs(stmt.closingBalanceCents ?? 0)
+    monthlyCardTotals.set(monthKey, (monthlyCardTotals.get(monthKey) || 0) + val)
+  }
+
+  const sortedMonths = Array.from(monthlyCardTotals.keys()).sort()
+  const last3Months = sortedMonths.slice(-3)
+  const cardMonthsEvaluated: CardMonthSummary[] = last3Months.map((monthKey) => ({
+    monthKey,
+    amountCents: monthlyCardTotals.get(monthKey) || 0,
+  }))
+
+  let card3MonthAvgCents = 0
+  if (cardMonthsEvaluated.length > 0) {
+    const total3Months = cardMonthsEvaluated.reduce((sum, m) => sum + m.amountCents, 0)
+    card3MonthAvgCents = Math.round(total3Months / cardMonthsEvaluated.length)
+  } else {
+    // Fallback if statements are not present: use card transactions in recent months
+    const cardTxs = base.transactions.filter(
+      (t) => cardAccountIds.has(t.accountId) && t.amountCents < 0 && t.kind !== 'card_payment'
+    )
+    const txMonths = new Map<string, number>()
+    for (const t of cardTxs) {
+      const m = t.date.slice(0, 7)
+      if (!fiscalPeriodKey || m <= fiscalPeriodKey) {
+        txMonths.set(m, (txMonths.get(m) || 0) + Math.abs(t.amountCents))
+      }
+    }
+    const sortedTxMonths = Array.from(txMonths.keys()).sort().slice(-3)
+    for (const m of sortedTxMonths) {
+      cardMonthsEvaluated.push({
+        monthKey: m,
+        amountCents: txMonths.get(m) || 0,
+      })
+    }
+    if (cardMonthsEvaluated.length > 0) {
+      const sum = cardMonthsEvaluated.reduce((acc, m) => acc + m.amountCents, 0)
+      card3MonthAvgCents = Math.round(sum / cardMonthsEvaluated.length)
+    }
+  }
+
+  // Derive active unpaid installments
+  const activeInstallments = deriveActiveInstallments(base.transactions)
+  const totalUnpaidInstallmentsCents = activeInstallments.reduce(
+    (sum, inst) => sum + inst.remainingAmountCents,
+    0
+  )
+
+  const totalCommittedCents = card3MonthAvgCents + totalUnpaidInstallmentsCents
+  const freeBalanceCents = Math.max(0, totalBankBalanceCents - totalCommittedCents)
+
+  const committedRatioPercent =
+    totalBankBalanceCents > 0
+      ? Math.min(100, Math.round((totalCommittedCents / totalBankBalanceCents) * 1000) / 10)
+      : 0
+  const freeRatioPercent =
+    totalBankBalanceCents > 0
+      ? Math.max(0, Math.round((freeBalanceCents / totalBankBalanceCents) * 1000) / 10)
+      : 0
+
+  return {
+    totalBankBalanceCents,
+    card3MonthAvgCents,
+    cardMonthsEvaluated,
+    totalUnpaidInstallmentsCents,
+    totalCommittedCents,
+    freeBalanceCents,
+    committedRatioPercent,
+    freeRatioPercent,
+    activeInstallmentsCount: activeInstallments.length,
+    cardsEvaluatedCount: cardAccounts.length,
   }
 }

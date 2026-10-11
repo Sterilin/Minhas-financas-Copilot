@@ -10,3 +10,4 @@ describe('deriveActiveInstallments with real seed data', () => {
     expect(active.length).toBeGreaterThanOrEqual(0)
   })
 })
+

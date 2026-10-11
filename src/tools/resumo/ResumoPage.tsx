@@ -19,6 +19,7 @@ import {
 import { useFinanceBase } from '../../core/data/FinanceBaseProvider'
 import {
   calculateAccountBalances,
+  calculateAvailableBalanceProjection,
   calculateDashboardMetrics,
 } from '../../core/domain/balances'
 import { deriveActiveInstallments } from '../../core/domain/installments'
@@ -70,6 +71,11 @@ export default function ResumoPage() {
     if (!base) return []
     return deriveActiveInstallments(base.transactions).slice(0, 4)
   }, [base])
+
+  const projection = useMemo(() => {
+    if (!base) return null
+    return calculateAvailableBalanceProjection(base, currentPeriodKey)
+  }, [base, currentPeriodKey])
 
   // Category spending for selected period
   const categorySpending = useMemo(() => {
@@ -170,6 +176,254 @@ export default function ResumoPage() {
           variant={metrics.periodResultCents >= 0 ? 'positive' : 'negative'}
         />
       </div>
+ 
+      {/* Box / Panel: Disponibilidade para Investimento e Gastos */}
+      {projection && (
+        <Panel
+          className="projection-panel"
+          title="Disponibilidade para Investimento e Gastos"
+          subtitle="Saldo total disponível em bancos descontando o provisionamento para despesas futuras de cartões e parcelamentos"
+        >
+          {/* Top highlight indicators */}
+          <div className="projection-highlights">
+            <div className="projection-highlight-item">
+              <span className="proj-hl-label">Saldo Total em Bancos</span>
+              <strong className="proj-hl-value font-mono">
+                <Money cents={projection.totalBankBalanceCents} />
+              </strong>
+              <span className="proj-hl-detail">Bradesco + Santander Conta</span>
+            </div>
+
+            <div className="projection-highlight-item hl-committed">
+              <span className="proj-hl-label">Despesas Futuras Comprometidas</span>
+              <strong className="proj-hl-value font-mono text-negative">
+                <Money cents={projection.totalCommittedCents} />
+              </strong>
+              <span className="proj-hl-detail">
+                Média 3 meses ({formatCents(projection.card3MonthAvgCents)}) + Parcelas ({formatCents(projection.totalUnpaidInstallmentsCents)})
+              </span>
+            </div>
+
+            <div className="projection-highlight-item hl-free">
+              <span className="proj-hl-label">Saldo Livre Disponível</span>
+              <strong className="proj-hl-value font-mono text-positive">
+                <Money cents={projection.freeBalanceCents} />
+              </strong>
+              <span className="proj-hl-detail">
+                {projection.freeRatioPercent.toFixed(1)}% livre para investir ou poupar
+              </span>
+            </div>
+          </div>
+
+          {/* Horizontal Striped Bar Chart */}
+          <div className="projection-chart-container">
+            <div className="projection-bar-wrapper">
+              <div
+                className="projection-bar-fill bar-fill-free"
+                style={{ width: `${projection.freeRatioPercent}%` }}
+                title={`Saldo Livre: ${formatCents(projection.freeBalanceCents)} (${projection.freeRatioPercent.toFixed(1)}%)`}
+              >
+                {projection.freeRatioPercent >= 18 && (
+                  <span className="bar-inner-label">
+                    Livre: {formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)
+                  </span>
+                )}
+              </div>
+              <div
+                className="projection-bar-fill bar-fill-committed striped-committed"
+                style={{ width: `${projection.committedRatioPercent}%` }}
+                title={`Comprometido Futuro: ${formatCents(projection.totalCommittedCents)} (${projection.committedRatioPercent.toFixed(1)}%)`}
+              >
+                {projection.committedRatioPercent >= 8 && (
+                  <span className="bar-inner-label">
+                    {projection.committedRatioPercent.toFixed(1)}%
+                  </span>
+                )}
+              </div>
+            </div>
+
+            {/* Legend underneath bar */}
+            <div className="projection-bar-legend">
+              <div className="legend-entry">
+                <span className="legend-indicator legend-indicator-free" />
+                <span className="legend-text">
+                  <strong>Saldo Livre Disponível:</strong> {formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)
+                </span>
+              </div>
+              <div className="legend-entry">
+                <span className="legend-indicator legend-indicator-striped striped-committed" />
+                <span className="legend-text">
+                  <strong>Alocado para Despesas Futuras:</strong> {formatCents(projection.totalCommittedCents)} ({projection.committedRatioPercent.toFixed(1)}%)
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Descriptive Table Below the Bar */}
+          <div className="projection-table-wrapper">
+            <h4 className="projection-table-title">Detalhamento dos Valores</h4>
+            <div className="table-wrapper">
+              <table className="projection-table">
+                <thead>
+                  <tr>
+                    <th>Componente / Origem</th>
+                    <th>Classificação</th>
+                    <th className="align-right">Valor</th>
+                    <th className="align-right">% do Saldo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {/* Bank accounts breakdown */}
+                  {accountBalances
+                    .filter((a) => !a.isCard)
+                    .map((accInfo) => (
+                      <tr key={accInfo.account.id}>
+                        <td>
+                          <div className="table-item-cell">
+                            <strong>{accInfo.account.name}</strong>
+                            <span className="table-item-sub">
+                              Saldo em conta corrente (Final {accInfo.account.identifier})
+                            </span>
+                          </div>
+                        </td>
+                        <td>
+                          <span className="badge badge-accent">Saldo Bancário</span>
+                        </td>
+                        <td className="align-right font-mono">
+                          <Money cents={accInfo.balanceCents} />
+                        </td>
+                        <td className="align-right font-mono text-muted">
+                          {projection.totalBankBalanceCents > 0
+                            ? `${((accInfo.balanceCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                            : '—'}
+                        </td>
+                      </tr>
+                    ))}
+
+                  {/* Subtotal Bank balance */}
+                  <tr className="table-subtotal-row">
+                    <td>
+                      <strong>Total Disponível em Bancos</strong>
+                    </td>
+                    <td>
+                      <span className="badge badge-positive">Disponibilidade Bruta</span>
+                    </td>
+                    <td className="align-right font-mono">
+                      <strong>
+                        <Money cents={projection.totalBankBalanceCents} />
+                      </strong>
+                    </td>
+                    <td className="align-right font-mono">
+                      <strong>100,0%</strong>
+                    </td>
+                  </tr>
+
+                  {/* 3-Month Credit Card Average */}
+                  <tr>
+                    <td>
+                      <div className="table-item-cell">
+                        <strong>Média de Gastos nos Cartões (Últimos 3 Meses)</strong>
+                        <span className="table-item-sub">
+                          {projection.cardMonthsEvaluated.length > 0
+                            ? projection.cardMonthsEvaluated
+                                .map(
+                                  (m) =>
+                                    `${m.monthKey.slice(5)}/${m.monthKey.slice(2, 4)}: ${formatCents(m.amountCents)}`
+                                )
+                                .join(' • ')
+                            : 'Provisionamento para fatura do mês subsequente'}
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className="badge badge-striped">Média Futura Cartões</span>
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      <Amount cents={-projection.card3MonthAvgCents} />
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      {projection.totalBankBalanceCents > 0
+                        ? `-${((projection.card3MonthAvgCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                        : '—'}
+                    </td>
+                  </tr>
+
+                  {/* Unpaid installments */}
+                  <tr>
+                    <td>
+                      <div className="table-item-cell">
+                        <strong>Parcelas de Cartão Não Quitadas</strong>
+                        <span className="table-item-sub">
+                          {projection.activeInstallmentsCount > 0
+                            ? `${projection.activeInstallmentsCount} compra(s) parcelada(s) com parcelas a vencer`
+                            : 'Sem parcelamentos ativos a vencer'}
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className="badge badge-striped">Parcelas a Vencer</span>
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      <Amount cents={-projection.totalUnpaidInstallmentsCents} />
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      {projection.totalBankBalanceCents > 0
+                        ? `-${((projection.totalUnpaidInstallmentsCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                        : '—'}
+                    </td>
+                  </tr>
+
+                  {/* Total Committed */}
+                  <tr className="table-subtotal-row table-subtotal-negative">
+                    <td>
+                      <strong>Total Futuro Comprometido</strong>
+                      <span className="table-item-sub">
+                        Média cartões + todas as parcelas restantes
+                      </span>
+                    </td>
+                    <td>
+                      <span className="badge badge-negative">Total Comprometido</span>
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      <strong>
+                        <Amount cents={-projection.totalCommittedCents} />
+                      </strong>
+                    </td>
+                    <td className="align-right font-mono text-negative">
+                      <strong>-{projection.committedRatioPercent.toFixed(1)}%</strong>
+                    </td>
+                  </tr>
+
+                  {/* Final Net Free Balance */}
+                  <tr className="table-total-row">
+                    <td>
+                      <div className="table-item-cell">
+                        <strong className="table-item-highlight">
+                          Saldo Livre para Investimento ou Gastos
+                        </strong>
+                        <span className="table-item-sub">
+                          Margem real segura para aplicação ou novos gastos
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className="badge badge-positive">Margem Livre</span>
+                    </td>
+                    <td className="align-right font-mono text-positive table-total-amount">
+                      <strong>
+                        <Money cents={projection.freeBalanceCents} />
+                      </strong>
+                    </td>
+                    <td className="align-right font-mono text-positive table-total-percent">
+                      <strong>{projection.freeRatioPercent.toFixed(1)}%</strong>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </Panel>
+      )}
 
       {/* Main Content Grid */}
       <div className="resumo-grid">

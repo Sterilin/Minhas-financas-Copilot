@@ -659,144 +659,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
   ],
   "transactions": [
     {
-      "id": "sant-card-2026-12-30-11-2890",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-30",
-      "description": "AV ERMANO MARQUETTI",
-      "rawDescription": "AV ERMANO MARQUETTI",
-      "amountCents": -2890,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-23-10-11500",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-23",
-      "description": "REDE ULTRAGAZ",
-      "rawDescription": "REDE ULTRAGAZ",
-      "amountCents": -11500,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-21-9-8222",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-21",
-      "description": "PAG*STEAM",
-      "rawDescription": "PAG*STEAM",
-      "amountCents": -8222,
-      "kind": "expense",
-      "categoryId": "cat-lazer",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-20-6-5999",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-20",
-      "description": "EMPORIO ZURICH DE CHO",
-      "rawDescription": "EMPORIO ZURICH DE CHO",
-      "amountCents": -5999,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-20-7-18900",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-20",
-      "description": "BARBEIRINHO",
-      "rawDescription": "BARBEIRINHO",
-      "amountCents": -18900,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-20-8-5207",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-20",
-      "description": "AMERICAN BURGER",
-      "rawDescription": "AMERICAN BURGER",
-      "amountCents": -5207,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-19-0-539887",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-19",
-      "description": "PAGAMENTO DE FATURA",
-      "rawDescription": "PAGAMENTO DE FATURA",
-      "amountCents": 539887,
-      "kind": "card_payment",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-19-3-637",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-19",
-      "description": "LAPAPAES",
-      "rawDescription": "LAPAPAES",
-      "amountCents": -637,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-19-4-600",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-19",
-      "description": "FROGPAY*NOSSACASA CONF",
-      "rawDescription": "FROGPAY*NOSSACASA CONF",
-      "amountCents": -600,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-19-5-3000",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-19",
-      "description": "FROGPAY*NOSSACASA CONF",
-      "rawDescription": "FROGPAY*NOSSACASA CONF",
-      "amountCents": -3000,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-17-2-6690",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-17",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -6690,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
-    },
-    {
-      "id": "sant-card-2026-12-01-1-14666",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-01",
-      "description": "INGRESSE_BR ADY*INGRES 03/03",
-      "rawDescription": "INGRESSE_BR ADY*INGRES 03/03",
-      "amountCents": -14666,
-      "kind": "expense",
-      "installment": {
-        "current": 3,
-        "total": 3,
-        "groupId": "grp-ingresse_br-ady*ingres"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
       "id": "brad-2026-09-29-1-484317",
       "accountId": "acc-bradesco",
       "date": "2026-09-29",
@@ -821,6 +683,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-6121fd1f9415"
     },
     {
+      "id": "sant-acc-2026-09-21-2-188407",
+      "accountId": "acc-santander-acc",
+      "date": "2026-09-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:24 CARTAO MASTER 162429",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:24 CARTAO MASTER 162429",
+      "amountCents": -188407,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-6121fd1f9415"
+    },
+    {
       "id": "brad-2026-09-21-0-1160",
       "accountId": "acc-bradesco",
       "date": "2026-09-21",
@@ -831,17 +704,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "balanceAfterCents": 4552278,
       "source": "pdf",
       "statementId": "stmt-7f5bc2ae8da3"
-    },
-    {
-      "id": "sant-acc-2026-09-21-2-188407",
-      "accountId": "acc-santander-acc",
-      "date": "2026-09-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:24 CARTAO MASTER 162429",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:24 CARTAO MASTER 162429",
-      "amountCents": -188407,
-      "kind": "card_payment",
-      "source": "pdf",
-      "statementId": "stmt-6121fd1f9415"
     },
     {
       "id": "sant-card-2026-09-18-1-2200",
@@ -928,15 +790,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
-      "id": "sant-acc-2026-09-03-0-40000",
-      "accountId": "acc-santander-acc",
+      "id": "sant-card-2026-09-03-18-10000",
+      "accountId": "acc-santander-card",
       "date": "2026-09-03",
-      "description": "PIX ENVIADO Cordero e Cunha Assistenc 530985",
-      "rawDescription": "PIX ENVIADO Cordero e Cunha Assistenc 530985",
-      "amountCents": -40000,
+      "description": "SEM PARAR",
+      "rawDescription": "SEM PARAR",
+      "amountCents": -10000,
       "kind": "expense",
+      "categoryId": "cat-semparar",
       "source": "pdf",
-      "statementId": "stmt-6121fd1f9415"
+      "statementId": "stmt-eaadc26a1d50"
     },
     {
       "id": "sant-card-2026-09-03-17-24970",
@@ -951,16 +814,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
-      "id": "sant-card-2026-09-03-18-10000",
-      "accountId": "acc-santander-card",
+      "id": "sant-acc-2026-09-03-0-40000",
+      "accountId": "acc-santander-acc",
       "date": "2026-09-03",
-      "description": "SEM PARAR",
-      "rawDescription": "SEM PARAR",
-      "amountCents": -10000,
+      "description": "PIX ENVIADO Cordero e Cunha Assistenc 530985",
+      "rawDescription": "PIX ENVIADO Cordero e Cunha Assistenc 530985",
+      "amountCents": -40000,
       "kind": "expense",
-      "categoryId": "cat-semparar",
       "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
+      "statementId": "stmt-6121fd1f9415"
     },
     {
       "id": "sant-card-2026-09-01-16-46000",
@@ -986,6 +848,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
+      "id": "sant-card-2026-08-29-14-7680",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-29",
+      "description": "INGRESSO COM",
+      "rawDescription": "INGRESSO COM",
+      "amountCents": -7680,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-eaadc26a1d50"
+    },
+    {
       "id": "sant-card-2026-08-29-13-6000",
       "accountId": "acc-santander-card",
       "date": "2026-08-29",
@@ -997,12 +870,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
-      "id": "sant-card-2026-08-29-14-7680",
+      "id": "sant-card-2026-08-28-12-1350",
       "accountId": "acc-santander-card",
-      "date": "2026-08-29",
-      "description": "INGRESSO COM",
-      "rawDescription": "INGRESSO COM",
-      "amountCents": -7680,
+      "date": "2026-08-28",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -1350,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-eaadc26a1d50"
@@ -1020,12 +893,34 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdd7012e09c1"
     },
     {
-      "id": "sant-card-2026-08-28-12-1350",
+      "id": "sant-card-2026-08-27-9-3890",
       "accountId": "acc-santander-card",
-      "date": "2026-08-28",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -1350,
+      "date": "2026-08-27",
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3890,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-eaadc26a1d50"
+    },
+    {
+      "id": "sant-card-2026-08-27-11-2200",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-27",
+      "description": "ORAMA SORVETES",
+      "rawDescription": "ORAMA SORVETES",
+      "amountCents": -2200,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-eaadc26a1d50"
+    },
+    {
+      "id": "sant-card-2026-08-27-10-15246",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-27",
+      "description": "430 GRADI",
+      "rawDescription": "430 GRADI",
+      "amountCents": -15246,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-eaadc26a1d50"
@@ -1043,37 +938,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdd7012e09c1"
     },
     {
-      "id": "sant-card-2026-08-27-9-3890",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-27",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3890,
-      "kind": "expense",
+      "id": "sant-acc-2026-08-25-5-6500",
+      "accountId": "acc-santander-acc",
+      "date": "2026-08-25",
+      "description": "PIX RECEBIDO ALINE TERUMI SATO",
+      "rawDescription": "PIX RECEBIDO ALINE TERUMI SATO",
+      "amountCents": 6500,
+      "kind": "income",
       "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
-    },
-    {
-      "id": "sant-card-2026-08-27-10-15246",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-27",
-      "description": "430 GRADI",
-      "rawDescription": "430 GRADI",
-      "amountCents": -15246,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
-    },
-    {
-      "id": "sant-card-2026-08-27-11-2200",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-27",
-      "description": "ORAMA SORVETES",
-      "rawDescription": "ORAMA SORVETES",
-      "amountCents": -2200,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
+      "statementId": "stmt-90462b4a695b"
     },
     {
       "id": "brad-2026-08-25-1-655",
@@ -1086,17 +959,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "balanceAfterCents": 4261356,
       "source": "pdf",
       "statementId": "stmt-bdd7012e09c1"
-    },
-    {
-      "id": "sant-acc-2026-08-25-5-6500",
-      "accountId": "acc-santander-acc",
-      "date": "2026-08-25",
-      "description": "PIX RECEBIDO ALINE TERUMI SATO",
-      "rawDescription": "PIX RECEBIDO ALINE TERUMI SATO",
-      "amountCents": 6500,
-      "kind": "income",
-      "source": "pdf",
-      "statementId": "stmt-90462b4a695b"
     },
     {
       "id": "sant-card-2026-08-23-8-2349",
@@ -1122,24 +984,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
-      "id": "sant-acc-2026-08-20-4-163828",
-      "accountId": "acc-santander-acc",
-      "date": "2026-08-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/08 15:06 CARTAO MASTER 150623",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/08 15:06 CARTAO MASTER 150623",
-      "amountCents": -163828,
-      "kind": "card_payment",
-      "source": "pdf",
-      "statementId": "stmt-90462b4a695b"
-    },
-    {
-      "id": "sant-card-2026-08-20-0-163828",
+      "id": "sant-card-2026-08-20-6-6290",
       "accountId": "acc-santander-card",
       "date": "2026-08-20",
-      "description": "PAGAMENTO DE FATURA-INTERNET",
-      "rawDescription": "PAGAMENTO DE FATURA-INTERNET",
-      "amountCents": 163828,
-      "kind": "card_payment",
+      "description": "RESTAURANTE LUA NOVA",
+      "rawDescription": "RESTAURANTE LUA NOVA",
+      "amountCents": -6290,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-eaadc26a1d50"
     },
@@ -1156,12 +1007,34 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-eaadc26a1d50"
     },
     {
-      "id": "sant-card-2026-08-20-6-6290",
+      "id": "sant-card-2026-08-20-0-163828",
       "accountId": "acc-santander-card",
       "date": "2026-08-20",
-      "description": "RESTAURANTE LUA NOVA",
-      "rawDescription": "RESTAURANTE LUA NOVA",
-      "amountCents": -6290,
+      "description": "PAGAMENTO DE FATURA-INTERNET",
+      "rawDescription": "PAGAMENTO DE FATURA-INTERNET",
+      "amountCents": 163828,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-eaadc26a1d50"
+    },
+    {
+      "id": "sant-acc-2026-08-20-4-163828",
+      "accountId": "acc-santander-acc",
+      "date": "2026-08-20",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/08 15:06 CARTAO MASTER 150623",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/08 15:06 CARTAO MASTER 150623",
+      "amountCents": -163828,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-90462b4a695b"
+    },
+    {
+      "id": "sant-card-2026-08-18-4-5900",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-18",
+      "description": "BAR E LANCHES MARIZA",
+      "rawDescription": "BAR E LANCHES MARIZA",
+      "amountCents": -5900,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-eaadc26a1d50"
@@ -1178,12 +1051,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-card-2026-08-18-4-5900",
+      "id": "sant-card-2026-08-17-3-6690",
       "accountId": "acc-santander-card",
-      "date": "2026-08-18",
-      "description": "BAR E LANCHES MARIZA",
-      "rawDescription": "BAR E LANCHES MARIZA",
-      "amountCents": -5900,
+      "date": "2026-08-17",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -6690,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-eaadc26a1d50"
+    },
+    {
+      "id": "sant-card-2026-08-17-2-2380",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-17",
+      "description": "A LAREIRA RESTAURANTE",
+      "rawDescription": "A LAREIRA RESTAURANTE",
+      "amountCents": -2380,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-eaadc26a1d50"
@@ -1201,28 +1085,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-90462b4a695b"
     },
     {
-      "id": "sant-card-2026-08-17-2-2380",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-17",
-      "description": "A LAREIRA RESTAURANTE",
-      "rawDescription": "A LAREIRA RESTAURANTE",
-      "amountCents": -2380,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
-    },
-    {
-      "id": "sant-card-2026-08-17-3-6690",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-17",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -6690,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-eaadc26a1d50"
-    },
-    {
       "id": "sant-acc-2026-08-14-2-6500",
       "accountId": "acc-santander-acc",
       "date": "2026-08-14",
@@ -1234,17 +1096,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-90462b4a695b"
     },
     {
-      "id": "sant-card-2026-08-12-22-2399",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-12",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -2399,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-7a6d0f5ebafb"
-    },
-    {
       "id": "sant-card-2026-08-12-23-795",
       "accountId": "acc-santander-card",
       "date": "2026-08-12",
@@ -1253,6 +1104,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -795,
       "kind": "expense",
       "categoryId": "cat-alimentacao",
+      "source": "pdf",
+      "statementId": "stmt-7a6d0f5ebafb"
+    },
+    {
+      "id": "sant-card-2026-08-12-22-2399",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-12",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -2399,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
     },
@@ -1280,17 +1142,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-card-2026-08-09-18-5990",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-09",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -5990,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-7a6d0f5ebafb"
-    },
-    {
       "id": "sant-card-2026-08-09-19-43768",
       "accountId": "acc-santander-card",
       "date": "2026-08-09",
@@ -1302,12 +1153,34 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
+      "id": "sant-card-2026-08-09-18-5990",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-09",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -5990,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-7a6d0f5ebafb"
+    },
+    {
       "id": "sant-card-2026-08-07-17-11448",
       "accountId": "acc-santander-card",
       "date": "2026-08-07",
       "description": "NATARY SUSHI BAR",
       "rawDescription": "NATARY SUSHI BAR",
       "amountCents": -11448,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-7a6d0f5ebafb"
+    },
+    {
+      "id": "sant-card-2026-08-06-16-3948",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-06",
+      "description": "CANTINHODOVIADUTO",
+      "rawDescription": "CANTINHODOVIADUTO",
+      "amountCents": -3948,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1325,13 +1198,26 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdd7012e09c1"
     },
     {
-      "id": "sant-card-2026-08-06-16-3948",
+      "id": "sant-card-2026-08-04-15-11998",
       "accountId": "acc-santander-card",
-      "date": "2026-08-06",
-      "description": "CANTINHODOVIADUTO",
-      "rawDescription": "CANTINHODOVIADUTO",
-      "amountCents": -3948,
+      "date": "2026-08-04",
+      "description": "GOOGLE ONE",
+      "rawDescription": "GOOGLE ONE",
+      "amountCents": -11998,
       "kind": "expense",
+      "categoryId": "cat-servicos",
+      "source": "pdf",
+      "statementId": "stmt-7a6d0f5ebafb"
+    },
+    {
+      "id": "sant-card-2026-08-04-14-1199",
+      "accountId": "acc-santander-card",
+      "date": "2026-08-04",
+      "description": "PAG*STEAM",
+      "rawDescription": "PAG*STEAM",
+      "amountCents": -1199,
+      "kind": "expense",
+      "categoryId": "cat-lazer",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
     },
@@ -1347,26 +1233,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-90462b4a695b"
     },
     {
-      "id": "sant-card-2026-08-04-14-1199",
+      "id": "sant-card-2026-08-03-13-1750",
       "accountId": "acc-santander-card",
-      "date": "2026-08-04",
-      "description": "PAG*STEAM",
-      "rawDescription": "PAG*STEAM",
-      "amountCents": -1199,
+      "date": "2026-08-03",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -1750,
       "kind": "expense",
-      "categoryId": "cat-lazer",
-      "source": "pdf",
-      "statementId": "stmt-7a6d0f5ebafb"
-    },
-    {
-      "id": "sant-card-2026-08-04-15-11998",
-      "accountId": "acc-santander-card",
-      "date": "2026-08-04",
-      "description": "GOOGLE ONE",
-      "rawDescription": "GOOGLE ONE",
-      "amountCents": -11998,
-      "kind": "expense",
-      "categoryId": "cat-servicos",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
     },
@@ -1382,12 +1255,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-90462b4a695b"
     },
     {
-      "id": "sant-card-2026-08-03-13-1750",
+      "id": "sant-card-2026-07-31-12-2494",
       "accountId": "acc-santander-card",
-      "date": "2026-08-03",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -1750,
+      "date": "2026-07-31",
+      "description": "UBER UBER *TRIP HELP U",
+      "rawDescription": "UBER UBER *TRIP HELP U",
+      "amountCents": -2494,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1404,12 +1277,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-c239172b35c2"
     },
     {
-      "id": "sant-card-2026-07-31-12-2494",
+      "id": "sant-card-2026-07-30-11-10978",
       "accountId": "acc-santander-card",
-      "date": "2026-07-31",
-      "description": "UBER UBER *TRIP HELP U",
-      "rawDescription": "UBER UBER *TRIP HELP U",
-      "amountCents": -2494,
+      "date": "2026-07-30",
+      "description": "RESTAURANTE CACILDA",
+      "rawDescription": "RESTAURANTE CACILDA",
+      "amountCents": -10978,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1427,12 +1300,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-8e02ebbb3930"
     },
     {
-      "id": "sant-card-2026-07-30-11-10978",
+      "id": "sant-card-2026-07-27-10-300",
       "accountId": "acc-santander-card",
-      "date": "2026-07-30",
-      "description": "RESTAURANTE CACILDA",
-      "rawDescription": "RESTAURANTE CACILDA",
-      "amountCents": -10978,
+      "date": "2026-07-27",
+      "description": "AV ERMANO MARQUETTI",
+      "rawDescription": "AV ERMANO MARQUETTI",
+      "amountCents": -300,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1449,23 +1322,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-c239172b35c2"
     },
     {
-      "id": "sant-card-2026-07-27-10-300",
-      "accountId": "acc-santander-card",
-      "date": "2026-07-27",
-      "description": "AV ERMANO MARQUETTI",
-      "rawDescription": "AV ERMANO MARQUETTI",
-      "amountCents": -300,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-7a6d0f5ebafb"
-    },
-    {
-      "id": "sant-card-2026-07-26-7-3400",
+      "id": "sant-card-2026-07-26-9-4999",
       "accountId": "acc-santander-card",
       "date": "2026-07-26",
-      "description": "JUNDIAI SAO PAULO",
-      "rawDescription": "JUNDIAI SAO PAULO",
-      "amountCents": -3400,
+      "description": "LINDT SPRUNGLI BRAZIL",
+      "rawDescription": "LINDT SPRUNGLI BRAZIL",
+      "amountCents": -4999,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1482,12 +1344,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-card-2026-07-26-9-4999",
+      "id": "sant-card-2026-07-26-7-3400",
       "accountId": "acc-santander-card",
       "date": "2026-07-26",
-      "description": "LINDT SPRUNGLI BRAZIL",
-      "rawDescription": "LINDT SPRUNGLI BRAZIL",
-      "amountCents": -4999,
+      "description": "JUNDIAI SAO PAULO",
+      "rawDescription": "JUNDIAI SAO PAULO",
+      "amountCents": -3400,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1515,17 +1377,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-acc-2026-07-22-5-5101",
-      "accountId": "acc-santander-acc",
-      "date": "2026-07-22",
-      "description": "PIX ENVIADO Nathalia Quintino",
-      "rawDescription": "PIX ENVIADO Nathalia Quintino",
-      "amountCents": -5101,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-c239172b35c2"
-    },
-    {
       "id": "sant-card-2026-07-22-4-1890",
       "accountId": "acc-santander-card",
       "date": "2026-07-22",
@@ -1537,13 +1388,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-acc-2026-07-21-4-166787",
+      "id": "sant-acc-2026-07-22-5-5101",
       "accountId": "acc-santander-acc",
-      "date": "2026-07-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/07 07:12 CARTAO MASTER 071223",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/07 07:12 CARTAO MASTER 071223",
-      "amountCents": -166787,
-      "kind": "card_payment",
+      "date": "2026-07-22",
+      "description": "PIX ENVIADO Nathalia Quintino",
+      "rawDescription": "PIX ENVIADO Nathalia Quintino",
+      "amountCents": -5101,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-c239172b35c2"
     },
@@ -1559,15 +1410,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-7a6d0f5ebafb"
     },
     {
-      "id": "sant-card-2026-07-20-2-1400",
-      "accountId": "acc-santander-card",
-      "date": "2026-07-20",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -1400,
-      "kind": "expense",
+      "id": "sant-acc-2026-07-21-4-166787",
+      "accountId": "acc-santander-acc",
+      "date": "2026-07-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/07 07:12 CARTAO MASTER 071223",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/07 07:12 CARTAO MASTER 071223",
+      "amountCents": -166787,
+      "kind": "card_payment",
       "source": "pdf",
-      "statementId": "stmt-7a6d0f5ebafb"
+      "statementId": "stmt-c239172b35c2"
     },
     {
       "id": "sant-card-2026-07-20-3-2700",
@@ -1576,6 +1427,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "P CONDESSA BRASILEIRA",
       "rawDescription": "P CONDESSA BRASILEIRA",
       "amountCents": -2700,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-7a6d0f5ebafb"
+    },
+    {
+      "id": "sant-card-2026-07-20-2-1400",
+      "accountId": "acc-santander-card",
+      "date": "2026-07-20",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -1400,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-7a6d0f5ebafb"
@@ -1603,23 +1465,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "sant-card-2026-07-16-23-4290",
-      "accountId": "acc-santander-card",
-      "date": "2026-07-16",
-      "description": "LANCHONETE NOVA LISBOA",
-      "rawDescription": "LANCHONETE NOVA LISBOA",
-      "amountCents": -4290,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-b4d0e08e4139"
-    },
-    {
       "id": "sant-card-2026-07-16-24-1696",
       "accountId": "acc-santander-card",
       "date": "2026-07-16",
       "description": "UBER UBER *TRIP HELP U",
       "rawDescription": "UBER UBER *TRIP HELP U",
       "amountCents": -1696,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-b4d0e08e4139"
+    },
+    {
+      "id": "sant-card-2026-07-16-23-4290",
+      "accountId": "acc-santander-card",
+      "date": "2026-07-16",
+      "description": "LANCHONETE NOVA LISBOA",
+      "rawDescription": "LANCHONETE NOVA LISBOA",
+      "amountCents": -4290,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
@@ -1683,12 +1545,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "sant-card-2026-07-08-17-540",
+      "id": "sant-card-2026-07-08-19-46000",
       "accountId": "acc-santander-card",
       "date": "2026-07-08",
-      "description": "TOP SP TARFA*129073823",
-      "rawDescription": "TOP SP TARFA*129073823",
-      "amountCents": -540,
+      "description": "REDE PONTO CERTO",
+      "rawDescription": "REDE PONTO CERTO",
+      "amountCents": -46000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
@@ -1705,12 +1567,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "sant-card-2026-07-08-19-46000",
+      "id": "sant-card-2026-07-08-17-540",
       "accountId": "acc-santander-card",
       "date": "2026-07-08",
-      "description": "REDE PONTO CERTO",
-      "rawDescription": "REDE PONTO CERTO",
-      "amountCents": -46000,
+      "description": "TOP SP TARFA*129073823",
+      "rawDescription": "TOP SP TARFA*129073823",
+      "amountCents": -540,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-b4d0e08e4139"
+    },
+    {
+      "id": "sant-card-2026-07-07-16-540",
+      "accountId": "acc-santander-card",
+      "date": "2026-07-07",
+      "description": "TOP SP TARFA*128985630",
+      "rawDescription": "TOP SP TARFA*128985630",
+      "amountCents": -540,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
@@ -1726,17 +1599,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "balanceAfterCents": 488646,
       "source": "pdf",
       "statementId": "stmt-c239172b35c2"
-    },
-    {
-      "id": "sant-card-2026-07-07-16-540",
-      "accountId": "acc-santander-card",
-      "date": "2026-07-07",
-      "description": "TOP SP TARFA*128985630",
-      "rawDescription": "TOP SP TARFA*128985630",
-      "amountCents": -540,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-b4d0e08e4139"
     },
     {
       "id": "sant-card-2026-07-04-15-11998",
@@ -1773,6 +1635,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
+      "id": "sant-card-2026-07-01-12-11313",
+      "accountId": "acc-santander-card",
+      "date": "2026-07-01",
+      "description": "NATARY SUSHI BAR",
+      "rawDescription": "NATARY SUSHI BAR",
+      "amountCents": -11313,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-b4d0e08e4139"
+    },
+    {
       "id": "sant-acc-2026-07-01-0-6000",
       "accountId": "acc-santander-acc",
       "date": "2026-07-01",
@@ -1785,12 +1658,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-c239172b35c2"
     },
     {
-      "id": "sant-card-2026-07-01-12-11313",
+      "id": "sant-card-2026-06-30-11-1400",
       "accountId": "acc-santander-card",
-      "date": "2026-07-01",
-      "description": "NATARY SUSHI BAR",
-      "rawDescription": "NATARY SUSHI BAR",
-      "amountCents": -11313,
+      "date": "2026-06-30",
+      "description": "MP *DANSCAR",
+      "rawDescription": "MP *DANSCAR",
+      "amountCents": -1400,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
@@ -1808,27 +1681,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e9872c6dcd73"
     },
     {
-      "id": "sant-card-2026-06-30-11-1400",
+      "id": "sant-card-2026-06-29-10-2198",
       "accountId": "acc-santander-card",
-      "date": "2026-06-30",
-      "description": "MP *DANSCAR",
-      "rawDescription": "MP *DANSCAR",
-      "amountCents": -1400,
+      "date": "2026-06-29",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -2198,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
-    },
-    {
-      "id": "brad-2026-06-29-1-480654",
-      "accountId": "acc-bradesco",
-      "date": "2026-06-29",
-      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "amountCents": 480654,
-      "kind": "transfer",
-      "balanceAfterCents": 3877804,
-      "source": "pdf",
-      "statementId": "stmt-73bf1f984882"
     },
     {
       "id": "sant-acc-2026-06-29-4-952",
@@ -1843,15 +1704,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e9872c6dcd73"
     },
     {
-      "id": "sant-card-2026-06-29-10-2198",
-      "accountId": "acc-santander-card",
+      "id": "brad-2026-06-29-1-480654",
+      "accountId": "acc-bradesco",
       "date": "2026-06-29",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -2198,
-      "kind": "expense",
+      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "amountCents": 480654,
+      "kind": "transfer",
+      "balanceAfterCents": 3877804,
       "source": "pdf",
-      "statementId": "stmt-b4d0e08e4139"
+      "statementId": "stmt-73bf1f984882"
     },
     {
       "id": "sant-card-2026-06-25-9-3640",
@@ -1888,17 +1750,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e9872c6dcd73"
     },
     {
-      "id": "sant-card-2026-06-21-6-200",
-      "accountId": "acc-santander-card",
-      "date": "2026-06-21",
-      "description": "MEP*AME CLUB",
-      "rawDescription": "MEP*AME CLUB",
-      "amountCents": -200,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-b4d0e08e4139"
-    },
-    {
       "id": "sant-card-2026-06-21-7-10000",
       "accountId": "acc-santander-card",
       "date": "2026-06-21",
@@ -1911,12 +1762,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "sant-card-2026-06-20-4-5000",
+      "id": "sant-card-2026-06-21-6-200",
       "accountId": "acc-santander-card",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "description": "MEP*AME CLUB",
       "rawDescription": "MEP*AME CLUB",
-      "amountCents": -5000,
+      "amountCents": -200,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
@@ -1933,16 +1784,26 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "brad-2026-06-19-0-725",
-      "accountId": "acc-bradesco",
-      "date": "2026-06-19",
-      "description": "RENTAB.INVEST FACILCRED*",
-      "rawDescription": "RENTAB.INVEST FACILCRED*",
-      "amountCents": 725,
-      "kind": "investment",
-      "balanceAfterCents": 3637150,
+      "id": "sant-card-2026-06-20-4-5000",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-20",
+      "description": "MEP*AME CLUB",
+      "rawDescription": "MEP*AME CLUB",
+      "amountCents": -5000,
+      "kind": "expense",
       "source": "pdf",
-      "statementId": "stmt-73bf1f984882"
+      "statementId": "stmt-b4d0e08e4139"
+    },
+    {
+      "id": "sant-card-2026-06-19-0-131262",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-19",
+      "description": "PAGAMENTO DE FATURA-INTERNET",
+      "rawDescription": "PAGAMENTO DE FATURA-INTERNET",
+      "amountCents": 131262,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-b4d0e08e4139"
     },
     {
       "id": "sant-acc-2026-06-19-2-131262",
@@ -1956,15 +1817,38 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e9872c6dcd73"
     },
     {
-      "id": "sant-card-2026-06-19-0-131262",
-      "accountId": "acc-santander-card",
+      "id": "brad-2026-06-19-0-725",
+      "accountId": "acc-bradesco",
       "date": "2026-06-19",
-      "description": "PAGAMENTO DE FATURA-INTERNET",
-      "rawDescription": "PAGAMENTO DE FATURA-INTERNET",
-      "amountCents": 131262,
-      "kind": "card_payment",
+      "description": "RENTAB.INVEST FACILCRED*",
+      "rawDescription": "RENTAB.INVEST FACILCRED*",
+      "amountCents": 725,
+      "kind": "investment",
+      "balanceAfterCents": 3637150,
+      "source": "pdf",
+      "statementId": "stmt-73bf1f984882"
+    },
+    {
+      "id": "sant-card-2026-06-18-3-10873",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-18",
+      "description": "NATARY SUSHI BAR",
+      "rawDescription": "NATARY SUSHI BAR",
+      "amountCents": -10873,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-b4d0e08e4139"
+    },
+    {
+      "id": "sant-card-2026-06-18-1-2200",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-18",
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": -2200,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-0bf9637917a7"
     },
     {
       "id": "sant-acc-2026-06-18-1-5000",
@@ -1979,28 +1863,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e9872c6dcd73"
     },
     {
-      "id": "sant-card-2026-06-18-1-2200",
-      "accountId": "acc-santander-card",
-      "date": "2026-06-18",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": -2200,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
-    },
-    {
-      "id": "sant-card-2026-06-18-3-10873",
-      "accountId": "acc-santander-card",
-      "date": "2026-06-18",
-      "description": "NATARY SUSHI BAR",
-      "rawDescription": "NATARY SUSHI BAR",
-      "amountCents": -10873,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-b4d0e08e4139"
-    },
-    {
       "id": "sant-card-2026-06-17-2-6690",
       "accountId": "acc-santander-card",
       "date": "2026-06-17",
@@ -2012,23 +1874,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-b4d0e08e4139"
     },
     {
-      "id": "sant-card-2026-06-16-23-2198",
-      "accountId": "acc-santander-card",
-      "date": "2026-06-16",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -2198,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
-    },
-    {
       "id": "sant-card-2026-06-16-24-3884",
       "accountId": "acc-santander-card",
       "date": "2026-06-16",
       "description": "CANTINHO DO VIADUTO",
       "rawDescription": "CANTINHO DO VIADUTO",
       "amountCents": -3884,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-0bf9637917a7"
+    },
+    {
+      "id": "sant-card-2026-06-16-23-2198",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-16",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -2198,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-0bf9637917a7"
@@ -2057,23 +1919,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "sant-card-2026-06-09-19-5990",
-      "accountId": "acc-santander-card",
-      "date": "2026-06-09",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -5990,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
-    },
-    {
       "id": "sant-card-2026-06-09-20-3686",
       "accountId": "acc-santander-card",
       "date": "2026-06-09",
       "description": "MICROSOFT*STORE",
       "rawDescription": "MICROSOFT*STORE",
       "amountCents": -3686,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-0bf9637917a7"
+    },
+    {
+      "id": "sant-card-2026-06-09-19-5990",
+      "accountId": "acc-santander-card",
+      "date": "2026-06-09",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -5990,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-0bf9637917a7"
@@ -2171,16 +2033,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "brad-2026-05-28-2-530273",
-      "accountId": "acc-bradesco",
+      "id": "sant-card-2026-05-28-12-6780",
+      "accountId": "acc-santander-card",
       "date": "2026-05-28",
-      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "amountCents": 530273,
-      "kind": "transfer",
-      "balanceAfterCents": 3636425,
+      "description": "TUNA *QLUB*APP",
+      "rawDescription": "TUNA *QLUB*APP",
+      "amountCents": -6780,
+      "kind": "expense",
       "source": "pdf",
-      "statementId": "stmt-df584b96d74e"
+      "statementId": "stmt-0bf9637917a7"
     },
     {
       "id": "sant-card-2026-05-28-11-9699",
@@ -2195,15 +2056,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "sant-card-2026-05-28-12-6780",
-      "accountId": "acc-santander-card",
+      "id": "brad-2026-05-28-2-530273",
+      "accountId": "acc-bradesco",
       "date": "2026-05-28",
-      "description": "TUNA *QLUB*APP",
-      "rawDescription": "TUNA *QLUB*APP",
-      "amountCents": -6780,
-      "kind": "expense",
+      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "amountCents": 530273,
+      "kind": "transfer",
+      "balanceAfterCents": 3636425,
       "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
+      "statementId": "stmt-df584b96d74e"
     },
     {
       "id": "sant-card-2026-05-26-9-1200",
@@ -2240,23 +2102,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-df584b96d74e"
     },
     {
-      "id": "sant-card-2026-05-23-7-8064",
-      "accountId": "acc-santander-card",
-      "date": "2026-05-23",
-      "description": "INGRESSO COM",
-      "rawDescription": "INGRESSO COM",
-      "amountCents": -8064,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
-    },
-    {
       "id": "sant-card-2026-05-23-8-6000",
       "accountId": "acc-santander-card",
       "date": "2026-05-23",
       "description": "JUNDIAI SAO PAULO",
       "rawDescription": "JUNDIAI SAO PAULO",
       "amountCents": -6000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-0bf9637917a7"
+    },
+    {
+      "id": "sant-card-2026-05-23-7-8064",
+      "accountId": "acc-santander-card",
+      "date": "2026-05-23",
+      "description": "INGRESSO COM",
+      "rawDescription": "INGRESSO COM",
+      "amountCents": -8064,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-0bf9637917a7"
@@ -2273,16 +2135,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "brad-2026-05-19-0-615",
-      "accountId": "acc-bradesco",
+      "id": "sant-card-2026-05-19-5-3005",
+      "accountId": "acc-santander-card",
       "date": "2026-05-19",
-      "description": "RENTAB.INVEST FACILCRED*",
-      "rawDescription": "RENTAB.INVEST FACILCRED*",
-      "amountCents": 615,
-      "kind": "investment",
-      "balanceAfterCents": 3455898,
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3005,
+      "kind": "expense",
       "source": "pdf",
-      "statementId": "stmt-df584b96d74e"
+      "statementId": "stmt-0bf9637917a7"
     },
     {
       "id": "sant-card-2026-05-19-0-195605",
@@ -2296,15 +2157,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "sant-card-2026-05-19-5-3005",
-      "accountId": "acc-santander-card",
+      "id": "brad-2026-05-19-0-615",
+      "accountId": "acc-bradesco",
       "date": "2026-05-19",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3005,
-      "kind": "expense",
+      "description": "RENTAB.INVEST FACILCRED*",
+      "rawDescription": "RENTAB.INVEST FACILCRED*",
+      "amountCents": 615,
+      "kind": "investment",
+      "balanceAfterCents": 3455898,
       "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
+      "statementId": "stmt-df584b96d74e"
     },
     {
       "id": "sant-card-2026-05-18-35-2200",
@@ -2318,17 +2180,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-17-3-6690",
-      "accountId": "acc-santander-card",
-      "date": "2026-05-17",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -6690,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-0bf9637917a7"
-    },
-    {
       "id": "sant-card-2026-05-17-4-15999",
       "accountId": "acc-santander-card",
       "date": "2026-05-17",
@@ -2340,23 +2191,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "sant-acc-2026-05-15-5-117388",
-      "accountId": "acc-santander-acc",
-      "date": "2026-05-15",
-      "description": "PAGAMENTO DE MULTA TRANSITO CANAIS INTERNET LICENCIAMENTO EL",
-      "rawDescription": "PAGAMENTO DE MULTA TRANSITO CANAIS INTERNET LICENCIAMENTO EL",
-      "amountCents": -117388,
+      "id": "sant-card-2026-05-17-3-6690",
+      "accountId": "acc-santander-card",
+      "date": "2026-05-17",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -6690,
       "kind": "expense",
       "source": "pdf",
-      "statementId": "stmt-2498913645b2"
+      "statementId": "stmt-0bf9637917a7"
     },
     {
-      "id": "sant-card-2026-05-15-32-4188",
+      "id": "sant-card-2026-05-15-34-8580",
       "accountId": "acc-santander-card",
       "date": "2026-05-15",
-      "description": "RAFAEL DE ROSA CELSO",
-      "rawDescription": "RAFAEL DE ROSA CELSO",
-      "amountCents": -4188,
+      "description": "BAR MARCHETTI LTDA",
+      "rawDescription": "BAR MARCHETTI LTDA",
+      "amountCents": -8580,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2373,15 +2224,26 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-15-34-8580",
+      "id": "sant-card-2026-05-15-32-4188",
       "accountId": "acc-santander-card",
       "date": "2026-05-15",
-      "description": "BAR MARCHETTI LTDA",
-      "rawDescription": "BAR MARCHETTI LTDA",
-      "amountCents": -8580,
+      "description": "RAFAEL DE ROSA CELSO",
+      "rawDescription": "RAFAEL DE ROSA CELSO",
+      "amountCents": -4188,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-acc-2026-05-15-5-117388",
+      "accountId": "acc-santander-acc",
+      "date": "2026-05-15",
+      "description": "PAGAMENTO DE MULTA TRANSITO CANAIS INTERNET LICENCIAMENTO EL",
+      "rawDescription": "PAGAMENTO DE MULTA TRANSITO CANAIS INTERNET LICENCIAMENTO EL",
+      "amountCents": -117388,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-2498913645b2"
     },
     {
       "id": "sant-card-2026-05-14-31-760",
@@ -2406,12 +2268,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-12-27-22259",
+      "id": "sant-card-2026-05-12-29-2400",
       "accountId": "acc-santander-card",
       "date": "2026-05-12",
-      "description": "INGRESSE_BR ADY*INGRES",
-      "rawDescription": "INGRESSE_BR ADY*INGRES",
-      "amountCents": -22259,
+      "description": "GPN GELATERIA LTDA",
+      "rawDescription": "GPN GELATERIA LTDA",
+      "amountCents": -2400,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2428,12 +2290,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-12-29-2400",
+      "id": "sant-card-2026-05-12-27-22259",
       "accountId": "acc-santander-card",
       "date": "2026-05-12",
-      "description": "GPN GELATERIA LTDA",
-      "rawDescription": "GPN GELATERIA LTDA",
-      "amountCents": -2400,
+      "description": "INGRESSE_BR ADY*INGRES",
+      "rawDescription": "INGRESSE_BR ADY*INGRES",
+      "amountCents": -22259,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2450,23 +2312,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-2498913645b2"
     },
     {
-      "id": "sant-card-2026-05-09-25-3800",
-      "accountId": "acc-santander-card",
-      "date": "2026-05-09",
-      "description": "ROSA FLORES",
-      "rawDescription": "ROSA FLORES",
-      "amountCents": -3800,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
       "id": "sant-card-2026-05-09-26-5990",
       "accountId": "acc-santander-card",
       "date": "2026-05-09",
       "description": "APPLE COM/BILL",
       "rawDescription": "APPLE COM/BILL",
       "amountCents": -5990,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-05-09-25-3800",
+      "accountId": "acc-santander-card",
+      "date": "2026-05-09",
+      "description": "ROSA FLORES",
+      "rawDescription": "ROSA FLORES",
+      "amountCents": -3800,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2484,6 +2346,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
+      "id": "sant-card-2026-05-07-23-1400",
+      "accountId": "acc-santander-card",
+      "date": "2026-05-07",
+      "description": "MP *DANSCAR",
+      "rawDescription": "MP *DANSCAR",
+      "amountCents": -1400,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
       "id": "sant-acc-2026-05-07-3-1400",
       "accountId": "acc-santander-acc",
       "date": "2026-05-07",
@@ -2494,17 +2367,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "balanceAfterCents": 311227,
       "source": "pdf",
       "statementId": "stmt-2498913645b2"
-    },
-    {
-      "id": "sant-card-2026-05-07-23-1400",
-      "accountId": "acc-santander-card",
-      "date": "2026-05-07",
-      "description": "MP *DANSCAR",
-      "rawDescription": "MP *DANSCAR",
-      "amountCents": -1400,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
     },
     {
       "id": "sant-acc-2026-05-06-2-3900",
@@ -2518,17 +2380,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-2498913645b2"
     },
     {
-      "id": "sant-acc-2026-05-05-1-1400",
-      "accountId": "acc-santander-acc",
-      "date": "2026-05-05",
-      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "amountCents": 1400,
-      "kind": "income",
-      "source": "pdf",
-      "statementId": "stmt-2498913645b2"
-    },
-    {
       "id": "sant-card-2026-05-05-22-9900",
       "accountId": "acc-santander-card",
       "date": "2026-05-05",
@@ -2538,6 +2389,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-acc-2026-05-05-1-1400",
+      "accountId": "acc-santander-acc",
+      "date": "2026-05-05",
+      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "amountCents": 1400,
+      "kind": "income",
+      "source": "pdf",
+      "statementId": "stmt-2498913645b2"
     },
     {
       "id": "sant-acc-2026-05-04-0-9807",
@@ -2562,17 +2424,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-02-19-15378",
-      "accountId": "acc-santander-card",
-      "date": "2026-05-02",
-      "description": "CANTAGALO SUSHI",
-      "rawDescription": "CANTAGALO SUSHI",
-      "amountCents": -15378,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
       "id": "sant-card-2026-05-02-20-3999",
       "accountId": "acc-santander-card",
       "date": "2026-05-02",
@@ -2584,12 +2435,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-01-16-10800",
+      "id": "sant-card-2026-05-02-19-15378",
+      "accountId": "acc-santander-card",
+      "date": "2026-05-02",
+      "description": "CANTAGALO SUSHI",
+      "rawDescription": "CANTAGALO SUSHI",
+      "amountCents": -15378,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-05-01-18-6099",
       "accountId": "acc-santander-card",
       "date": "2026-05-01",
-      "description": "ZIG*TIME WARP SP 2026",
-      "rawDescription": "ZIG*TIME WARP SP 2026",
-      "amountCents": -10800,
+      "description": "BRASEIRO DO SUL",
+      "rawDescription": "BRASEIRO DO SUL",
+      "amountCents": -6099,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2606,12 +2468,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-05-01-18-6099",
+      "id": "sant-card-2026-05-01-16-10800",
       "accountId": "acc-santander-card",
       "date": "2026-05-01",
-      "description": "BRASEIRO DO SUL",
-      "rawDescription": "BRASEIRO DO SUL",
-      "amountCents": -6099,
+      "description": "ZIG*TIME WARP SP 2026",
+      "rawDescription": "ZIG*TIME WARP SP 2026",
+      "amountCents": -10800,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2640,17 +2502,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdddc9a465e1"
     },
     {
-      "id": "sant-card-2026-04-28-13-2009",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-28",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -2009,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
       "id": "sant-card-2026-04-28-14-9699",
       "accountId": "acc-santander-card",
       "date": "2026-04-28",
@@ -2659,6 +2510,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -9699,
       "kind": "expense",
       "categoryId": "cat-servicos",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-04-28-13-2009",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-28",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -2009,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
     },
@@ -2675,17 +2537,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdddc9a465e1"
     },
     {
-      "id": "sant-card-2026-04-21-11-10000",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-21",
-      "description": "INGRESSE",
-      "rawDescription": "INGRESSE",
-      "amountCents": -10000,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
       "id": "sant-card-2026-04-21-12-2000",
       "accountId": "acc-santander-card",
       "date": "2026-04-21",
@@ -2697,35 +2548,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "brad-2026-04-20-1-417",
-      "accountId": "acc-bradesco",
-      "date": "2026-04-20",
-      "description": "RENTAB.INVEST FACILCRED*",
-      "rawDescription": "RENTAB.INVEST FACILCRED*",
-      "amountCents": -417,
-      "kind": "investment",
-      "balanceAfterCents": 2697665,
-      "source": "pdf",
-      "statementId": "stmt-bdddc9a465e1"
-    },
-    {
-      "id": "sant-acc-2026-04-20-3-9235",
-      "accountId": "acc-santander-acc",
-      "date": "2026-04-20",
-      "description": "PIX RECEBIDO 37179008 ANA BEATRIZ MEND",
-      "rawDescription": "PIX RECEBIDO 37179008 ANA BEATRIZ MEND",
-      "amountCents": 9235,
-      "kind": "income",
-      "source": "pdf",
-      "statementId": "stmt-699a46611d02"
-    },
-    {
-      "id": "sant-card-2026-04-20-8-894",
+      "id": "sant-card-2026-04-21-11-10000",
       "accountId": "acc-santander-card",
-      "date": "2026-04-20",
-      "description": "UBER UBER *TRIP HELP U",
-      "rawDescription": "UBER UBER *TRIP HELP U",
-      "amountCents": -894,
+      "date": "2026-04-21",
+      "description": "INGRESSE",
+      "rawDescription": "INGRESSE",
+      "amountCents": -10000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2742,12 +2570,57 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
+      "id": "sant-card-2026-04-20-8-894",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-20",
+      "description": "UBER UBER *TRIP HELP U",
+      "rawDescription": "UBER UBER *TRIP HELP U",
+      "amountCents": -894,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
       "id": "sant-card-2026-04-20-10-10000",
       "accountId": "acc-santander-card",
       "date": "2026-04-20",
       "description": "ESTACIONAMENTO",
       "rawDescription": "ESTACIONAMENTO",
       "amountCents": -10000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-acc-2026-04-20-3-9235",
+      "accountId": "acc-santander-acc",
+      "date": "2026-04-20",
+      "description": "PIX RECEBIDO 37179008 ANA BEATRIZ MEND",
+      "rawDescription": "PIX RECEBIDO 37179008 ANA BEATRIZ MEND",
+      "amountCents": 9235,
+      "kind": "income",
+      "source": "pdf",
+      "statementId": "stmt-699a46611d02"
+    },
+    {
+      "id": "brad-2026-04-20-1-417",
+      "accountId": "acc-bradesco",
+      "date": "2026-04-20",
+      "description": "RENTAB.INVEST FACILCRED*",
+      "rawDescription": "RENTAB.INVEST FACILCRED*",
+      "amountCents": -417,
+      "kind": "investment",
+      "balanceAfterCents": 2697665,
+      "source": "pdf",
+      "statementId": "stmt-bdddc9a465e1"
+    },
+    {
+      "id": "sant-card-2026-04-19-7-1167",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-19",
+      "description": "DROGASIL1716",
+      "rawDescription": "DROGASIL1716",
+      "amountCents": -1167,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2764,67 +2637,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-04-19-7-1167",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-19",
-      "description": "DROGASIL1716",
-      "rawDescription": "DROGASIL1716",
-      "amountCents": -1167,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
-      "id": "sant-card-2026-04-17-35-1100",
+      "id": "sant-card-2026-04-17-6-3900",
       "accountId": "acc-santander-card",
       "date": "2026-04-17",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": -1100,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-04-17-1-3650",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-17",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -3650,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
-      "id": "sant-card-2026-04-17-2-6690",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-17",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -6690,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
-      "id": "sant-card-2026-04-17-3-2600",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-17",
-      "description": "OSHIRO E CIA COMERCIO",
-      "rawDescription": "OSHIRO E CIA COMERCIO",
-      "amountCents": -2600,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-e28c20d54bda"
-    },
-    {
-      "id": "sant-card-2026-04-17-4-1200",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-17",
-      "description": "CLAUDINEIALVESDE",
-      "rawDescription": "CLAUDINEIALVESDE",
-      "amountCents": -1200,
+      "description": "MP *19581906SERGINALDO",
+      "rawDescription": "MP *19581906SERGINALDO",
+      "amountCents": -3900,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2841,12 +2659,56 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-e28c20d54bda"
     },
     {
-      "id": "sant-card-2026-04-17-6-3900",
+      "id": "sant-card-2026-04-17-4-1200",
       "accountId": "acc-santander-card",
       "date": "2026-04-17",
-      "description": "MP *19581906SERGINALDO",
-      "rawDescription": "MP *19581906SERGINALDO",
-      "amountCents": -3900,
+      "description": "CLAUDINEIALVESDE",
+      "rawDescription": "CLAUDINEIALVESDE",
+      "amountCents": -1200,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-04-17-35-1100",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-17",
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": -1100,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-04-17-3-2600",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-17",
+      "description": "OSHIRO E CIA COMERCIO",
+      "rawDescription": "OSHIRO E CIA COMERCIO",
+      "amountCents": -2600,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-04-17-2-6690",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-17",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -6690,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-e28c20d54bda"
+    },
+    {
+      "id": "sant-card-2026-04-17-1-3650",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-17",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -3650,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-e28c20d54bda"
@@ -2887,23 +2749,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-699a46611d02"
     },
     {
-      "id": "sant-card-2026-04-10-32-3000",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-10",
-      "description": "TOCA DAS ONCAS",
-      "rawDescription": "TOCA DAS ONCAS",
-      "amountCents": -3000,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
       "id": "sant-card-2026-04-10-33-2675",
       "accountId": "acc-santander-card",
       "date": "2026-04-10",
       "description": "JJ CHOCOLATE E CIA LT",
       "rawDescription": "JJ CHOCOLATE E CIA LT",
       "amountCents": -2675,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-04-10-32-3000",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-10",
+      "description": "TOCA DAS ONCAS",
+      "rawDescription": "TOCA DAS ONCAS",
+      "amountCents": -3000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -2920,6 +2782,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
+      "id": "sant-acc-2026-04-06-0-268000",
+      "accountId": "acc-santander-acc",
+      "date": "2026-04-06",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 268000,
+      "kind": "transfer",
+      "source": "pdf",
+      "statementId": "stmt-699a46611d02"
+    },
+    {
       "id": "brad-2026-04-06-0-603",
       "accountId": "acc-bradesco",
       "date": "2026-04-06",
@@ -2932,17 +2805,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-bdddc9a465e1"
     },
     {
-      "id": "sant-acc-2026-04-06-0-268000",
-      "accountId": "acc-santander-acc",
-      "date": "2026-04-06",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 268000,
-      "kind": "transfer",
-      "source": "pdf",
-      "statementId": "stmt-699a46611d02"
-    },
-    {
       "id": "sant-card-2026-04-05-30-10000",
       "accountId": "acc-santander-card",
       "date": "2026-04-05",
@@ -2951,17 +2813,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -10000,
       "kind": "expense",
       "categoryId": "cat-semparar",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-04-04-28-13810",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-04",
-      "description": "BARE AUTO POSTO",
-      "rawDescription": "BARE AUTO POSTO",
-      "amountCents": -13810,
-      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
     },
@@ -2977,23 +2828,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-04-03-24-1000",
+      "id": "sant-card-2026-04-04-28-13810",
       "accountId": "acc-santander-card",
-      "date": "2026-04-03",
-      "description": "BARREY",
-      "rawDescription": "BARREY",
-      "amountCents": -1000,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-04-03-25-1000",
-      "accountId": "acc-santander-card",
-      "date": "2026-04-03",
-      "description": "LEONARDO SORVETES",
-      "rawDescription": "LEONARDO SORVETES",
-      "amountCents": -1000,
+      "date": "2026-04-04",
+      "description": "BARE AUTO POSTO",
+      "rawDescription": "BARE AUTO POSTO",
+      "amountCents": -13810,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3010,12 +2850,34 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-04-02-21-3698",
+      "id": "sant-card-2026-04-03-25-1000",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-03",
+      "description": "LEONARDO SORVETES",
+      "rawDescription": "LEONARDO SORVETES",
+      "amountCents": -1000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-04-03-24-1000",
+      "accountId": "acc-santander-card",
+      "date": "2026-04-03",
+      "description": "BARREY",
+      "rawDescription": "BARREY",
+      "amountCents": -1000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-04-02-23-25893",
       "accountId": "acc-santander-card",
       "date": "2026-04-02",
-      "description": "CONVENIENCIA ESTACAO",
-      "rawDescription": "CONVENIENCIA ESTACAO",
-      "amountCents": -3698,
+      "description": "ASSAI ATACADISTA LJ45",
+      "rawDescription": "ASSAI ATACADISTA LJ45",
+      "amountCents": -25893,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3032,12 +2894,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-04-02-23-25893",
+      "id": "sant-card-2026-04-02-21-3698",
       "accountId": "acc-santander-card",
       "date": "2026-04-02",
-      "description": "ASSAI ATACADISTA LJ45",
-      "rawDescription": "ASSAI ATACADISTA LJ45",
-      "amountCents": -25893,
+      "description": "CONVENIENCIA ESTACAO",
+      "rawDescription": "CONVENIENCIA ESTACAO",
+      "amountCents": -3698,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3077,46 +2939,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-c1139f3ff602"
     },
     {
-      "id": "sant-card-2026-03-28-13-8064",
+      "id": "sant-card-2026-03-28-18-9699",
       "accountId": "acc-santander-card",
       "date": "2026-03-28",
-      "description": "INGRESSO COM",
-      "rawDescription": "INGRESSO COM",
-      "amountCents": -8064,
+      "description": "GOOGLE ONE",
+      "rawDescription": "GOOGLE ONE",
+      "amountCents": -9699,
       "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-03-28-14-5080",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-28",
-      "description": "LUACRIS COMERCIO DE A",
-      "rawDescription": "LUACRIS COMERCIO DE A",
-      "amountCents": -5080,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-03-28-15-5300",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-28",
-      "description": "JUNDIAI SAO PAULO",
-      "rawDescription": "JUNDIAI SAO PAULO",
-      "amountCents": -5300,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
-    },
-    {
-      "id": "sant-card-2026-03-28-16-16391",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-28",
-      "description": "SP JUNDIAI MEGA SH JUN",
-      "rawDescription": "SP JUNDIAI MEGA SH JUN",
-      "amountCents": -16391,
-      "kind": "expense",
+      "categoryId": "cat-servicos",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
     },
@@ -3133,14 +2963,46 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-03-28-18-9699",
+      "id": "sant-card-2026-03-28-16-16391",
       "accountId": "acc-santander-card",
       "date": "2026-03-28",
-      "description": "GOOGLE ONE",
-      "rawDescription": "GOOGLE ONE",
-      "amountCents": -9699,
+      "description": "SP JUNDIAI MEGA SH JUN",
+      "rawDescription": "SP JUNDIAI MEGA SH JUN",
+      "amountCents": -16391,
       "kind": "expense",
-      "categoryId": "cat-servicos",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-03-28-15-5300",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-28",
+      "description": "JUNDIAI SAO PAULO",
+      "rawDescription": "JUNDIAI SAO PAULO",
+      "amountCents": -5300,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-03-28-14-5080",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-28",
+      "description": "LUACRIS COMERCIO DE A",
+      "rawDescription": "LUACRIS COMERCIO DE A",
+      "amountCents": -5080,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-03-28-13-8064",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-28",
+      "description": "INGRESSO COM",
+      "rawDescription": "INGRESSO COM",
+      "amountCents": -8064,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
     },
@@ -3200,24 +3062,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-acc-2026-03-19-5-230459",
-      "accountId": "acc-santander-acc",
-      "date": "2026-03-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 15:34 CARTAO MASTER 153428",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 15:34 CARTAO MASTER 153428",
-      "amountCents": -230459,
-      "kind": "card_payment",
-      "source": "pdf",
-      "statementId": "stmt-4c18ac2d3c27"
-    },
-    {
-      "id": "sant-card-2026-03-19-0-230459",
+      "id": "sant-card-2026-03-19-7-10446",
       "accountId": "acc-santander-card",
       "date": "2026-03-19",
-      "description": "PAGAMENTO DE FATURA",
-      "rawDescription": "PAGAMENTO DE FATURA",
-      "amountCents": 230459,
-      "kind": "card_payment",
+      "description": "DROGASIL1716",
+      "rawDescription": "DROGASIL1716",
+      "amountCents": -10446,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
     },
@@ -3233,38 +3084,26 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-03-19-7-10446",
+      "id": "sant-card-2026-03-19-0-230459",
       "accountId": "acc-santander-card",
       "date": "2026-03-19",
-      "description": "DROGASIL1716",
-      "rawDescription": "DROGASIL1716",
-      "amountCents": -10446,
-      "kind": "expense",
+      "description": "PAGAMENTO DE FATURA",
+      "rawDescription": "PAGAMENTO DE FATURA",
+      "amountCents": 230459,
+      "kind": "card_payment",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-acc-2026-03-18-4-2000",
+      "id": "sant-acc-2026-03-19-5-230459",
       "accountId": "acc-santander-acc",
-      "date": "2026-03-18",
-      "description": "PIX ENVIADO Angelica Kaory Oshiro Has",
-      "rawDescription": "PIX ENVIADO Angelica Kaory Oshiro Has",
-      "amountCents": -2000,
-      "kind": "expense",
-      "balanceAfterCents": 337698,
+      "date": "2026-03-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 15:34 CARTAO MASTER 153428",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 15:34 CARTAO MASTER 153428",
+      "amountCents": -230459,
+      "kind": "card_payment",
       "source": "pdf",
       "statementId": "stmt-4c18ac2d3c27"
-    },
-    {
-      "id": "sant-card-2026-03-18-4-1998",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-18",
-      "description": "HAWAI",
-      "rawDescription": "HAWAI",
-      "amountCents": -1998,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-d10b2277f888"
     },
     {
       "id": "sant-card-2026-03-18-5-1099",
@@ -3273,6 +3112,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "HAWAI",
       "rawDescription": "HAWAI",
       "amountCents": -1099,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-d10b2277f888"
+    },
+    {
+      "id": "sant-card-2026-03-18-4-1998",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-18",
+      "description": "HAWAI",
+      "rawDescription": "HAWAI",
+      "amountCents": -1998,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3289,12 +3139,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-03-17-1-3600",
+      "id": "sant-acc-2026-03-18-4-2000",
+      "accountId": "acc-santander-acc",
+      "date": "2026-03-18",
+      "description": "PIX ENVIADO Angelica Kaory Oshiro Has",
+      "rawDescription": "PIX ENVIADO Angelica Kaory Oshiro Has",
+      "amountCents": -2000,
+      "kind": "expense",
+      "balanceAfterCents": 337698,
+      "source": "pdf",
+      "statementId": "stmt-4c18ac2d3c27"
+    },
+    {
+      "id": "sant-card-2026-03-17-3-3500",
       "accountId": "acc-santander-card",
       "date": "2026-03-17",
-      "description": "PASTELARIA BRASILEIRA",
-      "rawDescription": "PASTELARIA BRASILEIRA",
-      "amountCents": -3600,
+      "description": "A LAREIRA RESTAURANTE",
+      "rawDescription": "A LAREIRA RESTAURANTE",
+      "amountCents": -3500,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3311,12 +3173,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d10b2277f888"
     },
     {
-      "id": "sant-card-2026-03-17-3-3500",
+      "id": "sant-card-2026-03-17-1-3600",
       "accountId": "acc-santander-card",
       "date": "2026-03-17",
-      "description": "A LAREIRA RESTAURANTE",
-      "rawDescription": "A LAREIRA RESTAURANTE",
-      "amountCents": -3500,
+      "description": "PASTELARIA BRASILEIRA",
+      "rawDescription": "PASTELARIA BRASILEIRA",
+      "amountCents": -3600,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-d10b2277f888"
@@ -3333,23 +3195,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4c18ac2d3c27"
     },
     {
-      "id": "sant-card-2026-03-15-27-600",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-15",
-      "description": "INGRESSE",
-      "rawDescription": "INGRESSE",
-      "amountCents": -600,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
       "id": "sant-card-2026-03-15-28-4800",
       "accountId": "acc-santander-card",
       "date": "2026-03-15",
       "description": "INGRESSE",
       "rawDescription": "INGRESSE",
       "amountCents": -4800,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-card-2026-03-15-27-600",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-15",
+      "description": "INGRESSE",
+      "rawDescription": "INGRESSE",
+      "amountCents": -600,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3377,6 +3239,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
+      "id": "sant-acc-2026-03-09-2-227200",
+      "accountId": "acc-santander-acc",
+      "date": "2026-03-09",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 227200,
+      "kind": "transfer",
+      "source": "pdf",
+      "statementId": "stmt-4c18ac2d3c27"
+    },
+    {
       "id": "brad-2026-03-09-0-445",
       "accountId": "acc-bradesco",
       "date": "2026-03-09",
@@ -3387,17 +3260,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "balanceAfterCents": 2724807,
       "source": "pdf",
       "statementId": "stmt-c1139f3ff602"
-    },
-    {
-      "id": "sant-acc-2026-03-09-2-227200",
-      "accountId": "acc-santander-acc",
-      "date": "2026-03-09",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 227200,
-      "kind": "transfer",
-      "source": "pdf",
-      "statementId": "stmt-4c18ac2d3c27"
     },
     {
       "id": "sant-card-2026-03-08-23-800",
@@ -3411,23 +3273,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-03-07-21-8000",
-      "accountId": "acc-santander-card",
-      "date": "2026-03-07",
-      "description": "ESTACIONAMENTO",
-      "rawDescription": "ESTACIONAMENTO",
-      "amountCents": -8000,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
       "id": "sant-card-2026-03-07-22-10000",
       "accountId": "acc-santander-card",
       "date": "2026-03-07",
       "description": "MEP*LAROC VALINHOS",
       "rawDescription": "MEP*LAROC VALINHOS",
       "amountCents": -10000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-card-2026-03-07-21-8000",
+      "accountId": "acc-santander-card",
+      "date": "2026-03-07",
+      "description": "ESTACIONAMENTO",
+      "rawDescription": "ESTACIONAMENTO",
+      "amountCents": -8000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3501,46 +3363,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-acc-2026-02-27-6-1000",
-      "accountId": "acc-santander-acc",
+      "id": "sant-card-2026-02-27-16-1000",
+      "accountId": "acc-santander-card",
       "date": "2026-02-27",
-      "description": "PIX ENVIADO Matheus Augusto Silva de",
-      "rawDescription": "PIX ENVIADO Matheus Augusto Silva de",
+      "description": "PATRICIADE",
+      "rawDescription": "PATRICIADE",
       "amountCents": -1000,
-      "kind": "expense",
-      "balanceAfterCents": 196981,
-      "source": "pdf",
-      "statementId": "stmt-4894fc550601"
-    },
-    {
-      "id": "sant-card-2026-02-27-12-6374",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-27",
-      "description": "PLAY HOUSE ENTRETENIME",
-      "rawDescription": "PLAY HOUSE ENTRETENIME",
-      "amountCents": -6374,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
-      "id": "sant-card-2026-02-27-13-5900",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-27",
-      "description": "LUCIANAARTES",
-      "rawDescription": "LUCIANAARTES",
-      "amountCents": -5900,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
-      "id": "sant-card-2026-02-27-14-1600",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-27",
-      "description": "SM COMERCIO DE SOBREME",
-      "rawDescription": "SM COMERCIO DE SOBREME",
-      "amountCents": -1600,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3557,15 +3385,49 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-02-27-16-1000",
+      "id": "sant-card-2026-02-27-14-1600",
       "accountId": "acc-santander-card",
       "date": "2026-02-27",
-      "description": "PATRICIADE",
-      "rawDescription": "PATRICIADE",
-      "amountCents": -1000,
+      "description": "SM COMERCIO DE SOBREME",
+      "rawDescription": "SM COMERCIO DE SOBREME",
+      "amountCents": -1600,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-card-2026-02-27-13-5900",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-27",
+      "description": "LUCIANAARTES",
+      "rawDescription": "LUCIANAARTES",
+      "amountCents": -5900,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-card-2026-02-27-12-6374",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-27",
+      "description": "PLAY HOUSE ENTRETENIME",
+      "rawDescription": "PLAY HOUSE ENTRETENIME",
+      "amountCents": -6374,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-acc-2026-02-27-6-1000",
+      "accountId": "acc-santander-acc",
+      "date": "2026-02-27",
+      "description": "PIX ENVIADO Matheus Augusto Silva de",
+      "rawDescription": "PIX ENVIADO Matheus Augusto Silva de",
+      "amountCents": -1000,
+      "kind": "expense",
+      "balanceAfterCents": 196981,
+      "source": "pdf",
+      "statementId": "stmt-4894fc550601"
     },
     {
       "id": "brad-2026-02-26-2-410023",
@@ -3580,16 +3442,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-40547dc46b3d"
     },
     {
-      "id": "sant-acc-2026-02-25-5-1000",
-      "accountId": "acc-santander-acc",
+      "id": "sant-card-2026-02-25-11-2600",
+      "accountId": "acc-santander-card",
       "date": "2026-02-25",
-      "description": "PIX ENVIADO Jovelisa Silva Souza",
-      "rawDescription": "PIX ENVIADO Jovelisa Silva Souza",
-      "amountCents": -1000,
+      "description": "MILKY MOO",
+      "rawDescription": "MILKY MOO",
+      "amountCents": -2600,
       "kind": "expense",
-      "balanceAfterCents": 197981,
       "source": "pdf",
-      "statementId": "stmt-4894fc550601"
+      "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
       "id": "sant-card-2026-02-25-10-5999",
@@ -3603,23 +3464,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-02-25-11-2600",
-      "accountId": "acc-santander-card",
+      "id": "sant-acc-2026-02-25-5-1000",
+      "accountId": "acc-santander-acc",
       "date": "2026-02-25",
-      "description": "MILKY MOO",
-      "rawDescription": "MILKY MOO",
-      "amountCents": -2600,
+      "description": "PIX ENVIADO Jovelisa Silva Souza",
+      "rawDescription": "PIX ENVIADO Jovelisa Silva Souza",
+      "amountCents": -1000,
       "kind": "expense",
+      "balanceAfterCents": 197981,
       "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
+      "statementId": "stmt-4894fc550601"
     },
     {
-      "id": "sant-card-2026-02-23-7-11385",
+      "id": "sant-card-2026-02-23-9-14900",
       "accountId": "acc-santander-card",
       "date": "2026-02-23",
-      "description": "PAPAGAIO",
-      "rawDescription": "PAPAGAIO",
-      "amountCents": -11385,
+      "description": "PIZZARIA",
+      "rawDescription": "PIZZARIA",
+      "amountCents": -14900,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3636,12 +3498,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-02-23-9-14900",
+      "id": "sant-card-2026-02-23-7-11385",
       "accountId": "acc-santander-card",
       "date": "2026-02-23",
-      "description": "PIZZARIA",
-      "rawDescription": "PIZZARIA",
-      "amountCents": -14900,
+      "description": "PAPAGAIO",
+      "rawDescription": "PAPAGAIO",
+      "amountCents": -11385,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3653,6 +3515,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "535 - SP JUNDIAI MAXI",
       "rawDescription": "535 - SP JUNDIAI MAXI",
       "amountCents": -3999,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-4ac2b8ecfb5f"
+    },
+    {
+      "id": "sant-card-2026-02-20-5-4750",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-20",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -4750,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
@@ -3670,38 +3543,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4894fc550601"
     },
     {
-      "id": "sant-card-2026-02-20-5-4750",
+      "id": "sant-card-2026-02-19-4-8771",
       "accountId": "acc-santander-card",
-      "date": "2026-02-20",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -4750,
+      "date": "2026-02-19",
+      "description": "GOLDEN GRILL & PIZZA",
+      "rawDescription": "GOLDEN GRILL & PIZZA",
+      "amountCents": -8771,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
-      "id": "brad-2026-02-19-1-116502",
-      "accountId": "acc-bradesco",
-      "date": "2026-02-19",
-      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
-      "amountCents": 116502,
-      "kind": "transfer",
-      "balanceAfterCents": 2514164,
-      "source": "pdf",
-      "statementId": "stmt-40547dc46b3d"
-    },
-    {
-      "id": "sant-acc-2026-02-19-3-200000",
-      "accountId": "acc-santander-acc",
-      "date": "2026-02-19",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
-      "kind": "transfer",
-      "source": "pdf",
-      "statementId": "stmt-4894fc550601"
     },
     {
       "id": "sant-card-2026-02-19-0-258991",
@@ -3715,38 +3565,27 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
-      "id": "sant-card-2026-02-19-4-8771",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-19",
-      "description": "GOLDEN GRILL & PIZZA",
-      "rawDescription": "GOLDEN GRILL & PIZZA",
-      "amountCents": -8771,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
-      "id": "brad-2026-02-18-0-154",
-      "accountId": "acc-bradesco",
-      "date": "2026-02-18",
-      "description": "RENTAB.INVEST FACILCRED*",
-      "rawDescription": "RENTAB.INVEST FACILCRED*",
-      "amountCents": 154,
-      "kind": "investment",
-      "balanceAfterCents": 2471962,
-      "source": "pdf",
-      "statementId": "stmt-40547dc46b3d"
-    },
-    {
-      "id": "sant-acc-2026-02-18-2-74300",
+      "id": "sant-acc-2026-02-19-3-200000",
       "accountId": "acc-santander-acc",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
       "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 74300,
+      "amountCents": 200000,
       "kind": "transfer",
       "source": "pdf",
       "statementId": "stmt-4894fc550601"
+    },
+    {
+      "id": "brad-2026-02-19-1-116502",
+      "accountId": "acc-bradesco",
+      "date": "2026-02-19",
+      "description": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "rawDescription": "TRANSF SALDO C/SAL P/CC BCO:237 AGE:02297 CTA:0018116-1",
+      "amountCents": 116502,
+      "kind": "transfer",
+      "balanceAfterCents": 2514164,
+      "source": "pdf",
+      "statementId": "stmt-40547dc46b3d"
     },
     {
       "id": "sant-card-2026-02-18-42-1100",
@@ -3771,6 +3610,29 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4ac2b8ecfb5f"
     },
     {
+      "id": "sant-acc-2026-02-18-2-74300",
+      "accountId": "acc-santander-acc",
+      "date": "2026-02-18",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 74300,
+      "kind": "transfer",
+      "source": "pdf",
+      "statementId": "stmt-4894fc550601"
+    },
+    {
+      "id": "brad-2026-02-18-0-154",
+      "accountId": "acc-bradesco",
+      "date": "2026-02-18",
+      "description": "RENTAB.INVEST FACILCRED*",
+      "rawDescription": "RENTAB.INVEST FACILCRED*",
+      "amountCents": 154,
+      "kind": "investment",
+      "balanceAfterCents": 2471962,
+      "source": "pdf",
+      "statementId": "stmt-40547dc46b3d"
+    },
+    {
       "id": "sant-card-2026-02-17-2-6690",
       "accountId": "acc-santander-card",
       "date": "2026-02-17",
@@ -3780,17 +3642,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-4ac2b8ecfb5f"
-    },
-    {
-      "id": "sant-card-2026-02-16-40-1800",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-16",
-      "description": "SAO LOURENCO CONVEN",
-      "rawDescription": "SAO LOURENCO CONVEN",
-      "amountCents": -1800,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
     },
     {
       "id": "sant-card-2026-02-16-41-10000",
@@ -3804,12 +3655,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-15-38-10000",
+      "id": "sant-card-2026-02-16-40-1800",
       "accountId": "acc-santander-card",
-      "date": "2026-02-15",
-      "description": "ZIG*ZIGPAY",
-      "rawDescription": "ZIG*ZIGPAY",
-      "amountCents": -10000,
+      "date": "2026-02-16",
+      "description": "SAO LOURENCO CONVEN",
+      "rawDescription": "SAO LOURENCO CONVEN",
+      "amountCents": -1800,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
@@ -3826,24 +3677,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-14-34-10000",
+      "id": "sant-card-2026-02-15-38-10000",
       "accountId": "acc-santander-card",
-      "date": "2026-02-14",
-      "description": "SEM PARAR",
-      "rawDescription": "SEM PARAR",
+      "date": "2026-02-15",
+      "description": "ZIG*ZIGPAY",
+      "rawDescription": "ZIG*ZIGPAY",
       "amountCents": -10000,
       "kind": "expense",
-      "categoryId": "cat-semparar",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-14-35-10000",
+      "id": "sant-card-2026-02-14-37-5000",
       "accountId": "acc-santander-card",
       "date": "2026-02-14",
-      "description": "ZIG*ZIGPAY",
-      "rawDescription": "ZIG*ZIGPAY",
-      "amountCents": -10000,
+      "description": "LAROC SHOP LTDA",
+      "rawDescription": "LAROC SHOP LTDA",
+      "amountCents": -5000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
@@ -3860,13 +3710,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-14-37-5000",
+      "id": "sant-card-2026-02-14-35-10000",
       "accountId": "acc-santander-card",
       "date": "2026-02-14",
-      "description": "LAROC SHOP LTDA",
-      "rawDescription": "LAROC SHOP LTDA",
-      "amountCents": -5000,
+      "description": "ZIG*ZIGPAY",
+      "rawDescription": "ZIG*ZIGPAY",
+      "amountCents": -10000,
       "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-02-14-34-10000",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-14",
+      "description": "SEM PARAR",
+      "rawDescription": "SEM PARAR",
+      "amountCents": -10000,
+      "kind": "expense",
+      "categoryId": "cat-semparar",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
     },
@@ -3893,23 +3755,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4894fc550601"
     },
     {
-      "id": "sant-card-2026-02-08-31-11631",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-08",
-      "description": "AUTO POSTO ROBERTAO",
-      "rawDescription": "AUTO POSTO ROBERTAO",
-      "amountCents": -11631,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
       "id": "sant-card-2026-02-08-32-14350",
       "accountId": "acc-santander-card",
       "date": "2026-02-08",
       "description": "SUPERMERCADO E RESTAUR",
       "rawDescription": "SUPERMERCADO E RESTAUR",
       "amountCents": -14350,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-02-08-31-11631",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-08",
+      "description": "AUTO POSTO ROBERTAO",
+      "rawDescription": "AUTO POSTO ROBERTAO",
+      "amountCents": -11631,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
@@ -3926,17 +3788,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-06-28-1200",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-06",
-      "description": "VALENCIA CHURROS GOURM",
-      "rawDescription": "VALENCIA CHURROS GOURM",
-      "amountCents": -1200,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
       "id": "sant-card-2026-02-06-29-4680",
       "accountId": "acc-santander-card",
       "date": "2026-02-06",
@@ -3948,12 +3799,45 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
+      "id": "sant-card-2026-02-06-28-1200",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-06",
+      "description": "VALENCIA CHURROS GOURM",
+      "rawDescription": "VALENCIA CHURROS GOURM",
+      "amountCents": -1200,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
       "id": "sant-card-2026-02-05-27-24700",
       "accountId": "acc-santander-card",
       "date": "2026-02-05",
       "description": "MERCADOLIVRE*MERCADOLI",
       "rawDescription": "MERCADOLIVRE*MERCADOLI",
       "amountCents": -24700,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-02-04-26-4399",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-04",
+      "description": "CENTRAL PARQUE PIZZA L",
+      "rawDescription": "CENTRAL PARQUE PIZZA L",
+      "amountCents": -4399,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-02-04-25-16088",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-04",
+      "description": "KOBE SUSHI BAR LTDA ME",
+      "rawDescription": "KOBE SUSHI BAR LTDA ME",
+      "amountCents": -16088,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
@@ -3971,45 +3855,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-4894fc550601"
     },
     {
-      "id": "sant-card-2026-02-04-25-16088",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-04",
-      "description": "KOBE SUSHI BAR LTDA ME",
-      "rawDescription": "KOBE SUSHI BAR LTDA ME",
-      "amountCents": -16088,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-02-04-26-4399",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-04",
-      "description": "CENTRAL PARQUE PIZZA L",
-      "rawDescription": "CENTRAL PARQUE PIZZA L",
-      "amountCents": -4399,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-02-02-21-5780",
-      "accountId": "acc-santander-card",
-      "date": "2026-02-02",
-      "description": "TUNA *QLUB*APP",
-      "rawDescription": "TUNA *QLUB*APP",
-      "amountCents": -5780,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-02-02-22-5398",
+      "id": "sant-card-2026-02-02-24-4095",
       "accountId": "acc-santander-card",
       "date": "2026-02-02",
       "description": "UBER UBER *TRIP HELP U",
       "rawDescription": "UBER UBER *TRIP HELP U",
-      "amountCents": -5398,
+      "amountCents": -4095,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
@@ -4026,13 +3877,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-02-02-24-4095",
+      "id": "sant-card-2026-02-02-22-5398",
       "accountId": "acc-santander-card",
       "date": "2026-02-02",
       "description": "UBER UBER *TRIP HELP U",
       "rawDescription": "UBER UBER *TRIP HELP U",
-      "amountCents": -4095,
+      "amountCents": -5398,
       "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-02-02-21-5780",
+      "accountId": "acc-santander-card",
+      "date": "2026-02-02",
+      "description": "TUNA *QLUB*APP",
+      "rawDescription": "TUNA *QLUB*APP",
+      "amountCents": -5780,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-29-20-9699",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-29",
+      "description": "GOOGLE ONE",
+      "rawDescription": "GOOGLE ONE",
+      "amountCents": -9699,
+      "kind": "expense",
+      "categoryId": "cat-servicos",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
     },
@@ -4049,18 +3923,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d5ab44df0c70"
     },
     {
-      "id": "sant-card-2026-01-29-20-9699",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-29",
-      "description": "GOOGLE ONE",
-      "rawDescription": "GOOGLE ONE",
-      "amountCents": -9699,
-      "kind": "expense",
-      "categoryId": "cat-servicos",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
       "id": "sant-card-2026-01-28-19-1890",
       "accountId": "acc-santander-card",
       "date": "2026-01-28",
@@ -4070,6 +3932,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-27-18-118800",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-27",
+      "description": "ADAPTAORG",
+      "rawDescription": "ADAPTAORG",
+      "amountCents": 118800,
+      "kind": "income",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-acc-2026-01-27-4-600",
+      "accountId": "acc-santander-acc",
+      "date": "2026-01-27",
+      "description": "PIX ENVIADO CAIXA LOTERIAS S A",
+      "rawDescription": "PIX ENVIADO CAIXA LOTERIAS S A",
+      "amountCents": -600,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-5e9cf000a6ce"
     },
     {
       "id": "brad-2026-01-27-0-283",
@@ -4084,117 +3968,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-d5ab44df0c70"
     },
     {
-      "id": "sant-acc-2026-01-27-4-600",
-      "accountId": "acc-santander-acc",
-      "date": "2026-01-27",
-      "description": "PIX ENVIADO CAIXA LOTERIAS S A",
-      "rawDescription": "PIX ENVIADO CAIXA LOTERIAS S A",
-      "amountCents": -600,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-5e9cf000a6ce"
-    },
-    {
-      "id": "sant-card-2026-01-27-18-118800",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-27",
-      "description": "ADAPTAORG",
-      "rawDescription": "ADAPTAORG",
-      "amountCents": 118800,
-      "kind": "income",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-2-9900",
+      "id": "sant-card-2026-01-24-9-9900",
       "accountId": "acc-santander-card",
       "date": "2026-01-24",
-      "description": "ADAPTAORG 01/12",
-      "rawDescription": "ADAPTAORG 01/12",
+      "description": "ADAPTAORG 08/12",
+      "rawDescription": "ADAPTAORG 08/12",
       "amountCents": -9900,
       "kind": "expense",
       "installment": {
-        "current": 1,
-        "total": 12,
-        "groupId": "grp-adaptaorg"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-3-9900",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-24",
-      "description": "ADAPTAORG 02/12",
-      "rawDescription": "ADAPTAORG 02/12",
-      "amountCents": -9900,
-      "kind": "expense",
-      "installment": {
-        "current": 2,
-        "total": 12,
-        "groupId": "grp-adaptaorg"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-4-9900",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-24",
-      "description": "ADAPTAORG 03/12",
-      "rawDescription": "ADAPTAORG 03/12",
-      "amountCents": -9900,
-      "kind": "expense",
-      "installment": {
-        "current": 3,
-        "total": 12,
-        "groupId": "grp-adaptaorg"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-5-9900",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-24",
-      "description": "ADAPTAORG 04/12",
-      "rawDescription": "ADAPTAORG 04/12",
-      "amountCents": -9900,
-      "kind": "expense",
-      "installment": {
-        "current": 4,
-        "total": 12,
-        "groupId": "grp-adaptaorg"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-6-9900",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-24",
-      "description": "ADAPTAORG 05/12",
-      "rawDescription": "ADAPTAORG 05/12",
-      "amountCents": -9900,
-      "kind": "expense",
-      "installment": {
-        "current": 5,
-        "total": 12,
-        "groupId": "grp-adaptaorg"
-      },
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-24-7-9900",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-24",
-      "description": "ADAPTAORG 06/12",
-      "rawDescription": "ADAPTAORG 06/12",
-      "amountCents": -9900,
-      "kind": "expense",
-      "installment": {
-        "current": 6,
+        "current": 8,
         "total": 12,
         "groupId": "grp-adaptaorg"
       },
@@ -4218,15 +4000,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-01-24-9-9900",
+      "id": "sant-card-2026-01-24-7-9900",
       "accountId": "acc-santander-card",
       "date": "2026-01-24",
-      "description": "ADAPTAORG 08/12",
-      "rawDescription": "ADAPTAORG 08/12",
+      "description": "ADAPTAORG 06/12",
+      "rawDescription": "ADAPTAORG 06/12",
       "amountCents": -9900,
       "kind": "expense",
       "installment": {
-        "current": 8,
+        "current": 6,
         "total": 12,
         "groupId": "grp-adaptaorg"
       },
@@ -4234,15 +4016,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-01-24-10-9900",
+      "id": "sant-card-2026-01-24-6-9900",
       "accountId": "acc-santander-card",
       "date": "2026-01-24",
-      "description": "ADAPTAORG 09/12",
-      "rawDescription": "ADAPTAORG 09/12",
+      "description": "ADAPTAORG 05/12",
+      "rawDescription": "ADAPTAORG 05/12",
       "amountCents": -9900,
       "kind": "expense",
       "installment": {
-        "current": 9,
+        "current": 5,
         "total": 12,
         "groupId": "grp-adaptaorg"
       },
@@ -4250,15 +4032,79 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-01-24-11-9900",
+      "id": "sant-card-2026-01-24-5-9900",
       "accountId": "acc-santander-card",
       "date": "2026-01-24",
-      "description": "ADAPTAORG 10/12",
-      "rawDescription": "ADAPTAORG 10/12",
+      "description": "ADAPTAORG 04/12",
+      "rawDescription": "ADAPTAORG 04/12",
       "amountCents": -9900,
       "kind": "expense",
       "installment": {
-        "current": 10,
+        "current": 4,
+        "total": 12,
+        "groupId": "grp-adaptaorg"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-24-4-9900",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-24",
+      "description": "ADAPTAORG 03/12",
+      "rawDescription": "ADAPTAORG 03/12",
+      "amountCents": -9900,
+      "kind": "expense",
+      "installment": {
+        "current": 3,
+        "total": 12,
+        "groupId": "grp-adaptaorg"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-24-3-9900",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-24",
+      "description": "ADAPTAORG 02/12",
+      "rawDescription": "ADAPTAORG 02/12",
+      "amountCents": -9900,
+      "kind": "expense",
+      "installment": {
+        "current": 2,
+        "total": 12,
+        "groupId": "grp-adaptaorg"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-24-2-9900",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-24",
+      "description": "ADAPTAORG 01/12",
+      "rawDescription": "ADAPTAORG 01/12",
+      "amountCents": -9900,
+      "kind": "expense",
+      "installment": {
+        "current": 1,
+        "total": 12,
+        "groupId": "grp-adaptaorg"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-24-13-9900",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-24",
+      "description": "ADAPTAORG 12/12",
+      "rawDescription": "ADAPTAORG 12/12",
+      "amountCents": -9900,
+      "kind": "expense",
+      "installment": {
+        "current": 12,
         "total": 12,
         "groupId": "grp-adaptaorg"
       },
@@ -4282,15 +4128,31 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "sant-card-2026-01-24-13-9900",
+      "id": "sant-card-2026-01-24-11-9900",
       "accountId": "acc-santander-card",
       "date": "2026-01-24",
-      "description": "ADAPTAORG 12/12",
-      "rawDescription": "ADAPTAORG 12/12",
+      "description": "ADAPTAORG 10/12",
+      "rawDescription": "ADAPTAORG 10/12",
       "amountCents": -9900,
       "kind": "expense",
       "installment": {
-        "current": 12,
+        "current": 10,
+        "total": 12,
+        "groupId": "grp-adaptaorg"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
+      "id": "sant-card-2026-01-24-10-9900",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-24",
+      "description": "ADAPTAORG 09/12",
+      "rawDescription": "ADAPTAORG 09/12",
+      "amountCents": -9900,
+      "kind": "expense",
+      "installment": {
+        "current": 9,
         "total": 12,
         "groupId": "grp-adaptaorg"
       },
@@ -4333,6 +4195,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-5e9cf000a6ce"
     },
     {
+      "id": "sant-card-2026-01-20-0-167831",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-20",
+      "description": "PAGAMENTO DE FATURA",
+      "rawDescription": "PAGAMENTO DE FATURA",
+      "amountCents": 167831,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
+    },
+    {
       "id": "sant-acc-2026-01-20-1-167831",
       "accountId": "acc-santander-acc",
       "date": "2026-01-20",
@@ -4344,13 +4217,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-5e9cf000a6ce"
     },
     {
-      "id": "sant-card-2026-01-20-0-167831",
+      "id": "sant-card-2026-01-19-24-2200",
       "accountId": "acc-santander-card",
-      "date": "2026-01-20",
-      "description": "PAGAMENTO DE FATURA",
-      "rawDescription": "PAGAMENTO DE FATURA",
-      "amountCents": 167831,
-      "kind": "card_payment",
+      "date": "2026-01-19",
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": -2200,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "sant-card-2026-01-19-16-43224",
+      "accountId": "acc-santander-card",
+      "date": "2026-01-19",
+      "description": "INGRESSE_BR ADY*INGRES",
+      "rawDescription": "INGRESSE_BR ADY*INGRES",
+      "amountCents": -43224,
+      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
     },
@@ -4366,26 +4250,15 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-5e9cf000a6ce"
     },
     {
-      "id": "sant-card-2026-01-19-16-43224",
+      "id": "sant-card-2026-01-18-15-4889",
       "accountId": "acc-santander-card",
-      "date": "2026-01-19",
-      "description": "INGRESSE_BR ADY*INGRES",
-      "rawDescription": "INGRESSE_BR ADY*INGRES",
-      "amountCents": -43224,
+      "date": "2026-01-18",
+      "description": "TAUSTE SUPERMERCADOS",
+      "rawDescription": "TAUSTE SUPERMERCADOS",
+      "amountCents": -4889,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-19-24-2200",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-19",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": -2200,
-      "kind": "expense",
-      "source": "pdf",
-      "statementId": "stmt-238099f43ebc"
     },
     {
       "id": "sant-card-2026-01-18-14-9670",
@@ -4396,17 +4269,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -9670,
       "kind": "expense",
       "categoryId": "cat-alimentacao",
-      "source": "pdf",
-      "statementId": "stmt-393745c5239d"
-    },
-    {
-      "id": "sant-card-2026-01-18-15-4889",
-      "accountId": "acc-santander-card",
-      "date": "2026-01-18",
-      "description": "TAUSTE SUPERMERCADOS",
-      "rawDescription": "TAUSTE SUPERMERCADOS",
-      "amountCents": -4889,
-      "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-393745c5239d"
     },
@@ -4500,12 +4362,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-238099f43ebc"
     },
     {
-      "id": "sant-card-2026-01-03-13-12000",
+      "id": "sant-card-2026-01-03-15-11285",
       "accountId": "acc-santander-card",
       "date": "2026-01-03",
-      "description": "CINEMAS KINOPLEX",
-      "rawDescription": "CINEMAS KINOPLEX",
-      "amountCents": -12000,
+      "description": "LEICOS FOOD COMERCIO D",
+      "rawDescription": "LEICOS FOOD COMERCIO D",
+      "amountCents": -11285,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-238099f43ebc"
@@ -4522,12 +4384,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-238099f43ebc"
     },
     {
-      "id": "sant-card-2026-01-03-15-11285",
+      "id": "sant-card-2026-01-03-13-12000",
       "accountId": "acc-santander-card",
       "date": "2026-01-03",
-      "description": "LEICOS FOOD COMERCIO D",
-      "rawDescription": "LEICOS FOOD COMERCIO D",
-      "amountCents": -11285,
+      "description": "CINEMAS KINOPLEX",
+      "rawDescription": "CINEMAS KINOPLEX",
+      "amountCents": -12000,
       "kind": "expense",
       "source": "pdf",
       "statementId": "stmt-238099f43ebc"
@@ -4544,6 +4406,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "statementId": "stmt-238099f43ebc"
     },
     {
+      "id": "sant-card-2026-12-30-11-2890",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-30",
+      "description": "AV ERMANO MARQUETTI",
+      "rawDescription": "AV ERMANO MARQUETTI",
+      "amountCents": -2890,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-12-30-434-2890",
       "accountId": "acc-santander-card",
       "date": "2025-12-30",
@@ -4551,61 +4424,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "AVERMANO MARQUETTI",
       "amountCents": -2890,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-29-174-458939",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 458939,
-      "kind": "transfer",
-      "balanceAfterCents": 2157794,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-29-175-458939",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-29",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -458939,
-      "kind": "investment",
-      "balanceAfterCents": 2157794,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-12-29-1104-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-12-29",
-      "description": "PIX ENVIADO Jeferson Morais Moreira",
-      "rawDescription": "PIX ENVIADO Jeferson Morais Moreira",
-      "amountCents": -5000,
-      "kind": "expense",
-      "balanceAfterCents": 64526,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-12-29-1105-100",
-      "accountId": "acc-santander-acc",
-      "date": "2025-12-29",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -100,
-      "kind": "expense",
-      "balanceAfterCents": 64426,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-12-29-1106-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-12-29",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -50000,
-      "kind": "expense",
-      "balanceAfterCents": 14426,
       "source": "legacy_sheet"
     },
     {
@@ -4620,58 +4438,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-12-26-169-101347",
+      "id": "legacy-acc-santander-acc-2025-12-29-1106-50000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-12-29",
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -50000,
+      "kind": "expense",
+      "balanceAfterCents": 14426,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-12-29-1105-100",
+      "accountId": "acc-santander-acc",
+      "date": "2025-12-29",
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -100,
+      "kind": "expense",
+      "balanceAfterCents": 64426,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-12-29-1104-5000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-12-29",
+      "description": "PIX ENVIADO Jeferson Morais Moreira",
+      "rawDescription": "PIX ENVIADO Jeferson Morais Moreira",
+      "amountCents": -5000,
+      "kind": "expense",
+      "balanceAfterCents": 64526,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-29-175-458939",
       "accountId": "acc-bradesco",
-      "date": "2025-12-26",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 101347,
+      "date": "2025-12-29",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -458939,
       "kind": "investment",
-      "balanceAfterCents": 1987285,
+      "balanceAfterCents": 2157794,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-12-26-170-187083",
+      "id": "legacy-acc-bradesco-2025-12-29-174-458939",
       "accountId": "acc-bradesco",
-      "date": "2025-12-26",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 187083,
-      "kind": "investment",
-      "balanceAfterCents": 1987285,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-26-171-134",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-26",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 134,
-      "kind": "income",
-      "balanceAfterCents": 1987419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-26-172-336",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-26",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 336,
-      "kind": "income",
-      "balanceAfterCents": 1987755,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-26-173-288900",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-26",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 26/12",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 26/12",
-      "amountCents": -288900,
+      "date": "2025-12-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 458939,
       "kind": "transfer",
-      "balanceAfterCents": 1698855,
+      "balanceAfterCents": 2157794,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-12-26-1103-288900",
+      "accountId": "acc-santander-acc",
+      "date": "2025-12-26",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 288900,
+      "kind": "transfer",
+      "balanceAfterCents": 69526,
       "source": "legacy_sheet"
     },
     {
@@ -4686,15 +4515,70 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-12-26-1103-288900",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2025-12-26-173-288900",
+      "accountId": "acc-bradesco",
       "date": "2025-12-26",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 288900,
+      "description": "Transfe Pix Des: Pedro Gioia Martins 26/12",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 26/12",
+      "amountCents": -288900,
       "kind": "transfer",
-      "balanceAfterCents": 69526,
+      "balanceAfterCents": 1698855,
       "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-26-172-336",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-26",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 336,
+      "kind": "income",
+      "balanceAfterCents": 1987755,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-26-171-134",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-26",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 134,
+      "kind": "income",
+      "balanceAfterCents": 1987419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-26-170-187083",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-26",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 187083,
+      "kind": "investment",
+      "balanceAfterCents": 1987285,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-26-169-101347",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-26",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 101347,
+      "kind": "investment",
+      "balanceAfterCents": 1987285,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "sant-card-2026-12-23-10-11500",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-23",
+      "description": "REDE ULTRAGAZ",
+      "rawDescription": "REDE ULTRAGAZ",
+      "amountCents": -11500,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
     },
     {
       "id": "legacy-acc-santander-card-2025-12-23-433-11500",
@@ -4718,6 +4602,18 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "sant-card-2026-12-21-9-8222",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-21",
+      "description": "PAG*STEAM",
+      "rawDescription": "PAG*STEAM",
+      "amountCents": -8222,
+      "kind": "expense",
+      "categoryId": "cat-lazer",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-12-21-432-8222",
       "accountId": "acc-santander-card",
       "date": "2025-12-21",
@@ -4729,12 +4625,45 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-20-429-5999",
+      "id": "sant-card-2026-12-20-8-5207",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-20",
+      "description": "AMERICAN BURGER",
+      "rawDescription": "AMERICAN BURGER",
+      "amountCents": -5207,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "sant-card-2026-12-20-7-18900",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-20",
+      "description": "BARBEIRINHO",
+      "rawDescription": "BARBEIRINHO",
+      "amountCents": -18900,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "sant-card-2026-12-20-6-5999",
       "accountId": "acc-santander-card",
       "date": "2025-12-20",
       "description": "EMPORIO ZURICH DE CHO",
       "rawDescription": "EMPORIO ZURICH DE CHO",
       "amountCents": -5999,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-12-20-431-5207",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-20",
+      "description": "AMERICAN BURGER",
+      "rawDescription": "AMERICAN BURGER",
+      "amountCents": -5207,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -4749,44 +4678,66 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-20-431-5207",
+      "id": "legacy-acc-santander-card-2025-12-20-429-5999",
       "accountId": "acc-santander-card",
       "date": "2025-12-20",
-      "description": "AMERICAN BURGER",
-      "rawDescription": "AMERICAN BURGER",
-      "amountCents": -5207,
+      "description": "EMPORIO ZURICH DE CHO",
+      "rawDescription": "EMPORIO ZURICH DE CHO",
+      "amountCents": -5999,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-12-19-1099-539887",
-      "accountId": "acc-santander-acc",
+      "id": "sant-card-2026-12-19-5-3000",
+      "accountId": "acc-santander-card",
       "date": "2025-12-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -539887,
-      "kind": "card_payment",
-      "balanceAfterCents": -184548,
-      "source": "legacy_sheet"
+      "description": "FROGPAY*NOSSACASA CONF",
+      "rawDescription": "FROGPAY*NOSSACASA CONF",
+      "amountCents": -3000,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-12-19-1100-27",
-      "accountId": "acc-santander-acc",
+      "id": "sant-card-2026-12-19-4-600",
+      "accountId": "acc-santander-card",
       "date": "2025-12-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 27,
-      "kind": "investment",
-      "balanceAfterCents": -184521,
-      "source": "legacy_sheet"
+      "description": "FROGPAY*NOSSACASA CONF",
+      "rawDescription": "FROGPAY*NOSSACASA CONF",
+      "amountCents": -600,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-19-426-637",
+      "id": "sant-card-2026-12-19-3-637",
       "accountId": "acc-santander-card",
       "date": "2025-12-19",
       "description": "LAPAPAES",
       "rawDescription": "LAPAPAES",
       "amountCents": -637,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "sant-card-2026-12-19-0-539887",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-19",
+      "description": "PAGAMENTO DE FATURA",
+      "rawDescription": "PAGAMENTO DE FATURA",
+      "amountCents": 539887,
+      "kind": "card_payment",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-12-19-428-3000",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-19",
+      "description": "FROGPAY NOSSACASA CONF",
+      "rawDescription": "FROGPAY NOSSACASA CONF",
+      "amountCents": -3000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -4801,24 +4752,45 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-19-428-3000",
+      "id": "legacy-acc-santander-card-2025-12-19-426-637",
       "accountId": "acc-santander-card",
       "date": "2025-12-19",
-      "description": "FROGPAY NOSSACASA CONF",
-      "rawDescription": "FROGPAY NOSSACASA CONF",
-      "amountCents": -3000,
+      "description": "LAPAPAES",
+      "rawDescription": "LAPAPAES",
+      "amountCents": -637,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-12-18-1097-20000",
+      "id": "legacy-acc-santander-acc-2025-12-19-1100-27",
       "accountId": "acc-santander-acc",
+      "date": "2025-12-19",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 27,
+      "kind": "investment",
+      "balanceAfterCents": -184521,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-12-19-1099-539887",
+      "accountId": "acc-santander-acc",
+      "date": "2025-12-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -539887,
+      "kind": "card_payment",
+      "balanceAfterCents": -184548,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-12-18-425-1100",
+      "accountId": "acc-santander-card",
       "date": "2025-12-18",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -20000,
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": -1100,
       "kind": "expense",
-      "balanceAfterCents": 355338,
       "source": "legacy_sheet"
     },
     {
@@ -4833,13 +4805,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-18-425-1100",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-12-18-1097-20000",
+      "accountId": "acc-santander-acc",
       "date": "2025-12-18",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": -1100,
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -20000,
       "kind": "expense",
+      "balanceAfterCents": 355338,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "sant-card-2026-12-17-2-6690",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-17",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -6690,
+      "kind": "expense",
+      "source": "pdf",
+      "statementId": "stmt-238099f43ebc"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-17-168-188156",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-17",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -188156,
+      "kind": "investment",
+      "balanceAfterCents": 1987285,
       "source": "legacy_sheet"
     },
     {
@@ -4854,47 +4849,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-12-17-168-188156",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-17",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -188156,
-      "kind": "investment",
-      "balanceAfterCents": 1987285,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-15-164-199675",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2025-12-15-1096-40000",
+      "accountId": "acc-santander-acc",
       "date": "2025-12-15",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 199675,
-      "kind": "investment",
-      "balanceAfterCents": 1998804,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-15-165-325",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-15",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 325,
-      "kind": "income",
-      "balanceAfterCents": 1999129,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-15-166-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-15",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 13/12",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 13/12",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 1799129,
+      "description": "PIX ENVIADO Cavalli Servicos de Odont",
+      "rawDescription": "PIX ENVIADO Cavalli Servicos de Odont",
+      "amountCents": -40000,
+      "kind": "expense",
+      "balanceAfterCents": 375338,
       "source": "legacy_sheet"
     },
     {
@@ -4909,14 +4871,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-12-15-1096-40000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2025-12-15-166-200000",
+      "accountId": "acc-bradesco",
       "date": "2025-12-15",
-      "description": "PIX ENVIADO Cavalli Servicos de Odont",
-      "rawDescription": "PIX ENVIADO Cavalli Servicos de Odont",
-      "amountCents": -40000,
-      "kind": "expense",
-      "balanceAfterCents": 375338,
+      "description": "Transfe Pix Des: Pedro Gioia Martins 13/12",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 13/12",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 1799129,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-15-165-325",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-15",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 325,
+      "kind": "income",
+      "balanceAfterCents": 1999129,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-15-164-199675",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-15",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 199675,
+      "kind": "investment",
+      "balanceAfterCents": 1998804,
       "source": "legacy_sheet"
     },
     {
@@ -4926,26 +4910,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "GODAU E GODAU BARE RE",
       "rawDescription": "GODAU E GODAU BARE RE",
       "amountCents": -8288,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-12-12-421-7998",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-12",
-      "description": "C PERNAMBUCANAS",
-      "rawDescription": "C PERNAMBUCANAS",
-      "amountCents": -7998,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-12-12-422-2725",
-      "accountId": "acc-santander-card",
-      "date": "2025-12-12",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -2725,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -4960,12 +4924,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-11-419-3700",
+      "id": "legacy-acc-santander-card-2025-12-12-422-2725",
       "accountId": "acc-santander-card",
-      "date": "2025-12-11",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -3700,
+      "date": "2025-12-12",
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -2725,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-12-12-421-7998",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-12",
+      "description": "C PERNAMBUCANAS",
+      "rawDescription": "C PERNAMBUCANAS",
+      "amountCents": -7998,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -4976,6 +4950,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "EMPORIO DA BALSA",
       "rawDescription": "EMPORIO DA BALSA",
       "amountCents": -1498,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-12-11-419-3700",
+      "accountId": "acc-santander-card",
+      "date": "2025-12-11",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -3700,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5010,47 +4994,29 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-12-01-159-226915",
-      "accountId": "acc-bradesco",
+      "id": "sant-card-2026-12-01-1-14666",
+      "accountId": "acc-santander-card",
       "date": "2025-12-01",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 226915,
-      "kind": "investment",
-      "balanceAfterCents": 2306468,
-      "source": "legacy_sheet"
+      "description": "INGRESSE_BR ADY*INGRES 03/03",
+      "rawDescription": "INGRESSE_BR ADY*INGRES 03/03",
+      "amountCents": -14666,
+      "kind": "expense",
+      "installment": {
+        "current": 3,
+        "total": 3,
+        "groupId": "grp-ingresse_br-ady*ingres"
+      },
+      "source": "pdf",
+      "statementId": "stmt-393745c5239d"
     },
     {
-      "id": "legacy-acc-bradesco-2025-12-01-160-80749",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2025-12-01-415-14667",
+      "accountId": "acc-santander-card",
       "date": "2025-12-01",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 80749,
-      "kind": "investment",
-      "balanceAfterCents": 2306468,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-01-161-422",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-01",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 422,
-      "kind": "income",
-      "balanceAfterCents": 2306890,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-12-01-162-114",
-      "accountId": "acc-bradesco",
-      "date": "2025-12-01",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 114,
-      "kind": "income",
-      "balanceAfterCents": 2307004,
+      "description": "INGRESSE BRADY INGRES",
+      "rawDescription": "INGRESSE BRADY INGRES",
+      "amountCents": -14667,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -5065,12 +5031,126 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-12-01-415-14667",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-12-01-162-114",
+      "accountId": "acc-bradesco",
       "date": "2025-12-01",
-      "description": "INGRESSE BRADY INGRES",
-      "rawDescription": "INGRESSE BRADY INGRES",
-      "amountCents": -14667,
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 114,
+      "kind": "income",
+      "balanceAfterCents": 2307004,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-01-161-422",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-01",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 422,
+      "kind": "income",
+      "balanceAfterCents": 2306890,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-01-160-80749",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-01",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 80749,
+      "kind": "investment",
+      "balanceAfterCents": 2306468,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-12-01-159-226915",
+      "accountId": "acc-bradesco",
+      "date": "2025-12-01",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 226915,
+      "kind": "investment",
+      "balanceAfterCents": 2306468,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-414-4000",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "TICKETMAIS",
+      "rawDescription": "TICKETMAIS",
+      "amountCents": -4000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-413-11045",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -11045,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-412-400",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "ALMARESENIOR",
+      "rawDescription": "ALMARESENIOR",
+      "amountCents": -400,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-411-13200",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "HAMBURGUERIA REVOLUTIO",
+      "rawDescription": "HAMBURGUERIA REVOLUTIO",
+      "amountCents": -13200,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-410-2600",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "REI DO MATE AEROPORTO",
+      "rawDescription": "REI DO MATE AEROPORTO",
+      "amountCents": -2600,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-409-5500",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "TICKETMAIS",
+      "rawDescription": "TICKETMAIS",
+      "amountCents": -5500,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-408-4000",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "TICKETMAIS",
+      "rawDescription": "TICKETMAIS",
+      "amountCents": -4000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-30-407-3137",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-30",
+      "description": "MP MARIS RESTAURA",
+      "rawDescription": "MP MARIS RESTAURA",
+      "amountCents": -3137,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5086,162 +5166,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-30-407-3137",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "MP MARIS RESTAURA",
-      "rawDescription": "MP MARIS RESTAURA",
-      "amountCents": -3137,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-408-4000",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "TICKETMAIS",
-      "rawDescription": "TICKETMAIS",
-      "amountCents": -4000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-409-5500",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "TICKETMAIS",
-      "rawDescription": "TICKETMAIS",
-      "amountCents": -5500,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-410-2600",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "REI DO MATE AEROPORTO",
-      "rawDescription": "REI DO MATE AEROPORTO",
-      "amountCents": -2600,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-411-13200",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "HAMBURGUERIA REVOLUTIO",
-      "rawDescription": "HAMBURGUERIA REVOLUTIO",
-      "amountCents": -13200,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-412-400",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "ALMARESENIOR",
-      "rawDescription": "ALMARESENIOR",
-      "amountCents": -400,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-413-11045",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -11045,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-30-414-4000",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-30",
-      "description": "TICKETMAIS",
-      "rawDescription": "TICKETMAIS",
-      "amountCents": -4000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-396-11000",
+      "id": "legacy-acc-santander-card-2025-11-29-405-4369",
       "accountId": "acc-santander-card",
       "date": "2025-11-29",
-      "description": "ESTACAO PRESENTE",
-      "rawDescription": "ESTACAO PRESENTE",
-      "amountCents": -11000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-397-4840",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "HOLLYWOOD BOWL",
-      "rawDescription": "HOLLYWOOD BOWL",
-      "amountCents": -4840,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-398-1500",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "MICHEL WILSON ARREDOND",
-      "rawDescription": "MICHEL WILSON ARREDOND",
-      "amountCents": -1500,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-399-12000",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "NOVO MILENIO FOTOS",
-      "rawDescription": "NOVO MILENIO FOTOS",
-      "amountCents": -12000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-400-10599",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "OHANA SUSHI BC",
-      "rawDescription": "OHANA SUSHI BC",
-      "amountCents": -10599,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-401-4800",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "SABORES DA CARNE REST",
-      "rawDescription": "SABORES DA CARNE REST",
-      "amountCents": -4800,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-402-500",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "MANIA DO CREPE CAFE",
-      "rawDescription": "MANIA DO CREPE CAFE",
-      "amountCents": -500,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-29-403-5000",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-29",
-      "description": "NOVO MILENIO FOTOS",
-      "rawDescription": "NOVO MILENIO FOTOS",
-      "amountCents": -5000,
+      "description": "UBER TRIP HELP",
+      "rawDescription": "UBER TRIP HELP",
+      "amountCents": -4369,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5256,74 +5186,82 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-29-405-4369",
+      "id": "legacy-acc-santander-card-2025-11-29-403-5000",
       "accountId": "acc-santander-card",
       "date": "2025-11-29",
-      "description": "UBER TRIP HELP",
-      "rawDescription": "UBER TRIP HELP",
-      "amountCents": -4369,
+      "description": "NOVO MILENIO FOTOS",
+      "rawDescription": "NOVO MILENIO FOTOS",
+      "amountCents": -5000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-11-28-1085-12400",
-      "accountId": "acc-santander-acc",
-      "date": "2025-11-28",
-      "description": "PIX ENVIADO BONTUR SA BONDINHOS AER",
-      "rawDescription": "PIX ENVIADO BONTUR SA BONDINHOS AER",
-      "amountCents": -12400,
-      "kind": "expense",
-      "balanceAfterCents": 331748,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-11-28-1086-735",
-      "accountId": "acc-santander-acc",
-      "date": "2025-11-28",
-      "description": "PIX ENVIADO Joao Paulo Campello L Cor",
-      "rawDescription": "PIX ENVIADO Joao Paulo Campello L Cor",
-      "amountCents": -735,
-      "kind": "expense",
-      "balanceAfterCents": 331013,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-28-391-5700",
+      "id": "legacy-acc-santander-card-2025-11-29-402-500",
       "accountId": "acc-santander-card",
-      "date": "2025-11-28",
-      "description": "JOSENEI TUMELERO",
-      "rawDescription": "JOSENEI TUMELERO",
-      "amountCents": -5700,
+      "date": "2025-11-29",
+      "description": "MANIA DO CREPE CAFE",
+      "rawDescription": "MANIA DO CREPE CAFE",
+      "amountCents": -500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-28-392-13205",
+      "id": "legacy-acc-santander-card-2025-11-29-401-4800",
       "accountId": "acc-santander-card",
-      "date": "2025-11-28",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -13205,
+      "date": "2025-11-29",
+      "description": "SABORES DA CARNE REST",
+      "rawDescription": "SABORES DA CARNE REST",
+      "amountCents": -4800,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-28-393-2748",
+      "id": "legacy-acc-santander-card-2025-11-29-400-10599",
       "accountId": "acc-santander-card",
-      "date": "2025-11-28",
-      "description": "PARTICIPACOES",
-      "rawDescription": "PARTICIPACOES",
-      "amountCents": -2748,
+      "date": "2025-11-29",
+      "description": "OHANA SUSHI BC",
+      "rawDescription": "OHANA SUSHI BC",
+      "amountCents": -10599,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-28-394-109522",
+      "id": "legacy-acc-santander-card-2025-11-29-399-12000",
       "accountId": "acc-santander-card",
-      "date": "2025-11-28",
-      "description": "ALMARESENIOR",
-      "rawDescription": "ALMARESENIOR",
-      "amountCents": -109522,
+      "date": "2025-11-29",
+      "description": "NOVO MILENIO FOTOS",
+      "rawDescription": "NOVO MILENIO FOTOS",
+      "amountCents": -12000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-29-398-1500",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-29",
+      "description": "MICHEL WILSON ARREDOND",
+      "rawDescription": "MICHEL WILSON ARREDOND",
+      "amountCents": -1500,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-29-397-4840",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-29",
+      "description": "HOLLYWOOD BOWL",
+      "rawDescription": "HOLLYWOOD BOWL",
+      "amountCents": -4840,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-29-396-11000",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-29",
+      "description": "ESTACAO PRESENTE",
+      "rawDescription": "ESTACAO PRESENTE",
+      "amountCents": -11000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5338,25 +5276,65 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-11-27-157-464758",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-27",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 464758,
-      "kind": "transfer",
-      "balanceAfterCents": 2306468,
+      "id": "legacy-acc-santander-card-2025-11-28-394-109522",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-28",
+      "description": "ALMARESENIOR",
+      "rawDescription": "ALMARESENIOR",
+      "amountCents": -109522,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-11-27-158-464758",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-27",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -464758,
-      "kind": "investment",
-      "balanceAfterCents": 2306468,
+      "id": "legacy-acc-santander-card-2025-11-28-393-2748",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-28",
+      "description": "PARTICIPACOES",
+      "rawDescription": "PARTICIPACOES",
+      "amountCents": -2748,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-28-392-13205",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-28",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -13205,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-28-391-5700",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-28",
+      "description": "JOSENEI TUMELERO",
+      "rawDescription": "JOSENEI TUMELERO",
+      "amountCents": -5700,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-11-28-1086-735",
+      "accountId": "acc-santander-acc",
+      "date": "2025-11-28",
+      "description": "PIX ENVIADO Joao Paulo Campello L Cor",
+      "rawDescription": "PIX ENVIADO Joao Paulo Campello L Cor",
+      "amountCents": -735,
+      "kind": "expense",
+      "balanceAfterCents": 331013,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-11-28-1085-12400",
+      "accountId": "acc-santander-acc",
+      "date": "2025-11-28",
+      "description": "PIX ENVIADO BONTUR SA BONDINHOS AER",
+      "rawDescription": "PIX ENVIADO BONTUR SA BONDINHOS AER",
+      "amountCents": -12400,
+      "kind": "expense",
+      "balanceAfterCents": 331748,
       "source": "legacy_sheet"
     },
     {
@@ -5371,36 +5349,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-11-26-155-240599",
+      "id": "legacy-acc-bradesco-2025-11-27-158-464758",
       "accountId": "acc-bradesco",
-      "date": "2025-11-26",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 240599,
-      "kind": "transfer",
-      "balanceAfterCents": 1841710,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-26-156-240599",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-26",
+      "date": "2025-11-27",
       "description": "Apl.invest Fac",
       "rawDescription": "Apl.invest Fac",
-      "amountCents": -240599,
+      "amountCents": -464758,
       "kind": "investment",
-      "balanceAfterCents": 1841710,
+      "balanceAfterCents": 2306468,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-11-26-1082-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-11-26",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -50000,
-      "kind": "expense",
-      "balanceAfterCents": 345034,
+      "id": "legacy-acc-bradesco-2025-11-27-157-464758",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-27",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 464758,
+      "kind": "transfer",
+      "balanceAfterCents": 2306468,
       "source": "legacy_sheet"
     },
     {
@@ -5415,14 +5382,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-11-25-1081-657",
+      "id": "legacy-acc-santander-acc-2025-11-26-1082-50000",
       "accountId": "acc-santander-acc",
-      "date": "2025-11-25",
-      "description": "PIX ENVIADO Paula Barros Pimentel Mal",
-      "rawDescription": "PIX ENVIADO Paula Barros Pimentel Mal",
-      "amountCents": -657,
+      "date": "2025-11-26",
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -50000,
       "kind": "expense",
-      "balanceAfterCents": 395034,
+      "balanceAfterCents": 345034,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-26-156-240599",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-26",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -240599,
+      "kind": "investment",
+      "balanceAfterCents": 1841710,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-26-155-240599",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-26",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 240599,
+      "kind": "transfer",
+      "balanceAfterCents": 1841710,
       "source": "legacy_sheet"
     },
     {
@@ -5436,47 +5425,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-11-24-150-227543",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-24",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 227543,
-      "kind": "investment",
-      "balanceAfterCents": 1840685,
+      "id": "legacy-acc-santander-acc-2025-11-25-1081-657",
+      "accountId": "acc-santander-acc",
+      "date": "2025-11-25",
+      "description": "PIX ENVIADO Paula Barros Pimentel Mal",
+      "rawDescription": "PIX ENVIADO Paula Barros Pimentel Mal",
+      "amountCents": -657,
+      "kind": "expense",
+      "balanceAfterCents": 395034,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-11-24-151-12031",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2025-11-24-1080-240000",
+      "accountId": "acc-santander-acc",
       "date": "2025-11-24",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 12031,
-      "kind": "investment",
-      "balanceAfterCents": 1840685,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-24-152-399",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-24",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 399,
-      "kind": "income",
-      "balanceAfterCents": 1841084,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-24-153-27",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-24",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 27,
-      "kind": "income",
-      "balanceAfterCents": 1841111,
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 240000,
+      "kind": "transfer",
+      "balanceAfterCents": 395691,
       "source": "legacy_sheet"
     },
     {
@@ -5491,14 +5458,47 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-11-24-1080-240000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2025-11-24-153-27",
+      "accountId": "acc-bradesco",
       "date": "2025-11-24",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 240000,
-      "kind": "transfer",
-      "balanceAfterCents": 395691,
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 27,
+      "kind": "income",
+      "balanceAfterCents": 1841111,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-24-152-399",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-24",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 399,
+      "kind": "income",
+      "balanceAfterCents": 1841084,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-24-151-12031",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-24",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 12031,
+      "kind": "investment",
+      "balanceAfterCents": 1840685,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-24-150-227543",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-24",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 227543,
+      "kind": "investment",
+      "balanceAfterCents": 1840685,
       "source": "legacy_sheet"
     },
     {
@@ -5522,22 +5522,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-21-386-2950",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-21",
-      "description": "MONARDI GELATERIA",
-      "rawDescription": "MONARDI GELATERIA",
-      "amountCents": -2950,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-11-21-387-11429",
       "accountId": "acc-santander-card",
       "date": "2025-11-21",
       "description": "PIZZERIA VERACE NAP",
       "rawDescription": "PIZZERIA VERACE NAP",
       "amountCents": -11429,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-21-386-2950",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-21",
+      "description": "MONARDI GELATERIA",
+      "rawDescription": "MONARDI GELATERIA",
+      "amountCents": -2950,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5552,14 +5552,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-11-18-1078-257913",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-11-18-384-114273",
+      "accountId": "acc-santander-card",
       "date": "2025-11-18",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -257913,
-      "kind": "card_payment",
-      "balanceAfterCents": 155672,
+      "description": "INGRESSE BRADY INGRES",
+      "rawDescription": "INGRESSE BRADY INGRES",
+      "amountCents": -114273,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -5574,12 +5573,33 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-18-384-114273",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-11-18-1078-257913",
+      "accountId": "acc-santander-acc",
       "date": "2025-11-18",
-      "description": "INGRESSE BRADY INGRES",
-      "rawDescription": "INGRESSE BRADY INGRES",
-      "amountCents": -114273,
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -257913,
+      "kind": "card_payment",
+      "balanceAfterCents": 155672,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-17-383-0",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-17",
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": 0,
+      "kind": "income",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-17-382-3600",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-17",
+      "description": "PALESTRINHA RESTAURA",
+      "rawDescription": "PALESTRINHA RESTAURA",
+      "amountCents": -3600,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5594,26 +5614,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-17-382-3600",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-17",
-      "description": "PALESTRINHA RESTAURA",
-      "rawDescription": "PALESTRINHA RESTAURA",
-      "amountCents": -3600,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-17-383-0",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-17",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": 0,
-      "kind": "income",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-11-16-380-9174",
       "accountId": "acc-santander-card",
       "date": "2025-11-16",
@@ -5621,39 +5621,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "AMAZONPRIMEBR (Estorno)",
       "amountCents": 9174,
       "kind": "income",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-14-147-199573",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-14",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 199573,
-      "kind": "investment",
-      "balanceAfterCents": 2040258,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-14-148-427",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-14",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 427,
-      "kind": "income",
-      "balanceAfterCents": 2040685,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-11-14-149-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-11-14",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 14/11",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 14/11",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 1840685,
       "source": "legacy_sheet"
     },
     {
@@ -5668,6 +5635,39 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-bradesco-2025-11-14-149-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-14",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 14/11",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 14/11",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 1840685,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-14-148-427",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-14",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 427,
+      "kind": "income",
+      "balanceAfterCents": 2040685,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-11-14-147-199573",
+      "accountId": "acc-bradesco",
+      "date": "2025-11-14",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 199573,
+      "kind": "investment",
+      "balanceAfterCents": 2040258,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-11-11-379-886",
       "accountId": "acc-santander-card",
       "date": "2025-11-11",
@@ -5675,28 +5675,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "ACAI DA BARRA",
       "amountCents": -886,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-11-10-1074-24500",
-      "accountId": "acc-santander-acc",
-      "date": "2025-11-10",
-      "description": "PIX RECEBIDO GIOVANNA BRABO BUENO DE S",
-      "rawDescription": "PIX RECEBIDO GIOVANNA BRABO BUENO DE S",
-      "amountCents": 24500,
-      "kind": "income",
-      "balanceAfterCents": 238085,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-11-10-1075-49000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-11-10",
-      "description": "PIX ENVIADO Magno Vicentini Portilho",
-      "rawDescription": "PIX ENVIADO Magno Vicentini Portilho",
-      "amountCents": -49000,
-      "kind": "expense",
-      "balanceAfterCents": 189085,
       "source": "legacy_sheet"
     },
     {
@@ -5711,6 +5689,38 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2025-11-10-1075-49000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-11-10",
+      "description": "PIX ENVIADO Magno Vicentini Portilho",
+      "rawDescription": "PIX ENVIADO Magno Vicentini Portilho",
+      "amountCents": -49000,
+      "kind": "expense",
+      "balanceAfterCents": 189085,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-11-10-1074-24500",
+      "accountId": "acc-santander-acc",
+      "date": "2025-11-10",
+      "description": "PIX RECEBIDO GIOVANNA BRABO BUENO DE S",
+      "rawDescription": "PIX RECEBIDO GIOVANNA BRABO BUENO DE S",
+      "amountCents": 24500,
+      "kind": "income",
+      "balanceAfterCents": 238085,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-08-378-15325",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-08",
+      "description": "CELEBRATTO SORVETES",
+      "rawDescription": "CELEBRATTO SORVETES",
+      "amountCents": -15325,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-11-08-377-1924",
       "accountId": "acc-santander-card",
       "date": "2025-11-08",
@@ -5722,12 +5732,33 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-08-378-15325",
+      "id": "legacy-acc-santander-card-2025-11-07-376-2392",
       "accountId": "acc-santander-card",
-      "date": "2025-11-08",
-      "description": "CELEBRATTO SORVETES",
-      "rawDescription": "CELEBRATTO SORVETES",
-      "amountCents": -15325,
+      "date": "2025-11-07",
+      "description": "APPLE COM/BILL (Estorno)",
+      "rawDescription": "APPLE COM/BILL (Estorno)",
+      "amountCents": 2392,
+      "kind": "income",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-07-375-2990",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-07",
+      "description": "APPLE.COM/BILL",
+      "rawDescription": "APPLE.COM/BILL",
+      "amountCents": -2990,
+      "kind": "expense",
+      "categoryId": "cat-servicos",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-11-07-374-2576",
+      "accountId": "acc-santander-card",
+      "date": "2025-11-07",
+      "description": "BOM BAIANO LOJA LAPA",
+      "rawDescription": "BOM BAIANO LOJA LAPA",
+      "amountCents": -2576,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5743,34 +5774,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-07-374-2576",
+      "id": "legacy-acc-santander-card-2025-11-05-372-2226",
       "accountId": "acc-santander-card",
-      "date": "2025-11-07",
-      "description": "BOM BAIANO LOJA LAPA",
-      "rawDescription": "BOM BAIANO LOJA LAPA",
-      "amountCents": -2576,
+      "date": "2025-11-05",
+      "description": "KIRLA",
+      "rawDescription": "KIRLA",
+      "amountCents": -2226,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-07-375-2990",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-07",
-      "description": "APPLE.COM/BILL",
-      "rawDescription": "APPLE.COM/BILL",
-      "amountCents": -2990,
-      "kind": "expense",
-      "categoryId": "cat-servicos",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-07-376-2392",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-07",
-      "description": "APPLE COM/BILL (Estorno)",
-      "rawDescription": "APPLE COM/BILL (Estorno)",
-      "amountCents": 2392,
-      "kind": "income",
       "source": "legacy_sheet"
     },
     {
@@ -5780,16 +5790,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "INGRESSE BRADY INGRES",
       "rawDescription": "INGRESSE BRADY INGRES",
       "amountCents": -22259,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-11-05-372-2226",
-      "accountId": "acc-santander-card",
-      "date": "2025-11-05",
-      "description": "KIRLA",
-      "rawDescription": "KIRLA",
-      "amountCents": -2226,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5826,12 +5826,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-01-366-1500",
+      "id": "legacy-acc-santander-card-2025-11-01-368-10000",
       "accountId": "acc-santander-card",
       "date": "2025-11-01",
-      "description": "PIZZA DO RAFA",
-      "rawDescription": "PIZZA DO RAFA",
-      "amountCents": -1500,
+      "description": "ZIG ZIGPAY",
+      "rawDescription": "ZIG ZIGPAY",
+      "amountCents": -10000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5846,12 +5846,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-11-01-368-10000",
+      "id": "legacy-acc-santander-card-2025-11-01-366-1500",
       "accountId": "acc-santander-card",
       "date": "2025-11-01",
-      "description": "ZIG ZIGPAY",
-      "rawDescription": "ZIG ZIGPAY",
-      "amountCents": -10000,
+      "description": "PIZZA DO RAFA",
+      "rawDescription": "PIZZA DO RAFA",
+      "amountCents": -1500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5866,25 +5866,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-10-30-145-441665",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2025-10-30-364-15525",
+      "accountId": "acc-santander-card",
       "date": "2025-10-30",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 441665,
-      "kind": "transfer",
-      "balanceAfterCents": 2040258,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-30-146-441665",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-30",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -441665,
-      "kind": "investment",
-      "balanceAfterCents": 2040258,
+      "description": "KOBE SUSHI BAR LTDA",
+      "rawDescription": "KOBE SUSHI BAR LTDA",
+      "amountCents": -15525,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -5899,12 +5887,44 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-30-364-15525",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-10-30-146-441665",
+      "accountId": "acc-bradesco",
       "date": "2025-10-30",
-      "description": "KOBE SUSHI BAR LTDA",
-      "rawDescription": "KOBE SUSHI BAR LTDA",
-      "amountCents": -15525,
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -441665,
+      "kind": "investment",
+      "balanceAfterCents": 2040258,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-10-30-145-441665",
+      "accountId": "acc-bradesco",
+      "date": "2025-10-30",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 441665,
+      "kind": "transfer",
+      "balanceAfterCents": 2040258,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-29-363-4123",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-29",
+      "description": "TUNA CLUB TIANENA",
+      "rawDescription": "TUNA CLUB TIANENA",
+      "amountCents": -4123,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-29-362-300",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-29",
+      "description": "AV ERMANO MARQUETTI",
+      "rawDescription": "AV ERMANO MARQUETTI",
+      "amountCents": -300,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5920,26 +5940,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-29-362-300",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-29",
-      "description": "AV ERMANO MARQUETTI",
-      "rawDescription": "AV ERMANO MARQUETTI",
-      "amountCents": -300,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-10-29-363-4123",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-29",
-      "description": "TUNA CLUB TIANENA",
-      "rawDescription": "TUNA CLUB TIANENA",
-      "amountCents": -4123,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-10-26-361-10000",
       "accountId": "acc-santander-card",
       "date": "2025-10-26",
@@ -5951,12 +5951,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-25-358-6900",
+      "id": "legacy-acc-santander-card-2025-10-25-360-19570",
       "accountId": "acc-santander-card",
       "date": "2025-10-25",
-      "description": "JUNDIAI SAO PAULO",
-      "rawDescription": "JUNDIAI SAO PAULO",
-      "amountCents": -6900,
+      "description": "PREMIATTO",
+      "rawDescription": "PREMIATTO",
+      "amountCents": -19570,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5971,22 +5971,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-25-360-19570",
+      "id": "legacy-acc-santander-card-2025-10-25-358-6900",
       "accountId": "acc-santander-card",
       "date": "2025-10-25",
-      "description": "PREMIATTO",
-      "rawDescription": "PREMIATTO",
-      "amountCents": -19570,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-10-24-356-5680",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-24",
-      "description": "TUNA CLUB TIANENA",
-      "rawDescription": "TUNA CLUB TIANENA",
-      "amountCents": -5680,
+      "description": "JUNDIAI SAO PAULO",
+      "rawDescription": "JUNDIAI SAO PAULO",
+      "amountCents": -6900,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -5997,6 +5987,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "INGRESSE BRADY INGRES",
       "rawDescription": "INGRESSE BRADY INGRES",
       "amountCents": -27404,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-24-356-5680",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-24",
+      "description": "TUNA CLUB TIANENA",
+      "rawDescription": "TUNA CLUB TIANENA",
+      "amountCents": -5680,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6022,14 +6022,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-10-21-1068-137401",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-10-21-354-27654",
+      "accountId": "acc-santander-card",
       "date": "2025-10-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -137401,
-      "kind": "card_payment",
-      "balanceAfterCents": 241020,
+      "description": "GOLLIN",
+      "rawDescription": "GOLLIN",
+      "amountCents": -27654,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-21-353-2498",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-21",
+      "description": "BOM BAIANO LOJA LAPA",
+      "rawDescription": "BOM BAIANO LOJA LAPA",
+      "amountCents": -2498,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -6044,78 +6053,44 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-21-353-2498",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-10-21-1068-137401",
+      "accountId": "acc-santander-acc",
       "date": "2025-10-21",
-      "description": "BOM BAIANO LOJA LAPA",
-      "rawDescription": "BOM BAIANO LOJA LAPA",
-      "amountCents": -2498,
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -137401,
+      "kind": "card_payment",
+      "balanceAfterCents": 241020,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-20-352-0",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-20",
+      "description": "ANUIDADE DIFERENCIADA",
+      "rawDescription": "ANUIDADE DIFERENCIADA",
+      "amountCents": 0,
+      "kind": "income",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-20-351-35240",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-20",
+      "description": "GOL LINHAS AEREAS",
+      "rawDescription": "GOL LINHAS AEREAS",
+      "amountCents": -35240,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-21-354-27654",
+      "id": "legacy-acc-santander-card-2025-10-20-350-35241",
       "accountId": "acc-santander-card",
-      "date": "2025-10-21",
-      "description": "GOLLIN",
-      "rawDescription": "GOLLIN",
-      "amountCents": -27654,
+      "date": "2025-10-20",
+      "description": "GOL LINHAS AEREAS",
+      "rawDescription": "GOL LINHAS AEREAS",
+      "amountCents": -35241,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-20-140-248417",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-20",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 248417,
-      "kind": "investment",
-      "balanceAfterCents": 1864126,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-20-141-17116",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-20",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 17116,
-      "kind": "investment",
-      "balanceAfterCents": 1864126,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-20-142-430",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-20",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 430,
-      "kind": "income",
-      "balanceAfterCents": 1864556,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-20-143-37",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-20",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 37,
-      "kind": "income",
-      "balanceAfterCents": 1864593,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-10-20-144-266000",
-      "accountId": "acc-bradesco",
-      "date": "2025-10-20",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 19/10",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 19/10",
-      "amountCents": -266000,
-      "kind": "transfer",
-      "balanceAfterCents": 1598593,
       "source": "legacy_sheet"
     },
     {
@@ -6130,52 +6105,67 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-20-350-35241",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-10-20-144-266000",
+      "accountId": "acc-bradesco",
       "date": "2025-10-20",
-      "description": "GOL LINHAS AEREAS",
-      "rawDescription": "GOL LINHAS AEREAS",
-      "amountCents": -35241,
-      "kind": "expense",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 19/10",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 19/10",
+      "amountCents": -266000,
+      "kind": "transfer",
+      "balanceAfterCents": 1598593,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-20-351-35240",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-10-20-143-37",
+      "accountId": "acc-bradesco",
       "date": "2025-10-20",
-      "description": "GOL LINHAS AEREAS",
-      "rawDescription": "GOL LINHAS AEREAS",
-      "amountCents": -35240,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-10-20-352-0",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-20",
-      "description": "ANUIDADE DIFERENCIADA",
-      "rawDescription": "ANUIDADE DIFERENCIADA",
-      "amountCents": 0,
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 37,
       "kind": "income",
+      "balanceAfterCents": 1864593,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-17-346-679",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-17",
-      "description": "OXXO MARINA ROLL",
-      "rawDescription": "OXXO MARINA ROLL",
-      "amountCents": -679,
-      "kind": "expense",
+      "id": "legacy-acc-bradesco-2025-10-20-142-430",
+      "accountId": "acc-bradesco",
+      "date": "2025-10-20",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 430,
+      "kind": "income",
+      "balanceAfterCents": 1864556,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-17-347-4100",
+      "id": "legacy-acc-bradesco-2025-10-20-141-17116",
+      "accountId": "acc-bradesco",
+      "date": "2025-10-20",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 17116,
+      "kind": "investment",
+      "balanceAfterCents": 1864126,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-10-20-140-248417",
+      "accountId": "acc-bradesco",
+      "date": "2025-10-20",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 248417,
+      "kind": "investment",
+      "balanceAfterCents": 1864126,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-17-349-5600",
       "accountId": "acc-santander-card",
       "date": "2025-10-17",
-      "description": "MALAQUIAS RESTAURANT",
-      "rawDescription": "MALAQUIAS RESTAURANT",
-      "amountCents": -4100,
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -5600,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6190,12 +6180,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-17-349-5600",
+      "id": "legacy-acc-santander-card-2025-10-17-347-4100",
       "accountId": "acc-santander-card",
       "date": "2025-10-17",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -5600,
+      "description": "MALAQUIAS RESTAURANT",
+      "rawDescription": "MALAQUIAS RESTAURANT",
+      "amountCents": -4100,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-17-346-679",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-17",
+      "description": "OXXO MARINA ROLL",
+      "rawDescription": "OXXO MARINA ROLL",
+      "amountCents": -679,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6230,16 +6230,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-13-341-1300",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-13",
-      "description": "LAPA PAES",
-      "rawDescription": "LAPA PAES",
-      "amountCents": -1300,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-10-13-342-400",
       "accountId": "acc-santander-card",
       "date": "2025-10-13",
@@ -6250,22 +6240,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-12-338-5760",
+      "id": "legacy-acc-santander-card-2025-10-13-341-1300",
       "accountId": "acc-santander-card",
-      "date": "2025-10-12",
-      "description": "ZIG ZIG TOMORROWLAND",
-      "rawDescription": "ZIG ZIG TOMORROWLAND",
-      "amountCents": -5760,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-10-12-339-1920",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-12",
-      "description": "ZIG ZIG TOMORROWLAND",
-      "rawDescription": "ZIG ZIG TOMORROWLAND",
-      "amountCents": -1920,
+      "date": "2025-10-13",
+      "description": "LAPA PAES",
+      "rawDescription": "LAPA PAES",
+      "amountCents": -1300,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6280,12 +6260,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-10-336-19200",
+      "id": "legacy-acc-santander-card-2025-10-12-339-1920",
       "accountId": "acc-santander-card",
-      "date": "2025-10-10",
+      "date": "2025-10-12",
       "description": "ZIG ZIG TOMORROWLAND",
       "rawDescription": "ZIG ZIG TOMORROWLAND",
-      "amountCents": -19200,
+      "amountCents": -1920,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-12-338-5760",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-12",
+      "description": "ZIG ZIG TOMORROWLAND",
+      "rawDescription": "ZIG ZIG TOMORROWLAND",
+      "amountCents": -5760,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6296,6 +6286,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "ZIG ZIG TOMORROWLAND",
       "rawDescription": "ZIG ZIG TOMORROWLAND",
       "amountCents": -15360,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-10-336-19200",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-10",
+      "description": "ZIG ZIG TOMORROWLAND",
+      "rawDescription": "ZIG ZIG TOMORROWLAND",
+      "amountCents": -19200,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6340,16 +6340,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-03-330-1700",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-03",
-      "description": "BLRECANTO FELIZ",
-      "rawDescription": "BLRECANTO FELIZ",
-      "amountCents": -1700,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-10-03-331-5680",
       "accountId": "acc-santander-card",
       "date": "2025-10-03",
@@ -6360,22 +6350,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-10-02-327-1990",
+      "id": "legacy-acc-santander-card-2025-10-03-330-1700",
       "accountId": "acc-santander-card",
-      "date": "2025-10-02",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -1990,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-10-02-328-4000",
-      "accountId": "acc-santander-card",
-      "date": "2025-10-02",
-      "description": "PASTELARIA MERCADAO",
-      "rawDescription": "PASTELARIA MERCADAO",
-      "amountCents": -4000,
+      "date": "2025-10-03",
+      "description": "BLRECANTO FELIZ",
+      "rawDescription": "BLRECANTO FELIZ",
+      "amountCents": -1700,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6390,14 +6370,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-10-01-1065-2090",
-      "accountId": "acc-santander-acc",
-      "date": "2025-10-01",
-      "description": "PIX ENVIADO Rafael Dunley Bastos",
-      "rawDescription": "PIX ENVIADO Rafael Dunley Bastos",
-      "amountCents": -2090,
+      "id": "legacy-acc-santander-card-2025-10-02-328-4000",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-02",
+      "description": "PASTELARIA MERCADAO",
+      "rawDescription": "PASTELARIA MERCADAO",
+      "amountCents": -4000,
       "kind": "expense",
-      "balanceAfterCents": 120091,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-10-02-327-1990",
+      "accountId": "acc-santander-card",
+      "date": "2025-10-02",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -1990,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -6412,23 +6401,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-30-1064-1328",
+      "id": "legacy-acc-santander-acc-2025-10-01-1065-2090",
       "accountId": "acc-santander-acc",
-      "date": "2025-09-30",
-      "description": "PIX RECEBIDO VITORIA MARIA ARAUJO COST",
-      "rawDescription": "PIX RECEBIDO VITORIA MARIA ARAUJO COST",
-      "amountCents": 1328,
-      "kind": "income",
-      "balanceAfterCents": 122181,
+      "date": "2025-10-01",
+      "description": "PIX ENVIADO Rafael Dunley Bastos",
+      "rawDescription": "PIX ENVIADO Rafael Dunley Bastos",
+      "amountCents": -2090,
+      "kind": "expense",
+      "balanceAfterCents": 120091,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-30-324-2285",
+      "id": "legacy-acc-santander-card-2025-09-30-326-3305",
       "accountId": "acc-santander-card",
       "date": "2025-09-30",
-      "description": "BOM BAIANO LOJA LAPA",
-      "rawDescription": "BOM BAIANO LOJA LAPA",
-      "amountCents": -2285,
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3305,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6443,24 +6432,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-30-326-3305",
+      "id": "legacy-acc-santander-card-2025-09-30-324-2285",
       "accountId": "acc-santander-card",
       "date": "2025-09-30",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3305,
+      "description": "BOM BAIANO LOJA LAPA",
+      "rawDescription": "BOM BAIANO LOJA LAPA",
+      "amountCents": -2285,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-09-29-138-464983",
-      "accountId": "acc-bradesco",
-      "date": "2025-09-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 464983,
-      "kind": "transfer",
-      "balanceAfterCents": 1864126,
+      "id": "legacy-acc-santander-acc-2025-09-30-1064-1328",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-30",
+      "description": "PIX RECEBIDO VITORIA MARIA ARAUJO COST",
+      "rawDescription": "PIX RECEBIDO VITORIA MARIA ARAUJO COST",
+      "amountCents": 1328,
+      "kind": "income",
+      "balanceAfterCents": 122181,
       "source": "legacy_sheet"
     },
     {
@@ -6475,14 +6464,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-26-1063-2436",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-26",
-      "description": "PIX ENVIADO Angelica Kaory Oshiro Has",
-      "rawDescription": "PIX ENVIADO Angelica Kaory Oshiro Has",
-      "amountCents": -2436,
-      "kind": "expense",
-      "balanceAfterCents": 120853,
+      "id": "legacy-acc-bradesco-2025-09-29-138-464983",
+      "accountId": "acc-bradesco",
+      "date": "2025-09-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 464983,
+      "kind": "transfer",
+      "balanceAfterCents": 1864126,
       "source": "legacy_sheet"
     },
     {
@@ -6496,113 +6485,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-24-1052-990",
+      "id": "legacy-acc-santander-acc-2025-09-26-1063-2436",
       "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO LUCAS PEDUTO GIANGIULIO F",
-      "rawDescription": "PIX RECEBIDO LUCAS PEDUTO GIANGIULIO F",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 130469,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1053-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
-      "rawDescription": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 131459,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1054-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO ANGELICA KAORY OSHIRO HAS",
-      "rawDescription": "PIX RECEBIDO ANGELICA KAORY OSHIRO HAS",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 132449,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1055-1000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO RODRIGO PAGNUSSAT",
-      "rawDescription": "PIX RECEBIDO RODRIGO PAGNUSSAT",
-      "amountCents": 1000,
-      "kind": "income",
-      "balanceAfterCents": 133449,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1056-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
-      "rawDescription": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 134439,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1057-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 135429,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1058-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO Gabriela Maressa Magalhae",
-      "rawDescription": "PIX RECEBIDO Gabriela Maressa Magalhae",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 136419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1059-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO Gabriel Francisco Rodrigu",
-      "rawDescription": "PIX RECEBIDO Gabriel Francisco Rodrigu",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 137409,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1060-16100",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX ENVIADO Guiche Web Comercializaca",
-      "rawDescription": "PIX ENVIADO Guiche Web Comercializaca",
-      "amountCents": -16100,
+      "date": "2025-09-26",
+      "description": "PIX ENVIADO Angelica Kaory Oshiro Has",
+      "rawDescription": "PIX ENVIADO Angelica Kaory Oshiro Has",
+      "amountCents": -2436,
       "kind": "expense",
-      "balanceAfterCents": 121309,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-24-1061-990",
-      "accountId": "acc-santander-acc",
-      "date": "2025-09-24",
-      "description": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
-      "rawDescription": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
-      "amountCents": 990,
-      "kind": "income",
-      "balanceAfterCents": 122299,
+      "balanceAfterCents": 120853,
       "source": "legacy_sheet"
     },
     {
@@ -6617,36 +6507,133 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-23-1048-4000",
+      "id": "legacy-acc-santander-acc-2025-09-24-1061-990",
       "accountId": "acc-santander-acc",
-      "date": "2025-09-23",
-      "description": "PIX ENVIADO Julianderson Gomes Moraes",
-      "rawDescription": "PIX ENVIADO Julianderson Gomes Moraes",
-      "amountCents": -4000,
-      "kind": "expense",
-      "balanceAfterCents": 165278,
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
+      "rawDescription": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 122299,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-23-1049-10900",
+      "id": "legacy-acc-santander-acc-2025-09-24-1060-16100",
       "accountId": "acc-santander-acc",
-      "date": "2025-09-23",
-      "description": "PIX ENVIADO Doces Delicias Padaria e",
-      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
-      "amountCents": -10900,
+      "date": "2025-09-24",
+      "description": "PIX ENVIADO Guiche Web Comercializaca",
+      "rawDescription": "PIX ENVIADO Guiche Web Comercializaca",
+      "amountCents": -16100,
       "kind": "expense",
-      "balanceAfterCents": 154378,
+      "balanceAfterCents": 121309,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-23-1050-24900",
+      "id": "legacy-acc-santander-acc-2025-09-24-1059-990",
       "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO Gabriel Francisco Rodrigu",
+      "rawDescription": "PIX RECEBIDO Gabriel Francisco Rodrigu",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 137409,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1058-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO Gabriela Maressa Magalhae",
+      "rawDescription": "PIX RECEBIDO Gabriela Maressa Magalhae",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 136419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1057-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 135429,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1056-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
+      "rawDescription": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 134439,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1055-1000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO RODRIGO PAGNUSSAT",
+      "rawDescription": "PIX RECEBIDO RODRIGO PAGNUSSAT",
+      "amountCents": 1000,
+      "kind": "income",
+      "balanceAfterCents": 133449,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1054-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO ANGELICA KAORY OSHIRO HAS",
+      "rawDescription": "PIX RECEBIDO ANGELICA KAORY OSHIRO HAS",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 132449,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1053-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
+      "rawDescription": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 131459,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-24-1052-990",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-24",
+      "description": "PIX RECEBIDO LUCAS PEDUTO GIANGIULIO F",
+      "rawDescription": "PIX RECEBIDO LUCAS PEDUTO GIANGIULIO F",
+      "amountCents": 990,
+      "kind": "income",
+      "balanceAfterCents": 130469,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-23-322-4290",
+      "accountId": "acc-santander-card",
       "date": "2025-09-23",
-      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "amountCents": -24900,
+      "description": "TUNA CLUB TIANENA",
+      "rawDescription": "TUNA CLUB TIANENA",
+      "amountCents": -4290,
       "kind": "expense",
-      "balanceAfterCents": 129478,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-23-321-916",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-23",
+      "description": "BOM BAIANO LOJA LAPA",
+      "rawDescription": "BOM BAIANO LOJA LAPA",
+      "amountCents": -916,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -6661,34 +6648,56 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-23-321-916",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-23",
-      "description": "BOM BAIANO LOJA LAPA",
-      "rawDescription": "BOM BAIANO LOJA LAPA",
-      "amountCents": -916,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-09-23-322-4290",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-23",
-      "description": "TUNA CLUB TIANENA",
-      "rawDescription": "TUNA CLUB TIANENA",
-      "amountCents": -4290,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-09-19-1046-102439",
+      "id": "legacy-acc-santander-acc-2025-09-23-1050-24900",
       "accountId": "acc-santander-acc",
-      "date": "2025-09-19",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE",
-      "amountCents": -102439,
+      "date": "2025-09-23",
+      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "amountCents": -24900,
       "kind": "expense",
-      "balanceAfterCents": 169250,
+      "balanceAfterCents": 129478,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-23-1049-10900",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-23",
+      "description": "PIX ENVIADO Doces Delicias Padaria e",
+      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
+      "amountCents": -10900,
+      "kind": "expense",
+      "balanceAfterCents": 154378,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-09-23-1048-4000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-09-23",
+      "description": "PIX ENVIADO Julianderson Gomes Moraes",
+      "rawDescription": "PIX ENVIADO Julianderson Gomes Moraes",
+      "amountCents": -4000,
+      "kind": "expense",
+      "balanceAfterCents": 165278,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-19-320-1000",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-19",
+      "description": "MARCELO ISHIKAWA",
+      "rawDescription": "MARCELO ISHIKAWA",
+      "amountCents": -1000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-19-319-900",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-19",
+      "description": "MARCELO ISHIKAWA",
+      "rawDescription": "MARCELO ISHIKAWA",
+      "amountCents": -900,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -6703,23 +6712,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-19-319-900",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-09-19-1046-102439",
+      "accountId": "acc-santander-acc",
       "date": "2025-09-19",
-      "description": "MARCELO ISHIKAWA",
-      "rawDescription": "MARCELO ISHIKAWA",
-      "amountCents": -900,
+      "description": "PAGAMENTO CARTÃO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE",
+      "amountCents": -102439,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-09-19-320-1000",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-19",
-      "description": "MARCELO ISHIKAWA",
-      "rawDescription": "MARCELO ISHIKAWA",
-      "amountCents": -1000,
-      "kind": "expense",
+      "balanceAfterCents": 169250,
       "source": "legacy_sheet"
     },
     {
@@ -6744,22 +6744,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-14-315-24496",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-14",
-      "description": "W3-PONTAL-ITUPEVA",
-      "rawDescription": "W3-PONTAL-ITUPEVA",
-      "amountCents": -24496,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-09-14-316-15220",
       "accountId": "acc-santander-card",
       "date": "2025-09-14",
       "description": "NATURA PAY OUTLET PREM",
       "rawDescription": "NATURA PAY OUTLET PREM",
       "amountCents": -15220,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-14-315-24496",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-14",
+      "description": "W3-PONTAL-ITUPEVA",
+      "rawDescription": "W3-PONTAL-ITUPEVA",
+      "amountCents": -24496,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6774,36 +6774,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-09-08-135-185519",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2025-09-08-1045-185800",
+      "accountId": "acc-santander-acc",
       "date": "2025-09-08",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 185519,
-      "kind": "investment",
-      "balanceAfterCents": 1584662,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-09-08-136-281",
-      "accountId": "acc-bradesco",
-      "date": "2025-09-08",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 281,
-      "kind": "income",
-      "balanceAfterCents": 1584943,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-09-08-137-185800",
-      "accountId": "acc-bradesco",
-      "date": "2025-09-08",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 06/09",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 06/09",
-      "amountCents": -185800,
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 185800,
       "kind": "transfer",
-      "balanceAfterCents": 1399143,
+      "balanceAfterCents": 271689,
       "source": "legacy_sheet"
     },
     {
@@ -6818,14 +6796,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-08-1045-185800",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2025-09-08-137-185800",
+      "accountId": "acc-bradesco",
       "date": "2025-09-08",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 185800,
+      "description": "Transfe Pix Des: Pedro Gioia Martins 06/09",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 06/09",
+      "amountCents": -185800,
       "kind": "transfer",
-      "balanceAfterCents": 271689,
+      "balanceAfterCents": 1399143,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-09-08-136-281",
+      "accountId": "acc-bradesco",
+      "date": "2025-09-08",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 281,
+      "kind": "income",
+      "balanceAfterCents": 1584943,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-09-08-135-185519",
+      "accountId": "acc-bradesco",
+      "date": "2025-09-08",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 185519,
+      "kind": "investment",
+      "balanceAfterCents": 1584662,
       "source": "legacy_sheet"
     },
     {
@@ -6835,6 +6835,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "APPLE COM/BILL",
       "rawDescription": "APPLE COM/BILL",
       "amountCents": -2190,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-05-312-3879",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-05",
+      "description": "PADARIA UNIAO FIALEN",
+      "rawDescription": "PADARIA UNIAO FIALEN",
+      "amountCents": -3879,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6849,12 +6859,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-05-312-3879",
+      "id": "legacy-acc-santander-card-2025-09-03-310-8000",
       "accountId": "acc-santander-card",
-      "date": "2025-09-05",
-      "description": "PADARIA UNIAO FIALEN",
-      "rawDescription": "PADARIA UNIAO FIALEN",
-      "amountCents": -3879,
+      "date": "2025-09-03",
+      "description": "ESPACO JAGUARE SERV",
+      "rawDescription": "ESPACO JAGUARE SERV",
+      "amountCents": -8000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-09-03-309-1690",
+      "accountId": "acc-santander-card",
+      "date": "2025-09-03",
+      "description": "TEMBICI",
+      "rawDescription": "TEMBICI",
+      "amountCents": -1690,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -6870,26 +6890,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-03-309-1690",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-03",
-      "description": "TEMBICI",
-      "rawDescription": "TEMBICI",
-      "amountCents": -1690,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-09-03-310-8000",
-      "accountId": "acc-santander-card",
-      "date": "2025-09-03",
-      "description": "ESPACO JAGUARE SERV",
-      "rawDescription": "ESPACO JAGUARE SERV",
-      "amountCents": -8000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-09-02-308-1990",
       "accountId": "acc-santander-card",
       "date": "2025-09-02",
@@ -6900,14 +6900,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-09-01-1042-1930",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-09-01-307-850",
+      "accountId": "acc-santander-card",
       "date": "2025-09-01",
-      "description": "PIX ENVIADO Luiz Gustavo Codogno",
-      "rawDescription": "PIX ENVIADO Luiz Gustavo Codogno",
-      "amountCents": -1930,
+      "description": "GREMIO POLITECNICO",
+      "rawDescription": "GREMIO POLITECNICO",
+      "amountCents": -850,
       "kind": "expense",
-      "balanceAfterCents": 99199,
       "source": "legacy_sheet"
     },
     {
@@ -6922,13 +6921,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-09-01-307-850",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-09-01-1042-1930",
+      "accountId": "acc-santander-acc",
       "date": "2025-09-01",
-      "description": "GREMIO POLITECNICO",
-      "rawDescription": "GREMIO POLITECNICO",
-      "amountCents": -850,
+      "description": "PIX ENVIADO Luiz Gustavo Codogno",
+      "rawDescription": "PIX ENVIADO Luiz Gustavo Codogno",
+      "amountCents": -1930,
       "kind": "expense",
+      "balanceAfterCents": 99199,
       "source": "legacy_sheet"
     },
     {
@@ -6939,17 +6939,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "RESTAURANTE TIA NENA",
       "amountCents": -4290,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-08-28-133-467507",
-      "accountId": "acc-bradesco",
-      "date": "2025-08-28",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 467507,
-      "kind": "transfer",
-      "balanceAfterCents": 1584662,
       "source": "legacy_sheet"
     },
     {
@@ -6964,13 +6953,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-08-26-303-4534",
-      "accountId": "acc-santander-card",
-      "date": "2025-08-26",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -4534,
-      "kind": "expense",
+      "id": "legacy-acc-bradesco-2025-08-28-133-467507",
+      "accountId": "acc-bradesco",
+      "date": "2025-08-28",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 467507,
+      "kind": "transfer",
+      "balanceAfterCents": 1584662,
       "source": "legacy_sheet"
     },
     {
@@ -6984,14 +6974,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-08-25-1040-5500",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-25",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -5500,
+      "id": "legacy-acc-santander-card-2025-08-26-303-4534",
+      "accountId": "acc-santander-card",
+      "date": "2025-08-26",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -4534,
       "kind": "expense",
-      "balanceAfterCents": 101128,
       "source": "legacy_sheet"
     },
     {
@@ -7006,6 +6995,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2025-08-25-1040-5500",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-25",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -5500,
+      "kind": "expense",
+      "balanceAfterCents": 101128,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-08-24-302-1400",
       "accountId": "acc-santander-card",
       "date": "2025-08-24",
@@ -7013,17 +7013,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "ZIG GATE 22",
       "amountCents": -1400,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-19-1038-161938",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-19",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE",
-      "amountCents": -161938,
-      "kind": "expense",
-      "balanceAfterCents": 106600,
       "source": "legacy_sheet"
     },
     {
@@ -7038,14 +7027,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-08-18-1037-2000",
+      "id": "legacy-acc-santander-acc-2025-08-19-1038-161938",
       "accountId": "acc-santander-acc",
-      "date": "2025-08-18",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -2000,
+      "date": "2025-08-19",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE",
+      "amountCents": -161938,
       "kind": "expense",
-      "balanceAfterCents": 268538,
+      "balanceAfterCents": 106600,
       "source": "legacy_sheet"
     },
     {
@@ -7059,14 +7048,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-08-15-1035-804",
+      "id": "legacy-acc-santander-acc-2025-08-18-1037-2000",
       "accountId": "acc-santander-acc",
+      "date": "2025-08-18",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -2000,
+      "kind": "expense",
+      "balanceAfterCents": 268538,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-08-15-300-7400",
+      "accountId": "acc-santander-card",
       "date": "2025-08-15",
-      "description": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
-      "rawDescription": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 269734,
+      "description": "GARAGEM DO CHURRASCO",
+      "rawDescription": "GARAGEM DO CHURRASCO",
+      "amountCents": -7400,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -7081,233 +7080,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-08-15-300-7400",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-08-15-1035-804",
+      "accountId": "acc-santander-acc",
       "date": "2025-08-15",
-      "description": "GARAGEM DO CHURRASCO",
-      "rawDescription": "GARAGEM DO CHURRASCO",
-      "amountCents": -7400,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1014-20100",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX ENVIADO Doces Delicias Padaria e",
-      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
-      "amountCents": -20100,
-      "kind": "expense",
-      "balanceAfterCents": 253653,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1015-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Beatriz Yukie Costalonga",
-      "rawDescription": "PIX RECEBIDO Beatriz Yukie Costalonga",
+      "description": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
+      "rawDescription": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
       "amountCents": 804,
       "kind": "income",
-      "balanceAfterCents": 254457,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1016-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO JOAO PAULO TREVISAN PIRES",
-      "rawDescription": "PIX RECEBIDO JOAO PAULO TREVISAN PIRES",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 255261,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1017-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Gabriela Maressa Magalhae",
-      "rawDescription": "PIX RECEBIDO Gabriela Maressa Magalhae",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 256065,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1018-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Renato Gomes Dos Reis",
-      "rawDescription": "PIX RECEBIDO Renato Gomes Dos Reis",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 256869,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1019-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO LUIZ GUSTAVO DE SOUZA CAR",
-      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO DE SOUZA CAR",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 257673,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1020-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO GUSTAVO AGUIAR",
-      "rawDescription": "PIX RECEBIDO GUSTAVO AGUIAR",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 258477,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1021-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO ARMINDO CARLOS DE MENEZES",
-      "rawDescription": "PIX RECEBIDO ARMINDO CARLOS DE MENEZES",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 259281,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1022-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Rafael de Souza Moraes Fa",
-      "rawDescription": "PIX RECEBIDO Rafael de Souza Moraes Fa",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 260085,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1023-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Bruno Henrique dos Santos",
-      "rawDescription": "PIX RECEBIDO Bruno Henrique dos Santos",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 260889,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1024-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 261693,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1025-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO Lucas Peduto Giangiulio F",
-      "rawDescription": "PIX RECEBIDO Lucas Peduto Giangiulio F",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 262497,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1026-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO FELIPE SANTOS DA SILVA",
-      "rawDescription": "PIX RECEBIDO FELIPE SANTOS DA SILVA",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 263301,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1027-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
-      "rawDescription": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 264105,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1028-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
-      "rawDescription": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 264909,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1029-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
-      "rawDescription": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 265713,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1030-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
-      "rawDescription": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 266517,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1031-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO WELLINGTON DA SE LIMA",
-      "rawDescription": "PIX RECEBIDO WELLINGTON DA SE LIMA",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 267321,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1032-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO BRUNO COSTA DE ALBUQUERQU",
-      "rawDescription": "PIX RECEBIDO BRUNO COSTA DE ALBUQUERQU",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 268125,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-14-1033-804",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-14",
-      "description": "PIX RECEBIDO ANDRE HAKAMADA MONTESINOS",
-      "rawDescription": "PIX RECEBIDO ANDRE HAKAMADA MONTESINOS",
-      "amountCents": 804,
-      "kind": "income",
-      "balanceAfterCents": 268929,
+      "balanceAfterCents": 269734,
       "source": "legacy_sheet"
     },
     {
@@ -7322,6 +7102,226 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2025-08-14-1033-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO ANDRE HAKAMADA MONTESINOS",
+      "rawDescription": "PIX RECEBIDO ANDRE HAKAMADA MONTESINOS",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 268929,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1032-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO BRUNO COSTA DE ALBUQUERQU",
+      "rawDescription": "PIX RECEBIDO BRUNO COSTA DE ALBUQUERQU",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 268125,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1031-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO WELLINGTON DA SE LIMA",
+      "rawDescription": "PIX RECEBIDO WELLINGTON DA SE LIMA",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 267321,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1030-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
+      "rawDescription": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 266517,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1029-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
+      "rawDescription": "PIX RECEBIDO JOAO VICTOR BERGAMO SEGAL",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 265713,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1028-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
+      "rawDescription": "PIX RECEBIDO FERNANDO CARVALHO O ABREU",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 264909,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1027-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
+      "rawDescription": "PIX RECEBIDO VICTOR JESUS ALVA GAVELAN",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 264105,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1026-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO FELIPE SANTOS DA SILVA",
+      "rawDescription": "PIX RECEBIDO FELIPE SANTOS DA SILVA",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 263301,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1025-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Lucas Peduto Giangiulio F",
+      "rawDescription": "PIX RECEBIDO Lucas Peduto Giangiulio F",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 262497,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1024-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 261693,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1023-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Bruno Henrique dos Santos",
+      "rawDescription": "PIX RECEBIDO Bruno Henrique dos Santos",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 260889,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1022-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Rafael de Souza Moraes Fa",
+      "rawDescription": "PIX RECEBIDO Rafael de Souza Moraes Fa",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 260085,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1021-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO ARMINDO CARLOS DE MENEZES",
+      "rawDescription": "PIX RECEBIDO ARMINDO CARLOS DE MENEZES",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 259281,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1020-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO GUSTAVO AGUIAR",
+      "rawDescription": "PIX RECEBIDO GUSTAVO AGUIAR",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 258477,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1019-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO LUIZ GUSTAVO DE SOUZA CAR",
+      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO DE SOUZA CAR",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 257673,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1018-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Renato Gomes Dos Reis",
+      "rawDescription": "PIX RECEBIDO Renato Gomes Dos Reis",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 256869,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1017-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Gabriela Maressa Magalhae",
+      "rawDescription": "PIX RECEBIDO Gabriela Maressa Magalhae",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 256065,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1016-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO JOAO PAULO TREVISAN PIRES",
+      "rawDescription": "PIX RECEBIDO JOAO PAULO TREVISAN PIRES",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 255261,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1015-804",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX RECEBIDO Beatriz Yukie Costalonga",
+      "rawDescription": "PIX RECEBIDO Beatriz Yukie Costalonga",
+      "amountCents": 804,
+      "kind": "income",
+      "balanceAfterCents": 254457,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-14-1014-20100",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-14",
+      "description": "PIX ENVIADO Doces Delicias Padaria e",
+      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
+      "amountCents": -20100,
+      "kind": "expense",
+      "balanceAfterCents": 253653,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-08-12-299-3200",
       "accountId": "acc-santander-card",
       "date": "2025-08-12",
@@ -7332,25 +7332,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-08-11-1011-4286",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-08-11-298-36713",
+      "accountId": "acc-santander-card",
       "date": "2025-08-11",
-      "description": "PIX ENVIADO Vinicius Michel da Silva",
-      "rawDescription": "PIX ENVIADO Vinicius Michel da Silva",
-      "amountCents": -4286,
+      "description": "INGRESSE BRADY INGRES",
+      "rawDescription": "INGRESSE BRADY INGRES",
+      "amountCents": -36713,
       "kind": "expense",
-      "balanceAfterCents": 291247,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-08-11-1012-17500",
-      "accountId": "acc-santander-acc",
-      "date": "2025-08-11",
-      "description": "PIX ENVIADO Daniela Fernandes Paschoa",
-      "rawDescription": "PIX ENVIADO Daniela Fernandes Paschoa",
-      "amountCents": -17500,
-      "kind": "expense",
-      "balanceAfterCents": 273747,
       "source": "legacy_sheet"
     },
     {
@@ -7365,13 +7353,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-08-11-298-36713",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-08-11-1012-17500",
+      "accountId": "acc-santander-acc",
       "date": "2025-08-11",
-      "description": "INGRESSE BRADY INGRES",
-      "rawDescription": "INGRESSE BRADY INGRES",
-      "amountCents": -36713,
+      "description": "PIX ENVIADO Daniela Fernandes Paschoa",
+      "rawDescription": "PIX ENVIADO Daniela Fernandes Paschoa",
+      "amountCents": -17500,
       "kind": "expense",
+      "balanceAfterCents": 273747,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-08-11-1011-4286",
+      "accountId": "acc-santander-acc",
+      "date": "2025-08-11",
+      "description": "PIX ENVIADO Vinicius Michel da Silva",
+      "rawDescription": "PIX ENVIADO Vinicius Michel da Silva",
+      "amountCents": -4286,
+      "kind": "expense",
+      "balanceAfterCents": 291247,
       "source": "legacy_sheet"
     },
     {
@@ -7405,22 +7405,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-08-05-293-4496",
-      "accountId": "acc-santander-card",
-      "date": "2025-08-05",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -4496,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-08-05-294-100",
       "accountId": "acc-santander-card",
       "date": "2025-08-05",
       "description": "UBER TRIP HELP",
       "rawDescription": "UBER TRIP HELP",
       "amountCents": -100,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-08-05-293-4496",
+      "accountId": "acc-santander-card",
+      "date": "2025-08-05",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -4496,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7436,22 +7436,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-08-02-291-10000",
-      "accountId": "acc-santander-card",
-      "date": "2025-08-02",
-      "description": "430 GRADI",
-      "rawDescription": "430 GRADI",
-      "amountCents": -10000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-08-02-292-1990",
       "accountId": "acc-santander-card",
       "date": "2025-08-02",
       "description": "APPLE COM/BILL",
       "rawDescription": "APPLE COM/BILL",
       "amountCents": -1990,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-08-02-291-10000",
+      "accountId": "acc-santander-card",
+      "date": "2025-08-02",
+      "description": "430 GRADI",
+      "rawDescription": "430 GRADI",
+      "amountCents": -10000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7466,17 +7466,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-07-30-131-454458",
-      "accountId": "acc-bradesco",
-      "date": "2025-07-30",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 454458,
-      "kind": "transfer",
-      "balanceAfterCents": 1117155,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2025-07-30-132-454458",
       "accountId": "acc-bradesco",
       "date": "2025-07-30",
@@ -7484,6 +7473,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "Apl.invest Fac",
       "amountCents": -454458,
       "kind": "investment",
+      "balanceAfterCents": 1117155,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-07-30-131-454458",
+      "accountId": "acc-bradesco",
+      "date": "2025-07-30",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 454458,
+      "kind": "transfer",
       "balanceAfterCents": 1117155,
       "source": "legacy_sheet"
     },
@@ -7509,36 +7509,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-07-21-128-199848",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2025-07-21-1008-200000",
+      "accountId": "acc-santander-acc",
       "date": "2025-07-21",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 199848,
-      "kind": "investment",
-      "balanceAfterCents": 862545,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-07-21-129-152",
-      "accountId": "acc-bradesco",
-      "date": "2025-07-21",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 152,
-      "kind": "income",
-      "balanceAfterCents": 862697,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-07-21-130-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-07-21",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 19/07",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 19/07",
-      "amountCents": -200000,
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 200000,
       "kind": "transfer",
-      "balanceAfterCents": 662697,
+      "balanceAfterCents": 297423,
       "source": "legacy_sheet"
     },
     {
@@ -7553,14 +7531,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-07-21-1008-200000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2025-07-21-130-200000",
+      "accountId": "acc-bradesco",
       "date": "2025-07-21",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
+      "description": "Transfe Pix Des: Pedro Gioia Martins 19/07",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 19/07",
+      "amountCents": -200000,
       "kind": "transfer",
-      "balanceAfterCents": 297423,
+      "balanceAfterCents": 662697,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-07-21-129-152",
+      "accountId": "acc-bradesco",
+      "date": "2025-07-21",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 152,
+      "kind": "income",
+      "balanceAfterCents": 862697,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-07-21-128-199848",
+      "accountId": "acc-bradesco",
+      "date": "2025-07-21",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 199848,
+      "kind": "investment",
+      "balanceAfterCents": 862545,
       "source": "legacy_sheet"
     },
     {
@@ -7574,12 +7574,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-07-19-285-9223",
+      "id": "legacy-acc-santander-card-2025-07-19-287-7869",
       "accountId": "acc-santander-card",
       "date": "2025-07-19",
-      "description": "IFD TITAN LANCHONETE",
-      "rawDescription": "IFD TITAN LANCHONETE",
-      "amountCents": -9223,
+      "description": "ENXADAHOST",
+      "rawDescription": "ENXADAHOST",
+      "amountCents": -7869,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7595,12 +7595,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-07-19-287-7869",
+      "id": "legacy-acc-santander-card-2025-07-19-285-9223",
       "accountId": "acc-santander-card",
       "date": "2025-07-19",
-      "description": "ENXADAHOST",
-      "rawDescription": "ENXADAHOST",
-      "amountCents": -7869,
+      "description": "IFD TITAN LANCHONETE",
+      "rawDescription": "IFD TITAN LANCHONETE",
+      "amountCents": -9223,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7625,14 +7625,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-07-15-1005-35000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-07-15-282-17677",
+      "accountId": "acc-santander-card",
       "date": "2025-07-15",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -35000,
+      "description": "INGRESSE BRADY INGRES",
+      "rawDescription": "INGRESSE BRADY INGRES",
+      "amountCents": -17677,
       "kind": "expense",
-      "balanceAfterCents": 294884,
       "source": "legacy_sheet"
     },
     {
@@ -7647,12 +7646,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-07-15-282-17677",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-07-15-1005-35000",
+      "accountId": "acc-santander-acc",
       "date": "2025-07-15",
-      "description": "INGRESSE BRADY INGRES",
-      "rawDescription": "INGRESSE BRADY INGRES",
-      "amountCents": -17677,
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -35000,
+      "kind": "expense",
+      "balanceAfterCents": 294884,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-07-12-281-10000",
+      "accountId": "acc-santander-card",
+      "date": "2025-07-12",
+      "description": "ZIG ZIGPAY",
+      "rawDescription": "ZIG ZIGPAY",
+      "amountCents": -10000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7663,16 +7673,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "ZIG ZIG AME CLUB 2024",
       "rawDescription": "ZIG ZIG AME CLUB 2024",
       "amountCents": -8000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-07-12-281-10000",
-      "accountId": "acc-santander-card",
-      "date": "2025-07-12",
-      "description": "ZIG ZIGPAY",
-      "rawDescription": "ZIG ZIGPAY",
-      "amountCents": -10000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -7688,6 +7688,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2025-07-07-279-2190",
+      "accountId": "acc-santander-card",
+      "date": "2025-07-07",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -2190,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-07-07-278-10000",
       "accountId": "acc-santander-card",
       "date": "2025-07-07",
@@ -7696,16 +7706,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -10000,
       "kind": "expense",
       "categoryId": "cat-semparar",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-07-07-279-2190",
-      "accountId": "acc-santander-card",
-      "date": "2025-07-07",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -2190,
-      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -7729,14 +7729,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-07-04-1002-11500",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-07-04-275-4800",
+      "accountId": "acc-santander-card",
       "date": "2025-07-04",
-      "description": "PIX ENVIADO Vanessa de Fatima Moreira",
-      "rawDescription": "PIX ENVIADO Vanessa de Fatima Moreira",
-      "amountCents": -11500,
+      "description": "GRAHL BISTRO",
+      "rawDescription": "GRAHL BISTRO",
+      "amountCents": -4800,
       "kind": "expense",
-      "balanceAfterCents": 331707,
       "source": "legacy_sheet"
     },
     {
@@ -7751,13 +7750,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-07-04-275-4800",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-07-04-1002-11500",
+      "accountId": "acc-santander-acc",
       "date": "2025-07-04",
-      "description": "GRAHL BISTRO",
-      "rawDescription": "GRAHL BISTRO",
-      "amountCents": -4800,
+      "description": "PIX ENVIADO Vanessa de Fatima Moreira",
+      "rawDescription": "PIX ENVIADO Vanessa de Fatima Moreira",
+      "amountCents": -11500,
       "kind": "expense",
+      "balanceAfterCents": 331707,
       "source": "legacy_sheet"
     },
     {
@@ -7791,17 +7791,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-06-30-1000-8258",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-30",
-      "description": "PIX ENVIADO Nicole da Cruz Fanzeres",
-      "rawDescription": "PIX ENVIADO Nicole da Cruz Fanzeres",
-      "amountCents": -8258,
-      "kind": "expense",
-      "balanceAfterCents": 343206,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2025-06-30-1001-1",
       "accountId": "acc-santander-acc",
       "date": "2025-06-30",
@@ -7813,14 +7802,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-06-27-126-460021",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2025-06-30-1000-8258",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-30",
+      "description": "PIX ENVIADO Nicole da Cruz Fanzeres",
+      "rawDescription": "PIX ENVIADO Nicole da Cruz Fanzeres",
+      "amountCents": -8258,
+      "kind": "expense",
+      "balanceAfterCents": 343206,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-27-271-761",
+      "accountId": "acc-santander-card",
       "date": "2025-06-27",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 460021,
-      "kind": "transfer",
-      "balanceAfterCents": 862545,
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -761,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -7835,13 +7834,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-27-271-761",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-06-27-126-460021",
+      "accountId": "acc-bradesco",
       "date": "2025-06-27",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -761,
-      "kind": "expense",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 460021,
+      "kind": "transfer",
+      "balanceAfterCents": 862545,
       "source": "legacy_sheet"
     },
     {
@@ -7866,80 +7866,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-06-23-121-44594",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-23",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 44594,
-      "kind": "investment",
-      "balanceAfterCents": 672336,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-23-122-225218",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-23",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 225218,
-      "kind": "investment",
-      "balanceAfterCents": 672336,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-23-123-13",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-23",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 13,
-      "kind": "income",
-      "balanceAfterCents": 672349,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-23-124-175",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-23",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 175,
-      "kind": "income",
-      "balanceAfterCents": 672524,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-23-125-270000",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-23",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 21/06",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 21/06",
-      "amountCents": -270000,
-      "kind": "transfer",
-      "balanceAfterCents": 402524,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-23-995-270000",
+      "id": "legacy-acc-santander-acc-2025-06-23-998-1595",
       "accountId": "acc-santander-acc",
       "date": "2025-06-23",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 270000,
-      "kind": "transfer",
-      "balanceAfterCents": 345084,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-23-996-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-23",
-      "description": "PIX RECEBIDO Victor Martins Silva",
-      "rawDescription": "PIX RECEBIDO Victor Martins Silva",
+      "description": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
+      "rawDescription": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
       "amountCents": 1595,
       "kind": "income",
-      "balanceAfterCents": 346679,
+      "balanceAfterCents": 349869,
       "source": "legacy_sheet"
     },
     {
@@ -7954,91 +7888,90 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-06-23-998-1595",
+      "id": "legacy-acc-santander-acc-2025-06-23-996-1595",
       "accountId": "acc-santander-acc",
       "date": "2025-06-23",
-      "description": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
-      "rawDescription": "PIX RECEBIDO MICHEL RODRIGUES DE ALMEI",
+      "description": "PIX RECEBIDO Victor Martins Silva",
+      "rawDescription": "PIX RECEBIDO Victor Martins Silva",
       "amountCents": 1595,
       "kind": "income",
-      "balanceAfterCents": 349869,
+      "balanceAfterCents": 346679,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-06-20-987-11500",
+      "id": "legacy-acc-santander-acc-2025-06-23-995-270000",
       "accountId": "acc-santander-acc",
+      "date": "2025-06-23",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 270000,
+      "kind": "transfer",
+      "balanceAfterCents": 345084,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-23-125-270000",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-23",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 21/06",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 21/06",
+      "amountCents": -270000,
+      "kind": "transfer",
+      "balanceAfterCents": 402524,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-23-124-175",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-23",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 175,
+      "kind": "income",
+      "balanceAfterCents": 672524,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-23-123-13",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-23",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 13,
+      "kind": "income",
+      "balanceAfterCents": 672349,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-23-122-225218",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-23",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 225218,
+      "kind": "investment",
+      "balanceAfterCents": 672336,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-23-121-44594",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-23",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 44594,
+      "kind": "investment",
+      "balanceAfterCents": 672336,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-20-269-3514",
+      "accountId": "acc-santander-card",
       "date": "2025-06-20",
-      "description": "PIX ENVIADO Vanessa de Fatima Moreira",
-      "rawDescription": "PIX ENVIADO Vanessa de Fatima Moreira",
-      "amountCents": -11500,
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3514,
       "kind": "expense",
-      "balanceAfterCents": 81456,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-988-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX RECEBIDO ANA CLAUDIA PIRES GUEDES",
-      "rawDescription": "PIX RECEBIDO ANA CLAUDIA PIRES GUEDES",
-      "amountCents": 1595,
-      "kind": "income",
-      "balanceAfterCents": 83051,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-989-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX RECEBIDO VICTORIA MARQUES ROBLES",
-      "rawDescription": "PIX RECEBIDO VICTORIA MARQUES ROBLES",
-      "amountCents": 1595,
-      "kind": "income",
-      "balanceAfterCents": 84646,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-990-14350",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX ENVIADO Doces Delicias Padaria e",
-      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
-      "amountCents": -14350,
-      "kind": "expense",
-      "balanceAfterCents": 70296,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-991-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
-      "amountCents": 1595,
-      "kind": "income",
-      "balanceAfterCents": 71891,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-992-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX RECEBIDO Marie Matt Suzano",
-      "rawDescription": "PIX RECEBIDO Marie Matt Suzano",
-      "amountCents": 1595,
-      "kind": "income",
-      "balanceAfterCents": 73486,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-20-993-1595",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-20",
-      "description": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
-      "rawDescription": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
-      "amountCents": 1595,
-      "kind": "income",
-      "balanceAfterCents": 75081,
       "source": "legacy_sheet"
     },
     {
@@ -8053,13 +7986,80 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-20-269-3514",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-06-20-993-1595",
+      "accountId": "acc-santander-acc",
       "date": "2025-06-20",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3514,
+      "description": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
+      "rawDescription": "PIX RECEBIDO FELIPE VENANCIO MORAES FR",
+      "amountCents": 1595,
+      "kind": "income",
+      "balanceAfterCents": 75081,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-992-1595",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX RECEBIDO Marie Matt Suzano",
+      "rawDescription": "PIX RECEBIDO Marie Matt Suzano",
+      "amountCents": 1595,
+      "kind": "income",
+      "balanceAfterCents": 73486,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-991-1595",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "rawDescription": "PIX RECEBIDO Roger Tsuyoshi Uchida",
+      "amountCents": 1595,
+      "kind": "income",
+      "balanceAfterCents": 71891,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-990-14350",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX ENVIADO Doces Delicias Padaria e",
+      "rawDescription": "PIX ENVIADO Doces Delicias Padaria e",
+      "amountCents": -14350,
       "kind": "expense",
+      "balanceAfterCents": 70296,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-989-1595",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX RECEBIDO VICTORIA MARQUES ROBLES",
+      "rawDescription": "PIX RECEBIDO VICTORIA MARQUES ROBLES",
+      "amountCents": 1595,
+      "kind": "income",
+      "balanceAfterCents": 84646,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-988-1595",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX RECEBIDO ANA CLAUDIA PIRES GUEDES",
+      "rawDescription": "PIX RECEBIDO ANA CLAUDIA PIRES GUEDES",
+      "amountCents": 1595,
+      "kind": "income",
+      "balanceAfterCents": 83051,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-20-987-11500",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-20",
+      "description": "PIX ENVIADO Vanessa de Fatima Moreira",
+      "rawDescription": "PIX ENVIADO Vanessa de Fatima Moreira",
+      "amountCents": -11500,
+      "kind": "expense",
+      "balanceAfterCents": 81456,
       "source": "legacy_sheet"
     },
     {
@@ -8073,69 +8073,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-06-18-118-199854",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2025-06-18-267-2685",
+      "accountId": "acc-santander-card",
       "date": "2025-06-18",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 199854,
-      "kind": "investment",
-      "balanceAfterCents": 872190,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-18-119-146",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-18",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 146,
-      "kind": "income",
-      "balanceAfterCents": 872336,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-06-18-120-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-06-18",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 18/06",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 18/06",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 672336,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-18-983-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-18",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -3000,
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -2685,
       "kind": "expense",
-      "balanceAfterCents": 147417,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-18-984-200000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-18",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
-      "kind": "transfer",
-      "balanceAfterCents": 347417,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-18-985-254469",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-18",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -254469,
-      "kind": "card_payment",
-      "balanceAfterCents": 92948,
       "source": "legacy_sheet"
     },
     {
@@ -8150,13 +8094,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-18-267-2685",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-06-18-985-254469",
+      "accountId": "acc-santander-acc",
       "date": "2025-06-18",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -2685,
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -254469,
+      "kind": "card_payment",
+      "balanceAfterCents": 92948,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-18-984-200000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-18",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 200000,
+      "kind": "transfer",
+      "balanceAfterCents": 347417,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-18-983-3000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-18",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -3000,
       "kind": "expense",
+      "balanceAfterCents": 147417,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-18-120-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-18",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 18/06",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 18/06",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 672336,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-18-119-146",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-18",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 146,
+      "kind": "income",
+      "balanceAfterCents": 872336,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-06-18-118-199854",
+      "accountId": "acc-bradesco",
+      "date": "2025-06-18",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 199854,
+      "kind": "investment",
+      "balanceAfterCents": 872190,
       "source": "legacy_sheet"
     },
     {
@@ -8210,17 +8210,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-06-09-981-9568",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-09",
-      "description": "PIX ENVIADO Pagar Me Instituicao De P",
-      "rawDescription": "PIX ENVIADO Pagar Me Instituicao De P",
-      "amountCents": -9568,
-      "kind": "expense",
-      "balanceAfterCents": 150416,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2025-06-09-982-1",
       "accountId": "acc-santander-acc",
       "date": "2025-06-09",
@@ -8232,32 +8221,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-08-257-3049",
-      "accountId": "acc-santander-card",
-      "date": "2025-06-08",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -3049,
+      "id": "legacy-acc-santander-acc-2025-06-09-981-9568",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-09",
+      "description": "PIX ENVIADO Pagar Me Instituicao De P",
+      "rawDescription": "PIX ENVIADO Pagar Me Instituicao De P",
+      "amountCents": -9568,
       "kind": "expense",
+      "balanceAfterCents": 150416,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-08-258-1132",
+      "id": "legacy-acc-santander-card-2025-06-08-261-1800",
       "accountId": "acc-santander-card",
       "date": "2025-06-08",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1132,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-06-08-259-50633",
-      "accountId": "acc-santander-card",
-      "date": "2025-06-08",
-      "description": "INTI TOMORROWLAND",
-      "rawDescription": "INTI TOMORROWLAND",
-      "amountCents": -50633,
+      "description": "ZIG ZIG STB SP 2025",
+      "rawDescription": "ZIG ZIG STB SP 2025",
+      "amountCents": -1800,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8272,12 +8252,42 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-08-261-1800",
+      "id": "legacy-acc-santander-card-2025-06-08-259-50633",
       "accountId": "acc-santander-card",
       "date": "2025-06-08",
-      "description": "ZIG ZIG STB SP 2025",
-      "rawDescription": "ZIG ZIG STB SP 2025",
-      "amountCents": -1800,
+      "description": "INTI TOMORROWLAND",
+      "rawDescription": "INTI TOMORROWLAND",
+      "amountCents": -50633,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-08-258-1132",
+      "accountId": "acc-santander-card",
+      "date": "2025-06-08",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1132,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-08-257-3049",
+      "accountId": "acc-santander-card",
+      "date": "2025-06-08",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -3049,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-07-256-2190",
+      "accountId": "acc-santander-card",
+      "date": "2025-06-07",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -2190,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8292,12 +8302,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-07-256-2190",
+      "id": "legacy-acc-santander-card-2025-06-06-254-3290",
       "accountId": "acc-santander-card",
-      "date": "2025-06-07",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -2190,
+      "date": "2025-06-06",
+      "description": "SKOOM LANCHONETE",
+      "rawDescription": "SKOOM LANCHONETE",
+      "amountCents": -3290,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-06-253-20800",
+      "accountId": "acc-santander-card",
+      "date": "2025-06-06",
+      "description": "ZIG ZIG STB SP 2025",
+      "rawDescription": "ZIG ZIG STB SP 2025",
+      "amountCents": -20800,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8313,45 +8333,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-06-253-20800",
+      "id": "legacy-acc-santander-card-2025-06-04-252-26900",
       "accountId": "acc-santander-card",
-      "date": "2025-06-06",
-      "description": "ZIG ZIG STB SP 2025",
-      "rawDescription": "ZIG ZIG STB SP 2025",
-      "amountCents": -20800,
+      "date": "2025-06-04",
+      "description": "GOOGLE YOUTUBEPREMIUM",
+      "rawDescription": "GOOGLE YOUTUBEPREMIUM",
+      "amountCents": -26900,
       "kind": "expense",
+      "categoryId": "cat-servicos",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-06-254-3290",
+      "id": "legacy-acc-santander-card-2025-06-04-251-7041",
       "accountId": "acc-santander-card",
-      "date": "2025-06-06",
-      "description": "SKOOM LANCHONETE",
-      "rawDescription": "SKOOM LANCHONETE",
-      "amountCents": -3290,
+      "date": "2025-06-04",
+      "description": "MADERO STH TIETE",
+      "rawDescription": "MADERO STH TIETE",
+      "amountCents": -7041,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-04-977-6800",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-04",
-      "description": "PIX RECEBIDO LEONARDO VALIM DE SOUZA",
-      "rawDescription": "PIX RECEBIDO LEONARDO VALIM DE SOUZA",
-      "amountCents": 6800,
-      "kind": "income",
-      "balanceAfterCents": 161694,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-06-04-978-6800",
-      "accountId": "acc-santander-acc",
-      "date": "2025-06-04",
-      "description": "PIX RECEBIDO Marcela Scaramel",
-      "rawDescription": "PIX RECEBIDO Marcela Scaramel",
-      "amountCents": 6800,
-      "kind": "income",
-      "balanceAfterCents": 168494,
       "source": "legacy_sheet"
     },
     {
@@ -8366,24 +8365,45 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-04-251-7041",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-06-04-978-6800",
+      "accountId": "acc-santander-acc",
       "date": "2025-06-04",
-      "description": "MADERO STH TIETE",
-      "rawDescription": "MADERO STH TIETE",
-      "amountCents": -7041,
+      "description": "PIX RECEBIDO Marcela Scaramel",
+      "rawDescription": "PIX RECEBIDO Marcela Scaramel",
+      "amountCents": 6800,
+      "kind": "income",
+      "balanceAfterCents": 168494,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-06-04-977-6800",
+      "accountId": "acc-santander-acc",
+      "date": "2025-06-04",
+      "description": "PIX RECEBIDO LEONARDO VALIM DE SOUZA",
+      "rawDescription": "PIX RECEBIDO LEONARDO VALIM DE SOUZA",
+      "amountCents": 6800,
+      "kind": "income",
+      "balanceAfterCents": 161694,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-06-03-250-16680",
+      "accountId": "acc-santander-card",
+      "date": "2025-06-03",
+      "description": "AMAZONPRIMEBR",
+      "rawDescription": "AMAZONPRIMEBR",
+      "amountCents": -16680,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-04-252-26900",
+      "id": "legacy-acc-santander-card-2025-06-03-249-4290",
       "accountId": "acc-santander-card",
-      "date": "2025-06-04",
-      "description": "GOOGLE YOUTUBEPREMIUM",
-      "rawDescription": "GOOGLE YOUTUBEPREMIUM",
-      "amountCents": -26900,
+      "date": "2025-06-03",
+      "description": "TUNA CLUB TIANENA",
+      "rawDescription": "TUNA CLUB TIANENA",
+      "amountCents": -4290,
       "kind": "expense",
-      "categoryId": "cat-servicos",
       "source": "legacy_sheet"
     },
     {
@@ -8398,32 +8418,32 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-06-03-249-4290",
-      "accountId": "acc-santander-card",
-      "date": "2025-06-03",
-      "description": "TUNA CLUB TIANENA",
-      "rawDescription": "TUNA CLUB TIANENA",
-      "amountCents": -4290,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-06-03-250-16680",
-      "accountId": "acc-santander-card",
-      "date": "2025-06-03",
-      "description": "AMAZONPRIMEBR",
-      "rawDescription": "AMAZONPRIMEBR",
-      "amountCents": -16680,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-06-02-248-1490",
       "accountId": "acc-santander-card",
       "date": "2025-06-02",
       "description": "APPLE COM/BILL",
       "rawDescription": "APPLE COM/BILL",
       "amountCents": -1490,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-31-247-37746",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-31",
+      "description": "PHOENIX BOLICHE",
+      "rawDescription": "PHOENIX BOLICHE",
+      "amountCents": -37746,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-31-246-5500",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-31",
+      "description": "HAMBURGUERIA REVOLUTIO",
+      "rawDescription": "HAMBURGUERIA REVOLUTIO",
+      "amountCents": -5500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8439,22 +8459,42 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-31-246-5500",
+      "id": "legacy-acc-santander-card-2025-05-30-244-6700",
       "accountId": "acc-santander-card",
-      "date": "2025-05-31",
-      "description": "HAMBURGUERIA REVOLUTIO",
-      "rawDescription": "HAMBURGUERIA REVOLUTIO",
-      "amountCents": -5500,
+      "date": "2025-05-30",
+      "description": "JUNDIAI SAO PAULO",
+      "rawDescription": "JUNDIAI SAO PAULO",
+      "amountCents": -6700,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-31-247-37746",
+      "id": "legacy-acc-santander-card-2025-05-30-243-800",
       "accountId": "acc-santander-card",
-      "date": "2025-05-31",
-      "description": "PHOENIX BOLICHE",
-      "rawDescription": "PHOENIX BOLICHE",
-      "amountCents": -37746,
+      "date": "2025-05-30",
+      "description": "BURGER KING",
+      "rawDescription": "BURGER KING",
+      "amountCents": -800,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-30-242-3490",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-30",
+      "description": "RESTAURANTE DA FAZ ENG",
+      "rawDescription": "RESTAURANTE DA FAZ ENG",
+      "amountCents": -3490,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-30-241-7488",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-30",
+      "description": "INGRESSO COM",
+      "rawDescription": "INGRESSO COM",
+      "amountCents": -7488,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8470,43 +8510,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-30-241-7488",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-30",
-      "description": "INGRESSO COM",
-      "rawDescription": "INGRESSO COM",
-      "amountCents": -7488,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-30-242-3490",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-30",
-      "description": "RESTAURANTE DA FAZ ENG",
-      "rawDescription": "RESTAURANTE DA FAZ ENG",
-      "amountCents": -3490,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-30-243-800",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-30",
-      "description": "BURGER KING",
-      "rawDescription": "BURGER KING",
-      "amountCents": -800,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-30-244-6700",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-30",
-      "description": "JUNDIAI SAO PAULO",
-      "rawDescription": "JUNDIAI SAO PAULO",
-      "amountCents": -6700,
-      "kind": "expense",
+      "id": "legacy-acc-bradesco-2025-05-29-117-447077",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-29",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -447077,
+      "kind": "investment",
+      "balanceAfterCents": 872190,
       "source": "legacy_sheet"
     },
     {
@@ -8521,14 +8532,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-05-29-117-447077",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-29",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -447077,
-      "kind": "investment",
-      "balanceAfterCents": 872190,
+      "id": "legacy-acc-santander-card-2025-05-23-240-3214",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-23",
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3214,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -8538,16 +8548,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "KOBE SUSHI BAR LTDA",
       "rawDescription": "KOBE SUSHI BAR LTDA",
       "amountCents": -16100,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-23-240-3214",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-23",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3214,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8562,69 +8562,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-05-20-111-188731",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-20",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 188731,
-      "kind": "investment",
-      "balanceAfterCents": 624976,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-05-20-112-11132",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-20",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 11132,
-      "kind": "investment",
-      "balanceAfterCents": 624976,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-05-20-113-135",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-20",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 135,
-      "kind": "income",
-      "balanceAfterCents": 625111,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-05-20-114-2",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-20",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 2,
-      "kind": "income",
-      "balanceAfterCents": 625113,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-05-20-115-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-05-20",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 20/05",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 20/05",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 425113,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-05-20-972-200000",
+      "id": "legacy-acc-santander-acc-2025-05-20-974-1",
       "accountId": "acc-santander-acc",
       "date": "2025-05-20",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
-      "kind": "transfer",
-      "balanceAfterCents": 386434,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 159804,
       "source": "legacy_sheet"
     },
     {
@@ -8639,14 +8584,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-05-20-974-1",
+      "id": "legacy-acc-santander-acc-2025-05-20-972-200000",
       "accountId": "acc-santander-acc",
       "date": "2025-05-20",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 200000,
+      "kind": "transfer",
+      "balanceAfterCents": 386434,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-05-20-115-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-20",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 20/05",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 20/05",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 425113,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-05-20-114-2",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-20",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 2,
+      "kind": "income",
+      "balanceAfterCents": 625113,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-05-20-113-135",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-20",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 135,
+      "kind": "income",
+      "balanceAfterCents": 625111,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-05-20-112-11132",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-20",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 11132,
       "kind": "investment",
-      "balanceAfterCents": 159804,
+      "balanceAfterCents": 624976,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-05-20-111-188731",
+      "accountId": "acc-bradesco",
+      "date": "2025-05-20",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 188731,
+      "kind": "investment",
+      "balanceAfterCents": 624976,
       "source": "legacy_sheet"
     },
     {
@@ -8670,22 +8670,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-16-234-12660",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-16",
-      "description": "TREVISAN JUNDIAI",
-      "rawDescription": "TREVISAN JUNDIAI",
-      "amountCents": -12660,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-05-16-235-5399",
       "accountId": "acc-santander-card",
       "date": "2025-05-16",
       "description": "BRASEIRO DO SUL",
       "rawDescription": "BRASEIRO DO SUL",
       "amountCents": -5399,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-16-234-12660",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-16",
+      "description": "TREVISAN JUNDIAI",
+      "rawDescription": "TREVISAN JUNDIAI",
+      "amountCents": -12660,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8700,16 +8700,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-13-231-3434",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-13",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3434,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-05-13-232-850",
       "accountId": "acc-santander-card",
       "date": "2025-05-13",
@@ -8720,14 +8710,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-05-12-970-25000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-05-12",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -25000,
+      "id": "legacy-acc-santander-card-2025-05-13-231-3434",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-13",
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3434,
       "kind": "expense",
-      "balanceAfterCents": 186432,
       "source": "legacy_sheet"
     },
     {
@@ -8742,13 +8731,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-10-229-1990",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-10",
-      "description": "UBER UBER ONE HELP",
-      "rawDescription": "UBER UBER ONE HELP",
-      "amountCents": -1990,
+      "id": "legacy-acc-santander-acc-2025-05-12-970-25000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-05-12",
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -25000,
       "kind": "expense",
+      "balanceAfterCents": 186432,
       "source": "legacy_sheet"
     },
     {
@@ -8758,6 +8748,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "SEO ROSA GRAMADO",
       "rawDescription": "SEO ROSA GRAMADO",
       "amountCents": -11600,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-10-229-1990",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-10",
+      "description": "UBER UBER ONE HELP",
+      "rawDescription": "UBER UBER ONE HELP",
+      "amountCents": -1990,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8772,16 +8772,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-07-226-802",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-07",
-      "description": "NEVASKA SORVETES",
-      "rawDescription": "NEVASKA SORVETES",
-      "amountCents": -802,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-05-07-227-2190",
       "accountId": "acc-santander-card",
       "date": "2025-05-07",
@@ -8792,14 +8782,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-05-06-968-17893",
-      "accountId": "acc-santander-acc",
-      "date": "2025-05-06",
-      "description": "PIX ENVIADO Marcela Scaramel",
-      "rawDescription": "PIX ENVIADO Marcela Scaramel",
-      "amountCents": -17893,
+      "id": "legacy-acc-santander-card-2025-05-07-226-802",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-07",
+      "description": "NEVASKA SORVETES",
+      "rawDescription": "NEVASKA SORVETES",
+      "amountCents": -802,
       "kind": "expense",
-      "balanceAfterCents": 211430,
       "source": "legacy_sheet"
     },
     {
@@ -8814,12 +8803,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-03-223-700",
+      "id": "legacy-acc-santander-acc-2025-05-06-968-17893",
+      "accountId": "acc-santander-acc",
+      "date": "2025-05-06",
+      "description": "PIX ENVIADO Marcela Scaramel",
+      "rawDescription": "PIX ENVIADO Marcela Scaramel",
+      "amountCents": -17893,
+      "kind": "expense",
+      "balanceAfterCents": 211430,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-03-225-4400",
       "accountId": "acc-santander-card",
       "date": "2025-05-03",
-      "description": "LULU MERCADINHO",
-      "rawDescription": "LULU MERCADINHO",
-      "amountCents": -700,
+      "description": "SMN ALIMENTOS LTDA",
+      "rawDescription": "SMN ALIMENTOS LTDA",
+      "amountCents": -4400,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8834,42 +8834,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-03-225-4400",
+      "id": "legacy-acc-santander-card-2025-05-03-223-700",
       "accountId": "acc-santander-card",
       "date": "2025-05-03",
-      "description": "SMN ALIMENTOS LTDA",
-      "rawDescription": "SMN ALIMENTOS LTDA",
-      "amountCents": -4400,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-02-219-1490",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-02",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -1490,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-02-220-3784",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-02",
-      "description": "CANTINHO DO VIADUTO",
-      "rawDescription": "CANTINHO DO VIADUTO",
-      "amountCents": -3784,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-05-02-221-1883",
-      "accountId": "acc-santander-card",
-      "date": "2025-05-02",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1883,
+      "description": "LULU MERCADINHO",
+      "rawDescription": "LULU MERCADINHO",
+      "amountCents": -700,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8884,22 +8854,32 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-01-216-2034",
+      "id": "legacy-acc-santander-card-2025-05-02-221-1883",
       "accountId": "acc-santander-card",
-      "date": "2025-05-01",
-      "description": "ZIG HEAVY HOUSE",
-      "rawDescription": "ZIG HEAVY HOUSE",
-      "amountCents": -2034,
+      "date": "2025-05-02",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1883,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-05-01-217-1865",
+      "id": "legacy-acc-santander-card-2025-05-02-220-3784",
       "accountId": "acc-santander-card",
-      "date": "2025-05-01",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1865,
+      "date": "2025-05-02",
+      "description": "CANTINHO DO VIADUTO",
+      "rawDescription": "CANTINHO DO VIADUTO",
+      "amountCents": -3784,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-02-219-1490",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-02",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -1490,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -8914,47 +8894,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-04-30-107-239893",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-30",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 239893,
-      "kind": "investment",
-      "balanceAfterCents": 864869,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-30-108-107",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-30",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 107,
-      "kind": "income",
-      "balanceAfterCents": 864976,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-30-109-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-30",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 30/04",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 30/04",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 664976,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-30-110-40000",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-30",
-      "description": "Pix Qrcode Din Des: Crs Music Promocoes 30/04",
-      "rawDescription": "Pix Qrcode Din Des: Crs Music Promocoes 30/04",
-      "amountCents": -40000,
+      "id": "legacy-acc-santander-card-2025-05-01-217-1865",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-01",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1865,
       "kind": "expense",
-      "balanceAfterCents": 624976,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-05-01-216-2034",
+      "accountId": "acc-santander-card",
+      "date": "2025-05-01",
+      "description": "ZIG HEAVY HOUSE",
+      "rawDescription": "ZIG HEAVY HOUSE",
+      "amountCents": -2034,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -8969,13 +8925,46 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-04-29-105-435914",
+      "id": "legacy-acc-bradesco-2025-04-30-110-40000",
       "accountId": "acc-bradesco",
-      "date": "2025-04-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 435914,
+      "date": "2025-04-30",
+      "description": "Pix Qrcode Din Des: Crs Music Promocoes 30/04",
+      "rawDescription": "Pix Qrcode Din Des: Crs Music Promocoes 30/04",
+      "amountCents": -40000,
+      "kind": "expense",
+      "balanceAfterCents": 624976,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-30-109-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-30",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 30/04",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 30/04",
+      "amountCents": -200000,
       "kind": "transfer",
+      "balanceAfterCents": 664976,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-30-108-107",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-30",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 107,
+      "kind": "income",
+      "balanceAfterCents": 864976,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-30-107-239893",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-30",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 239893,
+      "kind": "investment",
       "balanceAfterCents": 864869,
       "source": "legacy_sheet"
     },
@@ -8991,14 +8980,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-04-23-965-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-23",
-      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "amountCents": -10000,
-      "kind": "expense",
-      "balanceAfterCents": 29322,
+      "id": "legacy-acc-bradesco-2025-04-29-105-435914",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 435914,
+      "kind": "transfer",
+      "balanceAfterCents": 864869,
       "source": "legacy_sheet"
     },
     {
@@ -9013,14 +9002,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-04-22-963-7869",
+      "id": "legacy-acc-santander-acc-2025-04-23-965-10000",
       "accountId": "acc-santander-acc",
-      "date": "2025-04-22",
-      "description": "PIX ENVIADO Enx Services Tecnologia E",
-      "rawDescription": "PIX ENVIADO Enx Services Tecnologia E",
-      "amountCents": -7869,
+      "date": "2025-04-23",
+      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "amountCents": -10000,
       "kind": "expense",
-      "balanceAfterCents": 39321,
+      "balanceAfterCents": 29322,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-22-215-2600",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-22",
+      "description": "RAFAEL DE ROSA CELSO",
+      "rawDescription": "RAFAEL DE ROSA CELSO",
+      "amountCents": -2600,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -9035,22 +9034,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-22-215-2600",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-04-22-963-7869",
+      "accountId": "acc-santander-acc",
       "date": "2025-04-22",
-      "description": "RAFAEL DE ROSA CELSO",
-      "rawDescription": "RAFAEL DE ROSA CELSO",
-      "amountCents": -2600,
+      "description": "PIX ENVIADO Enx Services Tecnologia E",
+      "rawDescription": "PIX ENVIADO Enx Services Tecnologia E",
+      "amountCents": -7869,
       "kind": "expense",
+      "balanceAfterCents": 39321,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-19-212-11997",
+      "id": "legacy-acc-santander-card-2025-04-19-214-14990",
       "accountId": "acc-santander-card",
       "date": "2025-04-19",
-      "description": "PONTO DOS CALCADOS",
-      "rawDescription": "PONTO DOS CALCADOS",
-      "amountCents": -11997,
+      "description": "PIPE ON LINE",
+      "rawDescription": "PIPE ON LINE",
+      "amountCents": -14990,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9065,141 +9065,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-19-214-14990",
+      "id": "legacy-acc-santander-card-2025-04-19-212-11997",
       "accountId": "acc-santander-card",
       "date": "2025-04-19",
-      "description": "PIPE ON LINE",
-      "rawDescription": "PIPE ON LINE",
-      "amountCents": -14990,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-17-101-300093",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-17",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 300093,
-      "kind": "investment",
-      "balanceAfterCents": 728758,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-17-102-197",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-17",
-      "description": "Rent.iny.facil",
-      "rawDescription": "Rent.iny.facil",
-      "amountCents": 197,
-      "kind": "income",
-      "balanceAfterCents": 728955,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-17-103-100000",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-17",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 17/04",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 17/04",
-      "amountCents": -100000,
-      "kind": "transfer",
-      "balanceAfterCents": 628955,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-04-17-104-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-04-17",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 17/04",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 17/04",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 428955,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-17-958-15500",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-17",
-      "description": "PIX ENVIADO Gabriel Prado",
-      "rawDescription": "PIX ENVIADO Gabriel Prado",
-      "amountCents": -15500,
-      "kind": "expense",
-      "balanceAfterCents": 46594,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-17-959-100000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-17",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 100000,
-      "kind": "transfer",
-      "balanceAfterCents": 146594,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-17-960-200000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-17",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
-      "kind": "transfer",
-      "balanceAfterCents": 346594,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-17-961-299405",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-17",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -299405,
-      "kind": "card_payment",
-      "balanceAfterCents": 47189,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-17-962-1",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-17",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 47190,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-17-208-1400",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-17",
-      "description": "FABRICA DE BOLO VO A",
-      "rawDescription": "FABRICA DE BOLO VO A",
-      "amountCents": -1400,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-17-209-6800",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-17",
-      "description": "FABRICA DE BOLO VO A",
-      "rawDescription": "FABRICA DE BOLO VO A",
-      "amountCents": -6800,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-17-210-3000",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-17",
-      "description": "X PARK ESTACIONAMENTO",
-      "rawDescription": "X PARK ESTACIONAMENTO",
-      "amountCents": -3000,
+      "description": "PONTO DOS CALCADOS",
+      "rawDescription": "PONTO DOS CALCADOS",
+      "amountCents": -11997,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9214,6 +9085,135 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2025-04-17-210-3000",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-17",
+      "description": "X PARK ESTACIONAMENTO",
+      "rawDescription": "X PARK ESTACIONAMENTO",
+      "amountCents": -3000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-17-209-6800",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-17",
+      "description": "FABRICA DE BOLO VO A",
+      "rawDescription": "FABRICA DE BOLO VO A",
+      "amountCents": -6800,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-17-208-1400",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-17",
+      "description": "FABRICA DE BOLO VO A",
+      "rawDescription": "FABRICA DE BOLO VO A",
+      "amountCents": -1400,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-17-962-1",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-17",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 47190,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-17-961-299405",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-17",
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -299405,
+      "kind": "card_payment",
+      "balanceAfterCents": 47189,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-17-960-200000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-17",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 200000,
+      "kind": "transfer",
+      "balanceAfterCents": 346594,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-17-959-100000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-17",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 100000,
+      "kind": "transfer",
+      "balanceAfterCents": 146594,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-17-958-15500",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-17",
+      "description": "PIX ENVIADO Gabriel Prado",
+      "rawDescription": "PIX ENVIADO Gabriel Prado",
+      "amountCents": -15500,
+      "kind": "expense",
+      "balanceAfterCents": 46594,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-17-104-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-17",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 17/04",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 17/04",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 428955,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-17-103-100000",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-17",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 17/04",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 17/04",
+      "amountCents": -100000,
+      "kind": "transfer",
+      "balanceAfterCents": 628955,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-17-102-197",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-17",
+      "description": "Rent.iny.facil",
+      "rawDescription": "Rent.iny.facil",
+      "amountCents": 197,
+      "kind": "income",
+      "balanceAfterCents": 728955,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-04-17-101-300093",
+      "accountId": "acc-bradesco",
+      "date": "2025-04-17",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 300093,
+      "kind": "investment",
+      "balanceAfterCents": 728758,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-04-15-207-1390",
       "accountId": "acc-santander-card",
       "date": "2025-04-15",
@@ -9224,14 +9224,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-04-14-956-6359",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-04-14-206-1121",
+      "accountId": "acc-santander-card",
       "date": "2025-04-14",
-      "description": "PIX ENVIADO Cartorio do 1 Oficio de N",
-      "rawDescription": "PIX ENVIADO Cartorio do 1 Oficio de N",
-      "amountCents": -6359,
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1121,
       "kind": "expense",
-      "balanceAfterCents": 62093,
       "source": "legacy_sheet"
     },
     {
@@ -9246,12 +9245,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-14-206-1121",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-04-14-956-6359",
+      "accountId": "acc-santander-acc",
       "date": "2025-04-14",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1121,
+      "description": "PIX ENVIADO Cartorio do 1 Oficio de N",
+      "rawDescription": "PIX ENVIADO Cartorio do 1 Oficio de N",
+      "amountCents": -6359,
+      "kind": "expense",
+      "balanceAfterCents": 62093,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-13-205-5000",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-13",
+      "description": "ZIG LAROC CLUB LTD",
+      "rawDescription": "ZIG LAROC CLUB LTD",
+      "amountCents": -5000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9266,9 +9276,9 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-13-205-5000",
+      "id": "legacy-acc-santander-card-2025-04-12-203-5000",
       "accountId": "acc-santander-card",
-      "date": "2025-04-13",
+      "date": "2025-04-12",
       "description": "ZIG LAROC CLUB LTD",
       "rawDescription": "ZIG LAROC CLUB LTD",
       "amountCents": -5000,
@@ -9286,24 +9296,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-12-203-5000",
+      "id": "legacy-acc-santander-card-2025-04-11-201-1080",
       "accountId": "acc-santander-card",
-      "date": "2025-04-12",
-      "description": "ZIG LAROC CLUB LTD",
-      "rawDescription": "ZIG LAROC CLUB LTD",
-      "amountCents": -5000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-11-954-15000",
-      "accountId": "acc-santander-acc",
       "date": "2025-04-11",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -15000,
+      "description": "99 99",
+      "rawDescription": "99 99",
+      "amountCents": -1080,
       "kind": "expense",
-      "balanceAfterCents": 68451,
       "source": "legacy_sheet"
     },
     {
@@ -9318,12 +9317,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-11-201-1080",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-04-11-954-15000",
+      "accountId": "acc-santander-acc",
       "date": "2025-04-11",
-      "description": "99 99",
-      "rawDescription": "99 99",
-      "amountCents": -1080,
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -15000,
+      "kind": "expense",
+      "balanceAfterCents": 68451,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-10-200-1990",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-10",
+      "description": "UBER UBER ONE HELP",
+      "rawDescription": "UBER UBER ONE HELP",
+      "amountCents": -1990,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9338,42 +9348,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-10-200-1990",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-10",
-      "description": "UBER UBER ONE HELP",
-      "rawDescription": "UBER UBER ONE HELP",
-      "amountCents": -1990,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-04-09-198-1150",
       "accountId": "acc-santander-card",
       "date": "2025-04-09",
       "description": "UBER TRIP",
       "rawDescription": "UBER TRIP",
       "amountCents": -1150,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-08-195-1166",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-08",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1166,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-08-196-2398",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-08",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -2398,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9388,34 +9368,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-04-07-952-2759",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-07",
-      "description": "PIX ENVIADO ODP OUTLET DE PASSAGENS",
-      "rawDescription": "PIX ENVIADO ODP OUTLET DE PASSAGENS",
-      "amountCents": -2759,
-      "kind": "expense",
-      "balanceAfterCents": 79951,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-04-07-953-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2025-04-07",
-      "description": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
-      "rawDescription": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
-      "amountCents": 3500,
-      "kind": "income",
-      "balanceAfterCents": 83451,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-07-193-1297",
+      "id": "legacy-acc-santander-card-2025-04-08-196-2398",
       "accountId": "acc-santander-card",
-      "date": "2025-04-07",
+      "date": "2025-04-08",
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -2398,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-08-195-1166",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-08",
       "description": "UBER TRIP",
       "rawDescription": "UBER TRIP",
-      "amountCents": -1297,
+      "amountCents": -1166,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9430,12 +9398,44 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-06-190-4678",
+      "id": "legacy-acc-santander-card-2025-04-07-193-1297",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-07",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1297,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-07-953-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-07",
+      "description": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
+      "rawDescription": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
+      "amountCents": 3500,
+      "kind": "income",
+      "balanceAfterCents": 83451,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-04-07-952-2759",
+      "accountId": "acc-santander-acc",
+      "date": "2025-04-07",
+      "description": "PIX ENVIADO ODP OUTLET DE PASSAGENS",
+      "rawDescription": "PIX ENVIADO ODP OUTLET DE PASSAGENS",
+      "amountCents": -2759,
+      "kind": "expense",
+      "balanceAfterCents": 79951,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-06-192-3520",
       "accountId": "acc-santander-card",
       "date": "2025-04-06",
-      "description": "NARGUILARIA SP",
-      "rawDescription": "NARGUILARIA SP",
-      "amountCents": -4678,
+      "description": "PIZZI PIZZI RESTAURANT",
+      "rawDescription": "PIZZI PIZZI RESTAURANT",
+      "amountCents": -3520,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9450,22 +9450,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-06-192-3520",
+      "id": "legacy-acc-santander-card-2025-04-06-190-4678",
       "accountId": "acc-santander-card",
       "date": "2025-04-06",
-      "description": "PIZZI PIZZI RESTAURANT",
-      "rawDescription": "PIZZI PIZZI RESTAURANT",
-      "amountCents": -3520,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-05-188-2677",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-05",
-      "description": "THE CHAMPIONS",
-      "rawDescription": "THE CHAMPIONS",
-      "amountCents": -2677,
+      "description": "NARGUILARIA SP",
+      "rawDescription": "NARGUILARIA SP",
+      "amountCents": -4678,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9480,14 +9470,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-04-04-950-9393",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-04-05-188-2677",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-05",
+      "description": "THE CHAMPIONS",
+      "rawDescription": "THE CHAMPIONS",
+      "amountCents": -2677,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-04-187-1026",
+      "accountId": "acc-santander-card",
       "date": "2025-04-04",
-      "description": "PIX RECEBIDO PAGGO SOLUCOES TECNOLOGIC",
-      "rawDescription": "PIX RECEBIDO PAGGO SOLUCOES TECNOLOGIC",
-      "amountCents": 9393,
-      "kind": "income",
-      "balanceAfterCents": 92103,
+      "description": "99 99",
+      "rawDescription": "99 99",
+      "amountCents": -1026,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -9502,13 +9501,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-04-187-1026",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-04-04-950-9393",
+      "accountId": "acc-santander-acc",
       "date": "2025-04-04",
-      "description": "99 99",
-      "rawDescription": "99 99",
-      "amountCents": -1026,
-      "kind": "expense",
+      "description": "PIX RECEBIDO PAGGO SOLUCOES TECNOLOGIC",
+      "rawDescription": "PIX RECEBIDO PAGGO SOLUCOES TECNOLOGIC",
+      "amountCents": 9393,
+      "kind": "income",
+      "balanceAfterCents": 92103,
       "source": "legacy_sheet"
     },
     {
@@ -9518,46 +9518,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "UBER TRIP",
       "rawDescription": "UBER TRIP",
       "amountCents": -960,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-02-181-1040",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-02",
-      "description": "99 99 (Estorno)",
-      "rawDescription": "99 99 (Estorno)",
-      "amountCents": 1040,
-      "kind": "income",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-02-182-1311",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-02",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1311,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-02-183-1490",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-02",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -1490,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-04-02-184-1417",
-      "accountId": "acc-santander-card",
-      "date": "2025-04-02",
-      "description": "99 POP",
-      "rawDescription": "99 POP",
-      "amountCents": -1417,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9572,13 +9532,43 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-04-01-179-10810",
+      "id": "legacy-acc-santander-card-2025-04-02-184-1417",
       "accountId": "acc-santander-card",
-      "date": "2025-04-01",
-      "description": "OUTBACK JUNDIAI",
-      "rawDescription": "OUTBACK JUNDIAI",
-      "amountCents": -10810,
+      "date": "2025-04-02",
+      "description": "99 POP",
+      "rawDescription": "99 POP",
+      "amountCents": -1417,
       "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-02-183-1490",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-02",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -1490,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-02-182-1311",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-02",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1311,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-04-02-181-1040",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-02",
+      "description": "99 99 (Estorno)",
+      "rawDescription": "99 99 (Estorno)",
+      "amountCents": 1040,
+      "kind": "income",
       "source": "legacy_sheet"
     },
     {
@@ -9592,14 +9582,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-03-31-949-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-31",
-      "description": "PIX ENVIADO Luis Guilherme Monteiro M",
-      "rawDescription": "PIX ENVIADO Luis Guilherme Monteiro M",
-      "amountCents": -5000,
+      "id": "legacy-acc-santander-card-2025-04-01-179-10810",
+      "accountId": "acc-santander-card",
+      "date": "2025-04-01",
+      "description": "OUTBACK JUNDIAI",
+      "rawDescription": "OUTBACK JUNDIAI",
+      "amountCents": -10810,
       "kind": "expense",
-      "balanceAfterCents": 82710,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-31-178-10000",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-31",
+      "description": "SEM PARAR",
+      "rawDescription": "SEM PARAR",
+      "amountCents": -10000,
+      "kind": "expense",
+      "categoryId": "cat-semparar",
       "source": "legacy_sheet"
     },
     {
@@ -9613,14 +9613,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-31-178-10000",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-03-31-949-5000",
+      "accountId": "acc-santander-acc",
       "date": "2025-03-31",
-      "description": "SEM PARAR",
-      "rawDescription": "SEM PARAR",
-      "amountCents": -10000,
+      "description": "PIX ENVIADO Luis Guilherme Monteiro M",
+      "rawDescription": "PIX ENVIADO Luis Guilherme Monteiro M",
+      "amountCents": -5000,
       "kind": "expense",
-      "categoryId": "cat-semparar",
+      "balanceAfterCents": 82710,
       "source": "legacy_sheet"
     },
     {
@@ -9644,14 +9644,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-28-172-14990",
+      "id": "legacy-acc-santander-card-2025-03-28-174-42356",
       "accountId": "acc-santander-card",
       "date": "2025-03-28",
-      "description": "PAG STEAM",
-      "rawDescription": "PAG STEAM",
-      "amountCents": -14990,
+      "description": "EC PICHAUINFORMA",
+      "rawDescription": "EC PICHAUINFORMA",
+      "amountCents": -42356,
       "kind": "expense",
-      "categoryId": "cat-lazer",
       "source": "legacy_sheet"
     },
     {
@@ -9665,12 +9664,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-28-174-42356",
+      "id": "legacy-acc-santander-card-2025-03-28-172-14990",
       "accountId": "acc-santander-card",
       "date": "2025-03-28",
-      "description": "EC PICHAUINFORMA",
-      "rawDescription": "EC PICHAUINFORMA",
-      "amountCents": -42356,
+      "description": "PAG STEAM",
+      "rawDescription": "PAG STEAM",
+      "amountCents": -14990,
+      "kind": "expense",
+      "categoryId": "cat-lazer",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-27-171-1120",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-27",
+      "description": "99 99",
+      "rawDescription": "99 99",
+      "amountCents": -1120,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9697,12 +9707,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-27-171-1120",
+      "id": "legacy-acc-santander-card-2025-03-26-170-920",
       "accountId": "acc-santander-card",
-      "date": "2025-03-27",
+      "date": "2025-03-26",
       "description": "99 99",
       "rawDescription": "99 99",
-      "amountCents": -1120,
+      "amountCents": -920,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9713,16 +9723,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "PG AGENCIA ZAIT CAROL",
       "rawDescription": "PG AGENCIA ZAIT CAROL",
       "amountCents": -7700,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-26-170-920",
-      "accountId": "acc-santander-card",
-      "date": "2025-03-26",
-      "description": "99 99",
-      "rawDescription": "99 99",
-      "amountCents": -920,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9767,34 +9767,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-03-19-947-184682",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -184682,
-      "kind": "card_payment",
-      "balanceAfterCents": 87702,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-03-19-948-8",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 8,
-      "kind": "investment",
-      "balanceAfterCents": 87710,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-19-162-2497",
+      "id": "legacy-acc-santander-card-2025-03-19-164-6028",
       "accountId": "acc-santander-card",
       "date": "2025-03-19",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -2497,
+      "description": "THE STEAK FACTORY",
+      "rawDescription": "THE STEAK FACTORY",
+      "amountCents": -6028,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9809,13 +9787,35 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-19-164-6028",
+      "id": "legacy-acc-santander-card-2025-03-19-162-2497",
       "accountId": "acc-santander-card",
       "date": "2025-03-19",
-      "description": "THE STEAK FACTORY",
-      "rawDescription": "THE STEAK FACTORY",
-      "amountCents": -6028,
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -2497,
       "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-03-19-948-8",
+      "accountId": "acc-santander-acc",
+      "date": "2025-03-19",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 8,
+      "kind": "investment",
+      "balanceAfterCents": 87710,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-03-19-947-184682",
+      "accountId": "acc-santander-acc",
+      "date": "2025-03-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -184682,
+      "kind": "card_payment",
+      "balanceAfterCents": 87702,
       "source": "legacy_sheet"
     },
     {
@@ -9829,58 +9829,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-03-17-94-100168",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2025-03-17-160-1030",
+      "accountId": "acc-santander-card",
       "date": "2025-03-17",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 100168,
-      "kind": "investment",
-      "balanceAfterCents": 490067,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-03-17-95-89765",
-      "accountId": "acc-bradesco",
-      "date": "2025-03-17",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 89765,
-      "kind": "investment",
-      "balanceAfterCents": 490067,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-03-17-96-57",
-      "accountId": "acc-bradesco",
-      "date": "2025-03-17",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 57,
-      "kind": "income",
-      "balanceAfterCents": 490124,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-03-17-97-10",
-      "accountId": "acc-bradesco",
-      "date": "2025-03-17",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 10,
-      "kind": "income",
-      "balanceAfterCents": 490134,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-03-17-98-190000",
-      "accountId": "acc-bradesco",
-      "date": "2025-03-17",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 16/03",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 16/03",
-      "amountCents": -190000,
-      "kind": "transfer",
-      "balanceAfterCents": 300134,
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -1030,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -9895,22 +9850,67 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-17-160-1030",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-03-17-98-190000",
+      "accountId": "acc-bradesco",
       "date": "2025-03-17",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -1030,
-      "kind": "expense",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 16/03",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 16/03",
+      "amountCents": -190000,
+      "kind": "transfer",
+      "balanceAfterCents": 300134,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-15-157-5880",
+      "id": "legacy-acc-bradesco-2025-03-17-97-10",
+      "accountId": "acc-bradesco",
+      "date": "2025-03-17",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 10,
+      "kind": "income",
+      "balanceAfterCents": 490134,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-03-17-96-57",
+      "accountId": "acc-bradesco",
+      "date": "2025-03-17",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 57,
+      "kind": "income",
+      "balanceAfterCents": 490124,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-03-17-95-89765",
+      "accountId": "acc-bradesco",
+      "date": "2025-03-17",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 89765,
+      "kind": "investment",
+      "balanceAfterCents": 490067,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-03-17-94-100168",
+      "accountId": "acc-bradesco",
+      "date": "2025-03-17",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 100168,
+      "kind": "investment",
+      "balanceAfterCents": 490067,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-15-159-26686",
       "accountId": "acc-santander-card",
       "date": "2025-03-15",
-      "description": "CIRANDA BRINQUEDOS",
-      "rawDescription": "CIRANDA BRINQUEDOS",
-      "amountCents": -5880,
+      "description": "SHIKAKU RESTAURANTE JA",
+      "rawDescription": "SHIKAKU RESTAURANTE JA",
+      "amountCents": -26686,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9925,22 +9925,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-15-159-26686",
+      "id": "legacy-acc-santander-card-2025-03-15-157-5880",
       "accountId": "acc-santander-card",
       "date": "2025-03-15",
-      "description": "SHIKAKU RESTAURANTE JA",
-      "rawDescription": "SHIKAKU RESTAURANTE JA",
-      "amountCents": -26686,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-14-155-945",
-      "accountId": "acc-santander-card",
-      "date": "2025-03-14",
-      "description": "99*",
-      "rawDescription": "99*",
-      "amountCents": -945,
+      "description": "CIRANDA BRINQUEDOS",
+      "rawDescription": "CIRANDA BRINQUEDOS",
+      "amountCents": -5880,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9955,12 +9945,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-13-153-6000",
+      "id": "legacy-acc-santander-card-2025-03-14-155-945",
       "accountId": "acc-santander-card",
-      "date": "2025-03-13",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -6000,
+      "date": "2025-03-14",
+      "description": "99*",
+      "rawDescription": "99*",
+      "amountCents": -945,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -9975,45 +9965,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-03-12-943-19800",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-12",
-      "description": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
-      "rawDescription": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
-      "amountCents": -19800,
-      "kind": "expense",
-      "balanceAfterCents": 84083,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-03-12-944-1700",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-12",
-      "description": "PIX ENVIADO Matheus Pellegrini Ferrel",
-      "rawDescription": "PIX ENVIADO Matheus Pellegrini Ferrel",
-      "amountCents": -1700,
-      "kind": "expense",
-      "balanceAfterCents": 82383,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-03-12-945-1",
-      "accountId": "acc-santander-acc",
-      "date": "2025-03-12",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 82384,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-12-151-1650",
+      "id": "legacy-acc-santander-card-2025-03-13-153-6000",
       "accountId": "acc-santander-card",
-      "date": "2025-03-12",
-      "description": "UBER* TRIP",
-      "rawDescription": "UBER* TRIP",
-      "amountCents": -1650,
+      "date": "2025-03-13",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -6000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10028,13 +9985,46 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-11-149-5149",
+      "id": "legacy-acc-santander-card-2025-03-12-151-1650",
       "accountId": "acc-santander-card",
-      "date": "2025-03-11",
-      "description": "BRASEIRO DO SUL",
-      "rawDescription": "BRASEIRO DO SUL",
-      "amountCents": -5149,
+      "date": "2025-03-12",
+      "description": "UBER* TRIP",
+      "rawDescription": "UBER* TRIP",
+      "amountCents": -1650,
       "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-03-12-945-1",
+      "accountId": "acc-santander-acc",
+      "date": "2025-03-12",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 82384,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-03-12-944-1700",
+      "accountId": "acc-santander-acc",
+      "date": "2025-03-12",
+      "description": "PIX ENVIADO Matheus Pellegrini Ferrel",
+      "rawDescription": "PIX ENVIADO Matheus Pellegrini Ferrel",
+      "amountCents": -1700,
+      "kind": "expense",
+      "balanceAfterCents": 82383,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-03-12-943-19800",
+      "accountId": "acc-santander-acc",
+      "date": "2025-03-12",
+      "description": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
+      "rawDescription": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
+      "amountCents": -19800,
+      "kind": "expense",
+      "balanceAfterCents": 84083,
       "source": "legacy_sheet"
     },
     {
@@ -10044,6 +10034,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "UBER* TRIP",
       "rawDescription": "UBER* TRIP",
       "amountCents": -1472,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-11-149-5149",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-11",
+      "description": "BRASEIRO DO SUL",
+      "rawDescription": "BRASEIRO DO SUL",
+      "amountCents": -5149,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10058,12 +10058,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-08-145-2690",
+      "id": "legacy-acc-santander-card-2025-03-08-147-3880",
       "accountId": "acc-santander-card",
       "date": "2025-03-08",
-      "description": "EMPORIO SANTA TERESINH",
-      "rawDescription": "EMPORIO SANTA TERESINH",
-      "amountCents": -2690,
+      "description": "SUCAO SUCOS E LANCHES",
+      "rawDescription": "SUCAO SUCOS E LANCHES",
+      "amountCents": -3880,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10078,22 +10078,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-08-147-3880",
+      "id": "legacy-acc-santander-card-2025-03-08-145-2690",
       "accountId": "acc-santander-card",
       "date": "2025-03-08",
-      "description": "SUCAO SUCOS E LANCHES",
-      "rawDescription": "SUCAO SUCOS E LANCHES",
-      "amountCents": -3880,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-07-143-1181",
-      "accountId": "acc-santander-card",
-      "date": "2025-03-07",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1181,
+      "description": "EMPORIO SANTA TERESINH",
+      "rawDescription": "EMPORIO SANTA TERESINH",
+      "amountCents": -2690,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10108,12 +10098,42 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2025-03-07-143-1181",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-07",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1181,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-03-06-142-1165",
       "accountId": "acc-santander-card",
       "date": "2025-03-06",
       "description": "UBER TRIP",
       "rawDescription": "UBER TRIP",
       "amountCents": -1165,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-05-141-3900",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-05",
+      "description": "BOTECO DO BENE",
+      "rawDescription": "BOTECO DO BENE",
+      "amountCents": -3900,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-03-05-140-840",
+      "accountId": "acc-santander-card",
+      "date": "2025-03-05",
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -840,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10129,22 +10149,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-05-140-840",
+      "id": "legacy-acc-santander-card-2025-03-04-139-3600",
       "accountId": "acc-santander-card",
-      "date": "2025-03-05",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -840,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-03-05-141-3900",
-      "accountId": "acc-santander-card",
-      "date": "2025-03-05",
-      "description": "BOTECO DO BENE",
-      "rawDescription": "BOTECO DO BENE",
-      "amountCents": -3900,
+      "date": "2025-03-04",
+      "description": "ZIGZIGAME LAROC FEST",
+      "rawDescription": "ZIGZIGAME LAROC FEST",
+      "amountCents": -3600,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10159,12 +10169,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-04-139-3600",
+      "id": "legacy-acc-santander-card-2025-03-03-137-2000",
       "accountId": "acc-santander-card",
-      "date": "2025-03-04",
+      "date": "2025-03-03",
       "description": "ZIGZIGAME LAROC FEST",
       "rawDescription": "ZIGZIGAME LAROC FEST",
-      "amountCents": -3600,
+      "amountCents": -2000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10179,12 +10189,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-03-137-2000",
+      "id": "legacy-acc-santander-card-2025-03-02-135-1490",
       "accountId": "acc-santander-card",
-      "date": "2025-03-03",
-      "description": "ZIGZIGAME LAROC FEST",
-      "rawDescription": "ZIGZIGAME LAROC FEST",
-      "amountCents": -2000,
+      "date": "2025-03-02",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -1490,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10200,16 +10210,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-03-02-135-1490",
-      "accountId": "acc-santander-card",
-      "date": "2025-03-02",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -1490,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-03-01-133-16000",
       "accountId": "acc-santander-card",
       "date": "2025-03-01",
@@ -10220,25 +10220,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-02-27-92-389858",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2025-02-27-132-830",
+      "accountId": "acc-santander-card",
       "date": "2025-02-27",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 389858,
-      "kind": "transfer",
-      "balanceAfterCents": 490067,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-27-93-389858",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-27",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -389858,
-      "kind": "investment",
-      "balanceAfterCents": 490067,
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -830,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -10253,79 +10241,35 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-27-132-830",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2025-02-27-93-389858",
+      "accountId": "acc-bradesco",
       "date": "2025-02-27",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -389858,
+      "kind": "investment",
+      "balanceAfterCents": 490067,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-27-92-389858",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-27",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 389858,
+      "kind": "transfer",
+      "balanceAfterCents": 490067,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-26-131-1280",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-26",
       "description": "99",
       "rawDescription": "99",
-      "amountCents": -830,
+      "amountCents": -1280,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-26-87-120048",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-26",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 120048,
-      "kind": "investment",
-      "balanceAfterCents": 300089,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-26-88-79832",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-26",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 79832,
-      "kind": "investment",
-      "balanceAfterCents": 300089,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-26-89-94",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-26",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 94,
-      "kind": "income",
-      "balanceAfterCents": 300183,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-26-90-26",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-26",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 26,
-      "kind": "income",
-      "balanceAfterCents": 300209,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-26-91-200000",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-26",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 26/02",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 26/02",
-      "amountCents": -200000,
-      "kind": "transfer",
-      "balanceAfterCents": 100209,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-02-26-939-200000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-02-26",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 200000,
-      "kind": "transfer",
-      "balanceAfterCents": 304533,
       "source": "legacy_sheet"
     },
     {
@@ -10340,12 +10284,88 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-26-131-1280",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-02-26-939-200000",
+      "accountId": "acc-santander-acc",
       "date": "2025-02-26",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -1280,
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 200000,
+      "kind": "transfer",
+      "balanceAfterCents": 304533,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-26-91-200000",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-26",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 26/02",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 26/02",
+      "amountCents": -200000,
+      "kind": "transfer",
+      "balanceAfterCents": 100209,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-26-90-26",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-26",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 26,
+      "kind": "income",
+      "balanceAfterCents": 300209,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-26-89-94",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-26",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 94,
+      "kind": "income",
+      "balanceAfterCents": 300183,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-26-88-79832",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-26",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 79832,
+      "kind": "investment",
+      "balanceAfterCents": 300089,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-26-87-120048",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-26",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 120048,
+      "kind": "investment",
+      "balanceAfterCents": 300089,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-25-130-1268",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-25",
+      "description": "UBER UBER TRIP HELP U",
+      "rawDescription": "UBER UBER TRIP HELP U",
+      "amountCents": -1268,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-25-129-3900",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-25",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -3900,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10361,42 +10381,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-25-129-3900",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-25",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -3900,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-25-130-1268",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-25",
-      "description": "UBER UBER TRIP HELP U",
-      "rawDescription": "UBER UBER TRIP HELP U",
-      "amountCents": -1268,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-02-24-128-1275",
       "accountId": "acc-santander-card",
       "date": "2025-02-24",
       "description": "UBER UBER TRIP HELP U",
       "rawDescription": "UBER UBER TRIP HELP U",
       "amountCents": -1275,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-21-126-1147",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-21",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1147,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10411,6 +10401,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2025-02-21-126-1147",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-21",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1147,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-02-20-125-1280",
       "accountId": "acc-santander-card",
       "date": "2025-02-20",
@@ -10421,14 +10421,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-02-19-936-178510",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-02-19-124-1196",
+      "accountId": "acc-santander-card",
       "date": "2025-02-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
-      "amountCents": -178510,
-      "kind": "card_payment",
-      "balanceAfterCents": 105824,
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1196,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -10443,13 +10442,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-19-124-1196",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-02-19-936-178510",
+      "accountId": "acc-santander-acc",
       "date": "2025-02-19",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1196,
-      "kind": "expense",
+      "description": "PAGAMENTO CARTAO CREDITO BCE",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE",
+      "amountCents": -178510,
+      "kind": "card_payment",
+      "balanceAfterCents": 105824,
       "source": "legacy_sheet"
     },
     {
@@ -10473,78 +10473,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-02-14-82-119896",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-14",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 119896,
-      "kind": "investment",
-      "balanceAfterCents": 479937,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-14-83-59952",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-14",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 59952,
-      "kind": "investment",
-      "balanceAfterCents": 479937,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-14-84-114",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-14",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 114,
-      "kind": "income",
-      "balanceAfterCents": 480051,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-14-85-38",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-14",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 38,
-      "kind": "income",
-      "balanceAfterCents": 480089,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2025-02-14-86-180000",
-      "accountId": "acc-bradesco",
-      "date": "2025-02-14",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 14/02",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 14/02",
-      "amountCents": -180000,
-      "kind": "transfer",
-      "balanceAfterCents": 300089,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-02-14-935-180000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-02-14",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 284334,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-14-119-1375",
+      "id": "legacy-acc-santander-card-2025-02-14-121-4780",
       "accountId": "acc-santander-card",
       "date": "2025-02-14",
-      "description": "UBER* TRIP",
-      "rawDescription": "UBER* TRIP",
-      "amountCents": -1375,
+      "description": "NARGUILARIA SP",
+      "rawDescription": "NARGUILARIA SP",
+      "amountCents": -4780,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10559,22 +10493,88 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-14-121-4780",
+      "id": "legacy-acc-santander-card-2025-02-14-119-1375",
       "accountId": "acc-santander-card",
       "date": "2025-02-14",
-      "description": "NARGUILARIA SP",
-      "rawDescription": "NARGUILARIA SP",
-      "amountCents": -4780,
+      "description": "UBER* TRIP",
+      "rawDescription": "UBER* TRIP",
+      "amountCents": -1375,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-13-116-1360",
+      "id": "legacy-acc-santander-acc-2025-02-14-935-180000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-02-14",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 180000,
+      "kind": "transfer",
+      "balanceAfterCents": 284334,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-14-86-180000",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-14",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 14/02",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 14/02",
+      "amountCents": -180000,
+      "kind": "transfer",
+      "balanceAfterCents": 300089,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-14-85-38",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-14",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 38,
+      "kind": "income",
+      "balanceAfterCents": 480089,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-14-84-114",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-14",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 114,
+      "kind": "income",
+      "balanceAfterCents": 480051,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-14-83-59952",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-14",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 59952,
+      "kind": "investment",
+      "balanceAfterCents": 479937,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2025-02-14-82-119896",
+      "accountId": "acc-bradesco",
+      "date": "2025-02-14",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 119896,
+      "kind": "investment",
+      "balanceAfterCents": 479937,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-13-118-1223",
       "accountId": "acc-santander-card",
       "date": "2025-02-13",
-      "description": "99*",
-      "rawDescription": "99*",
-      "amountCents": -1360,
+      "description": "UBER* TRIP",
+      "rawDescription": "UBER* TRIP",
+      "amountCents": -1223,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10589,12 +10589,32 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-13-118-1223",
+      "id": "legacy-acc-santander-card-2025-02-13-116-1360",
       "accountId": "acc-santander-card",
       "date": "2025-02-13",
-      "description": "UBER* TRIP",
-      "rawDescription": "UBER* TRIP",
-      "amountCents": -1223,
+      "description": "99*",
+      "rawDescription": "99*",
+      "amountCents": -1360,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-12-115-2700",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-12",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -2700,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-12-114-3850",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-12",
+      "description": "ESTACAO TRILHOS",
+      "rawDescription": "ESTACAO TRILHOS",
+      "amountCents": -3850,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10610,32 +10630,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-12-114-3850",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-12",
-      "description": "ESTACAO TRILHOS",
-      "rawDescription": "ESTACAO TRILHOS",
-      "amountCents": -3850,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-12-115-2700",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-12",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -2700,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-11-111-1156",
+      "id": "legacy-acc-santander-card-2025-02-11-113-13280",
       "accountId": "acc-santander-card",
       "date": "2025-02-11",
-      "description": "UBER* TRIP",
-      "rawDescription": "UBER* TRIP",
-      "amountCents": -1156,
+      "description": "ZENSEI RESTAURANTE",
+      "rawDescription": "ZENSEI RESTAURANTE",
+      "amountCents": -13280,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10650,12 +10650,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-11-113-13280",
+      "id": "legacy-acc-santander-card-2025-02-11-111-1156",
       "accountId": "acc-santander-card",
       "date": "2025-02-11",
-      "description": "ZENSEI RESTAURANTE",
-      "rawDescription": "ZENSEI RESTAURANTE",
-      "amountCents": -13280,
+      "description": "UBER* TRIP",
+      "rawDescription": "UBER* TRIP",
+      "amountCents": -1156,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10670,12 +10670,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-08-107-5000",
+      "id": "legacy-acc-santander-card-2025-02-08-109-2500",
       "accountId": "acc-santander-card",
       "date": "2025-02-08",
-      "description": "FABIODECARVALHO",
-      "rawDescription": "FABIODECARVALHO",
-      "amountCents": -5000,
+      "description": "CHURROSOSTENTACAO",
+      "rawDescription": "CHURROSOSTENTACAO",
+      "amountCents": -2500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10690,32 +10690,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-08-109-2500",
+      "id": "legacy-acc-santander-card-2025-02-08-107-5000",
       "accountId": "acc-santander-card",
       "date": "2025-02-08",
-      "description": "CHURROSOSTENTACAO",
-      "rawDescription": "CHURROSOSTENTACAO",
-      "amountCents": -2500,
+      "description": "FABIODECARVALHO",
+      "rawDescription": "FABIODECARVALHO",
+      "amountCents": -5000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-07-103-2190",
+      "id": "legacy-acc-santander-card-2025-02-07-106-3480",
       "accountId": "acc-santander-card",
       "date": "2025-02-07",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -2190,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-02-07-104-6945",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-07",
-      "description": "BADAIOKA REFEICOES",
-      "rawDescription": "BADAIOKA REFEICOES",
-      "amountCents": -6945,
+      "description": "NARGUILARIA SP",
+      "rawDescription": "NARGUILARIA SP",
+      "amountCents": -3480,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10730,12 +10720,32 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-07-106-3480",
+      "id": "legacy-acc-santander-card-2025-02-07-104-6945",
       "accountId": "acc-santander-card",
       "date": "2025-02-07",
-      "description": "NARGUILARIA SP",
-      "rawDescription": "NARGUILARIA SP",
-      "amountCents": -3480,
+      "description": "BADAIOKA REFEICOES",
+      "rawDescription": "BADAIOKA REFEICOES",
+      "amountCents": -6945,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-07-103-2190",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-07",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -2190,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-02-06-102-1062",
+      "accountId": "acc-santander-card",
+      "date": "2025-02-06",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1062,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10751,16 +10761,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-02-06-102-1062",
-      "accountId": "acc-santander-card",
-      "date": "2025-02-06",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1062,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2025-02-05-101-1200",
       "accountId": "acc-santander-card",
       "date": "2025-02-05",
@@ -10768,17 +10768,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "99",
       "amountCents": -1200,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-02-03-932-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2025-02-03",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 120554,
       "source": "legacy_sheet"
     },
     {
@@ -10802,6 +10791,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2025-02-03-932-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2025-02-03",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 120554,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2025-02-02-98-1490",
       "accountId": "acc-santander-card",
       "date": "2025-02-02",
@@ -10822,17 +10822,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2025-01-30-80-180000",
-      "accountId": "acc-bradesco",
-      "date": "2025-01-30",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 479937,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2025-01-30-81-180000",
       "accountId": "acc-bradesco",
       "date": "2025-01-30",
@@ -10844,22 +10833,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-29-93-2500",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-29",
-      "description": "FARE FOTO",
-      "rawDescription": "FARE FOTO",
-      "amountCents": -2500,
-      "kind": "expense",
+      "id": "legacy-acc-bradesco-2025-01-30-80-180000",
+      "accountId": "acc-bradesco",
+      "date": "2025-01-30",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
+      "balanceAfterCents": 479937,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-29-94-2280",
+      "id": "legacy-acc-santander-card-2025-01-29-96-3200",
       "accountId": "acc-santander-card",
       "date": "2025-01-29",
-      "description": "FABIANASTELLA",
-      "rawDescription": "FABIANASTELLA",
-      "amountCents": -2280,
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -3200,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10874,12 +10864,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-29-96-3200",
+      "id": "legacy-acc-santander-card-2025-01-29-94-2280",
       "accountId": "acc-santander-card",
       "date": "2025-01-29",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -3200,
+      "description": "FABIANASTELLA",
+      "rawDescription": "FABIANASTELLA",
+      "amountCents": -2280,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-29-93-2500",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-29",
+      "description": "FARE FOTO",
+      "rawDescription": "FARE FOTO",
+      "amountCents": -2500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10894,22 +10894,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-23-88-2084",
+      "id": "legacy-acc-santander-card-2025-01-23-91-7998",
       "accountId": "acc-santander-card",
       "date": "2025-01-23",
-      "description": "EMPORIO DA BALSA",
-      "rawDescription": "EMPORIO DA BALSA",
-      "amountCents": -2084,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-01-23-89-3875",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-23",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -3875,
+      "description": "ATACATUDOCOMERCIO",
+      "rawDescription": "ATACATUDOCOMERCIO",
+      "amountCents": -7998,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10924,12 +10914,42 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-23-91-7998",
+      "id": "legacy-acc-santander-card-2025-01-23-89-3875",
       "accountId": "acc-santander-card",
       "date": "2025-01-23",
-      "description": "ATACATUDOCOMERCIO",
-      "rawDescription": "ATACATUDOCOMERCIO",
-      "amountCents": -7998,
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -3875,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-23-88-2084",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-23",
+      "description": "EMPORIO DA BALSA",
+      "rawDescription": "EMPORIO DA BALSA",
+      "amountCents": -2084,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-22-87-990",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-22",
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -990,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-22-86-1400",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-22",
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -1400,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -10945,34 +10965,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-22-86-1400",
+      "id": "legacy-acc-santander-card-2025-01-21-85-3544",
       "accountId": "acc-santander-card",
-      "date": "2025-01-22",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -1400,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-01-22-87-990",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-22",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -990,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-01-21-929-107209",
-      "accountId": "acc-santander-acc",
       "date": "2025-01-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/01 08:42 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/01 08:42 CARTAO MASTER",
-      "amountCents": -107209,
-      "kind": "card_payment",
-      "balanceAfterCents": 63416,
+      "description": "EMPORIO DA BALSA",
+      "rawDescription": "EMPORIO DA BALSA",
+      "amountCents": -3544,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -10987,12 +10986,33 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-21-85-3544",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-01-21-929-107209",
+      "accountId": "acc-santander-acc",
       "date": "2025-01-21",
-      "description": "EMPORIO DA BALSA",
-      "rawDescription": "EMPORIO DA BALSA",
-      "amountCents": -3544,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/01 08:42 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/01 08:42 CARTAO MASTER",
+      "amountCents": -107209,
+      "kind": "card_payment",
+      "balanceAfterCents": 63416,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-20-84-41074",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-20",
+      "description": "INGRESSE_BR ADYINGRES",
+      "rawDescription": "INGRESSE_BR ADYINGRES",
+      "amountCents": -41074,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-20-83-918",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-20",
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -918,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11008,34 +11028,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-20-83-918",
+      "id": "legacy-acc-santander-card-2025-01-17-81-1550",
       "accountId": "acc-santander-card",
-      "date": "2025-01-20",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -918,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-01-20-84-41074",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-20",
-      "description": "INGRESSE_BR ADYINGRES",
-      "rawDescription": "INGRESSE_BR ADYINGRES",
-      "amountCents": -41074,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-01-17-927-28000",
-      "accountId": "acc-santander-acc",
       "date": "2025-01-17",
-      "description": "PIX ENVIADO Forcamp Formaturas e Even",
-      "rawDescription": "PIX ENVIADO Forcamp Formaturas e Even",
-      "amountCents": -28000,
+      "description": "PARQUE DOMPEDRO",
+      "rawDescription": "PARQUE DOMPEDRO",
+      "amountCents": -1550,
       "kind": "expense",
-      "balanceAfterCents": 170623,
       "source": "legacy_sheet"
     },
     {
@@ -11050,24 +11049,34 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-17-81-1550",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2025-01-17-927-28000",
+      "accountId": "acc-santander-acc",
       "date": "2025-01-17",
-      "description": "PARQUE DOMPEDRO",
-      "rawDescription": "PARQUE DOMPEDRO",
-      "amountCents": -1550,
+      "description": "PIX ENVIADO Forcamp Formaturas e Even",
+      "rawDescription": "PIX ENVIADO Forcamp Formaturas e Even",
+      "amountCents": -28000,
+      "kind": "expense",
+      "balanceAfterCents": 170623,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2025-01-16-80-1093",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-16",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1093,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2025-01-16-925-11000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-santander-card-2025-01-16-79-1196",
+      "accountId": "acc-santander-card",
       "date": "2025-01-16",
-      "description": "PIX ENVIADO Clemente Natal Maziero",
-      "rawDescription": "PIX ENVIADO Clemente Natal Maziero",
-      "amountCents": -11000,
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1196,
       "kind": "expense",
-      "balanceAfterCents": 198622,
       "source": "legacy_sheet"
     },
     {
@@ -11082,34 +11091,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2025-01-16-79-1196",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-16",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1196,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-01-16-80-1093",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-16",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1093,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2025-01-14-923-6800",
+      "id": "legacy-acc-santander-acc-2025-01-16-925-11000",
       "accountId": "acc-santander-acc",
-      "date": "2025-01-14",
-      "description": "PIX ENVIADO Nathalia Quintino",
-      "rawDescription": "PIX ENVIADO Nathalia Quintino",
-      "amountCents": -6800,
+      "date": "2025-01-16",
+      "description": "PIX ENVIADO Clemente Natal Maziero",
+      "rawDescription": "PIX ENVIADO Clemente Natal Maziero",
+      "amountCents": -11000,
       "kind": "expense",
-      "balanceAfterCents": 209621,
+      "balanceAfterCents": 198622,
       "source": "legacy_sheet"
     },
     {
@@ -11121,6 +11110,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "investment",
       "balanceAfterCents": 209622,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2025-01-14-923-6800",
+      "accountId": "acc-santander-acc",
+      "date": "2025-01-14",
+      "description": "PIX ENVIADO Nathalia Quintino",
+      "rawDescription": "PIX ENVIADO Nathalia Quintino",
+      "amountCents": -6800,
+      "kind": "expense",
+      "balanceAfterCents": 209621,
       "source": "legacy_sheet"
     },
     {
@@ -11144,6 +11144,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2025-01-03-76-5990",
+      "accountId": "acc-santander-card",
+      "date": "2025-01-03",
+      "description": "TOTALPASS",
+      "rawDescription": "TOTALPASS",
+      "amountCents": -5990,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2025-01-03-922-65000",
       "accountId": "acc-santander-acc",
       "date": "2025-01-03",
@@ -11152,16 +11162,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 65000,
       "kind": "income",
       "balanceAfterCents": 216421,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2025-01-03-76-5990",
-      "accountId": "acc-santander-card",
-      "date": "2025-01-03",
-      "description": "TOTALPASS",
-      "rawDescription": "TOTALPASS",
-      "amountCents": -5990,
-      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -11175,58 +11175,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-12-30-75-60105",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2024-12-30-921-13705",
+      "accountId": "acc-santander-acc",
       "date": "2024-12-30",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 60105,
-      "kind": "investment",
-      "balanceAfterCents": 380002,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-30-76-19960",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-30",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 19960,
-      "kind": "investment",
-      "balanceAfterCents": 380002,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-30-77-21",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-30",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 21,
-      "kind": "income",
-      "balanceAfterCents": 380023,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-30-78-14",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-30",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 14,
-      "kind": "income",
-      "balanceAfterCents": 380037,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-30-79-80100",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-30",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 29/12",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 29/12",
-      "amountCents": -80100,
-      "kind": "transfer",
-      "balanceAfterCents": 299937,
+      "description": "PIX ENVIADO PAGSEGURO TECNOLOGIA LTDA",
+      "rawDescription": "PIX ENVIADO PAGSEGURO TECNOLOGIA LTDA",
+      "amountCents": -13705,
+      "kind": "expense",
+      "balanceAfterCents": 151421,
       "source": "legacy_sheet"
     },
     {
@@ -11241,14 +11197,58 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-12-30-921-13705",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2024-12-30-79-80100",
+      "accountId": "acc-bradesco",
       "date": "2024-12-30",
-      "description": "PIX ENVIADO PAGSEGURO TECNOLOGIA LTDA",
-      "rawDescription": "PIX ENVIADO PAGSEGURO TECNOLOGIA LTDA",
-      "amountCents": -13705,
-      "kind": "expense",
-      "balanceAfterCents": 151421,
+      "description": "Transfe Pix Des: Pedro Gioia Martins 29/12",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 29/12",
+      "amountCents": -80100,
+      "kind": "transfer",
+      "balanceAfterCents": 299937,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-30-78-14",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-30",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 14,
+      "kind": "income",
+      "balanceAfterCents": 380037,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-30-77-21",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-30",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 21,
+      "kind": "income",
+      "balanceAfterCents": 380023,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-30-76-19960",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-30",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 19960,
+      "kind": "investment",
+      "balanceAfterCents": 380002,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-30-75-60105",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-30",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 60105,
+      "kind": "investment",
+      "balanceAfterCents": 380002,
       "source": "legacy_sheet"
     },
     {
@@ -11273,17 +11273,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-12-26-73-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-26",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 380002,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2024-12-26-74-180000",
       "accountId": "acc-bradesco",
       "date": "2024-12-26",
@@ -11291,6 +11280,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "Apl.invest Fac",
       "amountCents": -180000,
       "kind": "investment",
+      "balanceAfterCents": 380002,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-26-73-180000",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-26",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
       "balanceAfterCents": 380002,
       "source": "legacy_sheet"
     },
@@ -11306,17 +11306,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-21-72-10000",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-21",
-      "description": "SEM PARAR",
-      "rawDescription": "SEM PARAR",
-      "amountCents": -10000,
-      "kind": "expense",
-      "categoryId": "cat-semparar",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2024-12-21-73-3297",
       "accountId": "acc-santander-card",
       "date": "2024-12-21",
@@ -11327,14 +11316,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-12-19-916-175437",
-      "accountId": "acc-santander-acc",
-      "date": "2024-12-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/12 01:38 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/12 01:38 CARTAO MASTER",
-      "amountCents": -175437,
-      "kind": "card_payment",
-      "balanceAfterCents": 95151,
+      "id": "legacy-acc-santander-card-2024-12-21-72-10000",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-21",
+      "description": "SEM PARAR",
+      "rawDescription": "SEM PARAR",
+      "amountCents": -10000,
+      "kind": "expense",
+      "categoryId": "cat-semparar",
       "source": "legacy_sheet"
     },
     {
@@ -11349,12 +11338,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-18-69-1199",
+      "id": "legacy-acc-santander-acc-2024-12-19-916-175437",
+      "accountId": "acc-santander-acc",
+      "date": "2024-12-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/12 01:38 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/12 01:38 CARTAO MASTER",
+      "amountCents": -175437,
+      "kind": "card_payment",
+      "balanceAfterCents": 95151,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-18-71-2698",
       "accountId": "acc-santander-card",
       "date": "2024-12-18",
-      "description": "UBER TRIP",
-      "rawDescription": "UBER TRIP",
-      "amountCents": -1199,
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -2698,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11369,32 +11369,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-18-71-2698",
+      "id": "legacy-acc-santander-card-2024-12-18-69-1199",
       "accountId": "acc-santander-card",
       "date": "2024-12-18",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -2698,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-17-66-58828",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-17",
-      "description": "INGRESSE",
-      "rawDescription": "INGRESSE",
-      "amountCents": -58828,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-17-67-1198",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-17",
       "description": "UBER TRIP",
       "rawDescription": "UBER TRIP",
-      "amountCents": -1198,
+      "amountCents": -1199,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11409,12 +11389,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-13-64-5100",
+      "id": "legacy-acc-santander-card-2024-12-17-67-1198",
       "accountId": "acc-santander-card",
-      "date": "2024-12-13",
-      "description": "BRASEIRO DO SUL",
-      "rawDescription": "BRASEIRO DO SUL",
-      "amountCents": -5100,
+      "date": "2024-12-17",
+      "description": "UBER TRIP",
+      "rawDescription": "UBER TRIP",
+      "amountCents": -1198,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-17-66-58828",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-17",
+      "description": "INGRESSE",
+      "rawDescription": "INGRESSE",
+      "amountCents": -58828,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11429,47 +11419,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-12-12-70-102352",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-12",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 102352,
-      "kind": "investment",
-      "balanceAfterCents": 302354,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-12-71-48",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-12",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 48,
-      "kind": "income",
-      "balanceAfterCents": 302402,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-12-12-72-102400",
-      "accountId": "acc-bradesco",
-      "date": "2024-12-12",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 12/12",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 12/12",
-      "amountCents": -102400,
-      "kind": "transfer",
-      "balanceAfterCents": 200002,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-12-12-914-102400",
-      "accountId": "acc-santander-acc",
-      "date": "2024-12-12",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 102400,
-      "kind": "transfer",
-      "balanceAfterCents": 280588,
+      "id": "legacy-acc-santander-card-2024-12-13-64-5100",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-13",
+      "description": "BRASEIRO DO SUL",
+      "rawDescription": "BRASEIRO DO SUL",
+      "amountCents": -5100,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -11484,12 +11440,96 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-12-12-914-102400",
+      "accountId": "acc-santander-acc",
+      "date": "2024-12-12",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 102400,
+      "kind": "transfer",
+      "balanceAfterCents": 280588,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-12-72-102400",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-12",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 12/12",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 12/12",
+      "amountCents": -102400,
+      "kind": "transfer",
+      "balanceAfterCents": 200002,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-12-71-48",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-12",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 48,
+      "kind": "income",
+      "balanceAfterCents": 302402,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-12-12-70-102352",
+      "accountId": "acc-bradesco",
+      "date": "2024-12-12",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 102352,
+      "kind": "investment",
+      "balanceAfterCents": 302354,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2024-12-09-63-1393",
       "accountId": "acc-santander-card",
       "date": "2024-12-09",
       "description": "UBER* TRIP",
       "rawDescription": "UBER* TRIP",
       "amountCents": -1393,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-08-62-6949",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-08",
+      "description": "PACIFICO SUSHI",
+      "rawDescription": "PACIFICO SUSHI",
+      "amountCents": -6949,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-08-61-8880",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-08",
+      "description": "RENATADESOUZADE",
+      "rawDescription": "RENATADESOUZADE",
+      "amountCents": -8880,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-08-60-4000",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-08",
+      "description": "ROMEUSOUVENIR",
+      "rawDescription": "ROMEUSOUVENIR",
+      "amountCents": -4000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-08-59-3500",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-08",
+      "description": "MC DONALDS",
+      "rawDescription": "MC DONALDS",
+      "amountCents": -3500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11505,52 +11545,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-08-59-3500",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-08",
-      "description": "MC DONALDS",
-      "rawDescription": "MC DONALDS",
-      "amountCents": -3500,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-08-60-4000",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-08",
-      "description": "ROMEUSOUVENIR",
-      "rawDescription": "ROMEUSOUVENIR",
-      "amountCents": -4000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-08-61-8880",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-08",
-      "description": "RENATADESOUZADE",
-      "rawDescription": "RENATADESOUZADE",
-      "amountCents": -8880,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-08-62-6949",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-08",
-      "description": "PACIFICO SUSHI",
-      "rawDescription": "PACIFICO SUSHI",
-      "amountCents": -6949,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-07-55-16540",
+      "id": "legacy-acc-santander-card-2024-12-07-57-880",
       "accountId": "acc-santander-card",
       "date": "2024-12-07",
-      "description": "CARTAO *BOTECO CAJU LI",
-      "rawDescription": "CARTAO *BOTECO CAJU LI",
-      "amountCents": -16540,
+      "description": "SMARTSTORE",
+      "rawDescription": "SMARTSTORE",
+      "amountCents": -880,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11565,22 +11565,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-07-57-880",
+      "id": "legacy-acc-santander-card-2024-12-07-55-16540",
       "accountId": "acc-santander-card",
       "date": "2024-12-07",
-      "description": "SMARTSTORE",
-      "rawDescription": "SMARTSTORE",
-      "amountCents": -880,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-12-06-53-4400",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-06",
-      "description": "GRUPO MADERO",
-      "rawDescription": "GRUPO MADERO",
-      "amountCents": -4400,
+      "description": "CARTAO *BOTECO CAJU LI",
+      "rawDescription": "CARTAO *BOTECO CAJU LI",
+      "amountCents": -16540,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11591,6 +11581,16 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "ZIG*MANE MERCADO",
       "rawDescription": "ZIG*MANE MERCADO",
       "amountCents": -23554,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-06-53-4400",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-06",
+      "description": "GRUPO MADERO",
+      "rawDescription": "GRUPO MADERO",
+      "amountCents": -4400,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11617,22 +11617,22 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-12-03-50-1079",
-      "accountId": "acc-santander-card",
-      "date": "2024-12-03",
-      "description": "99*",
-      "rawDescription": "99*",
-      "amountCents": -1079,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2024-12-03-51-5990",
       "accountId": "acc-santander-card",
       "date": "2024-12-03",
       "description": "TOTALPASS",
       "rawDescription": "TOTALPASS",
       "amountCents": -5990,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-12-03-50-1079",
+      "accountId": "acc-santander-card",
+      "date": "2024-12-03",
+      "description": "99*",
+      "rawDescription": "99*",
+      "amountCents": -1079,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11657,17 +11657,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-11-28-68-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-11-28",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 302354,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2024-11-28-69-180001",
       "accountId": "acc-bradesco",
       "date": "2024-11-28",
@@ -11675,6 +11664,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "Apl.invest Fac",
       "amountCents": -180001,
       "kind": "investment",
+      "balanceAfterCents": 302354,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-28-68-180000",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-28",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
       "balanceAfterCents": 302354,
       "source": "legacy_sheet"
     },
@@ -11689,14 +11689,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-11-19-910-85155",
+      "id": "legacy-acc-santander-acc-2024-11-19-912-3",
       "accountId": "acc-santander-acc",
       "date": "2024-11-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:51 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:51 CARTAO MASTER",
-      "amountCents": -85155,
-      "kind": "card_payment",
-      "balanceAfterCents": 74265,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 3,
+      "kind": "investment",
+      "balanceAfterCents": 78188,
       "source": "legacy_sheet"
     },
     {
@@ -11711,25 +11711,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-11-19-912-3",
+      "id": "legacy-acc-santander-acc-2024-11-19-910-85155",
       "accountId": "acc-santander-acc",
       "date": "2024-11-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 3,
-      "kind": "investment",
-      "balanceAfterCents": 78188,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-11-18-908-3920",
-      "accountId": "acc-santander-acc",
-      "date": "2024-11-18",
-      "description": "PIX RECEBIDO Renan Wendrel Silva",
-      "rawDescription": "PIX RECEBIDO Renan Wendrel Silva",
-      "amountCents": 3920,
-      "kind": "income",
-      "balanceAfterCents": 155499,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:51 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:51 CARTAO MASTER",
+      "amountCents": -85155,
+      "kind": "card_payment",
+      "balanceAfterCents": 74265,
       "source": "legacy_sheet"
     },
     {
@@ -11744,23 +11733,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-17-43-10000",
-      "accountId": "acc-santander-card",
-      "date": "2024-11-17",
-      "description": "SEM PARAR",
-      "rawDescription": "SEM PARAR",
-      "amountCents": -10000,
-      "kind": "expense",
-      "categoryId": "cat-semparar",
+      "id": "legacy-acc-santander-acc-2024-11-18-908-3920",
+      "accountId": "acc-santander-acc",
+      "date": "2024-11-18",
+      "description": "PIX RECEBIDO Renan Wendrel Silva",
+      "rawDescription": "PIX RECEBIDO Renan Wendrel Silva",
+      "amountCents": 3920,
+      "kind": "income",
+      "balanceAfterCents": 155499,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-17-44-4700",
+      "id": "legacy-acc-santander-card-2024-11-17-46-500",
       "accountId": "acc-santander-card",
       "date": "2024-11-17",
-      "description": "ZIGZIGDGTL 2024",
-      "rawDescription": "ZIGZIGDGTL 2024",
-      "amountCents": -4700,
+      "description": "IMIPROMOCOES E EVENTOS",
+      "rawDescription": "IMIPROMOCOES E EVENTOS",
+      "amountCents": -500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11775,13 +11764,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-17-46-500",
+      "id": "legacy-acc-santander-card-2024-11-17-44-4700",
       "accountId": "acc-santander-card",
       "date": "2024-11-17",
-      "description": "IMIPROMOCOES E EVENTOS",
-      "rawDescription": "IMIPROMOCOES E EVENTOS",
-      "amountCents": -500,
+      "description": "ZIGZIGDGTL 2024",
+      "rawDescription": "ZIGZIGDGTL 2024",
+      "amountCents": -4700,
       "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-11-17-43-10000",
+      "accountId": "acc-santander-card",
+      "date": "2024-11-17",
+      "description": "SEM PARAR",
+      "rawDescription": "SEM PARAR",
+      "amountCents": -10000,
+      "kind": "expense",
+      "categoryId": "cat-semparar",
       "source": "legacy_sheet"
     },
     {
@@ -11815,69 +11815,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-11-11-63-57688",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2024-11-11-39-850",
+      "accountId": "acc-santander-card",
       "date": "2024-11-11",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 57688,
-      "kind": "investment",
-      "balanceAfterCents": 222329,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-11-11-64-42288",
-      "accountId": "acc-bradesco",
-      "date": "2024-11-11",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 42288,
-      "kind": "investment",
-      "balanceAfterCents": 222329,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-11-11-65-4",
-      "accountId": "acc-bradesco",
-      "date": "2024-11-11",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 4,
-      "kind": "income",
-      "balanceAfterCents": 222333,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-11-11-66-21",
-      "accountId": "acc-bradesco",
-      "date": "2024-11-11",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 21,
-      "kind": "income",
-      "balanceAfterCents": 222354,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-11-11-67-100000",
-      "accountId": "acc-bradesco",
-      "date": "2024-11-11",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 11/11",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 11/11",
-      "amountCents": -100000,
-      "kind": "transfer",
-      "balanceAfterCents": 122354,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-11-11-906-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-11-11",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -60000,
+      "description": "99",
+      "rawDescription": "99",
+      "amountCents": -850,
       "kind": "expense",
-      "balanceAfterCents": 51579,
       "source": "legacy_sheet"
     },
     {
@@ -11892,12 +11836,78 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-11-39-850",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2024-11-11-906-60000",
+      "accountId": "acc-santander-acc",
       "date": "2024-11-11",
-      "description": "99",
-      "rawDescription": "99",
-      "amountCents": -850,
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -60000,
+      "kind": "expense",
+      "balanceAfterCents": 51579,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-11-67-100000",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-11",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 11/11",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 11/11",
+      "amountCents": -100000,
+      "kind": "transfer",
+      "balanceAfterCents": 122354,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-11-66-21",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-11",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 21,
+      "kind": "income",
+      "balanceAfterCents": 222354,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-11-65-4",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-11",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 4,
+      "kind": "income",
+      "balanceAfterCents": 222333,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-11-64-42288",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-11",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 42288,
+      "kind": "investment",
+      "balanceAfterCents": 222329,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-11-11-63-57688",
+      "accountId": "acc-bradesco",
+      "date": "2024-11-11",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 57688,
+      "kind": "investment",
+      "balanceAfterCents": 222329,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-11-08-38-3000",
+      "accountId": "acc-santander-card",
+      "date": "2024-11-08",
+      "description": "ITABAR LANCHONETE",
+      "rawDescription": "ITABAR LANCHONETE",
+      "amountCents": -3000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11908,16 +11918,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "PAPA 11",
       "rawDescription": "PAPA 11",
       "amountCents": -1848,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-11-08-38-3000",
-      "accountId": "acc-santander-card",
-      "date": "2024-11-08",
-      "description": "ITABAR LANCHONETE",
-      "rawDescription": "ITABAR LANCHONETE",
-      "amountCents": -3000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11953,23 +11953,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-11-04-904-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-11-04",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 116729,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-11-04-32-787",
+      "id": "legacy-acc-santander-card-2024-11-04-34-2897",
       "accountId": "acc-santander-card",
       "date": "2024-11-04",
-      "description": "UBER* TRIP",
-      "rawDescription": "UBER* TRIP",
-      "amountCents": -787,
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -2897,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -11984,12 +11973,33 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-04-34-2897",
+      "id": "legacy-acc-santander-card-2024-11-04-32-787",
       "accountId": "acc-santander-card",
       "date": "2024-11-04",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -2897,
+      "description": "UBER* TRIP",
+      "rawDescription": "UBER* TRIP",
+      "amountCents": -787,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-11-04-904-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-11-04",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 116729,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-11-03-31-800",
+      "accountId": "acc-santander-card",
+      "date": "2024-11-03",
+      "description": "ZIGZIGMUSIC ON",
+      "rawDescription": "ZIGZIGMUSIC ON",
+      "amountCents": -800,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12004,12 +12014,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-03-31-800",
+      "id": "legacy-acc-santander-card-2024-11-02-29-10000",
       "accountId": "acc-santander-card",
-      "date": "2024-11-03",
+      "date": "2024-11-02",
       "description": "ZIGZIGMUSIC ON",
       "rawDescription": "ZIGZIGMUSIC ON",
-      "amountCents": -800,
+      "amountCents": -10000,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12024,16 +12034,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-11-02-29-10000",
-      "accountId": "acc-santander-card",
-      "date": "2024-11-02",
-      "description": "ZIGZIGMUSIC ON",
-      "rawDescription": "ZIGZIGMUSIC ON",
-      "amountCents": -10000,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-card-2024-11-01-27-4250",
       "accountId": "acc-santander-card",
       "date": "2024-11-01",
@@ -12044,25 +12044,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-10-30-60-160000",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-card-2024-10-30-26-11653",
+      "accountId": "acc-santander-card",
       "date": "2024-10-30",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 02/10",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 02/10",
-      "amountCents": -160000,
-      "kind": "transfer",
-      "balanceAfterCents": 42329,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-10-30-61-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-10-30",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 222329,
+      "description": "WSD GASTRONOMIA LTDA",
+      "rawDescription": "WSD GASTRONOMIA LTDA",
+      "amountCents": -11653,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -12077,13 +12065,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-30-26-11653",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-bradesco-2024-10-30-61-180000",
+      "accountId": "acc-bradesco",
       "date": "2024-10-30",
-      "description": "WSD GASTRONOMIA LTDA",
-      "rawDescription": "WSD GASTRONOMIA LTDA",
-      "amountCents": -11653,
-      "kind": "expense",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
+      "balanceAfterCents": 222329,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-10-30-60-160000",
+      "accountId": "acc-bradesco",
+      "date": "2024-10-30",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 02/10",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 02/10",
+      "amountCents": -160000,
+      "kind": "transfer",
+      "balanceAfterCents": 42329,
       "source": "legacy_sheet"
     },
     {
@@ -12093,6 +12093,26 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "description": "ITABAR LANCHONETE",
       "rawDescription": "ITABAR LANCHONETE",
       "amountCents": -2600,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-10-23-24-6944",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-23",
+      "description": "BARSANTALEDA",
+      "rawDescription": "BARSANTALEDA",
+      "amountCents": -6944,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-10-23-23-1280",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-23",
+      "description": "AUTOBAN",
+      "rawDescription": "AUTOBAN",
+      "amountCents": -1280,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12108,34 +12128,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-23-23-1280",
-      "accountId": "acc-santander-card",
-      "date": "2024-10-23",
-      "description": "AUTOBAN",
-      "rawDescription": "AUTOBAN",
-      "amountCents": -1280,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-card-2024-10-23-24-6944",
-      "accountId": "acc-santander-card",
-      "date": "2024-10-23",
-      "description": "BARSANTALEDA",
-      "rawDescription": "BARSANTALEDA",
-      "amountCents": -6944,
-      "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-10-21-900-63740",
+      "id": "legacy-acc-santander-acc-2024-10-21-902-2",
       "accountId": "acc-santander-acc",
       "date": "2024-10-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/10 01:41 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/10 01:41 CARTÃO MASTER",
-      "amountCents": -63740,
-      "kind": "card_payment",
-      "balanceAfterCents": 62557,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 2,
+      "kind": "investment",
+      "balanceAfterCents": 59598,
       "source": "legacy_sheet"
     },
     {
@@ -12150,14 +12150,24 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-10-21-902-2",
+      "id": "legacy-acc-santander-acc-2024-10-21-900-63740",
       "accountId": "acc-santander-acc",
       "date": "2024-10-21",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 2,
-      "kind": "investment",
-      "balanceAfterCents": 59598,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/10 01:41 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/10 01:41 CARTÃO MASTER",
+      "amountCents": -63740,
+      "kind": "card_payment",
+      "balanceAfterCents": 62557,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-10-18-22-3496",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-18",
+      "description": "PAPA 11",
+      "rawDescription": "PAPA 11",
+      "amountCents": -3496,
+      "kind": "expense",
       "source": "legacy_sheet"
     },
     {
@@ -12171,12 +12181,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-18-22-3496",
+      "id": "legacy-acc-santander-card-2024-10-17-20-2500",
       "accountId": "acc-santander-card",
-      "date": "2024-10-18",
-      "description": "PAPA 11",
-      "rawDescription": "PAPA 11",
-      "amountCents": -3496,
+      "date": "2024-10-17",
+      "description": "BOTECO DO BENE",
+      "rawDescription": "BOTECO DO BENE",
+      "amountCents": -2500,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12192,12 +12202,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-17-20-2500",
+      "id": "legacy-acc-santander-card-2024-10-16-18-1990",
       "accountId": "acc-santander-card",
-      "date": "2024-10-17",
-      "description": "BOTECO DO BENE",
-      "rawDescription": "BOTECO DO BENE",
-      "amountCents": -2500,
+      "date": "2024-10-16",
+      "description": "SUCAO SUCOS E LANCHES",
+      "rawDescription": "SUCAO SUCOS E LANCHES",
+      "amountCents": -1990,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12212,13 +12222,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-16-18-1990",
-      "accountId": "acc-santander-card",
-      "date": "2024-10-16",
-      "description": "SUCAO SUCOS E LANCHES",
-      "rawDescription": "SUCAO SUCOS E LANCHES",
-      "amountCents": -1990,
-      "kind": "expense",
+      "id": "legacy-acc-santander-acc-2024-10-14-899-1",
+      "accountId": "acc-santander-acc",
+      "date": "2024-10-14",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 126297,
       "source": "legacy_sheet"
     },
     {
@@ -12230,17 +12241,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -60000,
       "kind": "expense",
       "balanceAfterCents": 126296,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-10-14-899-1",
-      "accountId": "acc-santander-acc",
-      "date": "2024-10-14",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 126297,
       "source": "legacy_sheet"
     },
     {
@@ -12284,17 +12284,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-10-09-896-1800",
-      "accountId": "acc-santander-acc",
-      "date": "2024-10-09",
-      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "amountCents": -1800,
-      "kind": "expense",
-      "balanceAfterCents": 204296,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2024-10-09-897-18000",
       "accountId": "acc-santander-acc",
       "date": "2024-10-09",
@@ -12306,13 +12295,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-07-11-490",
-      "accountId": "acc-santander-card",
-      "date": "2024-10-07",
-      "description": "APPLE COM/BILL",
-      "rawDescription": "APPLE COM/BILL",
-      "amountCents": -490,
+      "id": "legacy-acc-santander-acc-2024-10-09-896-1800",
+      "accountId": "acc-santander-acc",
+      "date": "2024-10-09",
+      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "amountCents": -1800,
       "kind": "expense",
+      "balanceAfterCents": 204296,
       "source": "legacy_sheet"
     },
     {
@@ -12326,12 +12316,42 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-card-2024-10-07-11-490",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-07",
+      "description": "APPLE COM/BILL",
+      "rawDescription": "APPLE COM/BILL",
+      "amountCents": -490,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-card-2024-10-04-10-3900",
       "accountId": "acc-santander-card",
       "date": "2024-10-04",
       "description": "ITABAR LANCHONETE",
       "rawDescription": "ITABAR LANCHONETE",
       "amountCents": -3900,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-10-03-9-1000",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-03",
+      "description": "99*",
+      "rawDescription": "99*",
+      "amountCents": -1000,
+      "kind": "expense",
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-card-2024-10-03-8-5990",
+      "accountId": "acc-santander-card",
+      "date": "2024-10-03",
+      "description": "TOTALPASS",
+      "rawDescription": "TOTALPASS",
+      "amountCents": -5990,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12347,89 +12367,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-03-8-5990",
+      "id": "legacy-acc-santander-card-2024-10-02-7-2650",
       "accountId": "acc-santander-card",
-      "date": "2024-10-03",
-      "description": "TOTALPASS",
-      "rawDescription": "TOTALPASS",
-      "amountCents": -5990,
+      "date": "2024-10-02",
+      "description": "RESTAURANTE BARDANA",
+      "rawDescription": "RESTAURANTE BARDANA",
+      "amountCents": -2650,
       "kind": "expense",
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-03-9-1000",
+      "id": "legacy-acc-santander-card-2024-10-02-6-1200",
       "accountId": "acc-santander-card",
-      "date": "2024-10-03",
-      "description": "99*",
-      "rawDescription": "99*",
-      "amountCents": -1000,
+      "date": "2024-10-02",
+      "description": "BOTECO DO BENE",
+      "rawDescription": "BOTECO DO BENE",
+      "amountCents": -1200,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-10-02-56-137712",
-      "accountId": "acc-bradesco",
-      "date": "2024-10-02",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 137712,
-      "kind": "investment",
-      "balanceAfterCents": 202319,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-10-02-57-22278",
-      "accountId": "acc-bradesco",
-      "date": "2024-10-02",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 22278,
-      "kind": "investment",
-      "balanceAfterCents": 202319,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-10-02-58-2",
-      "accountId": "acc-bradesco",
-      "date": "2024-10-02",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 2,
-      "kind": "income",
-      "balanceAfterCents": 202321,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-10-02-59-8",
-      "accountId": "acc-bradesco",
-      "date": "2024-10-02",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 8,
-      "kind": "income",
-      "balanceAfterCents": 202329,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-10-02-893-160000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-10-02",
-      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
-      "amountCents": 160000,
-      "kind": "transfer",
-      "balanceAfterCents": 162496,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-10-02-894-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-10-02",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 227496,
       "source": "legacy_sheet"
     },
     {
@@ -12444,23 +12398,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-02-6-1200",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2024-10-02-894-65000",
+      "accountId": "acc-santander-acc",
       "date": "2024-10-02",
-      "description": "BOTECO DO BENE",
-      "rawDescription": "BOTECO DO BENE",
-      "amountCents": -1200,
-      "kind": "expense",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 227496,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-10-02-7-2650",
-      "accountId": "acc-santander-card",
+      "id": "legacy-acc-santander-acc-2024-10-02-893-160000",
+      "accountId": "acc-santander-acc",
       "date": "2024-10-02",
-      "description": "RESTAURANTE BARDANA",
-      "rawDescription": "RESTAURANTE BARDANA",
-      "amountCents": -2650,
-      "kind": "expense",
+      "description": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "rawDescription": "PIX RECEBIDO PEDRO GIOIA MARTINS",
+      "amountCents": 160000,
+      "kind": "transfer",
+      "balanceAfterCents": 162496,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-10-02-59-8",
+      "accountId": "acc-bradesco",
+      "date": "2024-10-02",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 8,
+      "kind": "income",
+      "balanceAfterCents": 202329,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-10-02-58-2",
+      "accountId": "acc-bradesco",
+      "date": "2024-10-02",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 2,
+      "kind": "income",
+      "balanceAfterCents": 202321,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-10-02-57-22278",
+      "accountId": "acc-bradesco",
+      "date": "2024-10-02",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 22278,
+      "kind": "investment",
+      "balanceAfterCents": 202319,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-10-02-56-137712",
+      "accountId": "acc-bradesco",
+      "date": "2024-10-02",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 137712,
+      "kind": "investment",
+      "balanceAfterCents": 202319,
       "source": "legacy_sheet"
     },
     {
@@ -12485,12 +12485,12 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-09-28-1-975",
+      "id": "legacy-acc-santander-card-2024-09-28-3-43",
       "accountId": "acc-santander-card",
       "date": "2024-09-28",
-      "description": "BEATPORT",
-      "rawDescription": "BEATPORT",
-      "amountCents": -975,
+      "description": "IOF DESPESA NO EXTERIOR",
+      "rawDescription": "IOF DESPESA NO EXTERIOR",
+      "amountCents": -43,
       "kind": "expense",
       "source": "legacy_sheet"
     },
@@ -12505,24 +12505,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-card-2024-09-28-3-43",
+      "id": "legacy-acc-santander-card-2024-09-28-1-975",
       "accountId": "acc-santander-card",
       "date": "2024-09-28",
-      "description": "IOF DESPESA NO EXTERIOR",
-      "rawDescription": "IOF DESPESA NO EXTERIOR",
-      "amountCents": -43,
+      "description": "BEATPORT",
+      "rawDescription": "BEATPORT",
+      "amountCents": -975,
       "kind": "expense",
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-27-54-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-27",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 202319,
       "source": "legacy_sheet"
     },
     {
@@ -12533,6 +12522,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "Apl.invest Fac",
       "amountCents": -180000,
       "kind": "investment",
+      "balanceAfterCents": 202319,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-27-54-180000",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-27",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
       "balanceAfterCents": 202319,
       "source": "legacy_sheet"
     },
@@ -12548,17 +12548,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-09-16-889-143038",
-      "accountId": "acc-santander-acc",
-      "date": "2024-09-16",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 14/09 11:19 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 14/09 11:19 CARTAO MASTER",
-      "amountCents": -143038,
-      "kind": "card_payment",
-      "balanceAfterCents": 11494,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2024-09-16-890-2",
       "accountId": "acc-santander-acc",
       "date": "2024-09-16",
@@ -12570,80 +12559,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-09-12-51-99991",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-12",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 99991,
-      "kind": "investment",
-      "balanceAfterCents": 122311,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-12-52-8",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-12",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 8,
-      "kind": "income",
-      "balanceAfterCents": 122319,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-12-53-100000",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-12",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 12/09",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 12/09",
-      "amountCents": -100000,
-      "kind": "transfer",
-      "balanceAfterCents": 22319,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-12-884-100",
+      "id": "legacy-acc-santander-acc-2024-09-16-889-143038",
       "accountId": "acc-santander-acc",
-      "date": "2024-09-12",
-      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
-      "amountCents": -100,
-      "kind": "expense",
-      "balanceAfterCents": 309520,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-12-885-100000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-09-12",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 100000,
-      "kind": "income",
-      "balanceAfterCents": 409520,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-12-886-300000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-09-12",
-      "description": "TRANSF VALOR P/ CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
-      "amountCents": -300000,
-      "kind": "expense",
-      "balanceAfterCents": 109520,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-12-887-45000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-09-12",
-      "description": "TED RECEBIDA PEDRO GIOIA MARTINS",
-      "rawDescription": "TED RECEBIDA PEDRO GIOIA MARTINS",
-      "amountCents": 45000,
-      "kind": "transfer",
-      "balanceAfterCents": 154520,
+      "date": "2024-09-16",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 14/09 11:19 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 14/09 11:19 CARTAO MASTER",
+      "amountCents": -143038,
+      "kind": "card_payment",
+      "balanceAfterCents": 11494,
       "source": "legacy_sheet"
     },
     {
@@ -12658,14 +12581,80 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-09-09-882-9779",
+      "id": "legacy-acc-santander-acc-2024-09-12-887-45000",
       "accountId": "acc-santander-acc",
-      "date": "2024-09-09",
-      "description": "PIX ENVIADO ZAMP SA",
-      "rawDescription": "PIX ENVIADO ZAMP SA",
-      "amountCents": -9779,
+      "date": "2024-09-12",
+      "description": "TED RECEBIDA PEDRO GIOIA MARTINS",
+      "rawDescription": "TED RECEBIDA PEDRO GIOIA MARTINS",
+      "amountCents": 45000,
+      "kind": "transfer",
+      "balanceAfterCents": 154520,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-09-12-886-300000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-09-12",
+      "description": "TRANSF VALOR P/ CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
+      "amountCents": -300000,
       "kind": "expense",
-      "balanceAfterCents": 309619,
+      "balanceAfterCents": 109520,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-09-12-885-100000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-09-12",
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 100000,
+      "kind": "income",
+      "balanceAfterCents": 409520,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-09-12-884-100",
+      "accountId": "acc-santander-acc",
+      "date": "2024-09-12",
+      "description": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX ENVIADO MARILENE APARECIDA GIOIA",
+      "amountCents": -100,
+      "kind": "expense",
+      "balanceAfterCents": 309520,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-12-53-100000",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-12",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 12/09",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 12/09",
+      "amountCents": -100000,
+      "kind": "transfer",
+      "balanceAfterCents": 22319,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-12-52-8",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-12",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 8,
+      "kind": "income",
+      "balanceAfterCents": 122319,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-12-51-99991",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-12",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 99991,
+      "kind": "investment",
+      "balanceAfterCents": 122311,
       "source": "legacy_sheet"
     },
     {
@@ -12680,80 +12669,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-09-05-46-62281",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-05",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 62281,
-      "kind": "investment",
-      "balanceAfterCents": 222294,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-05-47-37703",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-05",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 37703,
-      "kind": "investment",
-      "balanceAfterCents": 222294,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-05-48-2",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-05",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 2,
-      "kind": "income",
-      "balanceAfterCents": 222296,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-05-49-15",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-05",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 15,
-      "kind": "income",
-      "balanceAfterCents": 222311,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-09-05-50-100000",
-      "accountId": "acc-bradesco",
-      "date": "2024-09-05",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 05/09",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 05/09",
-      "amountCents": -100000,
-      "kind": "transfer",
-      "balanceAfterCents": 122311,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-05-879-100000",
+      "id": "legacy-acc-santander-acc-2024-09-09-882-9779",
       "accountId": "acc-santander-acc",
-      "date": "2024-09-05",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 100000,
-      "kind": "income",
-      "balanceAfterCents": 260398,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-09-05-880-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-09-05",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 325398,
+      "date": "2024-09-09",
+      "description": "PIX ENVIADO ZAMP SA",
+      "rawDescription": "PIX ENVIADO ZAMP SA",
+      "amountCents": -9779,
+      "kind": "expense",
+      "balanceAfterCents": 309619,
       "source": "legacy_sheet"
     },
     {
@@ -12768,34 +12691,78 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-29-43-4550",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-29",
-      "description": "Cart Cred/deb",
-      "rawDescription": "Cart Cred/deb",
-      "amountCents": 4550,
+      "id": "legacy-acc-santander-acc-2024-09-05-880-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-09-05",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 65000,
       "kind": "income",
-      "balanceAfterCents": 42294,
+      "balanceAfterCents": 325398,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-29-44-180000",
+      "id": "legacy-acc-santander-acc-2024-09-05-879-100000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-09-05",
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 100000,
+      "kind": "income",
+      "balanceAfterCents": 260398,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-05-50-100000",
       "accountId": "acc-bradesco",
-      "date": "2024-08-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
+      "date": "2024-09-05",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 05/09",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 05/09",
+      "amountCents": -100000,
       "kind": "transfer",
+      "balanceAfterCents": 122311,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-05-49-15",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-05",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 15,
+      "kind": "income",
+      "balanceAfterCents": 222311,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-05-48-2",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-05",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 2,
+      "kind": "income",
+      "balanceAfterCents": 222296,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-09-05-47-37703",
+      "accountId": "acc-bradesco",
+      "date": "2024-09-05",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 37703,
+      "kind": "investment",
       "balanceAfterCents": 222294,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-29-45-184550",
+      "id": "legacy-acc-bradesco-2024-09-05-46-62281",
       "accountId": "acc-bradesco",
-      "date": "2024-08-29",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -184550,
+      "date": "2024-09-05",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 62281,
       "kind": "investment",
       "balanceAfterCents": 222294,
       "source": "legacy_sheet"
@@ -12812,25 +12779,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-08-27-875-2500",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-27",
-      "description": "PIX ENVIADO Belli Roots C CVAT Eir",
-      "rawDescription": "PIX ENVIADO Belli Roots C CVAT Eir",
-      "amountCents": -2500,
-      "kind": "expense",
-      "balanceAfterCents": 185730,
+      "id": "legacy-acc-bradesco-2024-08-29-45-184550",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-29",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -184550,
+      "kind": "investment",
+      "balanceAfterCents": 222294,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-08-27-876-20000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-27",
-      "description": "TRANSF VALOR P/CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
-      "amountCents": -20000,
-      "kind": "expense",
-      "balanceAfterCents": 165730,
+      "id": "legacy-acc-bradesco-2024-08-29-44-180000",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
+      "balanceAfterCents": 222294,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-29-43-4550",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-29",
+      "description": "Cart Cred/deb",
+      "rawDescription": "Cart Cred/deb",
+      "amountCents": 4550,
+      "kind": "income",
+      "balanceAfterCents": 42294,
       "source": "legacy_sheet"
     },
     {
@@ -12845,14 +12823,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-08-21-873-14194",
+      "id": "legacy-acc-santander-acc-2024-08-27-876-20000",
       "accountId": "acc-santander-acc",
-      "date": "2024-08-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/08 13:23 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/08 13:23 CARTÃO MASTER",
-      "amountCents": -14194,
-      "kind": "card_payment",
-      "balanceAfterCents": 188229,
+      "date": "2024-08-27",
+      "description": "TRANSF VALOR P/CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR MARILENE APARECIDA GIOIA",
+      "amountCents": -20000,
+      "kind": "expense",
+      "balanceAfterCents": 165730,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-08-27-875-2500",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-27",
+      "description": "PIX ENVIADO Belli Roots C CVAT Eir",
+      "rawDescription": "PIX ENVIADO Belli Roots C CVAT Eir",
+      "amountCents": -2500,
+      "kind": "expense",
+      "balanceAfterCents": 185730,
       "source": "legacy_sheet"
     },
     {
@@ -12867,14 +12856,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-20-41-2275",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-20",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 2275,
-      "kind": "investment",
-      "balanceAfterCents": 40019,
+      "id": "legacy-acc-santander-acc-2024-08-21-873-14194",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/08 13:23 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/08 13:23 CARTÃO MASTER",
+      "amountCents": -14194,
+      "kind": "card_payment",
+      "balanceAfterCents": 188229,
       "source": "legacy_sheet"
     },
     {
@@ -12889,14 +12878,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-08-19-871-3970",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-19",
-      "description": "PIX ENVIADO SHPP BRASIL INSTITUIÇÃO D",
-      "rawDescription": "PIX ENVIADO SHPP BRASIL INSTITUIÇÃO D",
-      "amountCents": -3970,
-      "kind": "expense",
-      "balanceAfterCents": 198453,
+      "id": "legacy-acc-bradesco-2024-08-20-41-2275",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-20",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 2275,
+      "kind": "investment",
+      "balanceAfterCents": 40019,
       "source": "legacy_sheet"
     },
     {
@@ -12911,69 +12900,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-16-38-59992",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-16",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 59992,
-      "kind": "investment",
-      "balanceAfterCents": 100012,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-08-16-39-7",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-16",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 7,
-      "kind": "income",
-      "balanceAfterCents": 100019,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-08-16-40-60000",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-16",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 16/08",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 16/08",
-      "amountCents": -60000,
-      "kind": "transfer",
-      "balanceAfterCents": 40019,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-08-16-867-212725",
+      "id": "legacy-acc-santander-acc-2024-08-19-871-3970",
       "accountId": "acc-santander-acc",
-      "date": "2024-08-16",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 16/08 13:26 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 16/08 13:26 CARTAO MASTER",
-      "amountCents": -212725,
-      "kind": "card_payment",
-      "balanceAfterCents": 148907,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-08-16-868-6500",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-16",
-      "description": "PIX ENVIADO Nathalia Quintino",
-      "rawDescription": "PIX ENVIADO Nathalia Quintino",
-      "amountCents": -6500,
+      "date": "2024-08-19",
+      "description": "PIX ENVIADO SHPP BRASIL INSTITUIÇÃO D",
+      "rawDescription": "PIX ENVIADO SHPP BRASIL INSTITUIÇÃO D",
+      "amountCents": -3970,
       "kind": "expense",
-      "balanceAfterCents": 142407,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-08-16-869-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-16",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 60000,
-      "kind": "income",
-      "balanceAfterCents": 202407,
+      "balanceAfterCents": 198453,
       "source": "legacy_sheet"
     },
     {
@@ -12988,57 +12922,68 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-07-33-80030",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-07",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 80030,
-      "kind": "investment",
-      "balanceAfterCents": 193803,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-08-07-34-13762",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-07",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 13762,
-      "kind": "investment",
-      "balanceAfterCents": 193803,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-08-07-35-3",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-07",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 3,
+      "id": "legacy-acc-santander-acc-2024-08-16-869-60000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-16",
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 60000,
       "kind": "income",
-      "balanceAfterCents": 193806,
+      "balanceAfterCents": 202407,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-07-36-6",
-      "accountId": "acc-bradesco",
-      "date": "2024-08-07",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 6,
-      "kind": "income",
-      "balanceAfterCents": 193812,
+      "id": "legacy-acc-santander-acc-2024-08-16-868-6500",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-16",
+      "description": "PIX ENVIADO Nathalia Quintino",
+      "rawDescription": "PIX ENVIADO Nathalia Quintino",
+      "amountCents": -6500,
+      "kind": "expense",
+      "balanceAfterCents": 142407,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-08-07-37-93800",
+      "id": "legacy-acc-santander-acc-2024-08-16-867-212725",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-16",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 16/08 13:26 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 16/08 13:26 CARTAO MASTER",
+      "amountCents": -212725,
+      "kind": "card_payment",
+      "balanceAfterCents": 148907,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-16-40-60000",
       "accountId": "acc-bradesco",
-      "date": "2024-08-07",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 07/08",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 07/08",
-      "amountCents": -93800,
+      "date": "2024-08-16",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 16/08",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 16/08",
+      "amountCents": -60000,
       "kind": "transfer",
+      "balanceAfterCents": 40019,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-16-39-7",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-16",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 7,
+      "kind": "income",
+      "balanceAfterCents": 100019,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-16-38-59992",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-16",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 59992,
+      "kind": "investment",
       "balanceAfterCents": 100012,
       "source": "legacy_sheet"
     },
@@ -13054,14 +12999,58 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-08-05-864-5890",
-      "accountId": "acc-santander-acc",
-      "date": "2024-08-05",
-      "description": "PIX ENVIADO McDonald 39 s Forward",
-      "rawDescription": "PIX ENVIADO McDonald 39 s Forward",
-      "amountCents": -5890,
-      "kind": "expense",
-      "balanceAfterCents": 261932,
+      "id": "legacy-acc-bradesco-2024-08-07-37-93800",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-07",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 07/08",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 07/08",
+      "amountCents": -93800,
+      "kind": "transfer",
+      "balanceAfterCents": 100012,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-07-36-6",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-07",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 6,
+      "kind": "income",
+      "balanceAfterCents": 193812,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-07-35-3",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-07",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 3,
+      "kind": "income",
+      "balanceAfterCents": 193806,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-07-34-13762",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-07",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 13762,
+      "kind": "investment",
+      "balanceAfterCents": 193803,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-08-07-33-80030",
+      "accountId": "acc-bradesco",
+      "date": "2024-08-07",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 80030,
+      "kind": "investment",
+      "balanceAfterCents": 193803,
       "source": "legacy_sheet"
     },
     {
@@ -13076,6 +13065,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-08-05-864-5890",
+      "accountId": "acc-santander-acc",
+      "date": "2024-08-05",
+      "description": "PIX ENVIADO McDonald 39 s Forward",
+      "rawDescription": "PIX ENVIADO McDonald 39 s Forward",
+      "amountCents": -5890,
+      "kind": "expense",
+      "balanceAfterCents": 261932,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-08-02-863-65000",
       "accountId": "acc-santander-acc",
       "date": "2024-08-02",
@@ -13084,17 +13084,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 65000,
       "kind": "income",
       "balanceAfterCents": 267822,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-30-31-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-30",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 193803,
       "source": "legacy_sheet"
     },
     {
@@ -13109,47 +13098,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-07-22-27-42265",
+      "id": "legacy-acc-bradesco-2024-07-30-31-180000",
       "accountId": "acc-bradesco",
-      "date": "2024-07-22",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 42265,
-      "kind": "investment",
-      "balanceAfterCents": 56068,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-22-28-10",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-22",
-      "description": "Rent.inv.facil",
-      "rawDescription": "Rent.inv.facil",
-      "amountCents": 10,
-      "kind": "income",
-      "balanceAfterCents": 56078,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-22-29-2275",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-22",
-      "description": "Cart Cred Anuid",
-      "rawDescription": "Cart Cred Anuid",
-      "amountCents": -2275,
-      "kind": "expense",
-      "balanceAfterCents": 53803,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-22-30-40000",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-22",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 22/07",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 22/07",
-      "amountCents": -40000,
+      "date": "2024-07-30",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
       "kind": "transfer",
-      "balanceAfterCents": 13803,
+      "balanceAfterCents": 193803,
       "source": "legacy_sheet"
     },
     {
@@ -13164,14 +13120,47 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-07-19-860-86685",
-      "accountId": "acc-santander-acc",
-      "date": "2024-07-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/07 12:13 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/07 12:13 CARTÃO MASTER",
-      "amountCents": -86685,
-      "kind": "card_payment",
-      "balanceAfterCents": 162816,
+      "id": "legacy-acc-bradesco-2024-07-22-30-40000",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-22",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 22/07",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 22/07",
+      "amountCents": -40000,
+      "kind": "transfer",
+      "balanceAfterCents": 13803,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-22-29-2275",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-22",
+      "description": "Cart Cred Anuid",
+      "rawDescription": "Cart Cred Anuid",
+      "amountCents": -2275,
+      "kind": "expense",
+      "balanceAfterCents": 53803,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-22-28-10",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-22",
+      "description": "Rent.inv.facil",
+      "rawDescription": "Rent.inv.facil",
+      "amountCents": 10,
+      "kind": "income",
+      "balanceAfterCents": 56078,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-22-27-42265",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-22",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 42265,
+      "kind": "investment",
+      "balanceAfterCents": 56068,
       "source": "legacy_sheet"
     },
     {
@@ -13186,14 +13175,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-07-15-858-7869",
+      "id": "legacy-acc-santander-acc-2024-07-19-860-86685",
       "accountId": "acc-santander-acc",
-      "date": "2024-07-15",
-      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "amountCents": -7869,
-      "kind": "expense",
-      "balanceAfterCents": 249500,
+      "date": "2024-07-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/07 12:13 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/07 12:13 CARTÃO MASTER",
+      "amountCents": -86685,
+      "kind": "card_payment",
+      "balanceAfterCents": 162816,
       "source": "legacy_sheet"
     },
     {
@@ -13208,6 +13197,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-07-15-858-7869",
+      "accountId": "acc-santander-acc",
+      "date": "2024-07-15",
+      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "amountCents": -7869,
+      "kind": "expense",
+      "balanceAfterCents": 249500,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-07-11-857-3220",
       "accountId": "acc-santander-acc",
       "date": "2024-07-11",
@@ -13216,17 +13216,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -3220,
       "kind": "expense",
       "balanceAfterCents": 257369,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-07-09-855-11000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-07-09",
-      "description": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
-      "rawDescription": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
-      "amountCents": -11000,
-      "kind": "expense",
-      "balanceAfterCents": 260587,
       "source": "legacy_sheet"
     },
     {
@@ -13241,58 +13230,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-07-03-22-76025",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-03",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 76025,
-      "kind": "investment",
-      "balanceAfterCents": 256068,
+      "id": "legacy-acc-santander-acc-2024-07-09-855-11000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-07-09",
+      "description": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
+      "rawDescription": "PIX ENVIADO INGRESSE INGRESSOS PARA E",
+      "amountCents": -11000,
+      "kind": "expense",
+      "balanceAfterCents": 260587,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-07-03-23-123975",
-      "accountId": "acc-bradesco",
+      "id": "legacy-acc-santander-acc-2024-07-03-854-150000",
+      "accountId": "acc-santander-acc",
       "date": "2024-07-03",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 123975,
-      "kind": "investment",
-      "balanceAfterCents": 256068,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-03-24-150000",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-03",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 03/07",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 03/07",
-      "amountCents": -150000,
-      "kind": "transfer",
-      "balanceAfterCents": 106068,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-03-25-100",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-03",
-      "description": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
-      "rawDescription": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
-      "amountCents": -100,
-      "kind": "transfer",
-      "balanceAfterCents": 105968,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-07-03-26-49900",
-      "accountId": "acc-bradesco",
-      "date": "2024-07-03",
-      "description": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
-      "rawDescription": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
-      "amountCents": -49900,
-      "kind": "transfer",
-      "balanceAfterCents": 56068,
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 150000,
+      "kind": "income",
+      "balanceAfterCents": 271587,
       "source": "legacy_sheet"
     },
     {
@@ -13307,14 +13263,58 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-07-03-854-150000",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2024-07-03-26-49900",
+      "accountId": "acc-bradesco",
       "date": "2024-07-03",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 150000,
-      "kind": "income",
-      "balanceAfterCents": 271587,
+      "description": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
+      "rawDescription": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
+      "amountCents": -49900,
+      "kind": "transfer",
+      "balanceAfterCents": 56068,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-03-25-100",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-03",
+      "description": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
+      "rawDescription": "Pix Qrcode Est Des: Pedro Gioia Martins 03/07",
+      "amountCents": -100,
+      "kind": "transfer",
+      "balanceAfterCents": 105968,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-03-24-150000",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-03",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 03/07",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 03/07",
+      "amountCents": -150000,
+      "kind": "transfer",
+      "balanceAfterCents": 106068,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-03-23-123975",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-03",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 123975,
+      "kind": "investment",
+      "balanceAfterCents": 256068,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-07-03-22-76025",
+      "accountId": "acc-bradesco",
+      "date": "2024-07-03",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 76025,
+      "kind": "investment",
+      "balanceAfterCents": 256068,
       "source": "legacy_sheet"
     },
     {
@@ -13340,17 +13340,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-06-27-20-180000",
-      "accountId": "acc-bradesco",
-      "date": "2024-06-27",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 180000,
-      "kind": "transfer",
-      "balanceAfterCents": 256068,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2024-06-27-21-180000",
       "accountId": "acc-bradesco",
       "date": "2024-06-27",
@@ -13362,14 +13351,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-06-26-849-2500",
-      "accountId": "acc-santander-acc",
-      "date": "2024-06-26",
-      "description": "PIX ENVIADO Alessandra Silva Costa",
-      "rawDescription": "PIX ENVIADO Alessandra Silva Costa",
-      "amountCents": -2500,
-      "kind": "expense",
-      "balanceAfterCents": 72906,
+      "id": "legacy-acc-bradesco-2024-06-27-20-180000",
+      "accountId": "acc-bradesco",
+      "date": "2024-06-27",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 180000,
+      "kind": "transfer",
+      "balanceAfterCents": 256068,
       "source": "legacy_sheet"
     },
     {
@@ -13384,25 +13373,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-06-20-846-5400",
+      "id": "legacy-acc-santander-acc-2024-06-26-849-2500",
       "accountId": "acc-santander-acc",
-      "date": "2024-06-20",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -5400,
+      "date": "2024-06-26",
+      "description": "PIX ENVIADO Alessandra Silva Costa",
+      "rawDescription": "PIX ENVIADO Alessandra Silva Costa",
+      "amountCents": -2500,
       "kind": "expense",
-      "balanceAfterCents": 211369,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-06-20-847-135985",
-      "accountId": "acc-santander-acc",
-      "date": "2024-06-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/06 15:19 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/06 15:19 CARTAO MASTER",
-      "amountCents": -135985,
-      "kind": "card_payment",
-      "balanceAfterCents": 75384,
+      "balanceAfterCents": 72906,
       "source": "legacy_sheet"
     },
     {
@@ -13417,6 +13395,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-06-20-847-135985",
+      "accountId": "acc-santander-acc",
+      "date": "2024-06-20",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/06 15:19 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/06 15:19 CARTAO MASTER",
+      "amountCents": -135985,
+      "kind": "card_payment",
+      "balanceAfterCents": 75384,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-06-20-846-5400",
+      "accountId": "acc-santander-acc",
+      "date": "2024-06-20",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -5400,
+      "kind": "expense",
+      "balanceAfterCents": 211369,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-06-14-845-11000",
       "accountId": "acc-santander-acc",
       "date": "2024-06-14",
@@ -13425,17 +13425,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 11000,
       "kind": "income",
       "balanceAfterCents": 216769,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-06-13-843-11000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-06-13",
-      "description": "PIX ENVIADO Pedro Henrique Araujo Sen",
-      "rawDescription": "PIX ENVIADO Pedro Henrique Araujo Sen",
-      "amountCents": -11000,
-      "kind": "expense",
-      "balanceAfterCents": 208382,
       "source": "legacy_sheet"
     },
     {
@@ -13450,6 +13439,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-06-13-843-11000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-06-13",
+      "description": "PIX ENVIADO Pedro Henrique Araujo Sen",
+      "rawDescription": "PIX ENVIADO Pedro Henrique Araujo Sen",
+      "amountCents": -11000,
+      "kind": "expense",
+      "balanceAfterCents": 208382,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-06-12-842-6000",
       "accountId": "acc-santander-acc",
       "date": "2024-06-12",
@@ -13461,14 +13461,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-06-10-839-6340",
+      "id": "legacy-acc-santander-acc-2024-06-10-841-562",
       "accountId": "acc-santander-acc",
       "date": "2024-06-10",
-      "description": "PIX ENVIADO Luiz Gustavo Codogno",
-      "rawDescription": "PIX ENVIADO Luiz Gustavo Codogno",
-      "amountCents": -6340,
+      "description": "PIX ENVIADO Lla Gateway Intermediacao",
+      "rawDescription": "PIX ENVIADO Lla Gateway Intermediacao",
+      "amountCents": -562,
       "kind": "expense",
-      "balanceAfterCents": 261944,
+      "balanceAfterCents": 225382,
       "source": "legacy_sheet"
     },
     {
@@ -13483,14 +13483,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-06-10-841-562",
+      "id": "legacy-acc-santander-acc-2024-06-10-839-6340",
       "accountId": "acc-santander-acc",
       "date": "2024-06-10",
-      "description": "PIX ENVIADO Lla Gateway Intermediacao",
-      "rawDescription": "PIX ENVIADO Lla Gateway Intermediacao",
-      "amountCents": -562,
+      "description": "PIX ENVIADO Luiz Gustavo Codogno",
+      "rawDescription": "PIX ENVIADO Luiz Gustavo Codogno",
+      "amountCents": -6340,
       "kind": "expense",
-      "balanceAfterCents": 225382,
+      "balanceAfterCents": 261944,
       "source": "legacy_sheet"
     },
     {
@@ -13516,12 +13516,45 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-05-31-16-105804",
+      "id": "legacy-acc-santander-acc-2024-05-31-836-3800",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-31",
+      "description": "PIX ENVIADO Dayra Christine Massinell",
+      "rawDescription": "PIX ENVIADO Dayra Christine Massinell",
+      "amountCents": -3800,
+      "kind": "expense",
+      "balanceAfterCents": 228684,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-31-835-120000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-31",
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 120000,
+      "kind": "income",
+      "balanceAfterCents": 232484,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-31-19-120000",
+      "accountId": "acc-bradesco",
+      "date": "2024-05-31",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 30/05",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 30/05",
+      "amountCents": -120000,
+      "kind": "transfer",
+      "balanceAfterCents": 76068,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-31-18-5272",
       "accountId": "acc-bradesco",
       "date": "2024-05-31",
       "description": "Resgate Inv Fac",
       "rawDescription": "Resgate Inv Fac",
-      "amountCents": 105804,
+      "amountCents": 5272,
       "kind": "investment",
       "balanceAfterCents": 196068,
       "source": "legacy_sheet"
@@ -13538,57 +13571,13 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-05-31-18-5272",
+      "id": "legacy-acc-bradesco-2024-05-31-16-105804",
       "accountId": "acc-bradesco",
       "date": "2024-05-31",
       "description": "Resgate Inv Fac",
       "rawDescription": "Resgate Inv Fac",
-      "amountCents": 5272,
+      "amountCents": 105804,
       "kind": "investment",
-      "balanceAfterCents": 196068,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-05-31-19-120000",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-31",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 30/05",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 30/05",
-      "amountCents": -120000,
-      "kind": "transfer",
-      "balanceAfterCents": 76068,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-31-835-120000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-31",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 120000,
-      "kind": "income",
-      "balanceAfterCents": 232484,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-31-836-3800",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-31",
-      "description": "PIX ENVIADO Dayra Christine Massinell",
-      "rawDescription": "PIX ENVIADO Dayra Christine Massinell",
-      "amountCents": -3800,
-      "kind": "expense",
-      "balanceAfterCents": 228684,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-05-29-14-181800",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 181800,
-      "kind": "transfer",
       "balanceAfterCents": 196068,
       "source": "legacy_sheet"
     },
@@ -13604,47 +13593,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-05-21-12-65000",
+      "id": "legacy-acc-bradesco-2024-05-29-14-181800",
       "accountId": "acc-bradesco",
-      "date": "2024-05-21",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 65000,
-      "kind": "investment",
-      "balanceAfterCents": 79268,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-05-21-13-65000",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-21",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 21/05",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 21/05",
-      "amountCents": -65000,
+      "date": "2024-05-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 181800,
       "kind": "transfer",
-      "balanceAfterCents": 14268,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-21-832-160775",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/05 05:30 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/05 05:30 CARTAO MASTER",
-      "amountCents": -160775,
-      "kind": "card_payment",
-      "balanceAfterCents": 47468,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-21-833-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-21",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 112468,
+      "balanceAfterCents": 196068,
       "source": "legacy_sheet"
     },
     {
@@ -13659,6 +13615,50 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-05-21-833-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-21",
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 112468,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-21-832-160775",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/05 05:30 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/05 05:30 CARTAO MASTER",
+      "amountCents": -160775,
+      "kind": "card_payment",
+      "balanceAfterCents": 47468,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-21-13-65000",
+      "accountId": "acc-bradesco",
+      "date": "2024-05-21",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 21/05",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 21/05",
+      "amountCents": -65000,
+      "kind": "transfer",
+      "balanceAfterCents": 14268,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-21-12-65000",
+      "accountId": "acc-bradesco",
+      "date": "2024-05-21",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 65000,
+      "kind": "investment",
+      "balanceAfterCents": 79268,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-05-17-831-100000",
       "accountId": "acc-santander-acc",
       "date": "2024-05-17",
@@ -13666,6 +13666,50 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "rawDescription": "PIX ENVIADO Osni Martins",
       "amountCents": -100000,
       "kind": "expense",
+      "balanceAfterCents": 208243,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-16-830-99900",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-16",
+      "description": "PIX ENVIADO Osni Martins",
+      "rawDescription": "PIX ENVIADO Osni Martins",
+      "amountCents": -99900,
+      "kind": "expense",
+      "balanceAfterCents": 308243,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-16-829-100",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-16",
+      "description": "PIX ENVIADO Osni Martins",
+      "rawDescription": "PIX ENVIADO Osni Martins",
+      "amountCents": -100,
+      "kind": "expense",
+      "balanceAfterCents": 408143,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-16-828-200000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-16",
+      "description": "PIX RECEBIDO-DIF TIT MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX RECEBIDO-DIF TIT MARILENE APARECIDA GIOIA",
+      "amountCents": 200000,
+      "kind": "income",
+      "balanceAfterCents": 408243,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-16-827-100",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-16",
+      "description": "PIX RECEBIDO - DIF TIT MARILENE APARECIDA GIOIA",
+      "rawDescription": "PIX RECEBIDO - DIF TIT MARILENE APARECIDA GIOIA",
+      "amountCents": 100,
+      "kind": "income",
       "balanceAfterCents": 208243,
       "source": "legacy_sheet"
     },
@@ -13681,17 +13725,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-05-16-10-100",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-16",
-      "description": "Transfe Pix Des: Marilene Aparecida gi 16/05",
-      "rawDescription": "Transfe Pix Des: Marilene Aparecida gi 16/05",
-      "amountCents": -100,
-      "kind": "expense",
-      "balanceAfterCents": 179268,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-bradesco-2024-05-16-11-100000",
       "accountId": "acc-bradesco",
       "date": "2024-05-16",
@@ -13703,58 +13736,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-05-16-827-100",
-      "accountId": "acc-santander-acc",
+      "id": "legacy-acc-bradesco-2024-05-16-10-100",
+      "accountId": "acc-bradesco",
       "date": "2024-05-16",
-      "description": "PIX RECEBIDO - DIF TIT MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX RECEBIDO - DIF TIT MARILENE APARECIDA GIOIA",
-      "amountCents": 100,
-      "kind": "income",
-      "balanceAfterCents": 208243,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-16-828-200000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-16",
-      "description": "PIX RECEBIDO-DIF TIT MARILENE APARECIDA GIOIA",
-      "rawDescription": "PIX RECEBIDO-DIF TIT MARILENE APARECIDA GIOIA",
-      "amountCents": 200000,
-      "kind": "income",
-      "balanceAfterCents": 408243,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-16-829-100",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-16",
-      "description": "PIX ENVIADO Osni Martins",
-      "rawDescription": "PIX ENVIADO Osni Martins",
+      "description": "Transfe Pix Des: Marilene Aparecida gi 16/05",
+      "rawDescription": "Transfe Pix Des: Marilene Aparecida gi 16/05",
       "amountCents": -100,
       "kind": "expense",
-      "balanceAfterCents": 408143,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-16-830-99900",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-16",
-      "description": "PIX ENVIADO Osni Martins",
-      "rawDescription": "PIX ENVIADO Osni Martins",
-      "amountCents": -99900,
-      "kind": "expense",
-      "balanceAfterCents": 308243,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-15-825-1000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-15",
-      "description": "PIX ENVIADO 99 TECNOLOGIA LTDA",
-      "rawDescription": "PIX ENVIADO 99 TECNOLOGIA LTDA",
-      "amountCents": -1000,
-      "kind": "expense",
-      "balanceAfterCents": 208831,
+      "balanceAfterCents": 179268,
       "source": "legacy_sheet"
     },
     {
@@ -13769,25 +13758,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-05-13-822-1",
+      "id": "legacy-acc-santander-acc-2024-05-15-825-1000",
       "accountId": "acc-santander-acc",
-      "date": "2024-05-13",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 204453,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-13-823-35000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-05-13",
-      "description": "PIX RECEBIDO Leonardo Mathias Silva",
-      "rawDescription": "PIX RECEBIDO Leonardo Mathias Silva",
-      "amountCents": 35000,
-      "kind": "income",
-      "balanceAfterCents": 239453,
+      "date": "2024-05-15",
+      "description": "PIX ENVIADO 99 TECNOLOGIA LTDA",
+      "rawDescription": "PIX ENVIADO 99 TECNOLOGIA LTDA",
+      "amountCents": -1000,
+      "kind": "expense",
+      "balanceAfterCents": 208831,
       "source": "legacy_sheet"
     },
     {
@@ -13802,14 +13780,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-05-10-820-5606",
+      "id": "legacy-acc-santander-acc-2024-05-13-823-35000",
       "accountId": "acc-santander-acc",
-      "date": "2024-05-10",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -5606,
-      "kind": "expense",
-      "balanceAfterCents": 204953,
+      "date": "2024-05-13",
+      "description": "PIX RECEBIDO Leonardo Mathias Silva",
+      "rawDescription": "PIX RECEBIDO Leonardo Mathias Silva",
+      "amountCents": 35000,
+      "kind": "income",
+      "balanceAfterCents": 239453,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-13-822-1",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-13",
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 204453,
       "source": "legacy_sheet"
     },
     {
@@ -13821,6 +13810,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -501,
       "kind": "expense",
       "balanceAfterCents": 204452,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-05-10-820-5606",
+      "accountId": "acc-santander-acc",
+      "date": "2024-05-10",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -5606,
+      "kind": "expense",
+      "balanceAfterCents": 204953,
       "source": "legacy_sheet"
     },
     {
@@ -13846,47 +13846,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-05-02-6-50000",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-02",
-      "description": "Resgate Inv Fac",
-      "rawDescription": "Resgate Inv Fac",
-      "amountCents": 50000,
-      "kind": "investment",
-      "balanceAfterCents": 229368,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-05-02-7-500",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-02",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 01/05",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 01/05",
-      "amountCents": -500,
-      "kind": "transfer",
-      "balanceAfterCents": 228868,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-05-02-8-49500",
-      "accountId": "acc-bradesco",
-      "date": "2024-05-02",
-      "description": "Transfe Pix Des: Pedro Gioia Martins 01/05",
-      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 01/05",
-      "amountCents": -49500,
-      "kind": "transfer",
-      "balanceAfterCents": 179368,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-05-02-815-500",
+      "id": "legacy-acc-santander-acc-2024-05-02-817-85000",
       "accountId": "acc-santander-acc",
       "date": "2024-05-02",
-      "description": "PIX RECEBIDO 237/2297/0000000000181153",
-      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
-      "amountCents": 500,
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 85000,
       "kind": "income",
-      "balanceAfterCents": 79799,
+      "balanceAfterCents": 214299,
       "source": "legacy_sheet"
     },
     {
@@ -13901,24 +13868,46 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-05-02-817-85000",
+      "id": "legacy-acc-santander-acc-2024-05-02-815-500",
       "accountId": "acc-santander-acc",
       "date": "2024-05-02",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 85000,
+      "description": "PIX RECEBIDO 237/2297/0000000000181153",
+      "rawDescription": "PIX RECEBIDO 237/2297/0000000000181153",
+      "amountCents": 500,
       "kind": "income",
-      "balanceAfterCents": 214299,
+      "balanceAfterCents": 79799,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-04-30-4-5270",
+      "id": "legacy-acc-bradesco-2024-05-02-8-49500",
       "accountId": "acc-bradesco",
-      "date": "2024-04-30",
-      "description": "Estorno Tarifa Cesta Classic",
-      "rawDescription": "Estorno Tarifa Cesta Classic",
-      "amountCents": 5270,
-      "kind": "income",
+      "date": "2024-05-02",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 01/05",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 01/05",
+      "amountCents": -49500,
+      "kind": "transfer",
+      "balanceAfterCents": 179368,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-02-7-500",
+      "accountId": "acc-bradesco",
+      "date": "2024-05-02",
+      "description": "Transfe Pix Des: Pedro Gioia Martins 01/05",
+      "rawDescription": "Transfe Pix Des: Pedro Gioia Martins 01/05",
+      "amountCents": -500,
+      "kind": "transfer",
+      "balanceAfterCents": 228868,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-05-02-6-50000",
+      "accountId": "acc-bradesco",
+      "date": "2024-05-02",
+      "description": "Resgate Inv Fac",
+      "rawDescription": "Resgate Inv Fac",
+      "amountCents": 50000,
+      "kind": "investment",
       "balanceAfterCents": 229368,
       "source": "legacy_sheet"
     },
@@ -13934,47 +13923,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-bradesco-2024-04-29-1-229368",
+      "id": "legacy-acc-bradesco-2024-04-30-4-5270",
       "accountId": "acc-bradesco",
-      "date": "2024-04-29",
-      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
-      "amountCents": 229368,
-      "kind": "transfer",
+      "date": "2024-04-30",
+      "description": "Estorno Tarifa Cesta Classic",
+      "rawDescription": "Estorno Tarifa Cesta Classic",
+      "amountCents": 5270,
+      "kind": "income",
       "balanceAfterCents": 229368,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-04-29-2-5270",
-      "accountId": "acc-bradesco",
-      "date": "2024-04-29",
-      "description": "Tarifa Bancaria Cesta Classic",
-      "rawDescription": "Tarifa Bancaria Cesta Classic",
-      "amountCents": -5270,
-      "kind": "expense",
-      "balanceAfterCents": 224098,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-bradesco-2024-04-29-3-223998",
-      "accountId": "acc-bradesco",
-      "date": "2024-04-29",
-      "description": "Apl.invest Fac",
-      "rawDescription": "Apl.invest Fac",
-      "amountCents": -223998,
-      "kind": "investment",
-      "balanceAfterCents": 224098,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-04-29-813-9956",
-      "accountId": "acc-santander-acc",
-      "date": "2024-04-29",
-      "description": "PIX ENVIADO Pix Droga Raia",
-      "rawDescription": "PIX ENVIADO Pix Droga Raia",
-      "amountCents": -9956,
-      "kind": "expense",
-      "balanceAfterCents": 79297,
       "source": "legacy_sheet"
     },
     {
@@ -13989,14 +13945,47 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-23-811-5000",
+      "id": "legacy-acc-santander-acc-2024-04-29-813-9956",
       "accountId": "acc-santander-acc",
-      "date": "2024-04-23",
-      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "amountCents": -5000,
+      "date": "2024-04-29",
+      "description": "PIX ENVIADO Pix Droga Raia",
+      "rawDescription": "PIX ENVIADO Pix Droga Raia",
+      "amountCents": -9956,
       "kind": "expense",
-      "balanceAfterCents": 89252,
+      "balanceAfterCents": 79297,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-04-29-3-223998",
+      "accountId": "acc-bradesco",
+      "date": "2024-04-29",
+      "description": "Apl.invest Fac",
+      "rawDescription": "Apl.invest Fac",
+      "amountCents": -223998,
+      "kind": "investment",
+      "balanceAfterCents": 224098,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-04-29-2-5270",
+      "accountId": "acc-bradesco",
+      "date": "2024-04-29",
+      "description": "Tarifa Bancaria Cesta Classic",
+      "rawDescription": "Tarifa Bancaria Cesta Classic",
+      "amountCents": -5270,
+      "kind": "expense",
+      "balanceAfterCents": 224098,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-bradesco-2024-04-29-1-229368",
+      "accountId": "acc-bradesco",
+      "date": "2024-04-29",
+      "description": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "rawDescription": "Trans Sal p/c/c Bco:237 Age: 02297",
+      "amountCents": 229368,
+      "kind": "transfer",
+      "balanceAfterCents": 229368,
       "source": "legacy_sheet"
     },
     {
@@ -14011,36 +14000,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-22-806-13000",
+      "id": "legacy-acc-santander-acc-2024-04-23-811-5000",
       "accountId": "acc-santander-acc",
-      "date": "2024-04-22",
-      "description": "PIX RECEBIDO KAUE GIGLIOTTI TAVARES",
-      "rawDescription": "PIX RECEBIDO KAUE GIGLIOTTI TAVARES",
-      "amountCents": 13000,
-      "kind": "income",
-      "balanceAfterCents": 134149,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-04-22-807-5508",
-      "accountId": "acc-santander-acc",
-      "date": "2024-04-22",
-      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "amountCents": -5508,
+      "date": "2024-04-23",
+      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "amountCents": -5000,
       "kind": "expense",
-      "balanceAfterCents": 128641,
+      "balanceAfterCents": 89252,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-22-808-21218",
+      "id": "legacy-acc-santander-acc-2024-04-22-810-1",
       "accountId": "acc-santander-acc",
       "date": "2024-04-22",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/04 12:16 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/04 12:16 CARTAO MASTER",
-      "amountCents": -21218,
-      "kind": "card_payment",
-      "balanceAfterCents": 107423,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 94252,
       "source": "legacy_sheet"
     },
     {
@@ -14055,14 +14033,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-22-810-1",
+      "id": "legacy-acc-santander-acc-2024-04-22-808-21218",
       "accountId": "acc-santander-acc",
       "date": "2024-04-22",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 94252,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/04 12:16 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/04 12:16 CARTAO MASTER",
+      "amountCents": -21218,
+      "kind": "card_payment",
+      "balanceAfterCents": 107423,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-04-22-807-5508",
+      "accountId": "acc-santander-acc",
+      "date": "2024-04-22",
+      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "amountCents": -5508,
+      "kind": "expense",
+      "balanceAfterCents": 128641,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-04-22-806-13000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-04-22",
+      "description": "PIX RECEBIDO KAUE GIGLIOTTI TAVARES",
+      "rawDescription": "PIX RECEBIDO KAUE GIGLIOTTI TAVARES",
+      "amountCents": 13000,
+      "kind": "income",
+      "balanceAfterCents": 134149,
       "source": "legacy_sheet"
     },
     {
@@ -14088,17 +14088,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-17-802-4400",
-      "accountId": "acc-santander-acc",
-      "date": "2024-04-17",
-      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
-      "amountCents": -4400,
-      "kind": "expense",
-      "balanceAfterCents": 99148,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2024-04-17-803-1",
       "accountId": "acc-santander-acc",
       "date": "2024-04-17",
@@ -14110,14 +14099,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-15-800-6100",
+      "id": "legacy-acc-santander-acc-2024-04-17-802-4400",
       "accountId": "acc-santander-acc",
-      "date": "2024-04-15",
-      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
-      "amountCents": -6100,
+      "date": "2024-04-17",
+      "description": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "rawDescription": "PIX ENVIADO Rpc Rede Ponto Certo Tecn",
+      "amountCents": -4400,
       "kind": "expense",
-      "balanceAfterCents": 103547,
+      "balanceAfterCents": 99148,
       "source": "legacy_sheet"
     },
     {
@@ -14132,14 +14121,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-01-797-10000",
+      "id": "legacy-acc-santander-acc-2024-04-15-800-6100",
+      "accountId": "acc-santander-acc",
+      "date": "2024-04-15",
+      "description": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "rawDescription": "PIX ENVIADO Luis Felipe Reducini Cost",
+      "amountCents": -6100,
+      "kind": "expense",
+      "balanceAfterCents": 103547,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-04-01-799-85000",
       "accountId": "acc-santander-acc",
       "date": "2024-04-01",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "amountCents": 10000,
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 85000,
       "kind": "income",
-      "balanceAfterCents": 34647,
+      "balanceAfterCents": 109647,
       "source": "legacy_sheet"
     },
     {
@@ -14155,36 +14155,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-04-01-799-85000",
+      "id": "legacy-acc-santander-acc-2024-04-01-797-10000",
       "accountId": "acc-santander-acc",
       "date": "2024-04-01",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 85000,
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "amountCents": 10000,
       "kind": "income",
-      "balanceAfterCents": 109647,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-03-25-794-13410",
-      "accountId": "acc-santander-acc",
-      "date": "2024-03-25",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -13410,
-      "kind": "expense",
-      "balanceAfterCents": 24896,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-03-25-795-250",
-      "accountId": "acc-santander-acc",
-      "date": "2024-03-25",
-      "description": "PIX ENVIADO Rodnei Julio Santos Marti",
-      "rawDescription": "PIX ENVIADO Rodnei Julio Santos Marti",
-      "amountCents": -250,
-      "kind": "expense",
-      "balanceAfterCents": 24646,
+      "balanceAfterCents": 34647,
       "source": "legacy_sheet"
     },
     {
@@ -14199,14 +14177,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-03-20-792-25725",
+      "id": "legacy-acc-santander-acc-2024-03-25-795-250",
       "accountId": "acc-santander-acc",
-      "date": "2024-03-20",
-      "description": "PIX ENVIADO SECRETARIA DO TESOURO NAC",
-      "rawDescription": "PIX ENVIADO SECRETARIA DO TESOURO NAC",
-      "amountCents": -25725,
+      "date": "2024-03-25",
+      "description": "PIX ENVIADO Rodnei Julio Santos Marti",
+      "rawDescription": "PIX ENVIADO Rodnei Julio Santos Marti",
+      "amountCents": -250,
       "kind": "expense",
-      "balanceAfterCents": 38304,
+      "balanceAfterCents": 24646,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-03-25-794-13410",
+      "accountId": "acc-santander-acc",
+      "date": "2024-03-25",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -13410,
+      "kind": "expense",
+      "balanceAfterCents": 24896,
       "source": "legacy_sheet"
     },
     {
@@ -14221,14 +14210,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-03-19-790-66115",
+      "id": "legacy-acc-santander-acc-2024-03-20-792-25725",
       "accountId": "acc-santander-acc",
-      "date": "2024-03-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 22:56 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 22:56 CARTAO MASTER",
-      "amountCents": -66115,
-      "kind": "card_payment",
-      "balanceAfterCents": 64021,
+      "date": "2024-03-20",
+      "description": "PIX ENVIADO SECRETARIA DO TESOURO NAC",
+      "rawDescription": "PIX ENVIADO SECRETARIA DO TESOURO NAC",
+      "amountCents": -25725,
+      "kind": "expense",
+      "balanceAfterCents": 38304,
       "source": "legacy_sheet"
     },
     {
@@ -14243,14 +14232,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-03-18-788-17000",
+      "id": "legacy-acc-santander-acc-2024-03-19-790-66115",
       "accountId": "acc-santander-acc",
-      "date": "2024-03-18",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "amountCents": 17000,
-      "kind": "income",
-      "balanceAfterCents": 140136,
+      "date": "2024-03-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 22:56 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 22:56 CARTAO MASTER",
+      "amountCents": -66115,
+      "kind": "card_payment",
+      "balanceAfterCents": 64021,
       "source": "legacy_sheet"
     },
     {
@@ -14266,6 +14255,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-03-18-788-17000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-03-18",
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "amountCents": 17000,
+      "kind": "income",
+      "balanceAfterCents": 140136,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-03-11-787-2916",
       "accountId": "acc-santander-acc",
       "date": "2024-03-11",
@@ -14274,17 +14274,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -2916,
       "kind": "expense",
       "balanceAfterCents": 123136,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-03-08-785-6921",
-      "accountId": "acc-santander-acc",
-      "date": "2024-03-08",
-      "description": "PIX ENVIADO Drogaria Sao Paulo SA",
-      "rawDescription": "PIX ENVIADO Drogaria Sao Paulo SA",
-      "amountCents": -6921,
-      "kind": "expense",
-      "balanceAfterCents": 126051,
       "source": "legacy_sheet"
     },
     {
@@ -14299,14 +14288,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-03-06-783-18100",
+      "id": "legacy-acc-santander-acc-2024-03-08-785-6921",
       "accountId": "acc-santander-acc",
-      "date": "2024-03-06",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -18100,
+      "date": "2024-03-08",
+      "description": "PIX ENVIADO Drogaria Sao Paulo SA",
+      "rawDescription": "PIX ENVIADO Drogaria Sao Paulo SA",
+      "amountCents": -6921,
       "kind": "expense",
-      "balanceAfterCents": 132971,
+      "balanceAfterCents": 126051,
       "source": "legacy_sheet"
     },
     {
@@ -14318,6 +14307,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "investment",
       "balanceAfterCents": 132972,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-03-06-783-18100",
+      "accountId": "acc-santander-acc",
+      "date": "2024-03-06",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -18100,
+      "kind": "expense",
+      "balanceAfterCents": 132971,
       "source": "legacy_sheet"
     },
     {
@@ -14343,17 +14343,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-02-27-779-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-02-27",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
-      "amountCents": 10000,
-      "kind": "income",
-      "balanceAfterCents": 68571,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2024-02-27-780-10000",
       "accountId": "acc-santander-acc",
       "date": "2024-02-27",
@@ -14366,25 +14355,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-02-26-776-9026",
+      "id": "legacy-acc-santander-acc-2024-02-27-779-10000",
       "accountId": "acc-santander-acc",
-      "date": "2024-02-26",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -9026,
-      "kind": "expense",
-      "balanceAfterCents": 75761,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-02-26-777-17193",
-      "accountId": "acc-santander-acc",
-      "date": "2024-02-26",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 25/02 10:09 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 25/02 10:09 CARTÃO MASTER",
-      "amountCents": -17193,
-      "kind": "card_payment",
-      "balanceAfterCents": 58568,
+      "date": "2024-02-27",
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
+      "amountCents": 10000,
+      "kind": "income",
+      "balanceAfterCents": 68571,
       "source": "legacy_sheet"
     },
     {
@@ -14399,6 +14377,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-02-26-777-17193",
+      "accountId": "acc-santander-acc",
+      "date": "2024-02-26",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 25/02 10:09 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 25/02 10:09 CARTÃO MASTER",
+      "amountCents": -17193,
+      "kind": "card_payment",
+      "balanceAfterCents": 58568,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-02-26-776-9026",
+      "accountId": "acc-santander-acc",
+      "date": "2024-02-26",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -9026,
+      "kind": "expense",
+      "balanceAfterCents": 75761,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-02-16-775-2916",
       "accountId": "acc-santander-acc",
       "date": "2024-02-16",
@@ -14407,17 +14407,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -2916,
       "kind": "expense",
       "balanceAfterCents": 84787,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-02-14-773-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2024-02-14",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -3500,
-      "kind": "expense",
-      "balanceAfterCents": 87702,
       "source": "legacy_sheet"
     },
     {
@@ -14432,6 +14421,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2024-02-14-773-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2024-02-14",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -3500,
+      "kind": "expense",
+      "balanceAfterCents": 87702,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2024-02-08-772-22410",
       "accountId": "acc-santander-acc",
       "date": "2024-02-08",
@@ -14440,28 +14440,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -22410,
       "kind": "expense",
       "balanceAfterCents": 91202,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-02-07-769-6921",
-      "accountId": "acc-santander-acc",
-      "date": "2024-02-07",
-      "description": "PIX ENVIADO Raia Drogasil",
-      "rawDescription": "PIX ENVIADO Raia Drogasil",
-      "amountCents": -6921,
-      "kind": "expense",
-      "balanceAfterCents": 84112,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2024-02-07-770-7000",
-      "accountId": "acc-santander-acc",
-      "date": "2024-02-07",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
-      "amountCents": 7000,
-      "kind": "income",
-      "balanceAfterCents": 91112,
       "source": "legacy_sheet"
     },
     {
@@ -14476,14 +14454,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-02-06-767-10000",
+      "id": "legacy-acc-santander-acc-2024-02-07-770-7000",
       "accountId": "acc-santander-acc",
-      "date": "2024-02-06",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "amountCents": 10000,
+      "date": "2024-02-07",
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOΙΑ",
+      "amountCents": 7000,
       "kind": "income",
-      "balanceAfterCents": 101033,
+      "balanceAfterCents": 91112,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-02-07-769-6921",
+      "accountId": "acc-santander-acc",
+      "date": "2024-02-07",
+      "description": "PIX ENVIADO Raia Drogasil",
+      "rawDescription": "PIX ENVIADO Raia Drogasil",
+      "amountCents": -6921,
+      "kind": "expense",
+      "balanceAfterCents": 84112,
       "source": "legacy_sheet"
     },
     {
@@ -14496,6 +14485,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "kind": "expense",
       "categoryId": "cat-semparar",
       "balanceAfterCents": 91033,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2024-02-06-767-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2024-02-06",
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "amountCents": 10000,
+      "kind": "income",
+      "balanceAfterCents": 101033,
       "source": "legacy_sheet"
     },
     {
@@ -14544,14 +14544,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-01-19-760-95041",
+      "id": "legacy-acc-santander-acc-2024-01-19-762-11",
       "accountId": "acc-santander-acc",
       "date": "2024-01-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/01 10:11 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/01 10:11 CARTÃO MASTER",
-      "amountCents": -95041,
-      "kind": "card_payment",
-      "balanceAfterCents": 20498,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 11,
+      "kind": "investment",
+      "balanceAfterCents": 9533,
       "source": "legacy_sheet"
     },
     {
@@ -14566,14 +14566,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2024-01-19-762-11",
+      "id": "legacy-acc-santander-acc-2024-01-19-760-95041",
       "accountId": "acc-santander-acc",
       "date": "2024-01-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 11,
-      "kind": "investment",
-      "balanceAfterCents": 9533,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/01 10:11 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/01 10:11 CARTÃO MASTER",
+      "amountCents": -95041,
+      "kind": "card_payment",
+      "balanceAfterCents": 20498,
       "source": "legacy_sheet"
     },
     {
@@ -14621,14 +14621,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-12-19-753-41167",
+      "id": "legacy-acc-santander-acc-2023-12-19-755-2",
       "accountId": "acc-santander-acc",
       "date": "2023-12-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/12 13:12 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/12 13:12 CARTÃO MASTER",
-      "amountCents": -41167,
-      "kind": "card_payment",
-      "balanceAfterCents": 47610,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 2,
+      "kind": "investment",
+      "balanceAfterCents": 28602,
       "source": "legacy_sheet"
     },
     {
@@ -14643,25 +14643,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-12-19-755-2",
+      "id": "legacy-acc-santander-acc-2023-12-19-753-41167",
       "accountId": "acc-santander-acc",
       "date": "2023-12-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 2,
-      "kind": "investment",
-      "balanceAfterCents": 28602,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-12-18-751-2200",
-      "accountId": "acc-santander-acc",
-      "date": "2023-12-18",
-      "description": "PIX RECEBIDO Leonardo de Melo",
-      "rawDescription": "PIX RECEBIDO Leonardo de Melo",
-      "amountCents": 2200,
-      "kind": "income",
-      "balanceAfterCents": 96777,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/12 13:12 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/12 13:12 CARTÃO MASTER",
+      "amountCents": -41167,
+      "kind": "card_payment",
+      "balanceAfterCents": 47610,
       "source": "legacy_sheet"
     },
     {
@@ -14673,6 +14662,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -8000,
       "kind": "expense",
       "balanceAfterCents": 88777,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-12-18-751-2200",
+      "accountId": "acc-santander-acc",
+      "date": "2023-12-18",
+      "description": "PIX RECEBIDO Leonardo de Melo",
+      "rawDescription": "PIX RECEBIDO Leonardo de Melo",
+      "amountCents": 2200,
+      "kind": "income",
+      "balanceAfterCents": 96777,
       "source": "legacy_sheet"
     },
     {
@@ -14709,25 +14709,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-12-04-744-85000",
+      "id": "legacy-acc-santander-acc-2023-12-04-747-6700",
       "accountId": "acc-santander-acc",
       "date": "2023-12-04",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 85000,
-      "kind": "income",
-      "balanceAfterCents": 90994,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-12-04-745-4680",
-      "accountId": "acc-santander-acc",
-      "date": "2023-12-04",
-      "description": "PIX ENVIADO Marcela Scaramel",
-      "rawDescription": "PIX ENVIADO Marcela Scaramel",
-      "amountCents": -4680,
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -6700,
       "kind": "expense",
-      "balanceAfterCents": 86314,
+      "balanceAfterCents": 75614,
       "source": "legacy_sheet"
     },
     {
@@ -14742,14 +14731,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-12-04-747-6700",
+      "id": "legacy-acc-santander-acc-2023-12-04-745-4680",
       "accountId": "acc-santander-acc",
       "date": "2023-12-04",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -6700,
+      "description": "PIX ENVIADO Marcela Scaramel",
+      "rawDescription": "PIX ENVIADO Marcela Scaramel",
+      "amountCents": -4680,
       "kind": "expense",
-      "balanceAfterCents": 75614,
+      "balanceAfterCents": 86314,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-12-04-744-85000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-12-04",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 85000,
+      "kind": "income",
+      "balanceAfterCents": 90994,
       "source": "legacy_sheet"
     },
     {
@@ -14764,17 +14764,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-27-741-5037",
-      "accountId": "acc-santander-acc",
-      "date": "2023-11-27",
-      "description": "PIX ENVIADO PAGALEVE TECNOLOGIA FINAN",
-      "rawDescription": "PIX ENVIADO PAGALEVE TECNOLOGIA FINAN",
-      "amountCents": -5037,
-      "kind": "expense",
-      "balanceAfterCents": 2333,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-11-27-742-1",
       "accountId": "acc-santander-acc",
       "date": "2023-11-27",
@@ -14786,14 +14775,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-21-739-113510",
+      "id": "legacy-acc-santander-acc-2023-11-27-741-5037",
       "accountId": "acc-santander-acc",
-      "date": "2023-11-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/11 15:41 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/11 15:41 CARTAO MASTER",
-      "amountCents": -113510,
-      "kind": "card_payment",
-      "balanceAfterCents": 7359,
+      "date": "2023-11-27",
+      "description": "PIX ENVIADO PAGALEVE TECNOLOGIA FINAN",
+      "rawDescription": "PIX ENVIADO PAGALEVE TECNOLOGIA FINAN",
+      "amountCents": -5037,
+      "kind": "expense",
+      "balanceAfterCents": 2333,
       "source": "legacy_sheet"
     },
     {
@@ -14808,13 +14797,35 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-20-735-10000",
+      "id": "legacy-acc-santander-acc-2023-11-21-739-113510",
+      "accountId": "acc-santander-acc",
+      "date": "2023-11-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/11 15:41 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/11 15:41 CARTAO MASTER",
+      "amountCents": -113510,
+      "kind": "card_payment",
+      "balanceAfterCents": 7359,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-11-20-738-13850",
       "accountId": "acc-santander-acc",
       "date": "2023-11-20",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -13850,
+      "kind": "expense",
+      "balanceAfterCents": 120869,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-11-20-737-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-11-20",
+      "description": "TED RECEBIDA PEDRO GIOIA MARTINS",
+      "rawDescription": "TED RECEBIDA PEDRO GIOIA MARTINS",
       "amountCents": 10000,
-      "kind": "income",
+      "kind": "transfer",
       "balanceAfterCents": 134719,
       "source": "legacy_sheet"
     },
@@ -14831,25 +14842,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-20-737-10000",
+      "id": "legacy-acc-santander-acc-2023-11-20-735-10000",
       "accountId": "acc-santander-acc",
       "date": "2023-11-20",
-      "description": "TED RECEBIDA PEDRO GIOIA MARTINS",
-      "rawDescription": "TED RECEBIDA PEDRO GIOIA MARTINS",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
       "amountCents": 10000,
-      "kind": "transfer",
+      "kind": "income",
       "balanceAfterCents": 134719,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-11-20-738-13850",
-      "accountId": "acc-santander-acc",
-      "date": "2023-11-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -13850,
-      "kind": "expense",
-      "balanceAfterCents": 120869,
       "source": "legacy_sheet"
     },
     {
@@ -14864,17 +14864,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-13-732-7900",
-      "accountId": "acc-santander-acc",
-      "date": "2023-11-13",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -7900,
-      "kind": "expense",
-      "balanceAfterCents": 116919,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-11-13-733-4500",
       "accountId": "acc-santander-acc",
       "date": "2023-11-13",
@@ -14883,6 +14872,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4500,
       "kind": "income",
       "balanceAfterCents": 121419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-11-13-732-7900",
+      "accountId": "acc-santander-acc",
+      "date": "2023-11-13",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -7900,
+      "kind": "expense",
+      "balanceAfterCents": 116919,
       "source": "legacy_sheet"
     },
     {
@@ -14897,17 +14897,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-08-729-4500",
-      "accountId": "acc-santander-acc",
-      "date": "2023-11-08",
-      "description": "PIX ENVIADO Leonardo Blanco Natis",
-      "rawDescription": "PIX ENVIADO Leonardo Blanco Natis",
-      "amountCents": -4500,
-      "kind": "expense",
-      "balanceAfterCents": 131857,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-11-08-730-2000",
       "accountId": "acc-santander-acc",
       "date": "2023-11-08",
@@ -14919,14 +14908,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-07-727-1497",
+      "id": "legacy-acc-santander-acc-2023-11-08-729-4500",
       "accountId": "acc-santander-acc",
-      "date": "2023-11-07",
-      "description": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
-      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
-      "amountCents": 1497,
-      "kind": "income",
-      "balanceAfterCents": 137854,
+      "date": "2023-11-08",
+      "description": "PIX ENVIADO Leonardo Blanco Natis",
+      "rawDescription": "PIX ENVIADO Leonardo Blanco Natis",
+      "amountCents": -4500,
+      "kind": "expense",
+      "balanceAfterCents": 131857,
       "source": "legacy_sheet"
     },
     {
@@ -14941,14 +14930,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-06-724-8000",
+      "id": "legacy-acc-santander-acc-2023-11-07-727-1497",
+      "accountId": "acc-santander-acc",
+      "date": "2023-11-07",
+      "description": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
+      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
+      "amountCents": 1497,
+      "kind": "income",
+      "balanceAfterCents": 137854,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-11-06-726-1990",
       "accountId": "acc-santander-acc",
       "date": "2023-11-06",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 8000,
-      "kind": "income",
-      "balanceAfterCents": 145427,
+      "description": "PIX ENVIADO Mc Donalds Arcos Dourados",
+      "rawDescription": "PIX ENVIADO Mc Donalds Arcos Dourados",
+      "amountCents": -1990,
+      "kind": "expense",
+      "balanceAfterCents": 136357,
       "source": "legacy_sheet"
     },
     {
@@ -14963,14 +14963,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-11-06-726-1990",
+      "id": "legacy-acc-santander-acc-2023-11-06-724-8000",
       "accountId": "acc-santander-acc",
       "date": "2023-11-06",
-      "description": "PIX ENVIADO Mc Donalds Arcos Dourados",
-      "rawDescription": "PIX ENVIADO Mc Donalds Arcos Dourados",
-      "amountCents": -1990,
-      "kind": "expense",
-      "balanceAfterCents": 136357,
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 8000,
+      "kind": "income",
+      "balanceAfterCents": 145427,
       "source": "legacy_sheet"
     },
     {
@@ -15029,17 +15029,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-10-20-717-13745",
-      "accountId": "acc-santander-acc",
-      "date": "2023-10-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -13745,
-      "kind": "expense",
-      "balanceAfterCents": 29963,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-10-20-718-2",
       "accountId": "acc-santander-acc",
       "date": "2023-10-20",
@@ -15051,25 +15040,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-10-19-714-69196",
+      "id": "legacy-acc-santander-acc-2023-10-20-717-13745",
       "accountId": "acc-santander-acc",
-      "date": "2023-10-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/10 10:26 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/10 10:26 CARTÃO MASTER",
-      "amountCents": -69196,
-      "kind": "card_payment",
-      "balanceAfterCents": 46701,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-10-19-715-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-10-19",
-      "description": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
-      "rawDescription": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
-      "amountCents": -3000,
+      "date": "2023-10-20",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -13745,
       "kind": "expense",
-      "balanceAfterCents": 43701,
+      "balanceAfterCents": 29963,
       "source": "legacy_sheet"
     },
     {
@@ -15084,6 +15062,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-10-19-715-3000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-10-19",
+      "description": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
+      "rawDescription": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
+      "amountCents": -3000,
+      "kind": "expense",
+      "balanceAfterCents": 43701,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-10-19-714-69196",
+      "accountId": "acc-santander-acc",
+      "date": "2023-10-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/10 10:26 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/10 10:26 CARTÃO MASTER",
+      "amountCents": -69196,
+      "kind": "card_payment",
+      "balanceAfterCents": 46701,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-10-17-713-11000",
       "accountId": "acc-santander-acc",
       "date": "2023-10-17",
@@ -15095,17 +15095,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-10-16-711-9000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-10-16",
-      "description": "PIX ENVIADO PALOMA DA ROSA DIONIZIO",
-      "rawDescription": "PIX ENVIADO PALOMA DA ROSA DIONIZIO",
-      "amountCents": -9000,
-      "kind": "expense",
-      "balanceAfterCents": 97897,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-10-16-712-7000",
       "accountId": "acc-santander-acc",
       "date": "2023-10-16",
@@ -15114,6 +15103,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 7000,
       "kind": "income",
       "balanceAfterCents": 104897,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-10-16-711-9000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-10-16",
+      "description": "PIX ENVIADO PALOMA DA ROSA DIONIZIO",
+      "rawDescription": "PIX ENVIADO PALOMA DA ROSA DIONIZIO",
+      "amountCents": -9000,
+      "kind": "expense",
+      "balanceAfterCents": 97897,
       "source": "legacy_sheet"
     },
     {
@@ -15139,14 +15139,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-10-02-706-18000",
+      "id": "legacy-acc-santander-acc-2023-10-02-708-85000",
       "accountId": "acc-santander-acc",
       "date": "2023-10-02",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -18000,
-      "kind": "expense",
-      "balanceAfterCents": 13757,
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 85000,
+      "kind": "income",
+      "balanceAfterCents": 94897,
       "source": "legacy_sheet"
     },
     {
@@ -15161,23 +15161,23 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-10-02-708-85000",
+      "id": "legacy-acc-santander-acc-2023-10-02-706-18000",
       "accountId": "acc-santander-acc",
       "date": "2023-10-02",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 85000,
-      "kind": "income",
-      "balanceAfterCents": 94897,
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -18000,
+      "kind": "expense",
+      "balanceAfterCents": 13757,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-27-703-2700",
+      "id": "legacy-acc-santander-acc-2023-09-27-705-11500",
       "accountId": "acc-santander-acc",
       "date": "2023-09-27",
-      "description": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
-      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
-      "amountCents": 2700,
+      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "amountCents": 11500,
       "kind": "income",
       "balanceAfterCents": 31757,
       "source": "legacy_sheet"
@@ -15194,47 +15194,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-27-705-11500",
+      "id": "legacy-acc-santander-acc-2023-09-27-703-2700",
       "accountId": "acc-santander-acc",
       "date": "2023-09-27",
-      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "amountCents": 11500,
+      "description": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
+      "rawDescription": "PIX RECEBIDO LUIZ GUSTAVO CODOGNO",
+      "amountCents": 2700,
       "kind": "income",
       "balanceAfterCents": 31757,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-09-26-699-3400",
-      "accountId": "acc-santander-acc",
-      "date": "2023-09-26",
-      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "amountCents": 3400,
-      "kind": "income",
-      "balanceAfterCents": 20957,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-09-26-700-2700",
-      "accountId": "acc-santander-acc",
-      "date": "2023-09-26",
-      "description": "PIX RECEBIDO Nathaly Cristine de Souza",
-      "rawDescription": "PIX RECEBIDO Nathaly Cristine de Souza",
-      "amountCents": 2700,
-      "kind": "income",
-      "balanceAfterCents": 23657,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-09-26-701-2700",
-      "accountId": "acc-santander-acc",
-      "date": "2023-09-26",
-      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "amountCents": 2700,
-      "kind": "income",
-      "balanceAfterCents": 26357,
       "source": "legacy_sheet"
     },
     {
@@ -15249,14 +15216,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-21-697-3488",
+      "id": "legacy-acc-santander-acc-2023-09-26-701-2700",
       "accountId": "acc-santander-acc",
-      "date": "2023-09-21",
-      "description": "COMPRA CARTAO DEB MC 21/09 SUPERMERCADOS DALBE",
-      "rawDescription": "COMPRA CARTAO DEB MC 21/09 SUPERMERCADOS DALBE",
-      "amountCents": -3488,
-      "kind": "expense",
-      "balanceAfterCents": 19557,
+      "date": "2023-09-26",
+      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "amountCents": 2700,
+      "kind": "income",
+      "balanceAfterCents": 26357,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-09-26-700-2700",
+      "accountId": "acc-santander-acc",
+      "date": "2023-09-26",
+      "description": "PIX RECEBIDO Nathaly Cristine de Souza",
+      "rawDescription": "PIX RECEBIDO Nathaly Cristine de Souza",
+      "amountCents": 2700,
+      "kind": "income",
+      "balanceAfterCents": 23657,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-09-26-699-3400",
+      "accountId": "acc-santander-acc",
+      "date": "2023-09-26",
+      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "amountCents": 3400,
+      "kind": "income",
+      "balanceAfterCents": 20957,
       "source": "legacy_sheet"
     },
     {
@@ -15271,25 +15260,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-20-694-12859",
+      "id": "legacy-acc-santander-acc-2023-09-21-697-3488",
       "accountId": "acc-santander-acc",
-      "date": "2023-09-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -12859,
+      "date": "2023-09-21",
+      "description": "COMPRA CARTAO DEB MC 21/09 SUPERMERCADOS DALBE",
+      "rawDescription": "COMPRA CARTAO DEB MC 21/09 SUPERMERCADOS DALBE",
+      "amountCents": -3488,
       "kind": "expense",
-      "balanceAfterCents": 24579,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-09-20-695-1535",
-      "accountId": "acc-santander-acc",
-      "date": "2023-09-20",
-      "description": "COMPRA CARTAO DEB MC 20/09 DIA BRASIL LJ 566",
-      "rawDescription": "COMPRA CARTAO DEB MC 20/09 DIA BRASIL LJ 566",
-      "amountCents": -1535,
-      "kind": "expense",
-      "balanceAfterCents": 23044,
+      "balanceAfterCents": 19557,
       "source": "legacy_sheet"
     },
     {
@@ -15304,14 +15282,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-19-692-50202",
+      "id": "legacy-acc-santander-acc-2023-09-20-695-1535",
       "accountId": "acc-santander-acc",
-      "date": "2023-09-19",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/09 07:22 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/09 07:22 CARTAO MASTER",
-      "amountCents": -50202,
+      "date": "2023-09-20",
+      "description": "COMPRA CARTAO DEB MC 20/09 DIA BRASIL LJ 566",
+      "rawDescription": "COMPRA CARTAO DEB MC 20/09 DIA BRASIL LJ 566",
+      "amountCents": -1535,
       "kind": "expense",
-      "balanceAfterCents": 37436,
+      "balanceAfterCents": 23044,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-09-20-694-12859",
+      "accountId": "acc-santander-acc",
+      "date": "2023-09-20",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -12859,
+      "kind": "expense",
+      "balanceAfterCents": 24579,
       "source": "legacy_sheet"
     },
     {
@@ -15323,6 +15312,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "investment",
       "balanceAfterCents": 37438,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-09-19-692-50202",
+      "accountId": "acc-santander-acc",
+      "date": "2023-09-19",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/09 07:22 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/09 07:22 CARTAO MASTER",
+      "amountCents": -50202,
+      "kind": "expense",
+      "balanceAfterCents": 37436,
       "source": "legacy_sheet"
     },
     {
@@ -15359,17 +15359,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-09-05-687-18051",
-      "accountId": "acc-santander-acc",
-      "date": "2023-09-05",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -18051,
-      "kind": "expense",
-      "balanceAfterCents": 80616,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-09-05-688-2",
       "accountId": "acc-santander-acc",
       "date": "2023-09-05",
@@ -15378,6 +15367,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "investment",
       "balanceAfterCents": 80618,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-09-05-687-18051",
+      "accountId": "acc-santander-acc",
+      "date": "2023-09-05",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -18051,
+      "kind": "expense",
+      "balanceAfterCents": 80616,
       "source": "legacy_sheet"
     },
     {
@@ -15425,14 +15425,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-08-21-680-12178",
+      "id": "legacy-acc-santander-acc-2023-08-21-682-6",
       "accountId": "acc-santander-acc",
       "date": "2023-08-21",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -12178,
-      "kind": "expense",
-      "balanceAfterCents": 87032,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 6,
+      "kind": "investment",
+      "balanceAfterCents": 10667,
       "source": "legacy_sheet"
     },
     {
@@ -15447,36 +15447,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-08-21-682-6",
+      "id": "legacy-acc-santander-acc-2023-08-21-680-12178",
       "accountId": "acc-santander-acc",
       "date": "2023-08-21",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 6,
-      "kind": "investment",
-      "balanceAfterCents": 10667,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-08-18-677-6000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-08-18",
-      "description": "COMPRA CARTAO DEB MC 18/08 PAG. JIFrios",
-      "rawDescription": "COMPRA CARTAO DEB MC 18/08 PAG. JIFrios",
-      "amountCents": -6000,
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -12178,
       "kind": "expense",
-      "balanceAfterCents": 93210,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-08-18-678-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-08-18",
-      "description": "PIX RECEBIDO Renan Wendrel Silva",
-      "rawDescription": "PIX RECEBIDO Renan Wendrel Silva",
-      "amountCents": 3000,
-      "kind": "income",
-      "balanceAfterCents": 96210,
+      "balanceAfterCents": 87032,
       "source": "legacy_sheet"
     },
     {
@@ -15491,6 +15469,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-08-18-678-3000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-08-18",
+      "description": "PIX RECEBIDO Renan Wendrel Silva",
+      "rawDescription": "PIX RECEBIDO Renan Wendrel Silva",
+      "amountCents": 3000,
+      "kind": "income",
+      "balanceAfterCents": 96210,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-08-18-677-6000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-08-18",
+      "description": "COMPRA CARTAO DEB MC 18/08 PAG. JIFrios",
+      "rawDescription": "COMPRA CARTAO DEB MC 18/08 PAG. JIFrios",
+      "amountCents": -6000,
+      "kind": "expense",
+      "balanceAfterCents": 93210,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-08-10-676-12000",
       "accountId": "acc-santander-acc",
       "date": "2023-08-10",
@@ -15499,17 +15499,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 12000,
       "kind": "income",
       "balanceAfterCents": 99210,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-08-08-674-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2023-08-08",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -3500,
-      "kind": "expense",
-      "balanceAfterCents": 87209,
       "source": "legacy_sheet"
     },
     {
@@ -15524,6 +15513,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-08-08-674-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2023-08-08",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -3500,
+      "kind": "expense",
+      "balanceAfterCents": 87209,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-08-01-673-85000",
       "accountId": "acc-santander-acc",
       "date": "2023-08-01",
@@ -15532,17 +15532,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 85000,
       "kind": "income",
       "balanceAfterCents": 90709,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-07-20-671-13749",
-      "accountId": "acc-santander-acc",
-      "date": "2023-07-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -13749,
-      "kind": "expense",
-      "balanceAfterCents": 5708,
       "source": "legacy_sheet"
     },
     {
@@ -15557,25 +15546,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-07-19-668-81849",
+      "id": "legacy-acc-santander-acc-2023-07-20-671-13749",
       "accountId": "acc-santander-acc",
-      "date": "2023-07-19",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/07 11:03 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/07 11:03 CARTAO MASTER",
-      "amountCents": -81849,
+      "date": "2023-07-20",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -13749,
       "kind": "expense",
-      "balanceAfterCents": 15449,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-07-19-669-4000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-07-19",
-      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "amountCents": 4000,
-      "kind": "income",
-      "balanceAfterCents": 19449,
+      "balanceAfterCents": 5708,
       "source": "legacy_sheet"
     },
     {
@@ -15590,14 +15568,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-07-17-666-18500",
+      "id": "legacy-acc-santander-acc-2023-07-19-669-4000",
       "accountId": "acc-santander-acc",
-      "date": "2023-07-17",
-      "description": "PIX ENVIADO Leonardo Blanco Natis",
-      "rawDescription": "PIX ENVIADO Leonardo Blanco Natis",
-      "amountCents": -18500,
+      "date": "2023-07-19",
+      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "amountCents": 4000,
+      "kind": "income",
+      "balanceAfterCents": 19449,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-07-19-668-81849",
+      "accountId": "acc-santander-acc",
+      "date": "2023-07-19",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/07 11:03 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/07 11:03 CARTAO MASTER",
+      "amountCents": -81849,
       "kind": "expense",
-      "balanceAfterCents": 97294,
+      "balanceAfterCents": 15449,
       "source": "legacy_sheet"
     },
     {
@@ -15612,14 +15601,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-07-13-664-12129",
+      "id": "legacy-acc-santander-acc-2023-07-17-666-18500",
       "accountId": "acc-santander-acc",
-      "date": "2023-07-13",
-      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
-      "amountCents": -12129,
+      "date": "2023-07-17",
+      "description": "PIX ENVIADO Leonardo Blanco Natis",
+      "rawDescription": "PIX ENVIADO Leonardo Blanco Natis",
+      "amountCents": -18500,
       "kind": "expense",
-      "balanceAfterCents": 111751,
+      "balanceAfterCents": 97294,
       "source": "legacy_sheet"
     },
     {
@@ -15631,6 +15620,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4043,
       "kind": "income",
       "balanceAfterCents": 115794,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-07-13-664-12129",
+      "accountId": "acc-santander-acc",
+      "date": "2023-07-13",
+      "description": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PIX ENVIADO ENX SERVICES TECNOLOGIA E",
+      "amountCents": -12129,
+      "kind": "expense",
+      "balanceAfterCents": 111751,
       "source": "legacy_sheet"
     },
     {
@@ -15656,17 +15656,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-06-29-660-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-06-29",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -5000,
-      "kind": "expense",
-      "balanceAfterCents": 26879,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-06-29-661-1",
       "accountId": "acc-santander-acc",
       "date": "2023-06-29",
@@ -15678,14 +15667,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-06-23-658-10000",
+      "id": "legacy-acc-santander-acc-2023-06-29-660-5000",
       "accountId": "acc-santander-acc",
-      "date": "2023-06-23",
-      "description": "PIX ENVIADO Barbara Daniele Faber Sil",
-      "rawDescription": "PIX ENVIADO Barbara Daniele Faber Sil",
-      "amountCents": -10000,
+      "date": "2023-06-29",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -5000,
       "kind": "expense",
-      "balanceAfterCents": 31878,
+      "balanceAfterCents": 26879,
       "source": "legacy_sheet"
     },
     {
@@ -15700,14 +15689,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-06-19-655-83695",
+      "id": "legacy-acc-santander-acc-2023-06-23-658-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-06-23",
+      "description": "PIX ENVIADO Barbara Daniele Faber Sil",
+      "rawDescription": "PIX ENVIADO Barbara Daniele Faber Sil",
+      "amountCents": -10000,
+      "kind": "expense",
+      "balanceAfterCents": 31878,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-06-19-657-13",
       "accountId": "acc-santander-acc",
       "date": "2023-06-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/06 22:34 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/06 22:34 CARTAO MASTER",
-      "amountCents": -83695,
-      "kind": "card_payment",
-      "balanceAfterCents": 54525,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 13,
+      "kind": "investment",
+      "balanceAfterCents": 41878,
       "source": "legacy_sheet"
     },
     {
@@ -15722,14 +15722,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-06-19-657-13",
+      "id": "legacy-acc-santander-acc-2023-06-19-655-83695",
       "accountId": "acc-santander-acc",
       "date": "2023-06-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 13,
-      "kind": "investment",
-      "balanceAfterCents": 41878,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/06 22:34 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/06 22:34 CARTAO MASTER",
+      "amountCents": -83695,
+      "kind": "card_payment",
+      "balanceAfterCents": 54525,
       "source": "legacy_sheet"
     },
     {
@@ -15788,17 +15788,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-24-648-9900",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-24",
-      "description": "PIX ENVIADO Ingresse Ingressos Para E",
-      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
-      "amountCents": -9900,
-      "kind": "expense",
-      "balanceAfterCents": 37819,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-05-24-649-1",
       "accountId": "acc-santander-acc",
       "date": "2023-05-24",
@@ -15810,25 +15799,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-22-645-14252",
+      "id": "legacy-acc-santander-acc-2023-05-24-648-9900",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-22",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -14252,
+      "date": "2023-05-24",
+      "description": "PIX ENVIADO Ingresse Ingressos Para E",
+      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
+      "amountCents": -9900,
       "kind": "expense",
-      "balanceAfterCents": 50217,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-22-646-2500",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-22",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -2500,
-      "kind": "expense",
-      "balanceAfterCents": 47717,
+      "balanceAfterCents": 37819,
       "source": "legacy_sheet"
     },
     {
@@ -15843,25 +15821,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-19-642-60559",
+      "id": "legacy-acc-santander-acc-2023-05-22-646-2500",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-19",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/05 12:18 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/05 12:18 CARTAO MASTER",
-      "amountCents": -60559,
+      "date": "2023-05-22",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -2500,
       "kind": "expense",
-      "balanceAfterCents": 72527,
+      "balanceAfterCents": 47717,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-19-643-8068",
+      "id": "legacy-acc-santander-acc-2023-05-22-645-14252",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-19",
-      "description": "COMPRA CARTAO DEB MC 19/05 PAG.LolaCocinaLatin",
-      "rawDescription": "COMPRA CARTAO DEB MC 19/05 PAG.LolaCocinaLatin",
-      "amountCents": -8068,
+      "date": "2023-05-22",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -14252,
       "kind": "expense",
-      "balanceAfterCents": 64459,
+      "balanceAfterCents": 50217,
       "source": "legacy_sheet"
     },
     {
@@ -15876,14 +15854,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-10-640-1015",
+      "id": "legacy-acc-santander-acc-2023-05-19-643-8068",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2023",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2023",
-      "amountCents": -1015,
+      "date": "2023-05-19",
+      "description": "COMPRA CARTAO DEB MC 19/05 PAG.LolaCocinaLatin",
+      "rawDescription": "COMPRA CARTAO DEB MC 19/05 PAG.LolaCocinaLatin",
+      "amountCents": -8068,
       "kind": "expense",
-      "balanceAfterCents": 120086,
+      "balanceAfterCents": 64459,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-19-642-60559",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-19",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 19/05 12:18 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 19/05 12:18 CARTAO MASTER",
+      "amountCents": -60559,
+      "kind": "expense",
+      "balanceAfterCents": 72527,
       "source": "legacy_sheet"
     },
     {
@@ -15898,14 +15887,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-09-638-4700",
+      "id": "legacy-acc-santander-acc-2023-05-10-640-1015",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-09",
-      "description": "PIX ENVIADO Marcela Scaramel",
-      "rawDescription": "PIX ENVIADO Marcela Scaramel",
-      "amountCents": -4700,
+      "date": "2023-05-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2023",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2023",
+      "amountCents": -1015,
       "kind": "expense",
-      "balanceAfterCents": 121100,
+      "balanceAfterCents": 120086,
       "source": "legacy_sheet"
     },
     {
@@ -15920,14 +15909,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-08-636-3750",
+      "id": "legacy-acc-santander-acc-2023-05-09-638-4700",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-08",
-      "description": "COMPRA CARTAO DEB MC 06/05 MP RESJANGADEIROAV",
-      "rawDescription": "COMPRA CARTAO DEB MC 06/05 MP RESJANGADEIROAV",
-      "amountCents": -3750,
+      "date": "2023-05-09",
+      "description": "PIX ENVIADO Marcela Scaramel",
+      "rawDescription": "PIX ENVIADO Marcela Scaramel",
+      "amountCents": -4700,
       "kind": "expense",
-      "balanceAfterCents": 125799,
+      "balanceAfterCents": 121100,
       "source": "legacy_sheet"
     },
     {
@@ -15942,14 +15931,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-05-634-10800",
+      "id": "legacy-acc-santander-acc-2023-05-08-636-3750",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-05",
-      "description": "COMPRA CARTAO DEB MC 06/05 PAG.Zigpay",
-      "rawDescription": "COMPRA CARTAO DEB MC 06/05 PAG.Zigpay",
-      "amountCents": -10800,
+      "date": "2023-05-08",
+      "description": "COMPRA CARTAO DEB MC 06/05 MP RESJANGADEIROAV",
+      "rawDescription": "COMPRA CARTAO DEB MC 06/05 MP RESJANGADEIROAV",
+      "amountCents": -3750,
       "kind": "expense",
-      "balanceAfterCents": 129547,
+      "balanceAfterCents": 125799,
       "source": "legacy_sheet"
     },
     {
@@ -15964,69 +15953,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-05-02-627-3500",
+      "id": "legacy-acc-santander-acc-2023-05-05-634-10800",
       "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "PIX RECEBIDO Joselaine Comparette",
-      "rawDescription": "PIX RECEBIDO Joselaine Comparette",
-      "amountCents": 3500,
-      "kind": "income",
-      "balanceAfterCents": 60419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-02-628-4000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "PIX RECEBIDO DIF TIT HENRIQUE CAETANO LEME VIE",
-      "rawDescription": "PIX RECEBIDO DIF TIT HENRIQUE CAETANO LEME VIE",
-      "amountCents": 4000,
-      "kind": "income",
-      "balanceAfterCents": 64419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-02-629-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "amountCents": 5000,
-      "kind": "income",
-      "balanceAfterCents": 69419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-02-630-6000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "COMPRA CARTAO DEB MC 29/04 ESTACIONAMENTO",
-      "rawDescription": "COMPRA CARTAO DEB MC 29/04 ESTACIONAMENTO",
-      "amountCents": -6000,
+      "date": "2023-05-05",
+      "description": "COMPRA CARTAO DEB MC 06/05 PAG.Zigpay",
+      "rawDescription": "COMPRA CARTAO DEB MC 06/05 PAG.Zigpay",
+      "amountCents": -10800,
       "kind": "expense",
-      "balanceAfterCents": 63419,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-02-631-6928",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "amountCents": 6928,
-      "kind": "income",
-      "balanceAfterCents": 70347,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-05-02-632-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-05-02",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -10000,
-      "kind": "expense",
-      "balanceAfterCents": 60347,
+      "balanceAfterCents": 129547,
       "source": "legacy_sheet"
     },
     {
@@ -16041,14 +15975,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-04-20-625-12984",
+      "id": "legacy-acc-santander-acc-2023-05-02-632-10000",
       "accountId": "acc-santander-acc",
-      "date": "2023-04-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -12984,
+      "date": "2023-05-02",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -10000,
       "kind": "expense",
-      "balanceAfterCents": 56918,
+      "balanceAfterCents": 60347,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-02-631-6928",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-02",
+      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "amountCents": 6928,
+      "kind": "income",
+      "balanceAfterCents": 70347,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-02-630-6000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-02",
+      "description": "COMPRA CARTAO DEB MC 29/04 ESTACIONAMENTO",
+      "rawDescription": "COMPRA CARTAO DEB MC 29/04 ESTACIONAMENTO",
+      "amountCents": -6000,
+      "kind": "expense",
+      "balanceAfterCents": 63419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-02-629-5000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-02",
+      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "amountCents": 5000,
+      "kind": "income",
+      "balanceAfterCents": 69419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-02-628-4000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-02",
+      "description": "PIX RECEBIDO DIF TIT HENRIQUE CAETANO LEME VIE",
+      "rawDescription": "PIX RECEBIDO DIF TIT HENRIQUE CAETANO LEME VIE",
+      "amountCents": 4000,
+      "kind": "income",
+      "balanceAfterCents": 64419,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-05-02-627-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2023-05-02",
+      "description": "PIX RECEBIDO Joselaine Comparette",
+      "rawDescription": "PIX RECEBIDO Joselaine Comparette",
+      "amountCents": 3500,
+      "kind": "income",
+      "balanceAfterCents": 60419,
       "source": "legacy_sheet"
     },
     {
@@ -16063,6 +16052,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-04-20-625-12984",
+      "accountId": "acc-santander-acc",
+      "date": "2023-04-20",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -12984,
+      "kind": "expense",
+      "balanceAfterCents": 56918,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-04-19-624-8800",
       "accountId": "acc-santander-acc",
       "date": "2023-04-19",
@@ -16071,17 +16071,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -8800,
       "kind": "expense",
       "balanceAfterCents": 69902,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-04-18-622-36682",
-      "accountId": "acc-santander-acc",
-      "date": "2023-04-18",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 17/04 23:51 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 17/04 23:51 CARTÃO MASTER",
-      "amountCents": -36682,
-      "kind": "card_payment",
-      "balanceAfterCents": 78696,
       "source": "legacy_sheet"
     },
     {
@@ -16096,6 +16085,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-04-18-622-36682",
+      "accountId": "acc-santander-acc",
+      "date": "2023-04-18",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 17/04 23:51 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 17/04 23:51 CARTÃO MASTER",
+      "amountCents": -36682,
+      "kind": "card_payment",
+      "balanceAfterCents": 78696,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-04-17-621-13000",
       "accountId": "acc-santander-acc",
       "date": "2023-04-17",
@@ -16104,17 +16104,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 13000,
       "kind": "income",
       "balanceAfterCents": 115378,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-04-13-619-500",
-      "accountId": "acc-santander-acc",
-      "date": "2023-04-13",
-      "description": "PIX ENVIADO FRANDOILER MESTRE JUNIOR",
-      "rawDescription": "PIX ENVIADO FRANDOILER MESTRE JUNIOR",
-      "amountCents": -500,
-      "kind": "expense",
-      "balanceAfterCents": 101878,
       "source": "legacy_sheet"
     },
     {
@@ -16129,6 +16118,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-04-13-619-500",
+      "accountId": "acc-santander-acc",
+      "date": "2023-04-13",
+      "description": "PIX ENVIADO FRANDOILER MESTRE JUNIOR",
+      "rawDescription": "PIX ENVIADO FRANDOILER MESTRE JUNIOR",
+      "amountCents": -500,
+      "kind": "expense",
+      "balanceAfterCents": 101878,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-04-10-618-1015",
       "accountId": "acc-santander-acc",
       "date": "2023-04-10",
@@ -16137,28 +16137,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -1015,
       "kind": "expense",
       "balanceAfterCents": 102378,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-04-05-615-6600",
-      "accountId": "acc-santander-acc",
-      "date": "2023-04-05",
-      "description": "PIX ENVIADO Ingresse Ingressos Para E",
-      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
-      "amountCents": -6600,
-      "kind": "expense",
-      "balanceAfterCents": 121488,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-04-05-616-18100",
-      "accountId": "acc-santander-acc",
-      "date": "2023-04-05",
-      "description": "PIX ENVIADO Renan Wendrel Silva",
-      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
-      "amountCents": -18100,
-      "kind": "expense",
-      "balanceAfterCents": 103388,
       "source": "legacy_sheet"
     },
     {
@@ -16173,6 +16151,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-04-05-616-18100",
+      "accountId": "acc-santander-acc",
+      "date": "2023-04-05",
+      "description": "PIX ENVIADO Renan Wendrel Silva",
+      "rawDescription": "PIX ENVIADO Renan Wendrel Silva",
+      "amountCents": -18100,
+      "kind": "expense",
+      "balanceAfterCents": 103388,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-04-05-615-6600",
+      "accountId": "acc-santander-acc",
+      "date": "2023-04-05",
+      "description": "PIX ENVIADO Ingresse Ingressos Para E",
+      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
+      "amountCents": -6600,
+      "kind": "expense",
+      "balanceAfterCents": 121488,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-04-03-614-80000",
       "accountId": "acc-santander-acc",
       "date": "2023-04-03",
@@ -16181,17 +16181,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 80000,
       "kind": "income",
       "balanceAfterCents": 128088,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-03-22-612-8213",
-      "accountId": "acc-santander-acc",
-      "date": "2023-03-22",
-      "description": "COMPRA CARTÃO DEB MC 22/03 SUPERMERCADOS DALBE",
-      "rawDescription": "COMPRA CARTÃO DEB MC 22/03 SUPERMERCADOS DALBE",
-      "amountCents": -8213,
-      "kind": "expense",
-      "balanceAfterCents": 48087,
       "source": "legacy_sheet"
     },
     {
@@ -16206,25 +16195,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-03-21-609-89117",
+      "id": "legacy-acc-santander-acc-2023-03-22-612-8213",
       "accountId": "acc-santander-acc",
-      "date": "2023-03-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/03 09:35 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/03 09:35 CARTAO MASTER",
-      "amountCents": -89117,
-      "kind": "card_payment",
-      "balanceAfterCents": 58882,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-03-21-610-2600",
-      "accountId": "acc-santander-acc",
-      "date": "2023-03-21",
-      "description": "COMPRA CARTAO DEB MC 21/03 YAKISOBA BASSORA",
-      "rawDescription": "COMPRA CARTAO DEB MC 21/03 YAKISOBA BASSORA",
-      "amountCents": -2600,
+      "date": "2023-03-22",
+      "description": "COMPRA CARTÃO DEB MC 22/03 SUPERMERCADOS DALBE",
+      "rawDescription": "COMPRA CARTÃO DEB MC 22/03 SUPERMERCADOS DALBE",
+      "amountCents": -8213,
       "kind": "expense",
-      "balanceAfterCents": 56282,
+      "balanceAfterCents": 48087,
       "source": "legacy_sheet"
     },
     {
@@ -16239,14 +16217,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-03-20-607-3400",
+      "id": "legacy-acc-santander-acc-2023-03-21-610-2600",
       "accountId": "acc-santander-acc",
-      "date": "2023-03-20",
-      "description": "COMPRA CARTAO DEB MC 19/03 VILLA REQUINTE BAR",
-      "rawDescription": "COMPRA CARTAO DEB MC 19/03 VILLA REQUINTE BAR",
-      "amountCents": -3400,
+      "date": "2023-03-21",
+      "description": "COMPRA CARTAO DEB MC 21/03 YAKISOBA BASSORA",
+      "rawDescription": "COMPRA CARTAO DEB MC 21/03 YAKISOBA BASSORA",
+      "amountCents": -2600,
       "kind": "expense",
-      "balanceAfterCents": 159044,
+      "balanceAfterCents": 56282,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-03-21-609-89117",
+      "accountId": "acc-santander-acc",
+      "date": "2023-03-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/03 09:35 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/03 09:35 CARTAO MASTER",
+      "amountCents": -89117,
+      "kind": "card_payment",
+      "balanceAfterCents": 58882,
       "source": "legacy_sheet"
     },
     {
@@ -16258,6 +16247,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -11045,
       "kind": "expense",
       "balanceAfterCents": 147999,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-03-20-607-3400",
+      "accountId": "acc-santander-acc",
+      "date": "2023-03-20",
+      "description": "COMPRA CARTAO DEB MC 19/03 VILLA REQUINTE BAR",
+      "rawDescription": "COMPRA CARTAO DEB MC 19/03 VILLA REQUINTE BAR",
+      "amountCents": -3400,
+      "kind": "expense",
+      "balanceAfterCents": 159044,
       "source": "legacy_sheet"
     },
     {
@@ -16294,17 +16294,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-03-06-602-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-03-06",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 10000,
-      "kind": "income",
-      "balanceAfterCents": 156678,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-03-06-603-7219",
       "accountId": "acc-santander-acc",
       "date": "2023-03-06",
@@ -16313,6 +16302,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -7219,
       "kind": "expense",
       "balanceAfterCents": 149459,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-03-06-602-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-03-06",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 10000,
+      "kind": "income",
+      "balanceAfterCents": 156678,
       "source": "legacy_sheet"
     },
     {
@@ -16338,25 +16338,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-02-22-596-4000",
+      "id": "legacy-acc-santander-acc-2023-02-22-599-1",
       "accountId": "acc-santander-acc",
       "date": "2023-02-22",
-      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
-      "amountCents": -4000,
-      "kind": "expense",
-      "balanceAfterCents": 75601,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-02-22-597-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2023-02-22",
-      "description": "COMPRA CARTAO DEB MC 20/02 AMANDA FERREIRA DE",
-      "rawDescription": "COMPRA CARTAO DEB MC 20/02 AMANDA FERREIRA DE",
-      "amountCents": -3500,
-      "kind": "expense",
-      "balanceAfterCents": 72101,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 67928,
       "source": "legacy_sheet"
     },
     {
@@ -16371,25 +16360,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-02-22-599-1",
+      "id": "legacy-acc-santander-acc-2023-02-22-597-3500",
       "accountId": "acc-santander-acc",
       "date": "2023-02-22",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 67928,
+      "description": "COMPRA CARTAO DEB MC 20/02 AMANDA FERREIRA DE",
+      "rawDescription": "COMPRA CARTAO DEB MC 20/02 AMANDA FERREIRA DE",
+      "amountCents": -3500,
+      "kind": "expense",
+      "balanceAfterCents": 72101,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-02-17-594-53921",
+      "id": "legacy-acc-santander-acc-2023-02-22-596-4000",
       "accountId": "acc-santander-acc",
-      "date": "2023-02-17",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 17/02 12:47 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 17/02 12:47 CARTAO MASTER",
-      "amountCents": -53921,
+      "date": "2023-02-22",
+      "description": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO LUIS FELIPE REDUCINI COST",
+      "amountCents": -4000,
       "kind": "expense",
-      "balanceAfterCents": 79588,
+      "balanceAfterCents": 75601,
       "source": "legacy_sheet"
     },
     {
@@ -16404,6 +16393,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-02-17-594-53921",
+      "accountId": "acc-santander-acc",
+      "date": "2023-02-17",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 17/02 12:47 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 17/02 12:47 CARTAO MASTER",
+      "amountCents": -53921,
+      "kind": "expense",
+      "balanceAfterCents": 79588,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-02-10-593-1015",
       "accountId": "acc-santander-acc",
       "date": "2023-02-10",
@@ -16415,17 +16415,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-02-09-591-7800",
-      "accountId": "acc-santander-acc",
-      "date": "2023-02-09",
-      "description": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
-      "rawDescription": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
-      "amountCents": -7800,
-      "kind": "expense",
-      "balanceAfterCents": 134522,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-02-09-592-2",
       "accountId": "acc-santander-acc",
       "date": "2023-02-09",
@@ -16434,6 +16423,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "investment",
       "balanceAfterCents": 134524,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-02-09-591-7800",
+      "accountId": "acc-santander-acc",
+      "date": "2023-02-09",
+      "description": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
+      "rawDescription": "PIX ENVIADO CRISTOFER BARRETO DOS SAN",
+      "amountCents": -7800,
+      "kind": "expense",
+      "balanceAfterCents": 134522,
       "source": "legacy_sheet"
     },
     {
@@ -16470,17 +16470,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-27-586-16000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-27",
-      "description": "PIX ENVIADO GEOVANI LIMA AZEVEDO",
-      "rawDescription": "PIX ENVIADO GEOVANI LIMA AZEVEDO",
-      "amountCents": -16000,
-      "kind": "expense",
-      "balanceAfterCents": 68670,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-01-27-587-2",
       "accountId": "acc-santander-acc",
       "date": "2023-01-27",
@@ -16492,6 +16481,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2023-01-27-586-16000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-27",
+      "description": "PIX ENVIADO GEOVANI LIMA AZEVEDO",
+      "rawDescription": "PIX ENVIADO GEOVANI LIMA AZEVEDO",
+      "amountCents": -16000,
+      "kind": "expense",
+      "balanceAfterCents": 68670,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2023-01-24-585-2800",
       "accountId": "acc-santander-acc",
       "date": "2023-01-24",
@@ -16500,6 +16500,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2800,
       "kind": "income",
       "balanceAfterCents": 84670,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-01-23-584-2800",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-23",
+      "description": "PIX RECEBIDO Gabriela Ventroni de Oliv",
+      "rawDescription": "PIX RECEBIDO Gabriela Ventroni de Oliv",
+      "amountCents": 2800,
+      "kind": "income",
+      "balanceAfterCents": 81870,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-01-23-583-7800",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-23",
+      "description": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
+      "rawDescription": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
+      "amountCents": 7800,
+      "kind": "income",
+      "balanceAfterCents": 79070,
       "source": "legacy_sheet"
     },
     {
@@ -16515,36 +16537,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-23-583-7800",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-23",
-      "description": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
-      "rawDescription": "PIX RECEBIDO CLAUDIA VALENTINA DO CARM",
-      "amountCents": 7800,
-      "kind": "income",
-      "balanceAfterCents": 79070,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-01-23-584-2800",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-23",
-      "description": "PIX RECEBIDO Gabriela Ventroni de Oliv",
-      "rawDescription": "PIX RECEBIDO Gabriela Ventroni de Oliv",
-      "amountCents": 2800,
-      "kind": "income",
-      "balanceAfterCents": 81870,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-01-20-579-65125",
+      "id": "legacy-acc-santander-acc-2023-01-20-581-17",
       "accountId": "acc-santander-acc",
       "date": "2023-01-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/01 16:31 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/01 16:31 CARTAO MASTER",
-      "amountCents": -65125,
-      "kind": "card_payment",
-      "balanceAfterCents": 80823,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 17,
+      "kind": "investment",
+      "balanceAfterCents": 76270,
       "source": "legacy_sheet"
     },
     {
@@ -16559,14 +16559,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-20-581-17",
+      "id": "legacy-acc-santander-acc-2023-01-20-579-65125",
       "accountId": "acc-santander-acc",
       "date": "2023-01-20",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 17,
-      "kind": "investment",
-      "balanceAfterCents": 76270,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/01 16:31 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/01 16:31 CARTAO MASTER",
+      "amountCents": -65125,
+      "kind": "card_payment",
+      "balanceAfterCents": 80823,
       "source": "legacy_sheet"
     },
     {
@@ -16581,36 +16581,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-16-573-5500",
+      "id": "legacy-acc-santander-acc-2023-01-16-577-2800",
       "accountId": "acc-santander-acc",
       "date": "2023-01-16",
-      "description": "PIX ENVIADO Ingresse Ingressos Para E",
-      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
-      "amountCents": -5500,
-      "kind": "expense",
-      "balanceAfterCents": 140748,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-01-16-574-6000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-16",
-      "description": "COMPRA CARTAO DEB MC 14/01 ESTACIONAMENTO",
-      "rawDescription": "COMPRA CARTAO DEB MC 14/01 ESTACIONAMENTO",
-      "amountCents": -6000,
-      "kind": "expense",
-      "balanceAfterCents": 134748,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2023-01-16-575-2800",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-16",
-      "description": "PIX RECEBIDO ISABELA GOUVEIA THOMASINI",
-      "rawDescription": "PIX RECEBIDO ISABELA GOUVEIA THOMASINI",
+      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
       "amountCents": 2800,
       "kind": "income",
-      "balanceAfterCents": 137548,
+      "balanceAfterCents": 143148,
       "source": "legacy_sheet"
     },
     {
@@ -16625,14 +16603,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-16-577-2800",
+      "id": "legacy-acc-santander-acc-2023-01-16-575-2800",
       "accountId": "acc-santander-acc",
       "date": "2023-01-16",
-      "description": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO LUIS FELIPE REDUCINI COST",
+      "description": "PIX RECEBIDO ISABELA GOUVEIA THOMASINI",
+      "rawDescription": "PIX RECEBIDO ISABELA GOUVEIA THOMASINI",
       "amountCents": 2800,
       "kind": "income",
-      "balanceAfterCents": 143148,
+      "balanceAfterCents": 137548,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-01-16-574-6000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-16",
+      "description": "COMPRA CARTAO DEB MC 14/01 ESTACIONAMENTO",
+      "rawDescription": "COMPRA CARTAO DEB MC 14/01 ESTACIONAMENTO",
+      "amountCents": -6000,
+      "kind": "expense",
+      "balanceAfterCents": 134748,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-01-16-573-5500",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-16",
+      "description": "PIX ENVIADO Ingresse Ingressos Para E",
+      "rawDescription": "PIX ENVIADO Ingresse Ingressos Para E",
+      "amountCents": -5500,
+      "kind": "expense",
+      "balanceAfterCents": 140748,
       "source": "legacy_sheet"
     },
     {
@@ -16658,17 +16658,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2023-01-06-569-80000",
-      "accountId": "acc-santander-acc",
-      "date": "2023-01-06",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 80000,
-      "kind": "income",
-      "balanceAfterCents": 149088,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2023-01-06-570-9900",
       "accountId": "acc-santander-acc",
       "date": "2023-01-06",
@@ -16677,6 +16666,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -9900,
       "kind": "expense",
       "balanceAfterCents": 139188,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2023-01-06-569-80000",
+      "accountId": "acc-santander-acc",
+      "date": "2023-01-06",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 80000,
+      "kind": "income",
+      "balanceAfterCents": 149088,
       "source": "legacy_sheet"
     },
     {
@@ -16702,14 +16702,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-12-20-564-12167",
+      "id": "legacy-acc-santander-acc-2022-12-20-566-8",
       "accountId": "acc-santander-acc",
       "date": "2022-12-20",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -12167,
-      "kind": "expense",
-      "balanceAfterCents": 106749,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 8,
+      "kind": "investment",
+      "balanceAfterCents": 73826,
       "source": "legacy_sheet"
     },
     {
@@ -16724,36 +16724,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-12-20-566-8",
+      "id": "legacy-acc-santander-acc-2022-12-20-564-12167",
       "accountId": "acc-santander-acc",
       "date": "2022-12-20",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 8,
-      "kind": "investment",
-      "balanceAfterCents": 73826,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-12-12-561-940",
-      "accountId": "acc-santander-acc",
-      "date": "2022-12-12",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2022",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2022",
-      "amountCents": -940,
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -12167,
       "kind": "expense",
-      "balanceAfterCents": 123115,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-12-12-562-4200",
-      "accountId": "acc-santander-acc",
-      "date": "2022-12-12",
-      "description": "PIX ENVIADO MARIANA MENDES DE LIMA",
-      "rawDescription": "PIX ENVIADO MARIANA MENDES DE LIMA",
-      "amountCents": -4200,
-      "kind": "expense",
-      "balanceAfterCents": 118915,
+      "balanceAfterCents": 106749,
       "source": "legacy_sheet"
     },
     {
@@ -16768,14 +16746,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-12-06-559-2600",
+      "id": "legacy-acc-santander-acc-2022-12-12-562-4200",
       "accountId": "acc-santander-acc",
-      "date": "2022-12-06",
-      "description": "PIX ENVIADO Vitor Lopes Dos Santos",
-      "rawDescription": "PIX ENVIADO Vitor Lopes Dos Santos",
-      "amountCents": -2600,
+      "date": "2022-12-12",
+      "description": "PIX ENVIADO MARIANA MENDES DE LIMA",
+      "rawDescription": "PIX ENVIADO MARIANA MENDES DE LIMA",
+      "amountCents": -4200,
       "kind": "expense",
-      "balanceAfterCents": 124054,
+      "balanceAfterCents": 118915,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-12-12-561-940",
+      "accountId": "acc-santander-acc",
+      "date": "2022-12-12",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2022",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2022",
+      "amountCents": -940,
+      "kind": "expense",
+      "balanceAfterCents": 123115,
       "source": "legacy_sheet"
     },
     {
@@ -16790,6 +16779,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-12-06-559-2600",
+      "accountId": "acc-santander-acc",
+      "date": "2022-12-06",
+      "description": "PIX ENVIADO Vitor Lopes Dos Santos",
+      "rawDescription": "PIX ENVIADO Vitor Lopes Dos Santos",
+      "amountCents": -2600,
+      "kind": "expense",
+      "balanceAfterCents": 124054,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-12-02-558-3900",
       "accountId": "acc-santander-acc",
       "date": "2022-12-02",
@@ -16798,17 +16798,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -3900,
       "kind": "expense",
       "balanceAfterCents": 126654,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-12-01-556-14000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-12-01",
-      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
-      "amountCents": 14000,
-      "kind": "income",
-      "balanceAfterCents": 50554,
       "source": "legacy_sheet"
     },
     {
@@ -16823,6 +16812,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-12-01-556-14000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-12-01",
+      "description": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "rawDescription": "TRANSFERENCIA ENTRE CONTAS MARILENE APARECIDA GIOIA",
+      "amountCents": 14000,
+      "kind": "income",
+      "balanceAfterCents": 50554,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-11-30-555-2000",
       "accountId": "acc-santander-acc",
       "date": "2022-11-30",
@@ -16831,17 +16831,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2000,
       "kind": "income",
       "balanceAfterCents": 36554,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-11-28-553-4230",
-      "accountId": "acc-santander-acc",
-      "date": "2022-11-28",
-      "description": "PIX ENVIADO Vitor Lopes Dos Santos",
-      "rawDescription": "PIX ENVIADO Vitor Lopes Dos Santos",
-      "amountCents": -4230,
-      "kind": "expense",
-      "balanceAfterCents": 34553,
       "source": "legacy_sheet"
     },
     {
@@ -16856,6 +16845,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-11-28-553-4230",
+      "accountId": "acc-santander-acc",
+      "date": "2022-11-28",
+      "description": "PIX ENVIADO Vitor Lopes Dos Santos",
+      "rawDescription": "PIX ENVIADO Vitor Lopes Dos Santos",
+      "amountCents": -4230,
+      "kind": "expense",
+      "balanceAfterCents": 34553,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-11-23-552-500",
       "accountId": "acc-santander-acc",
       "date": "2022-11-23",
@@ -16864,28 +16864,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -500,
       "kind": "expense",
       "balanceAfterCents": 38783,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-11-21-549-13449",
-      "accountId": "acc-santander-acc",
-      "date": "2022-11-21",
-      "description": "PIX ENVIADO 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
-      "amountCents": -13449,
-      "kind": "expense",
-      "balanceAfterCents": 117555,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-11-21-550-78288",
-      "accountId": "acc-santander-acc",
-      "date": "2022-11-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/11 11:25 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/11 11:25 CARTAO MASTER",
-      "amountCents": -78288,
-      "kind": "card_payment",
-      "balanceAfterCents": 39267,
       "source": "legacy_sheet"
     },
     {
@@ -16900,14 +16878,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-11-18-547-1504",
+      "id": "legacy-acc-santander-acc-2022-11-21-550-78288",
       "accountId": "acc-santander-acc",
-      "date": "2022-11-18",
-      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
-      "amountCents": 1504,
-      "kind": "income",
-      "balanceAfterCents": 130004,
+      "date": "2022-11-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/11 11:25 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/11 11:25 CARTAO MASTER",
+      "amountCents": -78288,
+      "kind": "card_payment",
+      "balanceAfterCents": 39267,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-11-21-549-13449",
+      "accountId": "acc-santander-acc",
+      "date": "2022-11-21",
+      "description": "PIX ENVIADO 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO 260/0001/0000000993261694",
+      "amountCents": -13449,
+      "kind": "expense",
+      "balanceAfterCents": 117555,
       "source": "legacy_sheet"
     },
     {
@@ -16922,6 +16911,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-11-18-547-1504",
+      "accountId": "acc-santander-acc",
+      "date": "2022-11-18",
+      "description": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "rawDescription": "PIX RECEBIDO Pedro Koji Shimura Araki",
+      "amountCents": 1504,
+      "kind": "income",
+      "balanceAfterCents": 130004,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-11-17-546-950",
       "accountId": "acc-santander-acc",
       "date": "2022-11-17",
@@ -16933,17 +16933,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-11-16-544-2500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-11-16",
-      "description": "PIX ENVIADO Cristofer Barreto dos San",
-      "rawDescription": "PIX ENVIADO Cristofer Barreto dos San",
-      "amountCents": -2500,
-      "kind": "expense",
-      "balanceAfterCents": 127915,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-11-16-545-365",
       "accountId": "acc-santander-acc",
       "date": "2022-11-16",
@@ -16952,6 +16941,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -365,
       "kind": "expense",
       "balanceAfterCents": 127550,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-11-16-544-2500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-11-16",
+      "description": "PIX ENVIADO Cristofer Barreto dos San",
+      "rawDescription": "PIX ENVIADO Cristofer Barreto dos San",
+      "amountCents": -2500,
+      "kind": "expense",
+      "balanceAfterCents": 127915,
       "source": "legacy_sheet"
     },
     {
@@ -16999,17 +16999,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-11-01-538-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-11-01",
-      "description": "PIX RECEBIDO OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 124430,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-11-01-539-3500",
       "accountId": "acc-santander-acc",
       "date": "2022-11-01",
@@ -17018,6 +17007,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -3500,
       "kind": "expense",
       "balanceAfterCents": 120930,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-11-01-538-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-11-01",
+      "description": "PIX RECEBIDO OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 124430,
       "source": "legacy_sheet"
     },
     {
@@ -17032,17 +17032,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-10-24-535-20807",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-24",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 22/10 13:02 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 22/10 13:02 CARTAO MASTER",
-      "amountCents": -20807,
-      "kind": "expense",
-      "balanceAfterCents": 63626,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-10-24-536-4",
       "accountId": "acc-santander-acc",
       "date": "2022-10-24",
@@ -17051,6 +17040,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4,
       "kind": "investment",
       "balanceAfterCents": 63630,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-10-24-535-20807",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-24",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 22/10 13:02 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 22/10 13:02 CARTAO MASTER",
+      "amountCents": -20807,
+      "kind": "expense",
+      "balanceAfterCents": 63626,
       "source": "legacy_sheet"
     },
     {
@@ -17087,17 +17087,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-10-14-530-8118",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-14",
-      "description": "PIX ENVIADO OUTRA INST MESMATIT 260/0001/0000000993261694",
-      "rawDescription": "PIX ENVIADO OUTRA INST MESMATIT 260/0001/0000000993261694",
-      "amountCents": -8118,
-      "kind": "expense",
-      "balanceAfterCents": 82755,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-10-14-531-10000",
       "accountId": "acc-santander-acc",
       "date": "2022-10-14",
@@ -17106,6 +17095,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 10000,
       "kind": "income",
       "balanceAfterCents": 92755,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-10-14-530-8118",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-14",
+      "description": "PIX ENVIADO OUTRA INST MESMATIT 260/0001/0000000993261694",
+      "rawDescription": "PIX ENVIADO OUTRA INST MESMATIT 260/0001/0000000993261694",
+      "amountCents": -8118,
+      "kind": "expense",
+      "balanceAfterCents": 82755,
       "source": "legacy_sheet"
     },
     {
@@ -17120,58 +17120,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-10-10-522-3500",
+      "id": "legacy-acc-santander-acc-2022-10-10-528-5",
       "accountId": "acc-santander-acc",
       "date": "2022-10-10",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": 3500,
-      "kind": "income",
-      "balanceAfterCents": 84308,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-10-10-523-2500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-10",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
-      "amountCents": 2500,
-      "kind": "income",
-      "balanceAfterCents": 86808,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-10-10-524-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-10",
-      "description": "PIX RECEBIDO DIF TIT VITORIA VENCESLAU STEFANI",
-      "rawDescription": "PIX RECEBIDO DIF TIT VITORIA VENCESLAU STEFANI",
-      "amountCents": 3500,
-      "kind": "income",
-      "balanceAfterCents": 90308,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-10-10-525-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-10",
-      "description": "PIX RECEBIDO OUTRA INST - DIF TIT NATHALIA MENDONCA",
-      "rawDescription": "PIX RECEBIDO OUTRA INST - DIF TIT NATHALIA MENDONCA",
-      "amountCents": 3500,
-      "kind": "income",
-      "balanceAfterCents": 93808,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-10-10-526-940",
-      "accountId": "acc-santander-acc",
-      "date": "2022-10-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2022",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2022",
-      "amountCents": -940,
-      "kind": "expense",
-      "balanceAfterCents": 92868,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 5,
+      "kind": "investment",
+      "balanceAfterCents": 70873,
       "source": "legacy_sheet"
     },
     {
@@ -17186,25 +17142,58 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-10-10-528-5",
+      "id": "legacy-acc-santander-acc-2022-10-10-526-940",
       "accountId": "acc-santander-acc",
       "date": "2022-10-10",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 5,
-      "kind": "investment",
-      "balanceAfterCents": 70873,
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2022",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2022",
+      "amountCents": -940,
+      "kind": "expense",
+      "balanceAfterCents": 92868,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-10-05-520-5600",
+      "id": "legacy-acc-santander-acc-2022-10-10-525-3500",
       "accountId": "acc-santander-acc",
-      "date": "2022-10-05",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT Vitor Lopes Dos Santos",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT Vitor Lopes Dos Santos",
-      "amountCents": -5600,
-      "kind": "expense",
-      "balanceAfterCents": 80805,
+      "date": "2022-10-10",
+      "description": "PIX RECEBIDO OUTRA INST - DIF TIT NATHALIA MENDONCA",
+      "rawDescription": "PIX RECEBIDO OUTRA INST - DIF TIT NATHALIA MENDONCA",
+      "amountCents": 3500,
+      "kind": "income",
+      "balanceAfterCents": 93808,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-10-10-524-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-10",
+      "description": "PIX RECEBIDO DIF TIT VITORIA VENCESLAU STEFANI",
+      "rawDescription": "PIX RECEBIDO DIF TIT VITORIA VENCESLAU STEFANI",
+      "amountCents": 3500,
+      "kind": "income",
+      "balanceAfterCents": 90308,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-10-10-523-2500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-10",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
+      "amountCents": 2500,
+      "kind": "income",
+      "balanceAfterCents": 86808,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-10-10-522-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-10",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "amountCents": 3500,
+      "kind": "income",
+      "balanceAfterCents": 84308,
       "source": "legacy_sheet"
     },
     {
@@ -17219,6 +17208,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-10-05-520-5600",
+      "accountId": "acc-santander-acc",
+      "date": "2022-10-05",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT Vitor Lopes Dos Santos",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT Vitor Lopes Dos Santos",
+      "amountCents": -5600,
+      "kind": "expense",
+      "balanceAfterCents": 80805,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-10-03-519-65000",
       "accountId": "acc-santander-acc",
       "date": "2022-10-03",
@@ -17227,17 +17227,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 65000,
       "kind": "income",
       "balanceAfterCents": 86405,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-09-26-517-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-09-26",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": -3500,
-      "kind": "expense",
-      "balanceAfterCents": 21404,
       "source": "legacy_sheet"
     },
     {
@@ -17252,14 +17241,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-09-23-515-3000",
+      "id": "legacy-acc-santander-acc-2022-09-26-517-3500",
       "accountId": "acc-santander-acc",
-      "date": "2022-09-23",
+      "date": "2022-09-26",
       "description": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
       "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": -3000,
+      "amountCents": -3500,
       "kind": "expense",
-      "balanceAfterCents": 24903,
+      "balanceAfterCents": 21404,
       "source": "legacy_sheet"
     },
     {
@@ -17274,14 +17263,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-09-22-513-45463",
+      "id": "legacy-acc-santander-acc-2022-09-23-515-3000",
       "accountId": "acc-santander-acc",
-      "date": "2022-09-22",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 22/09 11:32 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/09 11:32 CARTAO MASTER",
-      "amountCents": -45463,
-      "kind": "card_payment",
-      "balanceAfterCents": 27891,
+      "date": "2022-09-23",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT LUIS FELIPE REDUCINI COST",
+      "amountCents": -3000,
+      "kind": "expense",
+      "balanceAfterCents": 24903,
       "source": "legacy_sheet"
     },
     {
@@ -17296,6 +17285,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-09-22-513-45463",
+      "accountId": "acc-santander-acc",
+      "date": "2022-09-22",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 22/09 11:32 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/09 11:32 CARTAO MASTER",
+      "amountCents": -45463,
+      "kind": "card_payment",
+      "balanceAfterCents": 27891,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-09-20-512-800",
       "accountId": "acc-santander-acc",
       "date": "2022-09-20",
@@ -17307,14 +17307,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-09-19-509-1499",
+      "id": "legacy-acc-santander-acc-2022-09-19-511-4",
       "accountId": "acc-santander-acc",
       "date": "2022-09-19",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "amountCents": -1499,
-      "kind": "expense",
-      "balanceAfterCents": 85494,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 4,
+      "kind": "investment",
+      "balanceAfterCents": 74154,
       "source": "legacy_sheet"
     },
     {
@@ -17329,14 +17329,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-09-19-511-4",
+      "id": "legacy-acc-santander-acc-2022-09-19-509-1499",
       "accountId": "acc-santander-acc",
       "date": "2022-09-19",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 4,
-      "kind": "investment",
-      "balanceAfterCents": 74154,
+      "description": "PIX ENVIADO OUTRA INST DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "amountCents": -1499,
+      "kind": "expense",
+      "balanceAfterCents": 85494,
       "source": "legacy_sheet"
     },
     {
@@ -17406,14 +17406,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-22-500-74478",
+      "id": "legacy-acc-santander-acc-2022-08-22-502-15",
       "accountId": "acc-santander-acc",
       "date": "2022-08-22",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/08 11:37 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/08 11:37 CARTAO MASTER",
-      "amountCents": -74478,
-      "kind": "card_payment",
-      "balanceAfterCents": 15618,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 15,
+      "kind": "investment",
+      "balanceAfterCents": 7633,
       "source": "legacy_sheet"
     },
     {
@@ -17428,25 +17428,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-22-502-15",
+      "id": "legacy-acc-santander-acc-2022-08-22-500-74478",
       "accountId": "acc-santander-acc",
       "date": "2022-08-22",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 15,
-      "kind": "investment",
-      "balanceAfterCents": 7633,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/08 11:37 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/08 11:37 CARTAO MASTER",
+      "amountCents": -74478,
+      "kind": "card_payment",
+      "balanceAfterCents": 15618,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-17-497-7000",
+      "id": "legacy-acc-santander-acc-2022-08-17-499-1",
       "accountId": "acc-santander-acc",
       "date": "2022-08-17",
-      "description": "PIX RECEBIDO - DIF TIT LUCAS SENA MACHADO",
-      "rawDescription": "PIX RECEBIDO - DIF TIT LUCAS SENA MACHADO",
-      "amountCents": 7000,
-      "kind": "income",
-      "balanceAfterCents": 100820,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 1,
+      "kind": "investment",
+      "balanceAfterCents": 90096,
       "source": "legacy_sheet"
     },
     {
@@ -17461,14 +17461,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-17-499-1",
+      "id": "legacy-acc-santander-acc-2022-08-17-497-7000",
       "accountId": "acc-santander-acc",
       "date": "2022-08-17",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 1,
-      "kind": "investment",
-      "balanceAfterCents": 90096,
+      "description": "PIX RECEBIDO - DIF TIT LUCAS SENA MACHADO",
+      "rawDescription": "PIX RECEBIDO - DIF TIT LUCAS SENA MACHADO",
+      "amountCents": 7000,
+      "kind": "income",
+      "balanceAfterCents": 100820,
       "source": "legacy_sheet"
     },
     {
@@ -17494,69 +17494,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-08-487-21533",
+      "id": "legacy-acc-santander-acc-2022-08-08-494-11",
       "accountId": "acc-santander-acc",
       "date": "2022-08-08",
-      "description": "COMPRA CARTAO DEB MC 06/08 SHOPPING CHINA.CDE",
-      "rawDescription": "COMPRA CARTAO DEB MC 06/08 SHOPPING CHINA.CDE",
-      "amountCents": -21533,
-      "kind": "expense",
-      "balanceAfterCents": 90983,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-08-08-488-1374",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-08",
-      "description": "IOF DEBITO EXTERIOR 06/08 SHOPPING CHINA.CDE",
-      "rawDescription": "IOF DEBITO EXTERIOR 06/08 SHOPPING CHINA.CDE",
-      "amountCents": -1374,
-      "kind": "expense",
-      "balanceAfterCents": 89609,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-08-08-489-4900",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-08",
-      "description": "COMPRA CARTAO DEB MC 06/08 DREAMS TICKET",
-      "rawDescription": "COMPRA CARTAO DEB MC 06/08 DREAMS TICKET",
-      "amountCents": -4900,
-      "kind": "expense",
-      "balanceAfterCents": 84709,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-08-08-490-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-08",
-      "description": "SAQUE BANCO 24HS 07/08 11:17",
-      "rawDescription": "SAQUE BANCO 24HS 07/08 11:17",
-      "amountCents": -5000,
-      "kind": "expense",
-      "balanceAfterCents": 79709,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-08-08-491-1500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-08",
-      "description": "COMPRA CARTAO DEB MC 07/08 CATARATAS DO IGUACU",
-      "rawDescription": "COMPRA CARTAO DEB MC 07/08 CATARATAS DO IGUACU",
-      "amountCents": -1500,
-      "kind": "expense",
-      "balanceAfterCents": 78209,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-08-08-492-1960",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-08",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT FERNANDA SUREIRA CREMONES",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT FERNANDA SUREIRA CREMONES",
-      "amountCents": -1960,
-      "kind": "expense",
-      "balanceAfterCents": 76249,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 11,
+      "kind": "investment",
+      "balanceAfterCents": 74760,
       "source": "legacy_sheet"
     },
     {
@@ -17571,14 +17516,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-08-494-11",
+      "id": "legacy-acc-santander-acc-2022-08-08-492-1960",
       "accountId": "acc-santander-acc",
       "date": "2022-08-08",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 11,
-      "kind": "investment",
-      "balanceAfterCents": 74760,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT FERNANDA SUREIRA CREMONES",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT FERNANDA SUREIRA CREMONES",
+      "amountCents": -1960,
+      "kind": "expense",
+      "balanceAfterCents": 76249,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-08-08-491-1500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-08-08",
+      "description": "COMPRA CARTAO DEB MC 07/08 CATARATAS DO IGUACU",
+      "rawDescription": "COMPRA CARTAO DEB MC 07/08 CATARATAS DO IGUACU",
+      "amountCents": -1500,
+      "kind": "expense",
+      "balanceAfterCents": 78209,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-08-08-490-5000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-08-08",
+      "description": "SAQUE BANCO 24HS 07/08 11:17",
+      "rawDescription": "SAQUE BANCO 24HS 07/08 11:17",
+      "amountCents": -5000,
+      "kind": "expense",
+      "balanceAfterCents": 79709,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-08-08-489-4900",
+      "accountId": "acc-santander-acc",
+      "date": "2022-08-08",
+      "description": "COMPRA CARTAO DEB MC 06/08 DREAMS TICKET",
+      "rawDescription": "COMPRA CARTAO DEB MC 06/08 DREAMS TICKET",
+      "amountCents": -4900,
+      "kind": "expense",
+      "balanceAfterCents": 84709,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-08-08-488-1374",
+      "accountId": "acc-santander-acc",
+      "date": "2022-08-08",
+      "description": "IOF DEBITO EXTERIOR 06/08 SHOPPING CHINA.CDE",
+      "rawDescription": "IOF DEBITO EXTERIOR 06/08 SHOPPING CHINA.CDE",
+      "amountCents": -1374,
+      "kind": "expense",
+      "balanceAfterCents": 89609,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-08-08-487-21533",
+      "accountId": "acc-santander-acc",
+      "date": "2022-08-08",
+      "description": "COMPRA CARTAO DEB MC 06/08 SHOPPING CHINA.CDE",
+      "rawDescription": "COMPRA CARTAO DEB MC 06/08 SHOPPING CHINA.CDE",
+      "amountCents": -21533,
+      "kind": "expense",
+      "balanceAfterCents": 90983,
       "source": "legacy_sheet"
     },
     {
@@ -17593,17 +17593,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-08-01-484-65000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-08-01",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 85716,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-08-01-485-13200",
       "accountId": "acc-santander-acc",
       "date": "2022-08-01",
@@ -17615,14 +17604,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-28-482-2500",
+      "id": "legacy-acc-santander-acc-2022-08-01-484-65000",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-28",
-      "description": "COMPRA CARTAO DEB MC 28/07 PIADINA STREET FOOD",
-      "rawDescription": "COMPRA CARTAO DEB MC 28/07 PIADINA STREET FOOD",
-      "amountCents": -2500,
-      "kind": "expense",
-      "balanceAfterCents": 20715,
+      "date": "2022-08-01",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 85716,
       "source": "legacy_sheet"
     },
     {
@@ -17637,14 +17626,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-27-480-6600",
+      "id": "legacy-acc-santander-acc-2022-07-28-482-2500",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-27",
-      "description": "PIX ENVIADO OUTRA INST - DIF TIT Ingresse Ingressos Para E",
-      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT Ingresse Ingressos Para E",
-      "amountCents": -6600,
+      "date": "2022-07-28",
+      "description": "COMPRA CARTAO DEB MC 28/07 PIADINA STREET FOOD",
+      "rawDescription": "COMPRA CARTAO DEB MC 28/07 PIADINA STREET FOOD",
+      "amountCents": -2500,
       "kind": "expense",
-      "balanceAfterCents": 23213,
+      "balanceAfterCents": 20715,
       "source": "legacy_sheet"
     },
     {
@@ -17659,47 +17648,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-25-475-1500",
+      "id": "legacy-acc-santander-acc-2022-07-27-480-6600",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-25",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": -1500,
+      "date": "2022-07-27",
+      "description": "PIX ENVIADO OUTRA INST - DIF TIT Ingresse Ingressos Para E",
+      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT Ingresse Ingressos Para E",
+      "amountCents": -6600,
       "kind": "expense",
-      "balanceAfterCents": 28913,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-25-476-6000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-25",
-      "description": "COMPRA CARTÃO DEB MC 23/07 ESTACIONAMENTO",
-      "rawDescription": "COMPRA CARTÃO DEB MC 23/07 ESTACIONAMENTO",
-      "amountCents": -6000,
-      "kind": "expense",
-      "balanceAfterCents": 22913,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-25-477-2300",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-25",
-      "description": "PIX RECEBIDO-DIF TIT VITORIA VENCESLAU STEFANI",
-      "rawDescription": "PIX RECEBIDO-DIF TIT VITORIA VENCESLAU STEFANI",
-      "amountCents": 2300,
-      "kind": "income",
-      "balanceAfterCents": 25213,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-25-478-2300",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-25",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
-      "amountCents": 2300,
-      "kind": "income",
-      "balanceAfterCents": 27513,
+      "balanceAfterCents": 23213,
       "source": "legacy_sheet"
     },
     {
@@ -17714,25 +17670,47 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-21-472-28400",
+      "id": "legacy-acc-santander-acc-2022-07-25-478-2300",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-21",
-      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "amountCents": 28400,
+      "date": "2022-07-25",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT ANDREI SILVA DE PAULO",
+      "amountCents": 2300,
       "kind": "income",
-      "balanceAfterCents": 64620,
+      "balanceAfterCents": 27513,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-21-473-34208",
+      "id": "legacy-acc-santander-acc-2022-07-25-477-2300",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/07 14:16 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/07 14:16 CARTAO MASTER",
-      "amountCents": -34208,
-      "kind": "card_payment",
-      "balanceAfterCents": 30412,
+      "date": "2022-07-25",
+      "description": "PIX RECEBIDO-DIF TIT VITORIA VENCESLAU STEFANI",
+      "rawDescription": "PIX RECEBIDO-DIF TIT VITORIA VENCESLAU STEFANI",
+      "amountCents": 2300,
+      "kind": "income",
+      "balanceAfterCents": 25213,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-25-476-6000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-25",
+      "description": "COMPRA CARTÃO DEB MC 23/07 ESTACIONAMENTO",
+      "rawDescription": "COMPRA CARTÃO DEB MC 23/07 ESTACIONAMENTO",
+      "amountCents": -6000,
+      "kind": "expense",
+      "balanceAfterCents": 22913,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-25-475-1500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-25",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "amountCents": -1500,
+      "kind": "expense",
+      "balanceAfterCents": 28913,
       "source": "legacy_sheet"
     },
     {
@@ -17747,14 +17725,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-20-470-24200",
+      "id": "legacy-acc-santander-acc-2022-07-21-473-34208",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-20",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Ingresse Ingressos Para E",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Ingresse Ingressos Para E",
-      "amountCents": -24200,
-      "kind": "expense",
-      "balanceAfterCents": 36217,
+      "date": "2022-07-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/07 14:16 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/07 14:16 CARTAO MASTER",
+      "amountCents": -34208,
+      "kind": "card_payment",
+      "balanceAfterCents": 30412,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-21-472-28400",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-21",
+      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "amountCents": 28400,
+      "kind": "income",
+      "balanceAfterCents": 64620,
       "source": "legacy_sheet"
     },
     {
@@ -17769,36 +17758,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-18-466-2590",
+      "id": "legacy-acc-santander-acc-2022-07-20-470-24200",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-18",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT AMANDA PASTORI FREITAS",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT AMANDA PASTORI FREITAS",
-      "amountCents": -2590,
+      "date": "2022-07-20",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Ingresse Ingressos Para E",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Ingresse Ingressos Para E",
+      "amountCents": -24200,
       "kind": "expense",
-      "balanceAfterCents": 81140,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-18-467-10105",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-18",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
-      "amountCents": -10105,
-      "kind": "expense",
-      "balanceAfterCents": 71035,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-18-468-10629",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-18",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT IAGO BRETAS RIGHI",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT IAGO BRETAS RIGHI",
-      "amountCents": -10629,
-      "kind": "expense",
-      "balanceAfterCents": 60406,
+      "balanceAfterCents": 36217,
       "source": "legacy_sheet"
     },
     {
@@ -17813,25 +17780,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-14-463-1700",
+      "id": "legacy-acc-santander-acc-2022-07-18-468-10629",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-14",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT Gabriel Thomas Porto Amar",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT Gabriel Thomas Porto Amar",
-      "amountCents": 1700,
-      "kind": "income",
-      "balanceAfterCents": 101722,
+      "date": "2022-07-18",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT IAGO BRETAS RIGHI",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT IAGO BRETAS RIGHI",
+      "amountCents": -10629,
+      "kind": "expense",
+      "balanceAfterCents": 60406,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-14-464-18000",
+      "id": "legacy-acc-santander-acc-2022-07-18-467-10105",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-14",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT INTI",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT INTI",
-      "amountCents": -18000,
+      "date": "2022-07-18",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
+      "amountCents": -10105,
       "kind": "expense",
-      "balanceAfterCents": 83722,
+      "balanceAfterCents": 71035,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-18-466-2590",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-18",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT AMANDA PASTORI FREITAS",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT AMANDA PASTORI FREITAS",
+      "amountCents": -2590,
+      "kind": "expense",
+      "balanceAfterCents": 81140,
       "source": "legacy_sheet"
     },
     {
@@ -17846,6 +17824,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-07-14-464-18000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-14",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT INTI",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT INTI",
+      "amountCents": -18000,
+      "kind": "expense",
+      "balanceAfterCents": 83722,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-14-463-1700",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-14",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT Gabriel Thomas Porto Amar",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT Gabriel Thomas Porto Amar",
+      "amountCents": 1700,
+      "kind": "income",
+      "balanceAfterCents": 101722,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-07-12-462-1700",
       "accountId": "acc-santander-acc",
       "date": "2022-07-12",
@@ -17854,28 +17854,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1700,
       "kind": "income",
       "balanceAfterCents": 100022,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-11-459-940",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-11",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS JUNHO/2022",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS JUNHO/2022",
-      "amountCents": -940,
-      "kind": "expense",
-      "balanceAfterCents": 101320,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-07-11-460-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-07-11",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Marcela Scaramel",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Marcela Scaramel",
-      "amountCents": -3000,
-      "kind": "expense",
-      "balanceAfterCents": 98320,
       "source": "legacy_sheet"
     },
     {
@@ -17890,14 +17868,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-07-04-457-65000",
+      "id": "legacy-acc-santander-acc-2022-07-11-460-3000",
       "accountId": "acc-santander-acc",
-      "date": "2022-07-04",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 103260,
+      "date": "2022-07-11",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Marcela Scaramel",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Marcela Scaramel",
+      "amountCents": -3000,
+      "kind": "expense",
+      "balanceAfterCents": 98320,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-11-459-940",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-11",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS JUNHO/2022",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS JUNHO/2022",
+      "amountCents": -940,
+      "kind": "expense",
+      "balanceAfterCents": 101320,
       "source": "legacy_sheet"
     },
     {
@@ -17909,6 +17898,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -1000,
       "kind": "expense",
       "balanceAfterCents": 102260,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-07-04-457-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-07-04",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 103260,
       "source": "legacy_sheet"
     },
     {
@@ -17934,17 +17934,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-06-21-453-84250",
-      "accountId": "acc-santander-acc",
-      "date": "2022-06-21",
-      "description": "PAGAMENTO CARTAO CREDITO ВСЕ 21/06 12:33 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO ВСЕ 21/06 12:33 CARTÃO MASTER",
-      "amountCents": -84250,
-      "kind": "card_payment",
-      "balanceAfterCents": 40783,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-06-21-454-14",
       "accountId": "acc-santander-acc",
       "date": "2022-06-21",
@@ -17956,14 +17945,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-06-17-451-700",
+      "id": "legacy-acc-santander-acc-2022-06-21-453-84250",
       "accountId": "acc-santander-acc",
-      "date": "2022-06-17",
-      "description": "COMPRA CARTAO DEB MC 16/06 ZIGPAY",
-      "rawDescription": "COMPRA CARTAO DEB MC 16/06 ZIGPAY",
-      "amountCents": -700,
-      "kind": "expense",
-      "balanceAfterCents": 127033,
+      "date": "2022-06-21",
+      "description": "PAGAMENTO CARTAO CREDITO ВСЕ 21/06 12:33 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO ВСЕ 21/06 12:33 CARTÃO MASTER",
+      "amountCents": -84250,
+      "kind": "card_payment",
+      "balanceAfterCents": 40783,
       "source": "legacy_sheet"
     },
     {
@@ -17978,14 +17967,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-06-14-449-11787",
+      "id": "legacy-acc-santander-acc-2022-06-17-451-700",
       "accountId": "acc-santander-acc",
-      "date": "2022-06-14",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "amountCents": -11787,
+      "date": "2022-06-17",
+      "description": "COMPRA CARTAO DEB MC 16/06 ZIGPAY",
+      "rawDescription": "COMPRA CARTAO DEB MC 16/06 ZIGPAY",
+      "amountCents": -700,
       "kind": "expense",
-      "balanceAfterCents": 127732,
+      "balanceAfterCents": 127033,
       "source": "legacy_sheet"
     },
     {
@@ -17997,6 +17986,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "investment",
       "balanceAfterCents": 127733,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-06-14-449-11787",
+      "accountId": "acc-santander-acc",
+      "date": "2022-06-14",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "amountCents": -11787,
+      "kind": "expense",
+      "balanceAfterCents": 127732,
       "source": "legacy_sheet"
     },
     {
@@ -18022,14 +18022,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-06-06-444-7400",
+      "id": "legacy-acc-santander-acc-2022-06-06-446-7",
       "accountId": "acc-santander-acc",
       "date": "2022-06-06",
-      "description": "COMPRA CARTAO DEB MC 04/06 TABACARIA MONTERREY",
-      "rawDescription": "COMPRA CARTAO DEB MC 04/06 TABACARIA MONTERREY",
-      "amountCents": -7400,
-      "kind": "expense",
-      "balanceAfterCents": 146222,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 7,
+      "kind": "investment",
+      "balanceAfterCents": 143229,
       "source": "legacy_sheet"
     },
     {
@@ -18044,14 +18044,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-06-06-446-7",
+      "id": "legacy-acc-santander-acc-2022-06-06-444-7400",
       "accountId": "acc-santander-acc",
       "date": "2022-06-06",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 7,
-      "kind": "investment",
-      "balanceAfterCents": 143229,
+      "description": "COMPRA CARTAO DEB MC 04/06 TABACARIA MONTERREY",
+      "rawDescription": "COMPRA CARTAO DEB MC 04/06 TABACARIA MONTERREY",
+      "amountCents": -7400,
+      "kind": "expense",
+      "balanceAfterCents": 146222,
       "source": "legacy_sheet"
     },
     {
@@ -18088,17 +18088,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-23-439-52975",
-      "accountId": "acc-santander-acc",
-      "date": "2022-05-23",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 22/05 22:21 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 22/05 22:21 CARTAO MASTER",
-      "amountCents": -52975,
-      "kind": "expense",
-      "balanceAfterCents": 86581,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-05-23-440-11",
       "accountId": "acc-santander-acc",
       "date": "2022-05-23",
@@ -18110,14 +18099,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-17-437-12298",
+      "id": "legacy-acc-santander-acc-2022-05-23-439-52975",
       "accountId": "acc-santander-acc",
-      "date": "2022-05-17",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -12298,
+      "date": "2022-05-23",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 22/05 22:21 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 22/05 22:21 CARTAO MASTER",
+      "amountCents": -52975,
       "kind": "expense",
-      "balanceAfterCents": 139553,
+      "balanceAfterCents": 86581,
       "source": "legacy_sheet"
     },
     {
@@ -18132,14 +18121,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-13-435-6515",
+      "id": "legacy-acc-santander-acc-2022-05-17-437-12298",
       "accountId": "acc-santander-acc",
-      "date": "2022-05-13",
-      "description": "COMPRA CARTAO DEB MC 13/05 SUPERMERCADOS DALBE",
-      "rawDescription": "COMPRA CARTAO DEB MC 13/05 SUPERMERCADOS DALBE",
-      "amountCents": -6515,
+      "date": "2022-05-17",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -12298,
       "kind": "expense",
-      "balanceAfterCents": 146851,
+      "balanceAfterCents": 139553,
       "source": "legacy_sheet"
     },
     {
@@ -18154,6 +18143,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-05-13-435-6515",
+      "accountId": "acc-santander-acc",
+      "date": "2022-05-13",
+      "description": "COMPRA CARTAO DEB MC 13/05 SUPERMERCADOS DALBE",
+      "rawDescription": "COMPRA CARTAO DEB MC 13/05 SUPERMERCADOS DALBE",
+      "amountCents": -6515,
+      "kind": "expense",
+      "balanceAfterCents": 146851,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-05-10-434-940",
       "accountId": "acc-santander-acc",
       "date": "2022-05-10",
@@ -18165,36 +18165,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-09-429-9000",
+      "id": "legacy-acc-santander-acc-2022-05-09-433-9",
       "accountId": "acc-santander-acc",
       "date": "2022-05-09",
-      "description": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
-      "rawDescription": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
-      "amountCents": -9000,
-      "kind": "expense",
-      "balanceAfterCents": 168747,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-05-09-430-3200",
-      "accountId": "acc-santander-acc",
-      "date": "2022-05-09",
-      "description": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
-      "rawDescription": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
-      "amountCents": -3200,
-      "kind": "expense",
-      "balanceAfterCents": 165547,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-05-09-431-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-05-09",
-      "description": "COMPRA CARTAO DEB MC 08/05 PAG.ZygpayNetpdv",
-      "rawDescription": "COMPRA CARTAO DEB MC 08/05 PAG.ZygpayNetpdv",
-      "amountCents": -5000,
-      "kind": "expense",
-      "balanceAfterCents": 160547,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 9,
+      "kind": "investment",
+      "balanceAfterCents": 154306,
       "source": "legacy_sheet"
     },
     {
@@ -18209,14 +18187,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-09-433-9",
+      "id": "legacy-acc-santander-acc-2022-05-09-431-5000",
       "accountId": "acc-santander-acc",
       "date": "2022-05-09",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 9,
-      "kind": "investment",
-      "balanceAfterCents": 154306,
+      "description": "COMPRA CARTAO DEB MC 08/05 PAG.ZygpayNetpdv",
+      "rawDescription": "COMPRA CARTAO DEB MC 08/05 PAG.ZygpayNetpdv",
+      "amountCents": -5000,
+      "kind": "expense",
+      "balanceAfterCents": 160547,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-05-09-430-3200",
+      "accountId": "acc-santander-acc",
+      "date": "2022-05-09",
+      "description": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
+      "rawDescription": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
+      "amountCents": -3200,
+      "kind": "expense",
+      "balanceAfterCents": 165547,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-05-09-429-9000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-05-09",
+      "description": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
+      "rawDescription": "COMPRA CARTAO DEB MC 07/05 PAG.ZygpayNetpdv",
+      "amountCents": -9000,
+      "kind": "expense",
+      "balanceAfterCents": 168747,
       "source": "legacy_sheet"
     },
     {
@@ -18242,36 +18242,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-04-422-798",
+      "id": "legacy-acc-santander-acc-2022-05-04-426-4",
       "accountId": "acc-santander-acc",
       "date": "2022-05-04",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "amountCents": -798,
-      "kind": "expense",
-      "balanceAfterCents": 191062,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-05-04-423-6775",
-      "accountId": "acc-santander-acc",
-      "date": "2022-05-04",
-      "description": "COMPRA CARTAO DEB MC 04/05 PAG.Copiadora",
-      "rawDescription": "COMPRA CARTAO DEB MC 04/05 PAG.Copiadora",
-      "amountCents": -6775,
-      "kind": "expense",
-      "balanceAfterCents": 184287,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-05-04-424-4990",
-      "accountId": "acc-santander-acc",
-      "date": "2022-05-04",
-      "description": "COMPRA CARTAO DEB MC 04/05 VIVENDA DO CAMARAO",
-      "rawDescription": "COMPRA CARTAO DEB MC 04/05 VIVENDA DO CAMARAO",
-      "amountCents": -4990,
-      "kind": "expense",
-      "balanceAfterCents": 179297,
+      "description": "REMUNERACAO APLICACAO AUTOMATICA",
+      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
+      "amountCents": 4,
+      "kind": "investment",
+      "balanceAfterCents": 177301,
       "source": "legacy_sheet"
     },
     {
@@ -18286,25 +18264,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-04-426-4",
+      "id": "legacy-acc-santander-acc-2022-05-04-424-4990",
       "accountId": "acc-santander-acc",
       "date": "2022-05-04",
-      "description": "REMUNERACAO APLICACAO AUTOMATICA",
-      "rawDescription": "REMUNERACAO APLICACAO AUTOMATICA",
-      "amountCents": 4,
-      "kind": "investment",
-      "balanceAfterCents": 177301,
+      "description": "COMPRA CARTAO DEB MC 04/05 VIVENDA DO CAMARAO",
+      "rawDescription": "COMPRA CARTAO DEB MC 04/05 VIVENDA DO CAMARAO",
+      "amountCents": -4990,
+      "kind": "expense",
+      "balanceAfterCents": 179297,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-05-02-420-65000",
+      "id": "legacy-acc-santander-acc-2022-05-04-423-6775",
       "accountId": "acc-santander-acc",
-      "date": "2022-05-02",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 65000,
-      "kind": "income",
-      "balanceAfterCents": 191839,
+      "date": "2022-05-04",
+      "description": "COMPRA CARTAO DEB MC 04/05 PAG.Copiadora",
+      "rawDescription": "COMPRA CARTAO DEB MC 04/05 PAG.Copiadora",
+      "amountCents": -6775,
+      "kind": "expense",
+      "balanceAfterCents": 184287,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-05-04-422-798",
+      "accountId": "acc-santander-acc",
+      "date": "2022-05-04",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "amountCents": -798,
+      "kind": "expense",
+      "balanceAfterCents": 191062,
       "source": "legacy_sheet"
     },
     {
@@ -18316,6 +18305,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 21,
       "kind": "investment",
       "balanceAfterCents": 191860,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-05-02-420-65000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-05-02",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 65000,
+      "kind": "income",
+      "balanceAfterCents": 191839,
       "source": "legacy_sheet"
     },
     {
@@ -18341,14 +18341,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-04-18-415-2200",
+      "id": "legacy-acc-santander-acc-2022-04-18-417-14",
       "accountId": "acc-santander-acc",
       "date": "2022-04-18",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Vitor Lopes Dos Santos",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Vitor Lopes Dos Santos",
-      "amountCents": -2200,
-      "kind": "expense",
-      "balanceAfterCents": 156161,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 14,
+      "kind": "income",
+      "balanceAfterCents": 134984,
       "source": "legacy_sheet"
     },
     {
@@ -18363,14 +18363,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-04-18-417-14",
+      "id": "legacy-acc-santander-acc-2022-04-18-415-2200",
       "accountId": "acc-santander-acc",
       "date": "2022-04-18",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 14,
-      "kind": "income",
-      "balanceAfterCents": 134984,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Vitor Lopes Dos Santos",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Vitor Lopes Dos Santos",
+      "amountCents": -2200,
+      "kind": "expense",
+      "balanceAfterCents": 156161,
       "source": "legacy_sheet"
     },
     {
@@ -18418,17 +18418,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-03-29-409-3350",
-      "accountId": "acc-santander-acc",
-      "date": "2022-03-29",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
-      "amountCents": -3350,
-      "kind": "expense",
-      "balanceAfterCents": 94279,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-03-29-410-1",
       "accountId": "acc-santander-acc",
       "date": "2022-03-29",
@@ -18437,6 +18426,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 94280,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-03-29-409-3350",
+      "accountId": "acc-santander-acc",
+      "date": "2022-03-29",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
+      "amountCents": -3350,
+      "kind": "expense",
+      "balanceAfterCents": 94279,
       "source": "legacy_sheet"
     },
     {
@@ -18451,17 +18451,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-03-24-406-21284",
-      "accountId": "acc-santander-acc",
-      "date": "2022-03-24",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 24/03 08:56 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 24/03 08:56 CARTAO MASTER",
-      "amountCents": -21284,
-      "kind": "card_payment",
-      "balanceAfterCents": 96724,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-03-24-407-5",
       "accountId": "acc-santander-acc",
       "date": "2022-03-24",
@@ -18473,14 +18462,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-03-21-404-8336",
+      "id": "legacy-acc-santander-acc-2022-03-24-406-21284",
       "accountId": "acc-santander-acc",
-      "date": "2022-03-21",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "amountCents": -8336,
-      "kind": "expense",
-      "balanceAfterCents": 118007,
+      "date": "2022-03-24",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 24/03 08:56 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 24/03 08:56 CARTAO MASTER",
+      "amountCents": -21284,
+      "kind": "card_payment",
+      "balanceAfterCents": 96724,
       "source": "legacy_sheet"
     },
     {
@@ -18495,6 +18484,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-03-21-404-8336",
+      "accountId": "acc-santander-acc",
+      "date": "2022-03-21",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "amountCents": -8336,
+      "kind": "expense",
+      "balanceAfterCents": 118007,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-03-17-403-14",
       "accountId": "acc-santander-acc",
       "date": "2022-03-17",
@@ -18503,28 +18503,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 14,
       "kind": "income",
       "balanceAfterCents": 126343,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-03-16-400-35750",
-      "accountId": "acc-santander-acc",
-      "date": "2022-03-16",
-      "description": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
-      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
-      "amountCents": -35750,
-      "kind": "expense",
-      "balanceAfterCents": 129567,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-03-16-401-3250",
-      "accountId": "acc-santander-acc",
-      "date": "2022-03-16",
-      "description": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
-      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
-      "amountCents": -3250,
-      "kind": "expense",
-      "balanceAfterCents": 126317,
       "source": "legacy_sheet"
     },
     {
@@ -18539,6 +18517,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-03-16-401-3250",
+      "accountId": "acc-santander-acc",
+      "date": "2022-03-16",
+      "description": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
+      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
+      "amountCents": -3250,
+      "kind": "expense",
+      "balanceAfterCents": 126317,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-03-16-400-35750",
+      "accountId": "acc-santander-acc",
+      "date": "2022-03-16",
+      "description": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
+      "rawDescription": "TRANSF VALOR P/CONTA DIF TITULAR PARA: 11.173.146/0001-55",
+      "amountCents": -35750,
+      "kind": "expense",
+      "balanceAfterCents": 129567,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-03-10-399-940",
       "accountId": "acc-santander-acc",
       "date": "2022-03-10",
@@ -18547,17 +18547,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -940,
       "kind": "expense",
       "balanceAfterCents": 165317,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-03-09-397-11650",
-      "accountId": "acc-santander-acc",
-      "date": "2022-03-09",
-      "description": "TAXAS DO DETRAN INTERNET SEFAZ SP TAXAS D",
-      "rawDescription": "TAXAS DO DETRAN INTERNET SEFAZ SP TAXAS D",
-      "amountCents": -11650,
-      "kind": "expense",
-      "balanceAfterCents": 154557,
       "source": "legacy_sheet"
     },
     {
@@ -18572,14 +18561,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-03-07-395-4",
+      "id": "legacy-acc-santander-acc-2022-03-09-397-11650",
       "accountId": "acc-santander-acc",
-      "date": "2022-03-07",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 4,
-      "kind": "income",
-      "balanceAfterCents": 166203,
+      "date": "2022-03-09",
+      "description": "TAXAS DO DETRAN INTERNET SEFAZ SP TAXAS D",
+      "rawDescription": "TAXAS DO DETRAN INTERNET SEFAZ SP TAXAS D",
+      "amountCents": -11650,
+      "kind": "expense",
+      "balanceAfterCents": 154557,
       "source": "legacy_sheet"
     },
     {
@@ -18594,14 +18583,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-03-04-393-21842",
+      "id": "legacy-acc-santander-acc-2022-03-07-395-4",
       "accountId": "acc-santander-acc",
-      "date": "2022-03-04",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT FALLEN STORE",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT FALLEN STORE",
-      "amountCents": -21842,
-      "kind": "expense",
-      "balanceAfterCents": 166192,
+      "date": "2022-03-07",
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 4,
+      "kind": "income",
+      "balanceAfterCents": 166203,
       "source": "legacy_sheet"
     },
     {
@@ -18616,6 +18605,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-03-04-393-21842",
+      "accountId": "acc-santander-acc",
+      "date": "2022-03-04",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT FALLEN STORE",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT FALLEN STORE",
+      "amountCents": -21842,
+      "kind": "expense",
+      "balanceAfterCents": 166192,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-03-02-392-60000",
       "accountId": "acc-santander-acc",
       "date": "2022-03-02",
@@ -18624,17 +18624,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 60000,
       "kind": "income",
       "balanceAfterCents": 188034,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-02-25-390-15832",
-      "accountId": "acc-santander-acc",
-      "date": "2022-02-25",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 25/02 09:49 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 25/02 09:49 CARTAO MASTER",
-      "amountCents": -15832,
-      "kind": "expense",
-      "balanceAfterCents": 128030,
       "source": "legacy_sheet"
     },
     {
@@ -18649,14 +18638,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-02-17-388-7222",
+      "id": "legacy-acc-santander-acc-2022-02-25-390-15832",
       "accountId": "acc-santander-acc",
-      "date": "2022-02-17",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -7222,
+      "date": "2022-02-25",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 25/02 09:49 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 25/02 09:49 CARTAO MASTER",
+      "amountCents": -15832,
       "kind": "expense",
-      "balanceAfterCents": 143861,
+      "balanceAfterCents": 128030,
       "source": "legacy_sheet"
     },
     {
@@ -18668,6 +18657,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 143862,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-02-17-388-7222",
+      "accountId": "acc-santander-acc",
+      "date": "2022-02-17",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -7222,
+      "kind": "expense",
+      "balanceAfterCents": 143861,
       "source": "legacy_sheet"
     },
     {
@@ -18704,17 +18704,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-02-02-383-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-02-02",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 60000,
-      "kind": "income",
-      "balanceAfterCents": 155342,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2022-02-02-384-3388",
       "accountId": "acc-santander-acc",
       "date": "2022-02-02",
@@ -18726,14 +18715,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-26-381-22948",
+      "id": "legacy-acc-santander-acc-2022-02-02-383-60000",
       "accountId": "acc-santander-acc",
-      "date": "2022-01-26",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 26/01 13:15 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 26/01 13:15 CARTAO MASTER",
-      "amountCents": -22948,
-      "kind": "card_payment",
-      "balanceAfterCents": 95338,
+      "date": "2022-02-02",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 60000,
+      "kind": "income",
+      "balanceAfterCents": 155342,
       "source": "legacy_sheet"
     },
     {
@@ -18748,36 +18737,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-24-377-4042",
+      "id": "legacy-acc-santander-acc-2022-01-26-381-22948",
       "accountId": "acc-santander-acc",
-      "date": "2022-01-24",
-      "description": "PIX RECEBIDO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
-      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
-      "amountCents": 4042,
-      "kind": "income",
-      "balanceAfterCents": 126369,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-24-378-10105",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-24",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
-      "amountCents": -10105,
-      "kind": "expense",
-      "balanceAfterCents": 116264,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-24-379-2021",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-24",
-      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "amountCents": 2021,
-      "kind": "income",
-      "balanceAfterCents": 118285,
+      "date": "2022-01-26",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 26/01 13:15 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 26/01 13:15 CARTAO MASTER",
+      "amountCents": -22948,
+      "kind": "card_payment",
+      "balanceAfterCents": 95338,
       "source": "legacy_sheet"
     },
     {
@@ -18792,14 +18759,36 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-19-375-13000",
+      "id": "legacy-acc-santander-acc-2022-01-24-379-2021",
       "accountId": "acc-santander-acc",
-      "date": "2022-01-19",
-      "description": "COMPRA CARTAO DEB MC 19/01 OFTALMO CLINICA LTD",
-      "rawDescription": "COMPRA CARTAO DEB MC 19/01 OFTALMO CLINICA LTD",
-      "amountCents": -13000,
+      "date": "2022-01-24",
+      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "amountCents": 2021,
+      "kind": "income",
+      "balanceAfterCents": 118285,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-24-378-10105",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-24",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT ENX SERVICES TECNOLOGIA E",
+      "amountCents": -10105,
       "kind": "expense",
-      "balanceAfterCents": 122326,
+      "balanceAfterCents": 116264,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-24-377-4042",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-24",
+      "description": "PIX RECEBIDO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
+      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT Pedro Koji Shimura Araki",
+      "amountCents": 4042,
+      "kind": "income",
+      "balanceAfterCents": 126369,
       "source": "legacy_sheet"
     },
     {
@@ -18814,14 +18803,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-18-373-7114",
+      "id": "legacy-acc-santander-acc-2022-01-19-375-13000",
       "accountId": "acc-santander-acc",
-      "date": "2022-01-18",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -7114,
+      "date": "2022-01-19",
+      "description": "COMPRA CARTAO DEB MC 19/01 OFTALMO CLINICA LTD",
+      "rawDescription": "COMPRA CARTAO DEB MC 19/01 OFTALMO CLINICA LTD",
+      "amountCents": -13000,
       "kind": "expense",
-      "balanceAfterCents": 135325,
+      "balanceAfterCents": 122326,
       "source": "legacy_sheet"
     },
     {
@@ -18836,6 +18825,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-01-18-373-7114",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-18",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -7114,
+      "kind": "expense",
+      "balanceAfterCents": 135325,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-01-17-372-2319",
       "accountId": "acc-santander-acc",
       "date": "2022-01-17",
@@ -18844,17 +18844,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -2319,
       "kind": "expense",
       "balanceAfterCents": 142439,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-13-370-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-13",
-      "description": "PIX RECEBIDO OUTRA INST DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT OSNI MARTINS",
-      "amountCents": 10000,
-      "kind": "income",
-      "balanceAfterCents": 144736,
       "source": "legacy_sheet"
     },
     {
@@ -18869,6 +18858,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2022-01-13-370-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-13",
+      "description": "PIX RECEBIDO OUTRA INST DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT OSNI MARTINS",
+      "amountCents": 10000,
+      "kind": "income",
+      "balanceAfterCents": 144736,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2022-01-11-369-3000",
       "accountId": "acc-santander-acc",
       "date": "2022-01-11",
@@ -18880,69 +18880,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-10-361-10000",
+      "id": "legacy-acc-santander-acc-2022-01-10-368-1",
       "accountId": "acc-santander-acc",
       "date": "2022-01-10",
-      "description": "COMPRA CARTAO DEB MC 08/01 AUTO POSTO ICARO",
-      "rawDescription": "COMPRA CARTAO DEB MC 08/01 AUTO POSTO ICARO",
-      "amountCents": -10000,
-      "kind": "expense",
-      "balanceAfterCents": 136132,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-10-362-6000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-10",
-      "description": "COMPRA CARTAO DEB MC 08/01 ESTACIONAMENTO",
-      "rawDescription": "COMPRA CARTAO DEB MC 08/01 ESTACIONAMENTO",
-      "amountCents": -6000,
-      "kind": "expense",
-      "balanceAfterCents": 130132,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-10-363-3500",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-10",
-      "description": "COMPRA CARTAO DEB MC 08/01 CLUB AME EVENTOS",
-      "rawDescription": "COMPRA CARTAO DEB MC 08/01 CLUB AME EVENTOS",
-      "amountCents": -3500,
-      "kind": "expense",
-      "balanceAfterCents": 126632,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-10-364-900",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2021",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2021",
-      "amountCents": -900,
-      "kind": "expense",
-      "balanceAfterCents": 125732,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-10-365-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-10",
-      "description": "PIX RECEBIDO OUTRA INST DIF TIT Bruna Eduarda Gandra de O",
-      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT Bruna Eduarda Gandra de O",
-      "amountCents": 3000,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
       "kind": "income",
-      "balanceAfterCents": 128732,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2022-01-10-366-3000",
-      "accountId": "acc-santander-acc",
-      "date": "2022-01-10",
-      "description": "PIX RECEBIDO-DIF TIT ISABELA SGARBOSA PEREIRA",
-      "rawDescription": "PIX RECEBIDO-DIF TIT ISABELA SGARBOSA PEREIRA",
-      "amountCents": 3000,
-      "kind": "income",
-      "balanceAfterCents": 131732,
+      "balanceAfterCents": 131736,
       "source": "legacy_sheet"
     },
     {
@@ -18957,14 +18902,69 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2022-01-10-368-1",
+      "id": "legacy-acc-santander-acc-2022-01-10-366-3000",
       "accountId": "acc-santander-acc",
       "date": "2022-01-10",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
+      "description": "PIX RECEBIDO-DIF TIT ISABELA SGARBOSA PEREIRA",
+      "rawDescription": "PIX RECEBIDO-DIF TIT ISABELA SGARBOSA PEREIRA",
+      "amountCents": 3000,
       "kind": "income",
-      "balanceAfterCents": 131736,
+      "balanceAfterCents": 131732,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-10-365-3000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-10",
+      "description": "PIX RECEBIDO OUTRA INST DIF TIT Bruna Eduarda Gandra de O",
+      "rawDescription": "PIX RECEBIDO OUTRA INST DIF TIT Bruna Eduarda Gandra de O",
+      "amountCents": 3000,
+      "kind": "income",
+      "balanceAfterCents": 128732,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-10-364-900",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2021",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2021",
+      "amountCents": -900,
+      "kind": "expense",
+      "balanceAfterCents": 125732,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-10-363-3500",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-10",
+      "description": "COMPRA CARTAO DEB MC 08/01 CLUB AME EVENTOS",
+      "rawDescription": "COMPRA CARTAO DEB MC 08/01 CLUB AME EVENTOS",
+      "amountCents": -3500,
+      "kind": "expense",
+      "balanceAfterCents": 126632,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-10-362-6000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-10",
+      "description": "COMPRA CARTAO DEB MC 08/01 ESTACIONAMENTO",
+      "rawDescription": "COMPRA CARTAO DEB MC 08/01 ESTACIONAMENTO",
+      "amountCents": -6000,
+      "kind": "expense",
+      "balanceAfterCents": 130132,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2022-01-10-361-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2022-01-10",
+      "description": "COMPRA CARTAO DEB MC 08/01 AUTO POSTO ICARO",
+      "rawDescription": "COMPRA CARTAO DEB MC 08/01 AUTO POSTO ICARO",
+      "amountCents": -10000,
+      "kind": "expense",
+      "balanceAfterCents": 136132,
       "source": "legacy_sheet"
     },
     {
@@ -18990,14 +18990,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-12-23-356-10191",
+      "id": "legacy-acc-santander-acc-2021-12-23-358-2",
       "accountId": "acc-santander-acc",
       "date": "2021-12-23",
-      "description": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
-      "amountCents": -10191,
-      "kind": "expense",
-      "balanceAfterCents": 98830,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 2,
+      "kind": "income",
+      "balanceAfterCents": 88132,
       "source": "legacy_sheet"
     },
     {
@@ -19012,25 +19012,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-12-23-358-2",
+      "id": "legacy-acc-santander-acc-2021-12-23-356-10191",
       "accountId": "acc-santander-acc",
       "date": "2021-12-23",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 2,
-      "kind": "income",
-      "balanceAfterCents": 88132,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-12-22-354-6499",
-      "accountId": "acc-santander-acc",
-      "date": "2021-12-22",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "amountCents": -6499,
+      "description": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
+      "amountCents": -10191,
       "kind": "expense",
-      "balanceAfterCents": 109020,
+      "balanceAfterCents": 98830,
       "source": "legacy_sheet"
     },
     {
@@ -19045,14 +19034,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-12-21-352-78125",
+      "id": "legacy-acc-santander-acc-2021-12-22-354-6499",
       "accountId": "acc-santander-acc",
-      "date": "2021-12-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/12 17:43 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/12 17:43 CARTAO MASTER",
-      "amountCents": -78125,
-      "kind": "card_payment",
-      "balanceAfterCents": 115510,
+      "date": "2021-12-22",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "amountCents": -6499,
+      "kind": "expense",
+      "balanceAfterCents": 109020,
       "source": "legacy_sheet"
     },
     {
@@ -19067,14 +19056,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-12-13-350-2695",
+      "id": "legacy-acc-santander-acc-2021-12-21-352-78125",
       "accountId": "acc-santander-acc",
-      "date": "2021-12-13",
-      "description": "COMPRA CARTAO DEB MC 11/12 URBAN TAP HOUSE",
-      "rawDescription": "COMPRA CARTAO DEB MC 11/12 URBAN TAP HOUSE",
-      "amountCents": -2695,
-      "kind": "expense",
-      "balanceAfterCents": 193616,
+      "date": "2021-12-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/12 17:43 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/12 17:43 CARTAO MASTER",
+      "amountCents": -78125,
+      "kind": "card_payment",
+      "balanceAfterCents": 115510,
       "source": "legacy_sheet"
     },
     {
@@ -19089,14 +19078,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-12-10-348-900",
+      "id": "legacy-acc-santander-acc-2021-12-13-350-2695",
       "accountId": "acc-santander-acc",
-      "date": "2021-12-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2021",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2021",
-      "amountCents": -900,
+      "date": "2021-12-13",
+      "description": "COMPRA CARTAO DEB MC 11/12 URBAN TAP HOUSE",
+      "rawDescription": "COMPRA CARTAO DEB MC 11/12 URBAN TAP HOUSE",
+      "amountCents": -2695,
       "kind": "expense",
-      "balanceAfterCents": 196306,
+      "balanceAfterCents": 193616,
       "source": "legacy_sheet"
     },
     {
@@ -19108,6 +19097,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 5,
       "kind": "income",
       "balanceAfterCents": 196311,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-12-10-348-900",
+      "accountId": "acc-santander-acc",
+      "date": "2021-12-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2021",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2021",
+      "amountCents": -900,
+      "kind": "expense",
+      "balanceAfterCents": 196306,
       "source": "legacy_sheet"
     },
     {
@@ -19133,17 +19133,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-25-344-17991",
-      "accountId": "acc-santander-acc",
-      "date": "2021-11-25",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT B2W COMPANHIA DIGITAL",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT B2W COMPANHIA DIGITAL",
-      "amountCents": -17991,
-      "kind": "expense",
-      "balanceAfterCents": 137194,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-11-25-345-2",
       "accountId": "acc-santander-acc",
       "date": "2021-11-25",
@@ -19152,6 +19141,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 137196,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-11-25-344-17991",
+      "accountId": "acc-santander-acc",
+      "date": "2021-11-25",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT B2W COMPANHIA DIGITAL",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT B2W COMPANHIA DIGITAL",
+      "amountCents": -17991,
+      "kind": "expense",
+      "balanceAfterCents": 137194,
       "source": "legacy_sheet"
     },
     {
@@ -19166,17 +19166,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-19-341-11630",
-      "accountId": "acc-santander-acc",
-      "date": "2021-11-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:41 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:41 CARTAO MASTER",
-      "amountCents": -11630,
-      "kind": "card_payment",
-      "balanceAfterCents": 162584,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-11-19-342-1",
       "accountId": "acc-santander-acc",
       "date": "2021-11-19",
@@ -19188,25 +19177,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-16-338-5053",
+      "id": "legacy-acc-santander-acc-2021-11-19-341-11630",
       "accountId": "acc-santander-acc",
-      "date": "2021-11-16",
-      "description": "PIX ENVIADO - DIF TIT JOAO PEDRO GOBBY BANDINI",
-      "rawDescription": "PIX ENVIADO - DIF TIT JOAO PEDRO GOBBY BANDINI",
-      "amountCents": -5053,
-      "kind": "expense",
-      "balanceAfterCents": 184621,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-11-16-339-9107",
-      "accountId": "acc-santander-acc",
-      "date": "2021-11-16",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -9107,
-      "kind": "expense",
-      "balanceAfterCents": 175514,
+      "date": "2021-11-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:41 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/11 09:41 CARTAO MASTER",
+      "amountCents": -11630,
+      "kind": "card_payment",
+      "balanceAfterCents": 162584,
       "source": "legacy_sheet"
     },
     {
@@ -19221,6 +19199,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2021-11-16-339-9107",
+      "accountId": "acc-santander-acc",
+      "date": "2021-11-16",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -9107,
+      "kind": "expense",
+      "balanceAfterCents": 175514,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-11-16-338-5053",
+      "accountId": "acc-santander-acc",
+      "date": "2021-11-16",
+      "description": "PIX ENVIADO - DIF TIT JOAO PEDRO GOBBY BANDINI",
+      "rawDescription": "PIX ENVIADO - DIF TIT JOAO PEDRO GOBBY BANDINI",
+      "amountCents": -5053,
+      "kind": "expense",
+      "balanceAfterCents": 184621,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2021-11-11-337-17",
       "accountId": "acc-santander-acc",
       "date": "2021-11-11",
@@ -19232,14 +19232,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-10-334-900",
+      "id": "legacy-acc-santander-acc-2021-11-10-336-3500",
       "accountId": "acc-santander-acc",
       "date": "2021-11-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS OUTUBRO/2021",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS OUTUBRO/2021",
-      "amountCents": -900,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "amountCents": -3500,
       "kind": "expense",
-      "balanceAfterCents": 197357,
+      "balanceAfterCents": 189657,
       "source": "legacy_sheet"
     },
     {
@@ -19254,14 +19254,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-10-336-3500",
+      "id": "legacy-acc-santander-acc-2021-11-10-334-900",
       "accountId": "acc-santander-acc",
       "date": "2021-11-10",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": -3500,
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS OUTUBRO/2021",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS OUTUBRO/2021",
+      "amountCents": -900,
       "kind": "expense",
-      "balanceAfterCents": 189657,
+      "balanceAfterCents": 197357,
       "source": "legacy_sheet"
     },
     {
@@ -19298,14 +19298,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-01-328-2790",
+      "id": "legacy-acc-santander-acc-2021-11-01-330-30000",
       "accountId": "acc-santander-acc",
       "date": "2021-11-01",
-      "description": "COMPRA CARTAO DEB MC 31/10 IFD.JOSIAS MANOEL D",
-      "rawDescription": "COMPRA CARTAO DEB MC 31/10 IFD.JOSIAS MANOEL D",
-      "amountCents": -2790,
-      "kind": "expense",
-      "balanceAfterCents": 95705,
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
+      "amountCents": 30000,
+      "kind": "income",
+      "balanceAfterCents": 118253,
       "source": "legacy_sheet"
     },
     {
@@ -19320,36 +19320,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-11-01-330-30000",
+      "id": "legacy-acc-santander-acc-2021-11-01-328-2790",
       "accountId": "acc-santander-acc",
       "date": "2021-11-01",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT LUIS FELIPE REDUCINI COST",
-      "amountCents": 30000,
-      "kind": "income",
-      "balanceAfterCents": 118253,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-10-21-325-90853",
-      "accountId": "acc-santander-acc",
-      "date": "2021-10-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/10 16:46 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/10 16:46 CARTAO MASTER",
-      "amountCents": -90853,
-      "kind": "card_payment",
-      "balanceAfterCents": 99811,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-10-21-326-1320",
-      "accountId": "acc-santander-acc",
-      "date": "2021-10-21",
-      "description": "COMPRA CARTAO DEB MC 21/10 WH2995 EVENTOS LTDA",
-      "rawDescription": "COMPRA CARTAO DEB MC 21/10 WH2995 EVENTOS LTDA",
-      "amountCents": -1320,
+      "description": "COMPRA CARTAO DEB MC 31/10 IFD.JOSIAS MANOEL D",
+      "rawDescription": "COMPRA CARTAO DEB MC 31/10 IFD.JOSIAS MANOEL D",
+      "amountCents": -2790,
       "kind": "expense",
-      "balanceAfterCents": 98491,
+      "balanceAfterCents": 95705,
       "source": "legacy_sheet"
     },
     {
@@ -19364,47 +19342,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-10-18-320-8988",
+      "id": "legacy-acc-santander-acc-2021-10-21-326-1320",
       "accountId": "acc-santander-acc",
-      "date": "2021-10-18",
-      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
-      "amountCents": -8988,
+      "date": "2021-10-21",
+      "description": "COMPRA CARTAO DEB MC 21/10 WH2995 EVENTOS LTDA",
+      "rawDescription": "COMPRA CARTAO DEB MC 21/10 WH2995 EVENTOS LTDA",
+      "amountCents": -1320,
       "kind": "expense",
-      "balanceAfterCents": 220942,
+      "balanceAfterCents": 98491,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-10-18-321-60480",
+      "id": "legacy-acc-santander-acc-2021-10-21-325-90853",
       "accountId": "acc-santander-acc",
-      "date": "2021-10-18",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT AARIN SOLUCOES TECNOLOGIC",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT AARIN SOLUCOES TECNOLOGIC",
-      "amountCents": -60480,
-      "kind": "expense",
-      "balanceAfterCents": 160462,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-10-18-322-19800",
-      "accountId": "acc-santander-acc",
-      "date": "2021-10-18",
-      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
-      "amountCents": 19800,
-      "kind": "income",
-      "balanceAfterCents": 180262,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-10-18-323-10400",
-      "accountId": "acc-santander-acc",
-      "date": "2021-10-18",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
-      "amountCents": 10400,
-      "kind": "income",
-      "balanceAfterCents": 190662,
+      "date": "2021-10-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/10 16:46 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/10 16:46 CARTAO MASTER",
+      "amountCents": -90853,
+      "kind": "card_payment",
+      "balanceAfterCents": 99811,
       "source": "legacy_sheet"
     },
     {
@@ -19419,6 +19375,50 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2021-10-18-323-10400",
+      "accountId": "acc-santander-acc",
+      "date": "2021-10-18",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
+      "amountCents": 10400,
+      "kind": "income",
+      "balanceAfterCents": 190662,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-10-18-322-19800",
+      "accountId": "acc-santander-acc",
+      "date": "2021-10-18",
+      "description": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "rawDescription": "PIX RECEBIDO-DIF TIT HENRIQUE CAETANO LEME VIE",
+      "amountCents": 19800,
+      "kind": "income",
+      "balanceAfterCents": 180262,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-10-18-321-60480",
+      "accountId": "acc-santander-acc",
+      "date": "2021-10-18",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT AARIN SOLUCOES TECNOLOGIC",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT AARIN SOLUCOES TECNOLOGIC",
+      "amountCents": -60480,
+      "kind": "expense",
+      "balanceAfterCents": 160462,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-10-18-320-8988",
+      "accountId": "acc-santander-acc",
+      "date": "2021-10-18",
+      "description": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST DIF TIT lago Bretas Righi",
+      "amountCents": -8988,
+      "kind": "expense",
+      "balanceAfterCents": 220942,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2021-10-14-319-6218",
       "accountId": "acc-santander-acc",
       "date": "2021-10-14",
@@ -19430,17 +19430,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-10-11-317-900",
-      "accountId": "acc-santander-acc",
-      "date": "2021-10-11",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2021",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2021",
-      "amountCents": -900,
-      "kind": "expense",
-      "balanceAfterCents": 236133,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-10-11-318-15",
       "accountId": "acc-santander-acc",
       "date": "2021-10-11",
@@ -19449,6 +19438,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 15,
       "kind": "income",
       "balanceAfterCents": 236148,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-10-11-317-900",
+      "accountId": "acc-santander-acc",
+      "date": "2021-10-11",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2021",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS SETEMBRO/2021",
+      "amountCents": -900,
+      "kind": "expense",
+      "balanceAfterCents": 236133,
       "source": "legacy_sheet"
     },
     {
@@ -19474,14 +19474,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-10-04-312-5573",
+      "id": "legacy-acc-santander-acc-2021-10-04-314-8",
       "accountId": "acc-santander-acc",
       "date": "2021-10-04",
-      "description": "COMPRA CARTAO DEB MC 02/10 CERVEJARIA CAVOK",
-      "rawDescription": "COMPRA CARTAO DEB MC 02/10 CERVEJARIA CAVOK",
-      "amountCents": -5573,
-      "kind": "expense",
-      "balanceAfterCents": 223856,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 8,
+      "kind": "income",
+      "balanceAfterCents": 238864,
       "source": "legacy_sheet"
     },
     {
@@ -19496,25 +19496,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-10-04-314-8",
+      "id": "legacy-acc-santander-acc-2021-10-04-312-5573",
       "accountId": "acc-santander-acc",
       "date": "2021-10-04",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 8,
-      "kind": "income",
-      "balanceAfterCents": 238864,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-09-24-310-498",
-      "accountId": "acc-santander-acc",
-      "date": "2021-09-24",
-      "description": "COMPRA CARTAO DEB MC 24/09 17:01",
-      "rawDescription": "COMPRA CARTAO DEB MC 24/09 17:01",
-      "amountCents": -498,
+      "description": "COMPRA CARTAO DEB MC 02/10 CERVEJARIA CAVOK",
+      "rawDescription": "COMPRA CARTAO DEB MC 02/10 CERVEJARIA CAVOK",
+      "amountCents": -5573,
       "kind": "expense",
-      "balanceAfterCents": 226432,
+      "balanceAfterCents": 223856,
       "source": "legacy_sheet"
     },
     {
@@ -19529,6 +19518,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2021-09-24-310-498",
+      "accountId": "acc-santander-acc",
+      "date": "2021-09-24",
+      "description": "COMPRA CARTAO DEB MC 24/09 17:01",
+      "rawDescription": "COMPRA CARTAO DEB MC 24/09 17:01",
+      "amountCents": -498,
+      "kind": "expense",
+      "balanceAfterCents": 226432,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2021-09-22-309-2997",
       "accountId": "acc-santander-acc",
       "date": "2021-09-22",
@@ -19537,17 +19537,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -2997,
       "kind": "expense",
       "balanceAfterCents": 226930,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-09-21-307-18958",
-      "accountId": "acc-santander-acc",
-      "date": "2021-09-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:21 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:21 CARTAO MASTER",
-      "amountCents": -18958,
-      "kind": "card_payment",
-      "balanceAfterCents": 210927,
       "source": "legacy_sheet"
     },
     {
@@ -19562,14 +19551,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-09-20-304-5756",
+      "id": "legacy-acc-santander-acc-2021-09-21-307-18958",
+      "accountId": "acc-santander-acc",
+      "date": "2021-09-21",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:21 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:21 CARTAO MASTER",
+      "amountCents": -18958,
+      "kind": "card_payment",
+      "balanceAfterCents": 210927,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-09-20-306-1",
       "accountId": "acc-santander-acc",
       "date": "2021-09-20",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -5756,
-      "kind": "expense",
-      "balanceAfterCents": 232384,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 229885,
       "source": "legacy_sheet"
     },
     {
@@ -19584,14 +19584,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-09-20-306-1",
+      "id": "legacy-acc-santander-acc-2021-09-20-304-5756",
       "accountId": "acc-santander-acc",
       "date": "2021-09-20",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 229885,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -5756,
+      "kind": "expense",
+      "balanceAfterCents": 232384,
       "source": "legacy_sheet"
     },
     {
@@ -19628,17 +19628,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-09-06-299-3374",
-      "accountId": "acc-santander-acc",
-      "date": "2021-09-06",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -3374,
-      "kind": "expense",
-      "balanceAfterCents": 248289,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-09-06-300-18",
       "accountId": "acc-santander-acc",
       "date": "2021-09-06",
@@ -19650,14 +19639,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-09-03-297-2145",
+      "id": "legacy-acc-santander-acc-2021-09-06-299-3374",
       "accountId": "acc-santander-acc",
-      "date": "2021-09-03",
-      "description": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
-      "amountCents": -2145,
+      "date": "2021-09-06",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -3374,
       "kind": "expense",
-      "balanceAfterCents": 251661,
+      "balanceAfterCents": 248289,
       "source": "legacy_sheet"
     },
     {
@@ -19672,14 +19661,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-09-02-295-2448",
+      "id": "legacy-acc-santander-acc-2021-09-03-297-2145",
       "accountId": "acc-santander-acc",
-      "date": "2021-09-02",
-      "description": "COMPRA CARTAO DEB MC 02/09 IFD.MAURICIO ROMEIR",
-      "rawDescription": "COMPRA CARTAO DEB MC 02/09 IFD.MAURICIO ROMEIR",
-      "amountCents": -2448,
+      "date": "2021-09-03",
+      "description": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST - DIF TIT lago Bretas Righi",
+      "amountCents": -2145,
       "kind": "expense",
-      "balanceAfterCents": 254006,
+      "balanceAfterCents": 251661,
       "source": "legacy_sheet"
     },
     {
@@ -19694,6 +19683,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2021-09-02-295-2448",
+      "accountId": "acc-santander-acc",
+      "date": "2021-09-02",
+      "description": "COMPRA CARTAO DEB MC 02/09 IFD.MAURICIO ROMEIR",
+      "rawDescription": "COMPRA CARTAO DEB MC 02/09 IFD.MAURICIO ROMEIR",
+      "amountCents": -2448,
+      "kind": "expense",
+      "balanceAfterCents": 254006,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2021-09-01-294-60000",
       "accountId": "acc-santander-acc",
       "date": "2021-09-01",
@@ -19702,17 +19702,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 60000,
       "kind": "income",
       "balanceAfterCents": 256454,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-08-20-292-4542",
-      "accountId": "acc-santander-acc",
-      "date": "2021-08-20",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -4542,
-      "kind": "expense",
-      "balanceAfterCents": 196453,
       "source": "legacy_sheet"
     },
     {
@@ -19727,14 +19716,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-08-19-290-30940",
+      "id": "legacy-acc-santander-acc-2021-08-20-292-4542",
       "accountId": "acc-santander-acc",
-      "date": "2021-08-19",
-      "description": "PAGAMENTO CARTAO CREDITO ВСЕ 19/08 11:21 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO ВСЕ 19/08 11:21 CARTÃO MASTER",
-      "amountCents": -30940,
-      "kind": "card_payment",
-      "balanceAfterCents": 200993,
+      "date": "2021-08-20",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -4542,
+      "kind": "expense",
+      "balanceAfterCents": 196453,
       "source": "legacy_sheet"
     },
     {
@@ -19749,6 +19738,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2021-08-19-290-30940",
+      "accountId": "acc-santander-acc",
+      "date": "2021-08-19",
+      "description": "PAGAMENTO CARTAO CREDITO ВСЕ 19/08 11:21 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO ВСЕ 19/08 11:21 CARTÃO MASTER",
+      "amountCents": -30940,
+      "kind": "card_payment",
+      "balanceAfterCents": 200993,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2021-08-12-289-1782",
       "accountId": "acc-santander-acc",
       "date": "2021-08-12",
@@ -19760,17 +19760,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-08-11-287-43100",
-      "accountId": "acc-santander-acc",
-      "date": "2021-08-11",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Alipay AliExpress PIX",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Alipay AliExpress PIX",
-      "amountCents": -43100,
-      "kind": "expense",
-      "balanceAfterCents": 233711,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-08-11-288-4",
       "accountId": "acc-santander-acc",
       "date": "2021-08-11",
@@ -19779,6 +19768,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4,
       "kind": "income",
       "balanceAfterCents": 233715,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-08-11-287-43100",
+      "accountId": "acc-santander-acc",
+      "date": "2021-08-11",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Alipay AliExpress PIX",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Alipay AliExpress PIX",
+      "amountCents": -43100,
+      "kind": "expense",
+      "balanceAfterCents": 233711,
       "source": "legacy_sheet"
     },
     {
@@ -19804,17 +19804,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-08-05-283-10400",
-      "accountId": "acc-santander-acc",
-      "date": "2021-08-05",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
-      "amountCents": 10400,
-      "kind": "income",
-      "balanceAfterCents": 277686,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-08-05-284-14",
       "accountId": "acc-santander-acc",
       "date": "2021-08-05",
@@ -19823,6 +19812,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 14,
       "kind": "income",
       "balanceAfterCents": 277700,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-08-05-283-10400",
+      "accountId": "acc-santander-acc",
+      "date": "2021-08-05",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT PROJEC",
+      "amountCents": 10400,
+      "kind": "income",
+      "balanceAfterCents": 277686,
       "source": "legacy_sheet"
     },
     {
@@ -19848,14 +19848,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-07-20-278-7844",
+      "id": "legacy-acc-santander-acc-2021-07-20-280-3089",
       "accountId": "acc-santander-acc",
       "date": "2021-07-20",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -7844,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
+      "amountCents": -3089,
       "kind": "expense",
-      "balanceAfterCents": 270205,
+      "balanceAfterCents": 207286,
       "source": "legacy_sheet"
     },
     {
@@ -19870,25 +19870,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-07-20-280-3089",
+      "id": "legacy-acc-santander-acc-2021-07-20-278-7844",
       "accountId": "acc-santander-acc",
       "date": "2021-07-20",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT BOA COMPRA TECNOLOGIA LTD",
-      "amountCents": -3089,
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -7844,
       "kind": "expense",
-      "balanceAfterCents": 207286,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-07-19-276-4352",
-      "accountId": "acc-santander-acc",
-      "date": "2021-07-19",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Erick Stephan Jagosehit d",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Erick Stephan Jagosehit d",
-      "amountCents": -4352,
-      "kind": "expense",
-      "balanceAfterCents": 278034,
+      "balanceAfterCents": 270205,
       "source": "legacy_sheet"
     },
     {
@@ -19900,6 +19889,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 15,
       "kind": "income",
       "balanceAfterCents": 278049,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-07-19-276-4352",
+      "accountId": "acc-santander-acc",
+      "date": "2021-07-19",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Erick Stephan Jagosehit d",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Erick Stephan Jagosehit d",
+      "amountCents": -4352,
+      "kind": "expense",
+      "balanceAfterCents": 278034,
       "source": "legacy_sheet"
     },
     {
@@ -19936,17 +19936,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-07-05-271-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2021-07-05",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 60000,
-      "kind": "income",
-      "balanceAfterCents": 283921,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-07-05-272-4",
       "accountId": "acc-santander-acc",
       "date": "2021-07-05",
@@ -19958,14 +19947,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-06-22-269-58883",
+      "id": "legacy-acc-santander-acc-2021-07-05-271-60000",
       "accountId": "acc-santander-acc",
-      "date": "2021-06-22",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 22/06 15:07 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/06 15:07 CARTAO MASTER",
-      "amountCents": -58883,
-      "kind": "card_payment",
-      "balanceAfterCents": 223919,
+      "date": "2021-07-05",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 60000,
+      "kind": "income",
+      "balanceAfterCents": 283921,
       "source": "legacy_sheet"
     },
     {
@@ -19977,6 +19966,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 223921,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-06-22-269-58883",
+      "accountId": "acc-santander-acc",
+      "date": "2021-06-22",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 22/06 15:07 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/06 15:07 CARTAO MASTER",
+      "amountCents": -58883,
+      "kind": "card_payment",
+      "balanceAfterCents": 223919,
       "source": "legacy_sheet"
     },
     {
@@ -20013,17 +20013,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-06-11-264-2083",
-      "accountId": "acc-santander-acc",
-      "date": "2021-06-11",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -2083,
-      "kind": "expense",
-      "balanceAfterCents": 270607,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-06-11-265-700",
       "accountId": "acc-santander-acc",
       "date": "2021-06-11",
@@ -20032,6 +20021,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -700,
       "kind": "expense",
       "balanceAfterCents": 269907,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-06-11-264-2083",
+      "accountId": "acc-santander-acc",
+      "date": "2021-06-11",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -2083,
+      "kind": "expense",
+      "balanceAfterCents": 270607,
       "source": "legacy_sheet"
     },
     {
@@ -20101,14 +20101,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-05-19-255-30000",
+      "id": "legacy-acc-santander-acc-2021-05-19-257-3",
       "accountId": "acc-santander-acc",
       "date": "2021-05-19",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 30000,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 3,
       "kind": "income",
-      "balanceAfterCents": 290687,
+      "balanceAfterCents": 200334,
       "source": "legacy_sheet"
     },
     {
@@ -20123,14 +20123,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-05-19-257-3",
+      "id": "legacy-acc-santander-acc-2021-05-19-255-30000",
       "accountId": "acc-santander-acc",
       "date": "2021-05-19",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 3,
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 30000,
       "kind": "income",
-      "balanceAfterCents": 200334,
+      "balanceAfterCents": 290687,
       "source": "legacy_sheet"
     },
     {
@@ -20145,17 +20145,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-05-13-252-5992",
-      "accountId": "acc-santander-acc",
-      "date": "2021-05-13",
-      "description": "PGTO TITULO OUTRO BCO-INTERNET KABUM COMERCIO ELETRONICO",
-      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET KABUM COMERCIO ELETRONICO",
-      "amountCents": -5992,
-      "kind": "expense",
-      "balanceAfterCents": 260675,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-05-13-253-1",
       "accountId": "acc-santander-acc",
       "date": "2021-05-13",
@@ -20167,14 +20156,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-05-10-250-850",
+      "id": "legacy-acc-santander-acc-2021-05-13-252-5992",
       "accountId": "acc-santander-acc",
-      "date": "2021-05-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2021",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2021",
-      "amountCents": -850,
+      "date": "2021-05-13",
+      "description": "PGTO TITULO OUTRO BCO-INTERNET KABUM COMERCIO ELETRONICO",
+      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET KABUM COMERCIO ELETRONICO",
+      "amountCents": -5992,
       "kind": "expense",
-      "balanceAfterCents": 271867,
+      "balanceAfterCents": 260675,
       "source": "legacy_sheet"
     },
     {
@@ -20186,6 +20175,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -5200,
       "kind": "expense",
       "balanceAfterCents": 266667,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-05-10-250-850",
+      "accountId": "acc-santander-acc",
+      "date": "2021-05-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2021",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2021",
+      "amountCents": -850,
+      "kind": "expense",
+      "balanceAfterCents": 271867,
       "source": "legacy_sheet"
     },
     {
@@ -20277,17 +20277,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-04-05-240-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2021-04-05",
-      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
-      "amountCents": 60000,
-      "kind": "income",
-      "balanceAfterCents": 240314,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-04-05-241-4",
       "accountId": "acc-santander-acc",
       "date": "2021-04-05",
@@ -20296,6 +20285,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4,
       "kind": "income",
       "balanceAfterCents": 240318,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-04-05-240-60000",
+      "accountId": "acc-santander-acc",
+      "date": "2021-04-05",
+      "description": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "rawDescription": "PIX RECEBIDO OUTRA INST-DIF TIT OSNI MARTINS",
+      "amountCents": 60000,
+      "kind": "income",
+      "balanceAfterCents": 240314,
       "source": "legacy_sheet"
     },
     {
@@ -20376,17 +20376,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-02-23-231-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2021-02-23",
-      "description": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
-      "rawDescription": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
-      "amountCents": -50000,
-      "kind": "expense",
-      "balanceAfterCents": 132715,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-02-23-232-1",
       "accountId": "acc-santander-acc",
       "date": "2021-02-23",
@@ -20395,6 +20384,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 132716,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-02-23-231-50000",
+      "accountId": "acc-santander-acc",
+      "date": "2021-02-23",
+      "description": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
+      "rawDescription": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
+      "amountCents": -50000,
+      "kind": "expense",
+      "balanceAfterCents": 132715,
       "source": "legacy_sheet"
     },
     {
@@ -20409,14 +20409,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-02-19-227-61368",
+      "id": "legacy-acc-santander-acc-2021-02-19-229-1",
       "accountId": "acc-santander-acc",
       "date": "2021-02-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/02 14:43 CARTÃO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/02 14:43 CARTÃO MASTER",
-      "amountCents": -61368,
-      "kind": "card_payment",
-      "balanceAfterCents": 183994,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 183998,
       "source": "legacy_sheet"
     },
     {
@@ -20431,25 +20431,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-02-19-229-1",
+      "id": "legacy-acc-santander-acc-2021-02-19-227-61368",
       "accountId": "acc-santander-acc",
       "date": "2021-02-19",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 183998,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2021-02-11-225-700",
-      "accountId": "acc-santander-acc",
-      "date": "2021-02-11",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT Gustavo Godoy de Souza",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Gustavo Godoy de Souza",
-      "amountCents": -700,
-      "kind": "expense",
-      "balanceAfterCents": 245352,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/02 14:43 CARTÃO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/02 14:43 CARTÃO MASTER",
+      "amountCents": -61368,
+      "kind": "card_payment",
+      "balanceAfterCents": 183994,
       "source": "legacy_sheet"
     },
     {
@@ -20461,6 +20450,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 10,
       "kind": "income",
       "balanceAfterCents": 245362,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-02-11-225-700",
+      "accountId": "acc-santander-acc",
+      "date": "2021-02-11",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT Gustavo Godoy de Souza",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT Gustavo Godoy de Souza",
+      "amountCents": -700,
+      "kind": "expense",
+      "balanceAfterCents": 245352,
       "source": "legacy_sheet"
     },
     {
@@ -20530,14 +20530,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-01-11-216-850",
+      "id": "legacy-acc-santander-acc-2021-01-11-218-9",
       "accountId": "acc-santander-acc",
       "date": "2021-01-11",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2020",
-      "amountCents": -850,
-      "kind": "expense",
-      "balanceAfterCents": 154628,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 9,
+      "kind": "income",
+      "balanceAfterCents": 153785,
       "source": "legacy_sheet"
     },
     {
@@ -20552,14 +20552,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-01-11-218-9",
+      "id": "legacy-acc-santander-acc-2021-01-11-216-850",
       "accountId": "acc-santander-acc",
       "date": "2021-01-11",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 9,
-      "kind": "income",
-      "balanceAfterCents": 153785,
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS DEZEMBRO/2020",
+      "amountCents": -850,
+      "kind": "expense",
+      "balanceAfterCents": 154628,
       "source": "legacy_sheet"
     },
     {
@@ -20574,17 +20574,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2021-01-07-213-2083",
-      "accountId": "acc-santander-acc",
-      "date": "2021-01-07",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -2083,
-      "kind": "expense",
-      "balanceAfterCents": 255475,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2021-01-07-214-3",
       "accountId": "acc-santander-acc",
       "date": "2021-01-07",
@@ -20593,6 +20582,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 3,
       "kind": "income",
       "balanceAfterCents": 255478,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2021-01-07-213-2083",
+      "accountId": "acc-santander-acc",
+      "date": "2021-01-07",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -2083,
+      "kind": "expense",
+      "balanceAfterCents": 255475,
       "source": "legacy_sheet"
     },
     {
@@ -20640,14 +20640,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-12-15-206-25000",
+      "id": "legacy-acc-santander-acc-2020-12-15-208-1",
       "accountId": "acc-santander-acc",
       "date": "2020-12-15",
-      "description": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
-      "rawDescription": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
-      "amountCents": -25000,
-      "kind": "expense",
-      "balanceAfterCents": 300076,
+      "description": "REMUNERAÇÃO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERAÇÃO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 225077,
       "source": "legacy_sheet"
     },
     {
@@ -20662,25 +20662,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-12-15-208-1",
+      "id": "legacy-acc-santander-acc-2020-12-15-206-25000",
       "accountId": "acc-santander-acc",
       "date": "2020-12-15",
-      "description": "REMUNERAÇÃO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERAÇÃO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 225077,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2020-12-10-204-850",
-      "accountId": "acc-santander-acc",
-      "date": "2020-12-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2020",
-      "amountCents": -850,
+      "description": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
+      "rawDescription": "TED MESMA TITULARIDADE STR 102-0003-000002891804",
+      "amountCents": -25000,
       "kind": "expense",
-      "balanceAfterCents": 325065,
+      "balanceAfterCents": 300076,
       "source": "legacy_sheet"
     },
     {
@@ -20695,25 +20684,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-12-07-200-2083",
+      "id": "legacy-acc-santander-acc-2020-12-10-204-850",
       "accountId": "acc-santander-acc",
-      "date": "2020-12-07",
-      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
-      "amountCents": -2083,
+      "date": "2020-12-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS NOVEMBRO/2020",
+      "amountCents": -850,
       "kind": "expense",
-      "balanceAfterCents": 343042,
+      "balanceAfterCents": 325065,
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-12-07-201-17136",
+      "id": "legacy-acc-santander-acc-2020-12-07-203-6",
       "accountId": "acc-santander-acc",
       "date": "2020-12-07",
-      "description": "PGTO TITULO OUTRO BCO-INTERNET ENX SERVICES TECNOLOGIA E",
-      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET ENX SERVICES TECNOLOGIA E",
-      "amountCents": -17136,
-      "kind": "expense",
-      "balanceAfterCents": 325906,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 6,
+      "kind": "income",
+      "balanceAfterCents": 325915,
       "source": "legacy_sheet"
     },
     {
@@ -20728,14 +20717,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-12-07-203-6",
+      "id": "legacy-acc-santander-acc-2020-12-07-201-17136",
       "accountId": "acc-santander-acc",
       "date": "2020-12-07",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 6,
-      "kind": "income",
-      "balanceAfterCents": 325915,
+      "description": "PGTO TITULO OUTRO BCO-INTERNET ENX SERVICES TECNOLOGIA E",
+      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET ENX SERVICES TECNOLOGIA E",
+      "amountCents": -17136,
+      "kind": "expense",
+      "balanceAfterCents": 325906,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-12-07-200-2083",
+      "accountId": "acc-santander-acc",
+      "date": "2020-12-07",
+      "description": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "rawDescription": "PIX ENVIADO OUTRA INST-DIF TIT lago Bretas Righi",
+      "amountCents": -2083,
+      "kind": "expense",
+      "balanceAfterCents": 343042,
       "source": "legacy_sheet"
     },
     {
@@ -20805,17 +20805,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-11-09-192-3434",
-      "accountId": "acc-santander-acc",
-      "date": "2020-11-09",
-      "description": "EMISSÃO DE DOC E VIA BCE Iago Bretas Righi",
-      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Bretas Righi",
-      "amountCents": -3434,
-      "kind": "expense",
-      "balanceAfterCents": 308572,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-11-09-193-9",
       "accountId": "acc-santander-acc",
       "date": "2020-11-09",
@@ -20824,6 +20813,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 9,
       "kind": "income",
       "balanceAfterCents": 308581,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-11-09-192-3434",
+      "accountId": "acc-santander-acc",
+      "date": "2020-11-09",
+      "description": "EMISSÃO DE DOC E VIA BCE Iago Bretas Righi",
+      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Bretas Righi",
+      "amountCents": -3434,
+      "kind": "expense",
+      "balanceAfterCents": 308572,
       "source": "legacy_sheet"
     },
     {
@@ -20882,14 +20882,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-10-19-184-15467",
+      "id": "legacy-acc-santander-acc-2020-10-19-186-1",
       "accountId": "acc-santander-acc",
       "date": "2020-10-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/10 14:45 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/10 14:45 CARTAO MASTER",
-      "amountCents": -15467,
-      "kind": "card_payment",
-      "balanceAfterCents": 266151,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 256152,
       "source": "legacy_sheet"
     },
     {
@@ -20904,14 +20904,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-10-19-186-1",
+      "id": "legacy-acc-santander-acc-2020-10-19-184-15467",
       "accountId": "acc-santander-acc",
       "date": "2020-10-19",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 256152,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/10 14:45 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/10 14:45 CARTAO MASTER",
+      "amountCents": -15467,
+      "kind": "card_payment",
+      "balanceAfterCents": 266151,
       "source": "legacy_sheet"
     },
     {
@@ -20959,17 +20959,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-10-05-178-60000",
-      "accountId": "acc-santander-acc",
-      "date": "2020-10-05",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 60000,
-      "kind": "income",
-      "balanceAfterCents": 286741,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-10-05-179-2",
       "accountId": "acc-santander-acc",
       "date": "2020-10-05",
@@ -20978,6 +20967,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 286743,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-10-05-178-60000",
+      "accountId": "acc-santander-acc",
+      "date": "2020-10-05",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 60000,
+      "kind": "income",
+      "balanceAfterCents": 286741,
       "source": "legacy_sheet"
     },
     {
@@ -21014,14 +21014,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-09-21-172-49544",
+      "id": "legacy-acc-santander-acc-2020-09-21-174-1",
       "accountId": "acc-santander-acc",
       "date": "2020-09-21",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:23 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:23 CARTAO MASTER",
-      "amountCents": -49544,
-      "kind": "card_payment",
-      "balanceAfterCents": 232225,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 231090,
       "source": "legacy_sheet"
     },
     {
@@ -21036,14 +21036,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-09-21-174-1",
+      "id": "legacy-acc-santander-acc-2020-09-21-172-49544",
       "accountId": "acc-santander-acc",
       "date": "2020-09-21",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 231090,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:23 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/09 16:23 CARTAO MASTER",
+      "amountCents": -49544,
+      "kind": "card_payment",
+      "balanceAfterCents": 232225,
       "source": "legacy_sheet"
     },
     {
@@ -21069,17 +21069,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-09-10-168-850",
-      "accountId": "acc-santander-acc",
-      "date": "2020-09-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS AGOSTO/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS AGOSTO/2020",
-      "amountCents": -850,
-      "kind": "expense",
-      "balanceAfterCents": 260921,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-09-10-169-852",
       "accountId": "acc-santander-acc",
       "date": "2020-09-10",
@@ -21091,14 +21080,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-09-08-166-6232",
+      "id": "legacy-acc-santander-acc-2020-09-10-168-850",
       "accountId": "acc-santander-acc",
-      "date": "2020-09-08",
-      "description": "EMISSÃO DE DOC E VIA BCE Iago Righi",
-      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Righi",
-      "amountCents": -6232,
+      "date": "2020-09-10",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS AGOSTO/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS AGOSTO/2020",
+      "amountCents": -850,
       "kind": "expense",
-      "balanceAfterCents": 261760,
+      "balanceAfterCents": 260921,
       "source": "legacy_sheet"
     },
     {
@@ -21113,6 +21102,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2020-09-08-166-6232",
+      "accountId": "acc-santander-acc",
+      "date": "2020-09-08",
+      "description": "EMISSÃO DE DOC E VIA BCE Iago Righi",
+      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Righi",
+      "amountCents": -6232,
+      "kind": "expense",
+      "balanceAfterCents": 261760,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2020-09-04-165-2",
       "accountId": "acc-santander-acc",
       "date": "2020-09-04",
@@ -21121,28 +21121,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 267992,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2020-09-03-162-4284",
-      "accountId": "acc-santander-acc",
-      "date": "2020-09-03",
-      "description": "TED DIFERENTE TITULARIDADE CIP RAFAEL SIQUEIRA MELLO",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP RAFAEL SIQUEIRA MELLO",
-      "amountCents": 4284,
-      "kind": "income",
-      "balanceAfterCents": 259390,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2020-09-03-163-4300",
-      "accountId": "acc-santander-acc",
-      "date": "2020-09-03",
-      "description": "TED DIFERENTE TITULARIDADE CIP PEDRO HENRIQUE BUTOLI FER",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP PEDRO HENRIQUE BUTOLI FER",
-      "amountCents": 4300,
-      "kind": "income",
-      "balanceAfterCents": 263690,
       "source": "legacy_sheet"
     },
     {
@@ -21157,6 +21135,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2020-09-03-163-4300",
+      "accountId": "acc-santander-acc",
+      "date": "2020-09-03",
+      "description": "TED DIFERENTE TITULARIDADE CIP PEDRO HENRIQUE BUTOLI FER",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP PEDRO HENRIQUE BUTOLI FER",
+      "amountCents": 4300,
+      "kind": "income",
+      "balanceAfterCents": 263690,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-09-03-162-4284",
+      "accountId": "acc-santander-acc",
+      "date": "2020-09-03",
+      "description": "TED DIFERENTE TITULARIDADE CIP RAFAEL SIQUEIRA MELLO",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP RAFAEL SIQUEIRA MELLO",
+      "amountCents": 4284,
+      "kind": "income",
+      "balanceAfterCents": 259390,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2020-09-01-161-60000",
       "accountId": "acc-santander-acc",
       "date": "2020-09-01",
@@ -21168,14 +21168,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-08-24-158-824",
+      "id": "legacy-acc-santander-acc-2020-08-24-160-1",
       "accountId": "acc-santander-acc",
       "date": "2020-08-24",
-      "description": "TARIFA TEDELETRONICO 21/08/2020",
-      "rawDescription": "TARIFA TEDELETRONICO 21/08/2020",
-      "amountCents": -824,
-      "kind": "expense",
-      "balanceAfterCents": 220240,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 1,
+      "kind": "income",
+      "balanceAfterCents": 195106,
       "source": "legacy_sheet"
     },
     {
@@ -21190,14 +21190,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-08-24-160-1",
+      "id": "legacy-acc-santander-acc-2020-08-24-158-824",
       "accountId": "acc-santander-acc",
       "date": "2020-08-24",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 1,
-      "kind": "income",
-      "balanceAfterCents": 195106,
+      "description": "TARIFA TEDELETRONICO 21/08/2020",
+      "rawDescription": "TARIFA TEDELETRONICO 21/08/2020",
+      "amountCents": -824,
+      "kind": "expense",
+      "balanceAfterCents": 220240,
       "source": "legacy_sheet"
     },
     {
@@ -21267,17 +21267,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-07-20-150-52769",
-      "accountId": "acc-santander-acc",
-      "date": "2020-07-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 18/07 19:07 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 18/07 19:07 CARTAO MASTER",
-      "amountCents": -52769,
-      "kind": "card_payment",
-      "balanceAfterCents": 169763,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-07-20-151-1",
       "accountId": "acc-santander-acc",
       "date": "2020-07-20",
@@ -21286,6 +21275,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 169764,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-07-20-150-52769",
+      "accountId": "acc-santander-acc",
+      "date": "2020-07-20",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 18/07 19:07 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 18/07 19:07 CARTAO MASTER",
+      "amountCents": -52769,
+      "kind": "card_payment",
+      "balanceAfterCents": 169763,
       "source": "legacy_sheet"
     },
     {
@@ -21322,14 +21322,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-07-06-144-6265",
+      "id": "legacy-acc-santander-acc-2020-07-06-146-5",
       "accountId": "acc-santander-acc",
       "date": "2020-07-06",
-      "description": "EMISSÃO DE DOC E VIA BCE Iago Righi",
-      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Righi",
-      "amountCents": -6265,
-      "kind": "expense",
-      "balanceAfterCents": 224164,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 5,
+      "kind": "income",
+      "balanceAfterCents": 224173,
       "source": "legacy_sheet"
     },
     {
@@ -21344,14 +21344,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-07-06-146-5",
+      "id": "legacy-acc-santander-acc-2020-07-06-144-6265",
       "accountId": "acc-santander-acc",
       "date": "2020-07-06",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 5,
-      "kind": "income",
-      "balanceAfterCents": 224173,
+      "description": "EMISSÃO DE DOC E VIA BCE Iago Righi",
+      "rawDescription": "EMISSÃO DE DOC E VIA BCE Iago Righi",
+      "amountCents": -6265,
+      "kind": "expense",
+      "balanceAfterCents": 224164,
       "source": "legacy_sheet"
     },
     {
@@ -21377,17 +21377,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-06-29-140-9257",
-      "accountId": "acc-santander-acc",
-      "date": "2020-06-29",
-      "description": "COMPRA CARTAO MAESTRO 29/06 1.OFICIAL RTDPJ",
-      "rawDescription": "COMPRA CARTAO MAESTRO 29/06 1.OFICIAL RTDPJ",
-      "amountCents": -9257,
-      "kind": "expense",
-      "balanceAfterCents": 141471,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-06-29-141-1",
       "accountId": "acc-santander-acc",
       "date": "2020-06-29",
@@ -21399,14 +21388,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-06-24-138-824",
+      "id": "legacy-acc-santander-acc-2020-06-29-140-9257",
       "accountId": "acc-santander-acc",
-      "date": "2020-06-24",
-      "description": "TARIFA DOCINTERNET 22/06/2020",
-      "rawDescription": "TARIFA DOCINTERNET 22/06/2020",
-      "amountCents": -824,
+      "date": "2020-06-29",
+      "description": "COMPRA CARTAO MAESTRO 29/06 1.OFICIAL RTDPJ",
+      "rawDescription": "COMPRA CARTAO MAESTRO 29/06 1.OFICIAL RTDPJ",
+      "amountCents": -9257,
       "kind": "expense",
-      "balanceAfterCents": 157405,
+      "balanceAfterCents": 141471,
       "source": "legacy_sheet"
     },
     {
@@ -21418,6 +21407,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -6677,
       "kind": "card_payment",
       "balanceAfterCents": 150728,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-06-24-138-824",
+      "accountId": "acc-santander-acc",
+      "date": "2020-06-24",
+      "description": "TARIFA DOCINTERNET 22/06/2020",
+      "rawDescription": "TARIFA DOCINTERNET 22/06/2020",
+      "amountCents": -824,
+      "kind": "expense",
+      "balanceAfterCents": 157405,
       "source": "legacy_sheet"
     },
     {
@@ -21443,17 +21443,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-06-15-134-4149",
-      "accountId": "acc-santander-acc",
-      "date": "2020-06-15",
-      "description": "EMISSÃO DE DOC E VIA BCE Joao Bandini",
-      "rawDescription": "EMISSÃO DE DOC E VIA BCE Joao Bandini",
-      "amountCents": -4149,
-      "kind": "expense",
-      "balanceAfterCents": 160147,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-06-15-135-4",
       "accountId": "acc-santander-acc",
       "date": "2020-06-15",
@@ -21462,6 +21451,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 4,
       "kind": "income",
       "balanceAfterCents": 160151,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-06-15-134-4149",
+      "accountId": "acc-santander-acc",
+      "date": "2020-06-15",
+      "description": "EMISSÃO DE DOC E VIA BCE Joao Bandini",
+      "rawDescription": "EMISSÃO DE DOC E VIA BCE Joao Bandini",
+      "amountCents": -4149,
+      "kind": "expense",
+      "balanceAfterCents": 160147,
       "source": "legacy_sheet"
     },
     {
@@ -21520,17 +21520,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-06-01-127-7860",
-      "accountId": "acc-santander-acc",
-      "date": "2020-06-01",
-      "description": "COMPRA CARTAO MAESTRO 01/06 CARTORIO DE BAR",
-      "rawDescription": "COMPRA CARTAO MAESTRO 01/06 CARTORIO DE BAR",
-      "amountCents": -7860,
-      "kind": "expense",
-      "balanceAfterCents": 107682,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-06-01-128-1",
       "accountId": "acc-santander-acc",
       "date": "2020-06-01",
@@ -21542,14 +21531,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-05-21-125-14990",
+      "id": "legacy-acc-santander-acc-2020-06-01-127-7860",
       "accountId": "acc-santander-acc",
-      "date": "2020-05-21",
-      "description": "PGTO TITULO OUTRO BCO-INTERNET PAYU BR INTERM NEG",
-      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET PAYU BR INTERM NEG",
-      "amountCents": -14990,
+      "date": "2020-06-01",
+      "description": "COMPRA CARTAO MAESTRO 01/06 CARTORIO DE BAR",
+      "rawDescription": "COMPRA CARTAO MAESTRO 01/06 CARTORIO DE BAR",
+      "amountCents": -7860,
       "kind": "expense",
-      "balanceAfterCents": 115541,
+      "balanceAfterCents": 107682,
       "source": "legacy_sheet"
     },
     {
@@ -21561,6 +21550,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 115542,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-05-21-125-14990",
+      "accountId": "acc-santander-acc",
+      "date": "2020-05-21",
+      "description": "PGTO TITULO OUTRO BCO-INTERNET PAYU BR INTERM NEG",
+      "rawDescription": "PGTO TITULO OUTRO BCO-INTERNET PAYU BR INTERM NEG",
+      "amountCents": -14990,
+      "kind": "expense",
+      "balanceAfterCents": 115541,
       "source": "legacy_sheet"
     },
     {
@@ -21586,17 +21586,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-05-11-121-820",
-      "accountId": "acc-santander-acc",
-      "date": "2020-05-11",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2020",
-      "amountCents": -820,
-      "kind": "expense",
-      "balanceAfterCents": 142528,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-05-11-122-824",
       "accountId": "acc-santander-acc",
       "date": "2020-05-11",
@@ -21608,14 +21597,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-05-08-119-7279",
+      "id": "legacy-acc-santander-acc-2020-05-11-121-820",
       "accountId": "acc-santander-acc",
-      "date": "2020-05-08",
-      "description": "TED DIFERENTE TITULARIDADE CIP Iago Righi",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP Iago Righi",
-      "amountCents": -7279,
+      "date": "2020-05-11",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS ABRIL/2020",
+      "amountCents": -820,
       "kind": "expense",
-      "balanceAfterCents": 143347,
+      "balanceAfterCents": 142528,
       "source": "legacy_sheet"
     },
     {
@@ -21630,14 +21619,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-05-04-117-53000",
+      "id": "legacy-acc-santander-acc-2020-05-08-119-7279",
       "accountId": "acc-santander-acc",
-      "date": "2020-05-04",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 53000,
-      "kind": "income",
-      "balanceAfterCents": 150622,
+      "date": "2020-05-08",
+      "description": "TED DIFERENTE TITULARIDADE CIP Iago Righi",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP Iago Righi",
+      "amountCents": -7279,
+      "kind": "expense",
+      "balanceAfterCents": 143347,
       "source": "legacy_sheet"
     },
     {
@@ -21652,14 +21641,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-04-30-115-13596",
+      "id": "legacy-acc-santander-acc-2020-05-04-117-53000",
       "accountId": "acc-santander-acc",
-      "date": "2020-04-30",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 30/04 09:12 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 30/04 09:12 CARTAO MASTER",
-      "amountCents": -13596,
-      "kind": "card_payment",
-      "balanceAfterCents": 97620,
+      "date": "2020-05-04",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 53000,
+      "kind": "income",
+      "balanceAfterCents": 150622,
       "source": "legacy_sheet"
     },
     {
@@ -21674,25 +21663,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-04-13-112-820",
+      "id": "legacy-acc-santander-acc-2020-04-30-115-13596",
       "accountId": "acc-santander-acc",
-      "date": "2020-04-13",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS MARCO/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS MARCO/2020",
-      "amountCents": -820,
-      "kind": "expense",
-      "balanceAfterCents": 112033,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2020-04-13-113-824",
-      "accountId": "acc-santander-acc",
-      "date": "2020-04-13",
-      "description": "TARIFA TEDELETRONICO 09/04/2020",
-      "rawDescription": "TARIFA TEDELETRONICO 09/04/2020",
-      "amountCents": -824,
-      "kind": "expense",
-      "balanceAfterCents": 111209,
+      "date": "2020-04-30",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 30/04 09:12 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 30/04 09:12 CARTAO MASTER",
+      "amountCents": -13596,
+      "kind": "card_payment",
+      "balanceAfterCents": 97620,
       "source": "legacy_sheet"
     },
     {
@@ -21707,6 +21685,28 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
+      "id": "legacy-acc-santander-acc-2020-04-13-113-824",
+      "accountId": "acc-santander-acc",
+      "date": "2020-04-13",
+      "description": "TARIFA TEDELETRONICO 09/04/2020",
+      "rawDescription": "TARIFA TEDELETRONICO 09/04/2020",
+      "amountCents": -824,
+      "kind": "expense",
+      "balanceAfterCents": 111209,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-04-13-112-820",
+      "accountId": "acc-santander-acc",
+      "date": "2020-04-13",
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS MARCO/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS MARCO/2020",
+      "amountCents": -820,
+      "kind": "expense",
+      "balanceAfterCents": 112033,
+      "source": "legacy_sheet"
+    },
+    {
       "id": "legacy-acc-santander-acc-2020-04-09-111-1750",
       "accountId": "acc-santander-acc",
       "date": "2020-04-09",
@@ -21718,17 +21718,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-04-01-109-15000",
-      "accountId": "acc-santander-acc",
-      "date": "2020-04-01",
-      "description": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
-      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
-      "amountCents": -15000,
-      "kind": "expense",
-      "balanceAfterCents": 46603,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-04-01-110-68000",
       "accountId": "acc-santander-acc",
       "date": "2020-04-01",
@@ -21737,6 +21726,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 68000,
       "kind": "income",
       "balanceAfterCents": 114603,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-04-01-109-15000",
+      "accountId": "acc-santander-acc",
+      "date": "2020-04-01",
+      "description": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
+      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
+      "amountCents": -15000,
+      "kind": "expense",
+      "balanceAfterCents": 46603,
       "source": "legacy_sheet"
     },
     {
@@ -21762,17 +21762,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-03-19-105-49604",
-      "accountId": "acc-santander-acc",
-      "date": "2020-03-19",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 20:10 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 20:10 CARTAO MASTER",
-      "amountCents": -49604,
-      "kind": "card_payment",
-      "balanceAfterCents": 64368,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-03-19-106-3",
       "accountId": "acc-santander-acc",
       "date": "2020-03-19",
@@ -21781,6 +21770,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 3,
       "kind": "income",
       "balanceAfterCents": 64371,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-03-19-105-49604",
+      "accountId": "acc-santander-acc",
+      "date": "2020-03-19",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 19/03 20:10 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 19/03 20:10 CARTAO MASTER",
+      "amountCents": -49604,
+      "kind": "card_payment",
+      "balanceAfterCents": 64368,
       "source": "legacy_sheet"
     },
     {
@@ -21850,17 +21850,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-02-26-97-17650",
-      "accountId": "acc-santander-acc",
-      "date": "2020-02-26",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 21/02 22:58 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/02 22:58 CARTAO MASTER",
-      "amountCents": -17650,
-      "kind": "card_payment",
-      "balanceAfterCents": 62391,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-02-26-98-1",
       "accountId": "acc-santander-acc",
       "date": "2020-02-26",
@@ -21869,6 +21858,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 62392,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-02-26-97-17650",
+      "accountId": "acc-santander-acc",
+      "date": "2020-02-26",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 21/02 22:58 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 21/02 22:58 CARTAO MASTER",
+      "amountCents": -17650,
+      "kind": "card_payment",
+      "balanceAfterCents": 62391,
       "source": "legacy_sheet"
     },
     {
@@ -21883,14 +21883,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-02-10-93-820",
+      "id": "legacy-acc-santander-acc-2020-02-10-95-11",
       "accountId": "acc-santander-acc",
       "date": "2020-02-10",
-      "description": "TARIFA MENSALIDADE PACOTE SERVICOS JANEIRO/2020",
-      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS JANEIRO/2020",
-      "amountCents": -820,
-      "kind": "expense",
-      "balanceAfterCents": 91354,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 11,
+      "kind": "income",
+      "balanceAfterCents": 90541,
       "source": "legacy_sheet"
     },
     {
@@ -21905,25 +21905,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-02-10-95-11",
+      "id": "legacy-acc-santander-acc-2020-02-10-93-820",
       "accountId": "acc-santander-acc",
       "date": "2020-02-10",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 11,
-      "kind": "income",
-      "balanceAfterCents": 90541,
-      "source": "legacy_sheet"
-    },
-    {
-      "id": "legacy-acc-santander-acc-2020-02-07-91-11840",
-      "accountId": "acc-santander-acc",
-      "date": "2020-02-07",
-      "description": "COMPRA CARTAO MAESTRO 07/02 CARTORIO DE BAR",
-      "rawDescription": "COMPRA CARTAO MAESTRO 07/02 CARTORIO DE BAR",
-      "amountCents": -11840,
+      "description": "TARIFA MENSALIDADE PACOTE SERVICOS JANEIRO/2020",
+      "rawDescription": "TARIFA MENSALIDADE PACOTE SERVICOS JANEIRO/2020",
+      "amountCents": -820,
       "kind": "expense",
-      "balanceAfterCents": 114474,
+      "balanceAfterCents": 91354,
       "source": "legacy_sheet"
     },
     {
@@ -21935,6 +21924,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": -22300,
       "kind": "expense",
       "balanceAfterCents": 92174,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-02-07-91-11840",
+      "accountId": "acc-santander-acc",
+      "date": "2020-02-07",
+      "description": "COMPRA CARTAO MAESTRO 07/02 CARTORIO DE BAR",
+      "rawDescription": "COMPRA CARTAO MAESTRO 07/02 CARTORIO DE BAR",
+      "amountCents": -11840,
+      "kind": "expense",
+      "balanceAfterCents": 114474,
       "source": "legacy_sheet"
     },
     {
@@ -21960,17 +21960,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-01-23-87-31240",
-      "accountId": "acc-santander-acc",
-      "date": "2020-01-23",
-      "description": "TED DIFERENTE TITULARIDADE CIP Projec",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP Projec",
-      "amountCents": -31240,
-      "kind": "expense",
-      "balanceAfterCents": 77706,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-01-23-88-1",
       "accountId": "acc-santander-acc",
       "date": "2020-01-23",
@@ -21979,6 +21968,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 77707,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-01-23-87-31240",
+      "accountId": "acc-santander-acc",
+      "date": "2020-01-23",
+      "description": "TED DIFERENTE TITULARIDADE CIP Projec",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP Projec",
+      "amountCents": -31240,
+      "kind": "expense",
+      "balanceAfterCents": 77706,
       "source": "legacy_sheet"
     },
     {
@@ -22004,17 +22004,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2020-01-09-83-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2020-01-09",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 50000,
-      "kind": "income",
-      "balanceAfterCents": 131696,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2020-01-09-84-11",
       "accountId": "acc-santander-acc",
       "date": "2020-01-09",
@@ -22023,6 +22012,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 11,
       "kind": "income",
       "balanceAfterCents": 131707,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2020-01-09-83-50000",
+      "accountId": "acc-santander-acc",
+      "date": "2020-01-09",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 50000,
+      "kind": "income",
+      "balanceAfterCents": 131696,
       "source": "legacy_sheet"
     },
     {
@@ -22037,17 +22037,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-12-26-80-15000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-12-26",
-      "description": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
-      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
-      "amountCents": -15000,
-      "kind": "expense",
-      "balanceAfterCents": 81693,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-12-26-81-2",
       "accountId": "acc-santander-acc",
       "date": "2019-12-26",
@@ -22059,14 +22048,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-12-20-78-71532",
+      "id": "legacy-acc-santander-acc-2019-12-26-80-15000",
       "accountId": "acc-santander-acc",
-      "date": "2019-12-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 20/12 19:42 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/12 19:42 CARTAO MASTER",
-      "amountCents": -71532,
-      "kind": "card_payment",
-      "balanceAfterCents": 96688,
+      "date": "2019-12-26",
+      "description": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
+      "rawDescription": "TRANSF VALOR P/ CONTA DIF TITULAR PARA: 26.682.731/0001-58",
+      "amountCents": -15000,
+      "kind": "expense",
+      "balanceAfterCents": 81693,
       "source": "legacy_sheet"
     },
     {
@@ -22078,6 +22067,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 5,
       "kind": "income",
       "balanceAfterCents": 96693,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-12-20-78-71532",
+      "accountId": "acc-santander-acc",
+      "date": "2019-12-20",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 20/12 19:42 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 20/12 19:42 CARTAO MASTER",
+      "amountCents": -71532,
+      "kind": "card_payment",
+      "balanceAfterCents": 96688,
       "source": "legacy_sheet"
     },
     {
@@ -22103,17 +22103,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-12-02-74-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-12-02",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 50000,
-      "kind": "income",
-      "balanceAfterCents": 169021,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-12-02-75-7",
       "accountId": "acc-santander-acc",
       "date": "2019-12-02",
@@ -22125,14 +22114,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-11-13-72-61471",
+      "id": "legacy-acc-santander-acc-2019-12-02-74-50000",
       "accountId": "acc-santander-acc",
-      "date": "2019-11-13",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 13/11 08:03 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/11 08:03 CARTAO MASTER",
-      "amountCents": -61471,
-      "kind": "card_payment",
-      "balanceAfterCents": 119019,
+      "date": "2019-12-02",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 50000,
+      "kind": "income",
+      "balanceAfterCents": 169021,
       "source": "legacy_sheet"
     },
     {
@@ -22144,6 +22133,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 119021,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-11-13-72-61471",
+      "accountId": "acc-santander-acc",
+      "date": "2019-11-13",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 13/11 08:03 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/11 08:03 CARTAO MASTER",
+      "amountCents": -61471,
+      "kind": "card_payment",
+      "balanceAfterCents": 119019,
       "source": "legacy_sheet"
     },
     {
@@ -22169,17 +22169,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-11-07-68-500",
-      "accountId": "acc-santander-acc",
-      "date": "2019-11-07",
-      "description": "COMPRA CARTAO MAESTRO 07/11 PAG.LeandroDaSi",
-      "rawDescription": "COMPRA CARTAO MAESTRO 07/11 PAG.LeandroDaSi",
-      "amountCents": -500,
-      "kind": "expense",
-      "balanceAfterCents": 181796,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-11-07-69-14",
       "accountId": "acc-santander-acc",
       "date": "2019-11-07",
@@ -22191,14 +22180,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-11-01-66-80000",
+      "id": "legacy-acc-santander-acc-2019-11-07-68-500",
       "accountId": "acc-santander-acc",
-      "date": "2019-11-01",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 80000,
-      "kind": "income",
-      "balanceAfterCents": 182291,
+      "date": "2019-11-07",
+      "description": "COMPRA CARTAO MAESTRO 07/11 PAG.LeandroDaSi",
+      "rawDescription": "COMPRA CARTAO MAESTRO 07/11 PAG.LeandroDaSi",
+      "amountCents": -500,
+      "kind": "expense",
+      "balanceAfterCents": 181796,
       "source": "legacy_sheet"
     },
     {
@@ -22213,14 +22202,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-10-17-64-23501",
+      "id": "legacy-acc-santander-acc-2019-11-01-66-80000",
       "accountId": "acc-santander-acc",
-      "date": "2019-10-17",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 17/10 05:36 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 17/10 05:36 CARTAO MASTER",
-      "amountCents": -23501,
-      "kind": "card_payment",
-      "balanceAfterCents": 102289,
+      "date": "2019-11-01",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 80000,
+      "kind": "income",
+      "balanceAfterCents": 182291,
       "source": "legacy_sheet"
     },
     {
@@ -22232,6 +22221,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 102291,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-10-17-64-23501",
+      "accountId": "acc-santander-acc",
+      "date": "2019-10-17",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 17/10 05:36 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 17/10 05:36 CARTAO MASTER",
+      "amountCents": -23501,
+      "kind": "card_payment",
+      "balanceAfterCents": 102289,
       "source": "legacy_sheet"
     },
     {
@@ -22279,14 +22279,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-09-16-57-68953",
+      "id": "legacy-acc-santander-acc-2019-09-16-59-4",
       "accountId": "acc-santander-acc",
       "date": "2019-09-16",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 15/09 16:49 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 15/09 16:49 CARTAO MASTER",
-      "amountCents": -68953,
-      "kind": "card_payment",
-      "balanceAfterCents": 77842,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 4,
+      "kind": "income",
+      "balanceAfterCents": 77096,
       "source": "legacy_sheet"
     },
     {
@@ -22301,14 +22301,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-09-16-59-4",
+      "id": "legacy-acc-santander-acc-2019-09-16-57-68953",
       "accountId": "acc-santander-acc",
       "date": "2019-09-16",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 4,
-      "kind": "income",
-      "balanceAfterCents": 77096,
+      "description": "PAGAMENTO CARTAO CREDITO BCE 15/09 16:49 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 15/09 16:49 CARTAO MASTER",
+      "amountCents": -68953,
+      "kind": "card_payment",
+      "balanceAfterCents": 77842,
       "source": "legacy_sheet"
     },
     {
@@ -22345,17 +22345,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-08-15-52-82613",
-      "accountId": "acc-santander-acc",
-      "date": "2019-08-15",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 15/08 07:40 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 15/08 07:40 CARTAO MASTER",
-      "amountCents": -82613,
-      "kind": "card_payment",
-      "balanceAfterCents": 97590,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-08-15-53-5",
       "accountId": "acc-santander-acc",
       "date": "2019-08-15",
@@ -22364,6 +22353,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 5,
       "kind": "income",
       "balanceAfterCents": 97595,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-08-15-52-82613",
+      "accountId": "acc-santander-acc",
+      "date": "2019-08-15",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 15/08 07:40 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 15/08 07:40 CARTAO MASTER",
+      "amountCents": -82613,
+      "kind": "card_payment",
+      "balanceAfterCents": 97590,
       "source": "legacy_sheet"
     },
     {
@@ -22422,17 +22422,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-07-24-45-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-07-24",
-      "description": "SAQUE TERMINAL",
-      "rawDescription": "SAQUE TERMINAL",
-      "amountCents": -5000,
-      "kind": "expense",
-      "balanceAfterCents": 133994,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-07-24-46-1",
       "accountId": "acc-santander-acc",
       "date": "2019-07-24",
@@ -22444,14 +22433,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-07-17-43-22530",
+      "id": "legacy-acc-santander-acc-2019-07-24-45-5000",
       "accountId": "acc-santander-acc",
-      "date": "2019-07-17",
-      "description": "PAGAMENTO CARTÃO CREDITO BCE 17/07 13:13 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 17/07 13:13 CARTAO MASTER",
-      "amountCents": -22530,
+      "date": "2019-07-24",
+      "description": "SAQUE TERMINAL",
+      "rawDescription": "SAQUE TERMINAL",
+      "amountCents": -5000,
       "kind": "expense",
-      "balanceAfterCents": 138992,
+      "balanceAfterCents": 133994,
       "source": "legacy_sheet"
     },
     {
@@ -22463,6 +22452,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 2,
       "kind": "income",
       "balanceAfterCents": 138994,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-07-17-43-22530",
+      "accountId": "acc-santander-acc",
+      "date": "2019-07-17",
+      "description": "PAGAMENTO CARTÃO CREDITO BCE 17/07 13:13 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTÃO CREDITO BCE 17/07 13:13 CARTAO MASTER",
+      "amountCents": -22530,
+      "kind": "expense",
+      "balanceAfterCents": 138992,
       "source": "legacy_sheet"
     },
     {
@@ -22499,17 +22499,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-06-13-38-26440",
-      "accountId": "acc-santander-acc",
-      "date": "2019-06-13",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 13/06 18:53 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/06 18:53 CARTAO MASTER",
-      "amountCents": -26440,
-      "kind": "card_payment",
-      "balanceAfterCents": 102320,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-06-13-39-1",
       "accountId": "acc-santander-acc",
       "date": "2019-06-13",
@@ -22518,6 +22507,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 102321,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-06-13-38-26440",
+      "accountId": "acc-santander-acc",
+      "date": "2019-06-13",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 13/06 18:53 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/06 18:53 CARTAO MASTER",
+      "amountCents": -26440,
+      "kind": "card_payment",
+      "balanceAfterCents": 102320,
       "source": "legacy_sheet"
     },
     {
@@ -22554,17 +22554,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-06-05-33-600",
-      "accountId": "acc-santander-acc",
-      "date": "2019-06-05",
-      "description": "COMPRA CARTAO MAESTRO 05/06 I DE LIMA",
-      "rawDescription": "COMPRA CARTAO MAESTRO 05/06 I DE LIMA",
-      "amountCents": -600,
-      "kind": "expense",
-      "balanceAfterCents": 132480,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-06-05-34-2000",
       "accountId": "acc-santander-acc",
       "date": "2019-06-05",
@@ -22576,14 +22565,25 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-06-03-30-50000",
+      "id": "legacy-acc-santander-acc-2019-06-05-33-600",
+      "accountId": "acc-santander-acc",
+      "date": "2019-06-05",
+      "description": "COMPRA CARTAO MAESTRO 05/06 I DE LIMA",
+      "rawDescription": "COMPRA CARTAO MAESTRO 05/06 I DE LIMA",
+      "amountCents": -600,
+      "kind": "expense",
+      "balanceAfterCents": 132480,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-06-03-32-18",
       "accountId": "acc-santander-acc",
       "date": "2019-06-03",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 50000,
+      "description": "REMUNERACAO CONTAMAX CDB DI",
+      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
+      "amountCents": 18,
       "kind": "income",
-      "balanceAfterCents": 133512,
+      "balanceAfterCents": 133080,
       "source": "legacy_sheet"
     },
     {
@@ -22598,14 +22598,14 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-06-03-32-18",
+      "id": "legacy-acc-santander-acc-2019-06-03-30-50000",
       "accountId": "acc-santander-acc",
       "date": "2019-06-03",
-      "description": "REMUNERACAO CONTAMAX CDB DI",
-      "rawDescription": "REMUNERACAO CONTAMAX CDB DI",
-      "amountCents": 18,
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 50000,
       "kind": "income",
-      "balanceAfterCents": 133080,
+      "balanceAfterCents": 133512,
       "source": "legacy_sheet"
     },
     {
@@ -22653,17 +22653,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-05-20-24-14640",
-      "accountId": "acc-santander-acc",
-      "date": "2019-05-20",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 18/05 14:56 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 18/05 14:56 CARTAO MASTER",
-      "amountCents": -14640,
-      "kind": "card_payment",
-      "balanceAfterCents": 82361,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-05-20-25-1",
       "accountId": "acc-santander-acc",
       "date": "2019-05-20",
@@ -22672,6 +22661,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 82362,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-05-20-24-14640",
+      "accountId": "acc-santander-acc",
+      "date": "2019-05-20",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 18/05 14:56 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 18/05 14:56 CARTAO MASTER",
+      "amountCents": -14640,
+      "kind": "card_payment",
+      "balanceAfterCents": 82361,
       "source": "legacy_sheet"
     },
     {
@@ -22708,17 +22708,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-05-02-19-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-05-02",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 50000,
-      "kind": "income",
-      "balanceAfterCents": 99231,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-05-02-20-10",
       "accountId": "acc-santander-acc",
       "date": "2019-05-02",
@@ -22727,6 +22716,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 10,
       "kind": "income",
       "balanceAfterCents": 99241,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-05-02-19-50000",
+      "accountId": "acc-santander-acc",
+      "date": "2019-05-02",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 50000,
+      "kind": "income",
+      "balanceAfterCents": 99231,
       "source": "legacy_sheet"
     },
     {
@@ -22741,17 +22741,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-04-15-16-48102",
-      "accountId": "acc-santander-acc",
-      "date": "2019-04-15",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 13/04 08:07 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/04 08:07 CARTAO MASTER",
-      "amountCents": -48102,
-      "kind": "card_payment",
-      "balanceAfterCents": 49674,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-04-15-17-7",
       "accountId": "acc-santander-acc",
       "date": "2019-04-15",
@@ -22760,6 +22749,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 7,
       "kind": "income",
       "balanceAfterCents": 49681,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-04-15-16-48102",
+      "accountId": "acc-santander-acc",
+      "date": "2019-04-15",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 13/04 08:07 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 13/04 08:07 CARTAO MASTER",
+      "amountCents": -48102,
+      "kind": "card_payment",
+      "balanceAfterCents": 49674,
       "source": "legacy_sheet"
     },
     {
@@ -22796,17 +22796,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-04-01-11-50000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-04-01",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 50000,
-      "kind": "income",
-      "balanceAfterCents": 121561,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-04-01-12-5",
       "accountId": "acc-santander-acc",
       "date": "2019-04-01",
@@ -22815,6 +22804,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 5,
       "kind": "income",
       "balanceAfterCents": 121566,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-04-01-11-50000",
+      "accountId": "acc-santander-acc",
+      "date": "2019-04-01",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 50000,
+      "kind": "income",
+      "balanceAfterCents": 121561,
       "source": "legacy_sheet"
     },
     {
@@ -22840,17 +22840,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-03-22-7-5000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-03-22",
-      "description": "PAGAMENTO CARTAO CREDITO BCE 22/03 10:12 CARTAO MASTER",
-      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/03 10:12 CARTAO MASTER",
-      "amountCents": -5000,
-      "kind": "card_payment",
-      "balanceAfterCents": 72610,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-03-22-8-1",
       "accountId": "acc-santander-acc",
       "date": "2019-03-22",
@@ -22859,6 +22848,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 1,
       "kind": "income",
       "balanceAfterCents": 72611,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-03-22-7-5000",
+      "accountId": "acc-santander-acc",
+      "date": "2019-03-22",
+      "description": "PAGAMENTO CARTAO CREDITO BCE 22/03 10:12 CARTAO MASTER",
+      "rawDescription": "PAGAMENTO CARTAO CREDITO BCE 22/03 10:12 CARTAO MASTER",
+      "amountCents": -5000,
+      "kind": "card_payment",
+      "balanceAfterCents": 72610,
       "source": "legacy_sheet"
     },
     {
@@ -22873,17 +22873,6 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     },
     {
-      "id": "legacy-acc-santander-acc-2019-03-20-4-10000",
-      "accountId": "acc-santander-acc",
-      "date": "2019-03-20",
-      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
-      "amountCents": 10000,
-      "kind": "income",
-      "balanceAfterCents": 39610,
-      "source": "legacy_sheet"
-    },
-    {
       "id": "legacy-acc-santander-acc-2019-03-20-5-40000",
       "accountId": "acc-santander-acc",
       "date": "2019-03-20",
@@ -22892,6 +22881,17 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "amountCents": 40000,
       "kind": "income",
       "balanceAfterCents": 79610,
+      "source": "legacy_sheet"
+    },
+    {
+      "id": "legacy-acc-santander-acc-2019-03-20-4-10000",
+      "accountId": "acc-santander-acc",
+      "date": "2019-03-20",
+      "description": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "rawDescription": "TED DIFERENTE TITULARIDADE CIP OSNI MARTINS",
+      "amountCents": 10000,
+      "kind": "income",
+      "balanceAfterCents": 39610,
       "source": "legacy_sheet"
     },
     {
@@ -22928,4 +22928,4 @@ export const SEED_FINANCE_BASE: FinanceBase = {
       "source": "legacy_sheet"
     }
   ]
-}
+};

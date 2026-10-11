@@ -1,6 +1,11 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import type { FinanceBase } from '../types/base'
 import {
+  mergeDefaultCategories,
+  mergeDefaultRules,
+  normalizeBase,
+} from '../domain/rules'
+import {
   encryptAndSaveVault,
   getVaultMetadata,
   loadAndDecryptVault,
@@ -35,6 +40,7 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
     try {
       setError(null)
       let loaded = await loadAndDecryptVault(pwd)
+      let shouldPersist = false
 
       // Seamlessly upgrade existing local vaults if statements are missing or older
       if (!loaded.statements || loaded.statements.length < SEED_FINANCE_BASE.statements.length) {
@@ -46,10 +52,31 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
           transactions: [...(loaded.transactions ?? []), ...missingTxs],
           accounts: SEED_FINANCE_BASE.accounts,
         }
-        await encryptAndSaveVault(loaded, pwd)
+        shouldPersist = true
       }
 
-      setBase(loaded)
+      // Upgrade rules and categories to include default classification rules
+      const mergedCategories = mergeDefaultCategories(loaded.categories || [])
+      const mergedRules = mergeDefaultRules(loaded.rules || [])
+      if (
+        mergedCategories.length !== (loaded.categories || []).length ||
+        mergedRules.length !== (loaded.rules || []).length
+      ) {
+        loaded = {
+          ...loaded,
+          categories: mergedCategories,
+          rules: mergedRules,
+        }
+        shouldPersist = true
+      }
+
+      // Re-apply rules and sort descending so latest transactions always appear first
+      const normalized = normalizeBase(loaded)
+      if (shouldPersist || normalized.transactions[0]?.id !== loaded.transactions[0]?.id) {
+        await encryptAndSaveVault(normalized, pwd)
+      }
+
+      setBase(normalized)
       setPassphrase(pwd)
       setStatus('unlocked')
       return true
@@ -65,7 +92,7 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
       let initial: FinanceBase
 
       if (useSeedHistory) {
-        initial = SEED_FINANCE_BASE
+        initial = normalizeBase(SEED_FINANCE_BASE)
       } else {
         initial = {
           schemaVersion: 1,
@@ -73,8 +100,8 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
           accounts: [],
           transactions: [],
           statements: [],
-          categories: [],
-          rules: [],
+          categories: mergeDefaultCategories([]),
+          rules: mergeDefaultRules([]),
           goals: [],
           settings: { fiscalStartDay: 16 },
         }
@@ -91,7 +118,7 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
 
   const saveBase = async (mutator: (prev: FinanceBase) => FinanceBase): Promise<void> => {
     if (!base || !passphrase) return
-    const updated = mutator(base)
+    const updated = normalizeBase(mutator(base))
     setBase(updated)
     await encryptAndSaveVault(updated, passphrase)
   }
