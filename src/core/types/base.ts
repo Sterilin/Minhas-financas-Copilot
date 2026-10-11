@@ -82,11 +82,15 @@ export interface AppSettings {
   fiscalStartDay: number // default: 16 (from day 16 of prev month to day 15 of current)
   githubRepo?: string
   githubBranch?: string
+  theme?: string
+  privacyMode?: boolean
+  lastBackupAt?: string
 }
 
 export interface FinanceBase {
   schemaVersion: 1
-  updatedAt: string
+  updatedAt?: string
+  lastModified?: string
   accounts: Account[]
   transactions: Transaction[]
   statements: StatementRecord[]

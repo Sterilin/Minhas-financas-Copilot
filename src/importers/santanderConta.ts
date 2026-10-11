@@ -79,7 +79,8 @@ export function parseSantanderContaPdf(
         const dateMatch = line.match(/(\d{2}\/\d{2})/)
         if (dateMatch) {
           const [d, mo] = dateMatch[1].split('/')
-          const dateIso = `${year}-${mo}-${d}`
+          const yr = mo === '12' && (fileName.toLowerCase().includes('jan') || doc.fullText.includes('/01/')) ? Number(year) - 1 : year
+          const dateIso = `${yr}-${mo}-${d}`
           if (!periodStart) periodStart = dateIso
         }
         if (openingBalanceCents === undefined) {

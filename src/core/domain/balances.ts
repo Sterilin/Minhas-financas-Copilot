@@ -4,15 +4,18 @@ import { getFiscalPeriod } from './period'
 export interface AccountBalanceInfo {
   account: Account
   balanceCents: number
+  isCard: boolean
+  invoiceCents?: number
+  dueDate?: string
   lastActivityDate?: string
   transactionCount: number
 }
 
 export interface DashboardMetrics {
-  consolidatedBalanceCents: number
-  totalCheckingCents: number
-  totalSavingsInvestmentsCents: number
-  creditCardOpenInvoiceCents: number
+  accounts: AccountBalanceInfo[]
+  bradesco?: AccountBalanceInfo
+  santanderAcc?: AccountBalanceInfo
+  santanderCard?: AccountBalanceInfo
   periodIncomeCents: number
   periodExpenseCents: number
   periodResultCents: number
@@ -20,47 +23,109 @@ export interface DashboardMetrics {
 }
 
 /**
- * Calculates current balances for all accounts based on statements and subsequent transactions.
+ * Calculates balances/invoices for all accounts for a given fiscal period (or latest if omitted).
  */
-export function calculateAccountBalances(base: FinanceBase): AccountBalanceInfo[] {
+export function calculateAccountBalances(
+  base: FinanceBase,
+  fiscalPeriodKey?: string
+): AccountBalanceInfo[] {
   const result: AccountBalanceInfo[] = []
+  const fiscalStartDay = base.settings.fiscalStartDay || 16
 
   for (const account of base.accounts) {
-    const accTxs = base.transactions
-      .filter((t) => t.accountId === account.id)
-      .sort((a, b) => a.date.localeCompare(b.date)) // chronological
+    const isCard = account.type === 'credit_card'
+    const accTxs = base.transactions.filter((t) => t.accountId === account.id)
 
-    // Check if there are statement records with a closing balance
+    // Filter statements for this account
     const accStatements = base.statements
       .filter((s) => s.accountId === account.id)
-      .sort((a, b) => a.periodEnd.localeCompare(b.periodEnd)) // latest statement
+      .sort((a, b) => a.periodEnd.localeCompare(b.periodEnd))
 
-    const latestStatement = accStatements[accStatements.length - 1]
-
-    let balanceCents = 0
-    if (latestStatement && latestStatement.closingBalanceCents !== undefined) {
-      balanceCents = latestStatement.closingBalanceCents
-
-      // Add any transactions dated AFTER the statement's periodEnd
-      const postStatementTxs = accTxs.filter((t) => t.date > latestStatement.periodEnd)
-      for (const t of postStatementTxs) {
-        balanceCents += t.amountCents
-      }
-    } else {
-      // Sum all transactions
-      for (const t of accTxs) {
-        balanceCents += t.amountCents
+    // Find statement matching the fiscal period if provided, otherwise latest
+    let matchedStmt = accStatements[accStatements.length - 1]
+    if (fiscalPeriodKey) {
+      const found =
+        accStatements.find((s) => {
+          const monthKey = s.dueDate ? s.dueDate.slice(0, 7) : s.periodEnd.slice(0, 7)
+          return monthKey === fiscalPeriodKey
+        }) ||
+        accStatements.find((s) => {
+          const p = getFiscalPeriod(s.periodEnd, fiscalStartDay)
+          return p.key === fiscalPeriodKey
+        })
+      if (found) {
+        matchedStmt = found
       }
     }
 
-    const lastTx = accTxs[accTxs.length - 1]
+    if (isCard) {
+      // For credit cards: show the invoice total for that cycle
+      let invoiceCents = 0
+      let dueDate = account.dueDay ? `${account.dueDay}` : undefined
 
-    result.push({
-      account,
-      balanceCents,
-      lastActivityDate: lastTx?.date || latestStatement?.periodEnd,
-      transactionCount: accTxs.length,
-    })
+      if (matchedStmt) {
+        invoiceCents = matchedStmt.invoiceTotalCents ?? Math.abs(matchedStmt.closingBalanceCents ?? 0)
+        dueDate = matchedStmt.dueDate || dueDate
+      } else if (fiscalPeriodKey) {
+        // Fallback: sum card purchases in that fiscal period
+        const periodCardTxs = accTxs.filter((t) => {
+          const p = getFiscalPeriod(t.date, fiscalStartDay)
+          return p.key === fiscalPeriodKey && t.kind !== 'card_payment' && t.amountCents < 0
+        })
+        invoiceCents = periodCardTxs.reduce((sum, t) => sum + Math.abs(t.amountCents), 0)
+      }
+
+      result.push({
+        account,
+        balanceCents: invoiceCents,
+        isCard: true,
+        invoiceCents,
+        dueDate,
+        lastActivityDate: matchedStmt?.periodEnd || accTxs[0]?.date,
+        transactionCount: accTxs.length,
+      })
+    } else {
+      // For checking accounts: show bank balance at the end of statement/period
+      let balanceCents = 0
+
+      if (matchedStmt && matchedStmt.closingBalanceCents !== undefined) {
+        balanceCents = matchedStmt.closingBalanceCents
+
+        // If no fiscal period specified, add any transactions occurring after the latest statement
+        if (!fiscalPeriodKey) {
+          const postTxs = accTxs.filter((t) => t.date > matchedStmt.periodEnd)
+          for (const t of postTxs) {
+            balanceCents += t.amountCents
+          }
+        }
+      } else {
+        // Fallback: find latest transaction with a running balance
+        const txsChron = [...accTxs].sort((a, b) => a.date.localeCompare(b.date))
+        const withBal = txsChron.filter((t) => {
+          if (fiscalPeriodKey) {
+            const p = getFiscalPeriod(t.date, fiscalStartDay)
+            return p.key <= fiscalPeriodKey && t.balanceAfterCents !== undefined
+          }
+          return t.balanceAfterCents !== undefined
+        })
+
+        if (withBal.length > 0) {
+          balanceCents = withBal[withBal.length - 1].balanceAfterCents!
+        } else {
+          for (const t of txsChron) {
+            balanceCents += t.amountCents
+          }
+        }
+      }
+
+      result.push({
+        account,
+        balanceCents,
+        isCard: false,
+        lastActivityDate: matchedStmt?.periodEnd || accTxs[0]?.date,
+        transactionCount: accTxs.length,
+      })
+    }
   }
 
   return result
@@ -73,26 +138,12 @@ export function calculateDashboardMetrics(
   base: FinanceBase,
   fiscalPeriodKey: string
 ): DashboardMetrics {
-  const accountBalances = calculateAccountBalances(base)
+  const accountBalances = calculateAccountBalances(base, fiscalPeriodKey)
   const fiscalStartDay = base.settings.fiscalStartDay || 16
 
-  let totalCheckingCents = 0
-  let totalSavingsInvestmentsCents = 0
-  let creditCardOpenInvoiceCents = 0
-
-  for (const info of accountBalances) {
-    if (info.account.type === 'checking') {
-      totalCheckingCents += info.balanceCents
-    } else if (info.account.type === 'savings' || info.account.type === 'investment') {
-      totalSavingsInvestmentsCents += info.balanceCents
-    } else if (info.account.type === 'credit_card') {
-      // For credit cards, negative amount represents card debt/charges
-      // Open invoice is the absolute sum of expenses not yet paid
-      if (info.balanceCents < 0) {
-        creditCardOpenInvoiceCents += Math.abs(info.balanceCents)
-      }
-    }
-  }
+  const bradesco = accountBalances.find((a) => a.account.id === 'acc-bradesco')
+  const santanderAcc = accountBalances.find((a) => a.account.id === 'acc-santander-acc')
+  const santanderCard = accountBalances.find((a) => a.account.id === 'acc-santander-card')
 
   // Filter transactions for the requested fiscal period
   const periodTxs = base.transactions.filter((t) => {
@@ -104,7 +155,7 @@ export function calculateDashboardMetrics(
   let periodExpenseCents = 0
 
   for (const t of periodTxs) {
-    // Internal transfers and card payments do not count as pure income/expense
+    // Internal sweeps and transfers do not count as pure income/expense
     if (t.kind === 'transfer' || t.kind === 'card_payment') {
       continue
     }
@@ -122,13 +173,11 @@ export function calculateDashboardMetrics(
       ? Math.max(0, Math.min(100, Math.round((periodResultCents / periodIncomeCents) * 100)))
       : 0
 
-  const consolidatedBalanceCents = totalCheckingCents + totalSavingsInvestmentsCents - creditCardOpenInvoiceCents
-
   return {
-    consolidatedBalanceCents,
-    totalCheckingCents,
-    totalSavingsInvestmentsCents,
-    creditCardOpenInvoiceCents,
+    accounts: accountBalances,
+    bradesco,
+    santanderAcc,
+    santanderCard,
     periodIncomeCents,
     periodExpenseCents,
     periodResultCents,

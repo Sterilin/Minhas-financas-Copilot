@@ -39,12 +39,22 @@ export default function ResumoPage() {
     return extractFiscalPeriods(base.transactions, base.settings.fiscalStartDay)
   }, [base])
 
-  const [selectedPeriodKey, setSelectedPeriodKey] = useState<string>(() => {
+  const defaultPeriodKey = useMemo(() => {
+    if (!base || fiscalPeriods.length === 0) return ''
+    const latestStmt = base.statements.reduce<string>((max, s) => {
+      const k = s.dueDate ? s.dueDate.slice(0, 7) : s.periodEnd.slice(0, 7)
+      return k > max ? k : max
+    }, '')
+    if (latestStmt && fiscalPeriods.some((p) => p.key === latestStmt)) {
+      return latestStmt
+    }
     return fiscalPeriods[0]?.key || ''
-  })
+  }, [base, fiscalPeriods])
+
+  const [selectedPeriodKey, setSelectedPeriodKey] = useState<string>('')
 
   // Keep selected period valid
-  const currentPeriodKey = selectedPeriodKey || fiscalPeriods[0]?.key || ''
+  const currentPeriodKey = selectedPeriodKey || defaultPeriodKey || fiscalPeriods[0]?.key || ''
 
   const metrics = useMemo(() => {
     if (!base || !currentPeriodKey) return null
@@ -53,8 +63,8 @@ export default function ResumoPage() {
 
   const accountBalances = useMemo(() => {
     if (!base) return []
-    return calculateAccountBalances(base)
-  }, [base])
+    return calculateAccountBalances(base, currentPeriodKey)
+  }, [base, currentPeriodKey])
 
   const activeInstallments = useMemo(() => {
     if (!base) return []
@@ -108,7 +118,7 @@ export default function ResumoPage() {
   return (
     <PageShell
       title="Tranquilidade Financeira"
-      description={`Visão consolidada do patrimônio e resultado fiscal de ${periodObj?.fullLabel || 'período atual'}.`}
+      description={`Visão detalhada de saldos e resultado fiscal de ${periodObj?.fullLabel || 'período atual'}.`}
       actions={
         <div className="period-selector-container">
           <label htmlFor="period-select" className="period-label">
@@ -129,54 +139,64 @@ export default function ResumoPage() {
         </div>
       }
     >
-      {/* Metrics Row */}
+      {/* Metrics Row: Separate accounts & invoices, no summed balance */}
       <div className="metrics-grid">
         <MetricCard
-          label="Saldo Consolidado"
-          value={<Money cents={metrics.consolidatedBalanceCents} />}
-          detail="Contas correntes e cartões deduzidos"
+          label="Saldo Bradesco"
+          value={<Money cents={metrics.bradesco?.balanceCents ?? 0} />}
+          detail="Conta Corrente • Ag 2297"
           icon={<Wallet size={20} />}
           variant="accent"
         />
         <MetricCard
-          label="Fatura de Cartão"
-          value={<Money cents={metrics.creditCardOpenInvoiceCents} />}
-          detail="Compromissos em aberto"
+          label="Saldo Santander"
+          value={<Money cents={metrics.santanderAcc?.balanceCents ?? 0} />}
+          detail="Conta Corrente • Ag 0040"
+          icon={<Wallet size={20} />}
+          variant="accent"
+        />
+        <MetricCard
+          label="Fatura Cartão Santander"
+          value={<Money cents={metrics.santanderCard?.invoiceCents ?? 0} />}
+          detail={`Vencimento: ${metrics.santanderCard?.dueDate || '25'}`}
           icon={<CreditCard size={20} />}
-          variant={metrics.creditCardOpenInvoiceCents > 0 ? 'negative' : 'default'}
+          variant={(metrics.santanderCard?.invoiceCents ?? 0) > 0 ? 'negative' : 'default'}
         />
         <MetricCard
-          label="Receitas do Mês"
-          value={<Amount cents={metrics.periodIncomeCents} showSign={false} />}
-          detail="Entradas reais no período"
-          icon={<ArrowUpRight size={20} />}
-          variant="positive"
-        />
-        <MetricCard
-          label="Despesas do Mês"
-          value={<Amount cents={-metrics.periodExpenseCents} showSign={false} />}
-          detail={`Resultado líquido: ${formatCents(metrics.periodResultCents)}`}
-          icon={<ArrowDownRight size={20} />}
-          variant="negative"
+          label="Resultado do Mês"
+          value={<Amount cents={metrics.periodResultCents} showSign={true} />}
+          detail={`Receitas: ${formatCents(metrics.periodIncomeCents)} • Despesas: ${formatCents(metrics.periodExpenseCents)}`}
+          icon={metrics.periodResultCents >= 0 ? <ArrowUpRight size={20} /> : <ArrowDownRight size={20} />}
+          variant={metrics.periodResultCents >= 0 ? 'positive' : 'negative'}
         />
       </div>
 
       {/* Main Content Grid */}
       <div className="resumo-grid">
         {/* Account Balances */}
-        <Panel title="Patrimônio por Conta" subtitle="Saldo apurado com conciliação automática">
+        <Panel
+          title="Saldos e Faturas por Conta"
+          subtitle={`Valores apurados individualmente nos extratos de ${periodObj?.label || 'período atual'}`}
+        >
           <ul className="account-list">
             {accountBalances.map((info) => (
               <li key={info.account.id} className="account-row">
                 <div className="account-info">
                   <strong className="account-name">{info.account.name}</strong>
                   <span className="account-sub">
-                    {info.account.type === 'credit_card' ? 'Cartão de crédito' : 'Conta corrente'} • Final{' '}
-                    {info.account.identifier}
+                    {info.isCard
+                      ? `Cartão de crédito • Vencimento ${info.dueDate || '25'}`
+                      : `Conta corrente • Final ${info.account.identifier}`}
                   </span>
                 </div>
                 <div className="account-balance">
-                  <Amount cents={info.balanceCents} showSign={false} />
+                  {info.isCard ? (
+                    <span className="amount amount-negative">
+                      {formatCents(info.invoiceCents ?? 0)}
+                    </span>
+                  ) : (
+                    <Money cents={info.balanceCents} />
+                  )}
                 </div>
               </li>
             ))}

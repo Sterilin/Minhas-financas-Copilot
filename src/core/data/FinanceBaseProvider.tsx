@@ -1,12 +1,11 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
-import { buildBaseFromLegacyTsvs } from '../../importers/legacyTsv'
 import type { FinanceBase } from '../types/base'
 import {
   encryptAndSaveVault,
   getVaultMetadata,
   loadAndDecryptVault,
 } from '../vault/storage'
-import { INITIAL_TSV_RAW } from './initialData'
+import { SEED_FINANCE_BASE } from './seedBase'
 
 export type VaultStatus = 'loading' | 'setup' | 'locked' | 'unlocked'
 
@@ -35,7 +34,21 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
   const unlock = async (pwd: string): Promise<boolean> => {
     try {
       setError(null)
-      const loaded = await loadAndDecryptVault(pwd)
+      let loaded = await loadAndDecryptVault(pwd)
+
+      // Seamlessly upgrade existing local vaults if statements are missing or older
+      if (!loaded.statements || loaded.statements.length < SEED_FINANCE_BASE.statements.length) {
+        const existingTxIds = new Set(loaded.transactions?.map((t) => t.id) ?? [])
+        const missingTxs = SEED_FINANCE_BASE.transactions.filter((t) => !existingTxIds.has(t.id))
+        loaded = {
+          ...loaded,
+          statements: SEED_FINANCE_BASE.statements,
+          transactions: [...(loaded.transactions ?? []), ...missingTxs],
+          accounts: SEED_FINANCE_BASE.accounts,
+        }
+        await encryptAndSaveVault(loaded, pwd)
+      }
+
       setBase(loaded)
       setPassphrase(pwd)
       setStatus('unlocked')
@@ -52,12 +65,7 @@ export function FinanceBaseProvider({ children }: { children: ReactNode }) {
       let initial: FinanceBase
 
       if (useSeedHistory) {
-        initial = buildBaseFromLegacyTsvs({
-          bradescoTsv: INITIAL_TSV_RAW.bradesco,
-          santanderAccTsv: INITIAL_TSV_RAW.santanderAcc,
-          santanderCardTsv: INITIAL_TSV_RAW.santanderCard,
-          goalsTsv: INITIAL_TSV_RAW.goals,
-        })
+        initial = SEED_FINANCE_BASE
       } else {
         initial = {
           schemaVersion: 1,
