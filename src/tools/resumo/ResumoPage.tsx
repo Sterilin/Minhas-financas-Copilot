@@ -171,7 +171,12 @@ export default function ResumoPage() {
         <MetricCard
           label="Resultado do Mês"
           value={<Amount cents={metrics.periodResultCents} showSign={true} />}
-          detail={`Receitas: ${formatCents(metrics.periodIncomeCents)} • Despesas: ${formatCents(metrics.periodExpenseCents)}`}
+          detail={
+            <>
+              Receitas: <span className="val-privacy">{formatCents(metrics.periodIncomeCents)}</span> • Despesas:{' '}
+              <span className="val-privacy">{formatCents(metrics.periodExpenseCents)}</span>
+            </>
+          }
           icon={metrics.periodResultCents >= 0 ? <ArrowUpRight size={20} /> : <ArrowDownRight size={20} />}
           variant={metrics.periodResultCents >= 0 ? 'positive' : 'negative'}
         />
@@ -200,7 +205,8 @@ export default function ResumoPage() {
                 <Money cents={projection.totalCommittedCents} />
               </strong>
               <span className="proj-hl-detail">
-                Média 3 meses ({formatCents(projection.card3MonthAvgCents)}) + Parcelas ({formatCents(projection.totalUnpaidInstallmentsCents)})
+                Média 3 meses (<span className="val-privacy">{formatCents(projection.card3MonthAvgCents)}</span>) + Parcelas (
+                <span className="val-privacy">{formatCents(projection.totalUnpaidInstallmentsCents)}</span>)
               </span>
             </div>
 
@@ -210,7 +216,7 @@ export default function ResumoPage() {
                 <Money cents={projection.freeBalanceCents} />
               </strong>
               <span className="proj-hl-detail">
-                {projection.freeRatioPercent.toFixed(1)}% livre para investir ou poupar
+                <span className="val-privacy">{projection.freeRatioPercent.toFixed(1)}%</span> livre para investir ou poupar
               </span>
             </div>
           </div>
@@ -221,22 +227,20 @@ export default function ResumoPage() {
               <div
                 className="projection-bar-fill bar-fill-free"
                 style={{ width: `${projection.freeRatioPercent}%` }}
-                title={`Saldo Livre: ${formatCents(projection.freeBalanceCents)} (${projection.freeRatioPercent.toFixed(1)}%)`}
               >
                 {projection.freeRatioPercent >= 18 && (
                   <span className="bar-inner-label">
-                    Livre: {formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)
+                    Livre: <span className="val-privacy">{formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)</span>
                   </span>
                 )}
               </div>
               <div
                 className="projection-bar-fill bar-fill-committed striped-committed"
                 style={{ width: `${projection.committedRatioPercent}%` }}
-                title={`Comprometido Futuro: ${formatCents(projection.totalCommittedCents)} (${projection.committedRatioPercent.toFixed(1)}%)`}
               >
                 {projection.committedRatioPercent >= 8 && (
                   <span className="bar-inner-label">
-                    {projection.committedRatioPercent.toFixed(1)}%
+                    <span className="val-privacy">{projection.committedRatioPercent.toFixed(1)}%</span>
                   </span>
                 )}
               </div>
@@ -247,13 +251,13 @@ export default function ResumoPage() {
               <div className="legend-entry">
                 <span className="legend-indicator legend-indicator-free" />
                 <span className="legend-text">
-                  <strong>Saldo Livre Disponível:</strong> {formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)
+                  <strong>Saldo Livre Disponível:</strong> <span className="val-privacy">{formatCents(projection.freeBalanceCents)} ({projection.freeRatioPercent.toFixed(1)}%)</span>
                 </span>
               </div>
               <div className="legend-entry">
                 <span className="legend-indicator legend-indicator-striped striped-committed" />
                 <span className="legend-text">
-                  <strong>Alocado para Despesas Futuras:</strong> {formatCents(projection.totalCommittedCents)} ({projection.committedRatioPercent.toFixed(1)}%)
+                  <strong>Alocado para Despesas Futuras:</strong> <span className="val-privacy">{formatCents(projection.totalCommittedCents)} ({projection.committedRatioPercent.toFixed(1)}%)</span>
                 </span>
               </div>
             </div>
@@ -293,9 +297,11 @@ export default function ResumoPage() {
                           <Money cents={accInfo.balanceCents} />
                         </td>
                         <td className="align-right font-mono text-muted">
-                          {projection.totalBankBalanceCents > 0
-                            ? `${((accInfo.balanceCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
-                            : '—'}
+                          <span className="val-privacy">
+                            {projection.totalBankBalanceCents > 0
+                              ? `${((accInfo.balanceCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                              : '—'}
+                          </span>
                         </td>
                       </tr>
                     ))}
@@ -314,7 +320,9 @@ export default function ResumoPage() {
                       </strong>
                     </td>
                     <td className="align-right font-mono">
-                      <strong>100,0%</strong>
+                      <strong>
+                        <span className="val-privacy">100,0%</span>
+                      </strong>
                     </td>
                   </tr>
 
@@ -324,14 +332,17 @@ export default function ResumoPage() {
                       <div className="table-item-cell">
                         <strong>Média de Gastos nos Cartões (Últimos 3 Meses)</strong>
                         <span className="table-item-sub">
-                          {projection.cardMonthsEvaluated.length > 0
-                            ? projection.cardMonthsEvaluated
-                                .map(
-                                  (m) =>
-                                    `${m.monthKey.slice(5)}/${m.monthKey.slice(2, 4)}: ${formatCents(m.amountCents)}`
-                                )
-                                .join(' • ')
-                            : 'Provisionamento para fatura do mês subsequente'}
+                          {projection.cardMonthsEvaluated.length > 0 ? (
+                            projection.cardMonthsEvaluated.map((m, idx) => (
+                              <span key={m.monthKey}>
+                                {idx > 0 && ' • '}
+                                {m.monthKey.slice(5)}/{m.monthKey.slice(2, 4)}:{' '}
+                                <span className="val-privacy">{formatCents(m.amountCents)}</span>
+                              </span>
+                            ))
+                          ) : (
+                            'Provisionamento para fatura do mês subsequente'
+                          )}
                         </span>
                       </div>
                     </td>
@@ -342,9 +353,11 @@ export default function ResumoPage() {
                       <Amount cents={-projection.card3MonthAvgCents} />
                     </td>
                     <td className="align-right font-mono text-negative">
-                      {projection.totalBankBalanceCents > 0
-                        ? `-${((projection.card3MonthAvgCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
-                        : '—'}
+                      <span className="val-privacy">
+                        {projection.totalBankBalanceCents > 0
+                          ? `-${((projection.card3MonthAvgCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                          : '—'}
+                      </span>
                     </td>
                   </tr>
 
@@ -367,9 +380,11 @@ export default function ResumoPage() {
                       <Amount cents={-projection.totalUnpaidInstallmentsCents} />
                     </td>
                     <td className="align-right font-mono text-negative">
-                      {projection.totalBankBalanceCents > 0
-                        ? `-${((projection.totalUnpaidInstallmentsCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
-                        : '—'}
+                      <span className="val-privacy">
+                        {projection.totalBankBalanceCents > 0
+                          ? `-${((projection.totalUnpaidInstallmentsCents / projection.totalBankBalanceCents) * 100).toFixed(1)}%`
+                          : '—'}
+                      </span>
                     </td>
                   </tr>
 
@@ -390,7 +405,9 @@ export default function ResumoPage() {
                       </strong>
                     </td>
                     <td className="align-right font-mono text-negative">
-                      <strong>-{projection.committedRatioPercent.toFixed(1)}%</strong>
+                      <strong>
+                        <span className="val-privacy">-{projection.committedRatioPercent.toFixed(1)}%</span>
+                      </strong>
                     </td>
                   </tr>
 
@@ -415,7 +432,9 @@ export default function ResumoPage() {
                       </strong>
                     </td>
                     <td className="align-right font-mono text-positive table-total-percent">
-                      <strong>{projection.freeRatioPercent.toFixed(1)}%</strong>
+                      <strong>
+                        <span className="val-privacy">{projection.freeRatioPercent.toFixed(1)}%</span>
+                      </strong>
                     </td>
                   </tr>
                 </tbody>
@@ -446,7 +465,7 @@ export default function ResumoPage() {
                 <div className="account-balance">
                   {info.isCard ? (
                     <span className="amount amount-negative">
-                      {formatCents(info.invoiceCents ?? 0)}
+                      <span className="money">{formatCents(info.invoiceCents ?? 0)}</span>
                     </span>
                   ) : (
                     <Money cents={info.balanceCents} />
@@ -495,7 +514,7 @@ export default function ResumoPage() {
                     <div key={item.name} className="legend-item">
                       <span className="legend-dot" style={{ backgroundColor: colors[idx % colors.length] }} />
                       <span className="legend-name">{item.name}</span>
-                      <strong className="legend-val">{formatCents(item.cents)}</strong>
+                      <strong className="legend-val val-privacy">{formatCents(item.cents)}</strong>
                     </div>
                   )
                 })}
@@ -543,8 +562,8 @@ export default function ResumoPage() {
                   </span>
                 </div>
                 <div className="inst-values">
-                  <span>Parcela: {formatCents(inst.installmentAmountCents)}</span>
-                  <span>Restante: {formatCents(inst.remainingAmountCents)}</span>
+                  <span>Parcela: <span className="val-privacy">{formatCents(inst.installmentAmountCents)}</span></span>
+                  <span>Restante: <span className="val-privacy">{formatCents(inst.remainingAmountCents)}</span></span>
                 </div>
               </div>
             ))}

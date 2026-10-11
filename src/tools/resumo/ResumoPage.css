@@ -157,8 +157,8 @@
     -45deg,
     var(--negative) 0px,
     var(--negative) 8px,
-    rgba(179, 64, 56, 0.45) 8px,
-    rgba(179, 64, 56, 0.45) 16px
+    rgba(248, 113, 113, 0.35) 8px,
+    rgba(248, 113, 113, 0.35) 16px
   ) !important;
 }
 
@@ -340,12 +340,12 @@
 }
 
 .table-total-row {
-  background-color: rgba(78, 110, 74, 0.12);
+  background-color: var(--positive-bg);
 }
 
 .table-total-row td {
-  border-top: 2px solid var(--positive);
-  border-bottom: 2px solid var(--positive);
+  border-top: 2px solid var(--positive-border);
+  border-bottom: 2px solid var(--positive-border);
   padding: 16px 14px;
 }
 

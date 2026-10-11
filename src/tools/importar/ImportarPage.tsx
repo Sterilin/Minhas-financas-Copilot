@@ -224,7 +224,7 @@ export default function ImportarPage() {
                     {item.result.result.closingBalanceCents !== undefined && (
                       <span>
                         Saldo Final:{' '}
-                        <strong>
+                        <strong className="money">
                           {formatCents(item.result.result.closingBalanceCents)}
                         </strong>
                       </span>

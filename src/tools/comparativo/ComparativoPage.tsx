@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useFinanceBase } from '../../core/data/FinanceBaseProvider'
 import { formatCents } from '../../core/domain/money'
 import { extractFiscalPeriods, getFiscalPeriod } from '../../core/domain/period'
+import { Amount } from '../../ui/Amount'
 import { MetricCard } from '../../ui/MetricCard'
 import { Money } from '../../ui/Money'
 import { PageShell } from '../../ui/PageShell'
@@ -158,8 +159,10 @@ export default function ComparativoPage() {
                 comparisonData.totalDiff <= 0 ? 'amount-positive' : 'amount-negative'
               }
             >
-              {comparisonData.totalDiff > 0 ? '+' : ''}
-              {comparisonData.totalPercent}% ({formatCents(comparisonData.totalDiff)})
+              <span className="val-privacy">
+                {comparisonData.totalDiff > 0 ? '+' : ''}
+                {comparisonData.totalPercent}% (<span className="money">{formatCents(comparisonData.totalDiff)}</span>)
+              </span>
             </span>
           }
           detail={
@@ -200,16 +203,13 @@ export default function ComparativoPage() {
                       <Money cents={row.periodBCents} />
                     </td>
                     <td className="align-right">
-                      <span className={isEconomy ? 'amount-positive' : 'amount-negative'}>
-                        {row.diffCents > 0 ? '+' : ''}
-                        {formatCents(row.diffCents)}
-                      </span>
+                      <Amount cents={row.diffCents} showSign={true} />
                     </td>
                     <td className="align-right">
                       <span
                         className={`badge ${
                           isEconomy ? 'badge-positive' : 'badge-negative'
-                        }`}
+                        } val-privacy`}
                       >
                         {row.percentChange > 0 ? '+' : ''}
                         {row.percentChange}%

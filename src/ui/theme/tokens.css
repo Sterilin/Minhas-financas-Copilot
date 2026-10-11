@@ -47,45 +47,75 @@
 }
 
 [data-theme="dark"] {
-  --bg-app: #181513;
-  --bg-surface: #221E1B;
-  --bg-surface-elevated: #2B2623;
-  --bg-subtle: #2D2723;
-  --bg-muted: #38312C;
+  /* Matte black & refined charcoal slate backgrounds */
+  --bg-app: #0D0F12;
+  --bg-surface: #15181E;
+  --bg-surface-elevated: #1B1F27;
+  --bg-subtle: #202530;
+  --bg-muted: #282E3B;
 
-  --border-color: #3D352F;
-  --border-subtle: #312A25;
-  --border-strong: #4F453E;
+  /* Crisp neutral slate gray borders */
+  --border-color: #2D3442;
+  --border-subtle: #232833;
+  --border-strong: #3D4659;
 
-  --text-main: #F0EAE1;
-  --text-muted: #A89E94;
-  --text-faint: #756B62;
+  /* High contrast legible typography */
+  --text-main: #F3F5F7;
+  --text-muted: #9BA3AF;
+  --text-faint: #656E7B;
 
-  --accent: #C79F7C;
-  --accent-hover: #D9B390;
-  --accent-subtle: #33271E;
-  --accent-text: #EAD0B8;
+  /* Refined warm copper / champagne accent on dark slate */
+  --accent: #D4A373;
+  --accent-hover: #E3B68A;
+  --accent-subtle: #27211B;
+  --accent-text: #F3CA9E;
 
-  --positive: #86C495;
-  --positive-bg: #1A2B1E;
-  --positive-border: #2B4532;
+  /* High-legibility financial indicators (emerald & coral) */
+  --positive: #4ADE80;
+  --positive-bg: rgba(74, 222, 128, 0.12);
+  --positive-border: rgba(74, 222, 128, 0.28);
 
-  --negative: #E58C85;
-  --negative-bg: #351C1A;
-  --negative-border: #572A27;
+  --negative: #F87171;
+  --negative-bg: rgba(248, 113, 113, 0.12);
+  --negative-border: rgba(248, 113, 113, 0.28);
 
-  --neutral: #90A0B7;
-  --neutral-bg: #212933;
+  --neutral: #94A3B8;
+  --neutral-bg: rgba(148, 163, 184, 0.12);
 
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.65);
 }
 
-/* Privacy blur mode */
+/* Tooltip & Recharts dark mode legibility */
+[data-theme="dark"] .recharts-default-tooltip {
+  background-color: var(--bg-surface-elevated) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+  box-shadow: var(--shadow-md) !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+[data-theme="dark"] .recharts-tooltip-item,
+[data-theme="dark"] .recharts-tooltip-label {
+  color: var(--text-main) !important;
+}
+
+/* Privacy blur mode: comprehensive blur for all numerical and sensitive balance data */
 body.privacy-active .money,
-body.privacy-active .val-privacy {
-  filter: blur(7px);
-  user-select: none;
+body.privacy-active .val-privacy,
+body.privacy-active .amount,
+body.privacy-active .bar-inner-label,
+body.privacy-active .legend-val,
+body.privacy-active .table-total-amount,
+body.privacy-active .table-total-percent,
+body.privacy-active .recharts-yAxis text,
+body.privacy-active .recharts-cartesian-axis-tick text,
+body.privacy-active .recharts-default-tooltip,
+body.privacy-active .recharts-tooltip-wrapper,
+body.privacy-active .recharts-pie-label text,
+body.privacy-active [data-privacy="true"] {
+  filter: blur(7px) !important;
+  user-select: none !important;
   transition: filter 0.2s ease;
 }

@@ -149,10 +149,12 @@ export default function MetasPage() {
               <div className="goal-progress-wrap">
                 <ProgressBar percent={pct} color="positive" />
                 <div className="goal-progress-meta">
-                  <span>{Math.round(pct)}% concluído</span>
+                  <span>
+                    <span className="val-privacy">{Math.round(pct)}%</span> concluído
+                  </span>
                   {goal.monthlyContributionCents > 0 && (
                     <span>
-                      {formatCents(goal.monthlyContributionCents)} / mês
+                      <span className="val-privacy"><span className="money">{formatCents(goal.monthlyContributionCents)}</span> / mês</span>
                     </span>
                   )}
                 </div>

@@ -4,7 +4,7 @@ import './MetricCard.css'
 interface MetricCardProps {
   label: string
   value: React.ReactNode
-  detail?: string
+  detail?: React.ReactNode
   icon?: React.ReactNode
   variant?: 'default' | 'positive' | 'negative' | 'accent'
 }
