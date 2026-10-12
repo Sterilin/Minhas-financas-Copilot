@@ -1,5 +1,5 @@
 {
-  "name": "sterilin-ubiquitous-system",
+  "name": "minhas-financas",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,8 +12,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-react": "^1.55.0",
+    "pdfjs-dist": "^6.4.299",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.1",

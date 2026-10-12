@@ -1,0 +1,29 @@
+.progress-bar-container {
+  width: 100%;
+}
+
+.progress-bar-track {
+  height: 10px;
+  background-color: var(--bg-subtle);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-bar-fill-positive {
+  background: linear-gradient(90deg, var(--positive), #5BA86C);
+}
+
+.progress-bar-fill-accent {
+  background: linear-gradient(90deg, var(--accent), #D4A373);
+}
+
+.progress-bar-fill-negative {
+  background: linear-gradient(90deg, var(--negative), #D95D55);
+}

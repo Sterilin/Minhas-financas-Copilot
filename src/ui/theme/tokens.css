@@ -1,0 +1,121 @@
+:root {
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Warm light palette */
+  --bg-app: #FAF8F5;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-subtle: #F4EFEB;
+  --bg-muted: #ECE5DE;
+  
+  --border-color: #E5DED5;
+  --border-subtle: #EEE8E0;
+  --border-strong: #D5C9BD;
+
+  --text-main: #2E2925;
+  --text-muted: #7D736A;
+  --text-faint: #A69B90;
+
+  --accent: #B08968;
+  --accent-hover: #9E7756;
+  --accent-subtle: #F3ECE6;
+  --accent-text: #634327;
+
+  /* Financial indicators (subtle & elegant) */
+  --positive: #3F7D4E;
+  --positive-bg: #EAF3EC;
+  --positive-border: #C8E2CD;
+
+  --negative: #B34038;
+  --negative-bg: #F9EBEA;
+  --negative-border: #F1CAC7;
+
+  --neutral: #5A6A85;
+  --neutral-bg: #EDF2F7;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 3px rgba(46, 41, 37, 0.04);
+  --shadow-md: 0 4px 12px rgba(46, 41, 37, 0.06);
+  --shadow-lg: 0 12px 32px rgba(46, 41, 37, 0.08);
+
+  --sidebar-width: 250px;
+  --bottom-bar-height: 64px;
+}
+
+[data-theme="dark"] {
+  /* Matte black & refined charcoal slate backgrounds */
+  --bg-app: #0D0F12;
+  --bg-surface: #15181E;
+  --bg-surface-elevated: #1B1F27;
+  --bg-subtle: #202530;
+  --bg-muted: #282E3B;
+
+  /* Crisp neutral slate gray borders */
+  --border-color: #2D3442;
+  --border-subtle: #232833;
+  --border-strong: #3D4659;
+
+  /* High contrast legible typography */
+  --text-main: #F3F5F7;
+  --text-muted: #9BA3AF;
+  --text-faint: #656E7B;
+
+  /* Refined warm copper / champagne accent on dark slate */
+  --accent: #D4A373;
+  --accent-hover: #E3B68A;
+  --accent-subtle: #27211B;
+  --accent-text: #F3CA9E;
+
+  /* High-legibility financial indicators (emerald & coral) */
+  --positive: #4ADE80;
+  --positive-bg: rgba(74, 222, 128, 0.12);
+  --positive-border: rgba(74, 222, 128, 0.28);
+
+  --negative: #F87171;
+  --negative-bg: rgba(248, 113, 113, 0.12);
+  --negative-border: rgba(248, 113, 113, 0.28);
+
+  --neutral: #94A3B8;
+  --neutral-bg: rgba(148, 163, 184, 0.12);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.65);
+}
+
+/* Tooltip & Recharts dark mode legibility */
+[data-theme="dark"] .recharts-default-tooltip {
+  background-color: var(--bg-surface-elevated) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+  box-shadow: var(--shadow-md) !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+[data-theme="dark"] .recharts-tooltip-item,
+[data-theme="dark"] .recharts-tooltip-label {
+  color: var(--text-main) !important;
+}
+
+/* Privacy blur mode: comprehensive blur for all numerical and sensitive balance data */
+body.privacy-active .money,
+body.privacy-active .val-privacy,
+body.privacy-active .amount,
+body.privacy-active .bar-inner-label,
+body.privacy-active .legend-val,
+body.privacy-active .table-total-amount,
+body.privacy-active .table-total-percent,
+body.privacy-active .recharts-yAxis text,
+body.privacy-active .recharts-cartesian-axis-tick text,
+body.privacy-active .recharts-default-tooltip,
+body.privacy-active .recharts-tooltip-wrapper,
+body.privacy-active .recharts-pie-label text,
+body.privacy-active [data-privacy="true"] {
+  filter: blur(7px) !important;
+  user-select: none !important;
+  transition: filter 0.2s ease;
+}

@@ -42,3 +42,10 @@ data/imports/
 *.njsproj
 *.sln
 *.sw?
+
+# Private bank sample PDFs
+/Banco Bradesco/
+/Banco Santander/
+/Cartão Santander/
+*.pdf
+_amostras_privadas/
